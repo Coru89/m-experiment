@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "16573217462600bf56": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "THE KNOW",
+        "video_url": "https:\/\/vimeo.com\/112945125#t=20s",
+        "image": "shopify:\/\/shop_images\/IMG_9957.jpg",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "16573205695089b7ff": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/JJ_b2d2e8c9-ead3-48c7-bed0-4aaa196cd1b2.jpg",
+        "subheading": "",
+        "title": "A Fun Experiment",
+        "content": "<p>Like many great stories, this one started as a fun experiment.  It all began when the founder of Oakley and RED Digital Cinema, Jim Jannard, and his son, Jamin, acted upon their instincts to design something fun together while reminiscing.  It’d been a decade since they created a sunglass, and that itch needed scratched. The plan was just to design a couple of styles and share them with family to wear on their adventures…<\/p><p>But that plan quickly changed.  After that came a wave of interest from outside the family circle. Friends began to ask if they would break out and produce more than just a few so that they could join in on the fun. This wave grew and grew.<\/p><p>It wasn’t long before Jim and Jamin found themselves calling up the best-of-the-best from their early Oakley days to be a part of the not-so-experimental-anymore experiment.<\/p><p>Where they are now involves a core team of close friends focused on dreaming up products and making them a reality—all for the fun of it.<\/p><p><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "eed23217-bfd8-43c9-900b-f97700c79a8a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15613745332374__eed23217-bfd8-43c9-900b-f97700c79a8a-1674948253476c5fac-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2160x1000_new_beginnings_2_e9e8645a-b268-448f-b66a-3491794c4e26.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_new_beginnings_2_2f62c73b-70d8-48e5-adac-0cfddb415a63.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15613745332374__eed23217-bfd8-43c9-900b-f97700c79a8a-1674948253476c5fac-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15613745332374__eed23217-bfd8-43c9-900b-f97700c79a8a-1674948253476c5fac-0",
+        "template--15613745332374__eed23217-bfd8-43c9-900b-f97700c79a8a-1674948253476c5fac-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1657320775aa5521b7": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657320775dec6893f-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1400x1400.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "A FUN EXPERIMENT",
+            "content": "<p>Like many great stories, this one started as a fun experiment.  While reminiscing the past, the founder of Oakley and RED Digital Cinema, Jim and his son, Jamin, acted upon their instincts and passion for design.  It had been a decade since they created a piece of eyewear…an itch that needed to be scratched.  The plan was just to design a couple of styles and share them with family to wear on their adventures…<\/p><p> But that plan quickly changed.  As the designs made it past the family walls, there was interest for the product beyond their immediate circle.  Friends began to ask if they would break out and produce more than just a few styles.  As the momentum grew the decision was made to take this family experiment and develop it a bit further.<\/p><p> It wasn’t long before Jim and Jamin found themselves calling up the best-of-the-best from their early Oakley days to be a part of the not-so-experimental-anymore M-Experiment.  M-Experiment now involves a core team of close friends focused on dreaming up products and making them a reality – all for the fun of it.<\/p><p><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657320775dec6893f-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "text",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f5f5",
+        "text_color": "#000000",
+        "button_background": "#ffffff",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16573219974891e6d6": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/nat-fernandez-ch2HkQk6UdA-unsplash_2400x_87bbd31b-d79a-4783-b602-43b57462353c.jpg",
+        "subheading": "",
+        "title": "How Could They Resist?",
+        "content": "<p>It wasn’t long before Jim and Jamin found themselves calling up the best-of-the-best from their early Oakley days to be a part of the not-so-experimental-anymore experiment.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ce4b2395-900e-4153-989c-3215820375bc": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--15613745332374__ce4b2395-900e-4153-989c-3215820375bc-16657630381e865c31-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sun_Dodson.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Back Together",
+            "content": "<p>Where they are now involves a core team of close friends focused on dreaming up products and making them a reality—all for the fun of it.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15613745332374__ce4b2395-900e-4153-989c-3215820375bc-16657630381e865c31-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f1f2f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "16573217462600bf56",
+    "main",
+    "16573205695089b7ff",
+    "eed23217-bfd8-43c9-900b-f97700c79a8a",
+    "1657320775aa5521b7",
+    "16573219974891e6d6",
+    "ce4b2395-900e-4153-989c-3215820375bc"
+  ]
+}

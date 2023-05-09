@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "variant_image",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "#e2a829",
+            "buy_now_button_text_color": "#191919"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": true,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "fade"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b2f293a2-bff2-409e-8f17-ebb0c92b28de": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-return-box",
+            "title_1": "Shipping & Returns",
+            "content_1": "<p>Add text about your shipping policy<\/p>",
+            "icon_2": "picto-warranty",
+            "title_2": "Warranty",
+            "content_2": "<p>Add text about your product warranty<\/p>",
+            "icon_3": "picto-secure-payment",
+            "title_3": "Secure Payment",
+            "content_3": "<p>Add text about your payment<\/p>"
+          }
+        },
+        "cc2942b1-cea6-4a49-8332-469adec51ff8": {
+          "type": "reviews",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "b2f293a2-bff2-409e-8f17-ebb0c92b28de",
+        "cc2942b1-cea6-4a49-8332-469adec51ff8"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "background": "#ffffff",
+        "text_color": "#191919"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "product-recommendations"
+  ]
+}
