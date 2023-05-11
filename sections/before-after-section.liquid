@@ -15,6 +15,30 @@
         display:none
     }
 
+    #shopify-section-{{ section.id }} .twentytwenty-container {
+        display: flex;
+
+        {% if section.settings.overlay_content_position == "top-left" %}
+            align-items: flex-start;
+            justify-content: flex-start;
+        {% elsif section.settings.overlay_content_position == "bottom-left" %}
+            align-items: flex-end;
+        {% elsif section.settings.overlay_content_position == "top-middle" %}
+            justify-content: center;
+            
+        {% elsif section.settings.overlay_content_position == "bottom-middle" %}
+            align-items: flex-end;
+            justify-content: center;
+
+        {% elsif section.settings.overlay_content_position == "top-right" %}
+            justify-content: flex-end;
+
+        {% elsif section.settings.overlay_content_position == "bottom-right" %}
+            align-items: flex-end;
+            justify-content: flex-end;
+        {% endif %}
+    }
+
     .before-after-images-container{
         position: relative;
     }
@@ -28,20 +52,12 @@
         min-height: 300px;
     }
 
-    .before-after-images-container .overlay-content{
-        position: absolute;
+    .before-after-images-container .overlay-content {
+       position: relative;
         padding: 30px;
         z-index: 39;
-        max-width: 60%;
         color: #fff;
-        
-    {% if section.settings.overlay_content_position == "top-left"%}
-        top: 0;
-        left: 0;
-    {% elsif section.settings.overlay_content_position == "bottom-left"%}
-        bottom: 0;
-        left: 0;
-    {%endif%}
+
     }
 
     @media screen and (min-width: 740px) {
@@ -69,7 +85,7 @@
 <h3 class="heading h2">{{ section.settings.header}}</h3>
 <div class="before-after-images-container">
     
-	<div class='twentytwenty-container'>
+	<div class='twentytwenty-container {{ section.id }}'>
         <img src='{{ section.settings.imagebefore_desktop | img_url: '1920x' }}' />
     	<img src='{{ section.settings.imageafter_desktop | img_url: '1920x' }}' />
 
@@ -120,6 +136,22 @@
             {
                 "value": "bottom-left",
                 "label": "Bottom Left"
+            },
+            {
+                "value": "top-middle",
+                "label": "Top Middle"
+            },
+            {
+                "value": "bottom-middle",
+                "label": "Bottom Middle"
+            },
+            {
+                "value": "top-right",
+                "label": "Top Right"
+            },
+            {
+                "value": "bottom-right",
+                "label": "Bottom Right"
             }
         ],
         "default":"top-left"
