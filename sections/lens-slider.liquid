@@ -71,19 +71,11 @@
         <div class="container vertical-breather">
             {%- if section.settings.title != blank or section.settings.subheading != blank or section.settings.content != blank -%}
                 <header class="section__header {% if section.settings.content != blank %}section__header--tight{% endif %}">
-                <div class="text-container">
-                    {%- if section.settings.title != blank -%}
-                    <h2 id="{{ section.settings.title | handleize }}" class="heading h2">{{ section.settings.title }}</h2>
-                    {%- endif -%}
-                
-                    {%- if section.settings.subheading != blank -%}
-                    <h3 id="{{ section.settings.subheading | handleize }}" class="heading heading--small">{{ section.settings.subheading }}</h3>
-                    {%- endif -%}
-        
-                    {%- if section.settings.content != blank -%}
-                    {{- section.settings.content -}}
-                    {%- endif -%}
-                </div>
+                    <div class="text-container">
+                        {%- if section.settings.title != blank -%}
+                            <div id="{{ section.settings.title | handleize }}" class="">{{ section.settings.title }}</div>
+                        {%- endif -%}
+                    </div>
                 </header>
             {%- endif -%}
 
@@ -106,15 +98,15 @@
 
                             {%- when 'lens_item' -%}
                                 {% assign count = count | plus: 1 %}
+                                {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: variant.image.aspect_ratio -%}
                                 <div class="lens-slider__item">
                                     <div class="lens-slider__item-title">
                                         {{ block.settings.title }} 
                                     </div>
                                     
                                     {%- assign lens_image = block.settings.lens_image -%}
-                                    <a href="{{ variant.url }}" class="lens-slider__item-image-link product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: lens_image.aspect_ratio }}%; --aspect-ratio: {{ lens_image.aspect_ratio }}">
-                                        <img class="product-item__primary-image" loading="lazy" data-media-id="{{ lens_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
-                                    </a>
+                                    <img class="product-item__primary-image lens-slider__item-image" loading="lazy" data-media-id="{{ lens_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
+
                                     <div class="lens-slider__item-description">
                                         {{ block.settings.lens_description }} 
                                     </div>
@@ -192,20 +184,9 @@
     "settings": [
     {
       "type": "text",
-      "id": "subheading",
-      "label": "Subheading",
-      "default": "Your title"
-    },
-    {
-      "type": "text",
       "id": "title",
       "label": "Heading",
-      "default": "Collection"
-    },
-    {
-      "type": "richtext",
-      "id": "content",
-      "label": "Content"
+      "default": "Title"
     },
     {
       "type": "range",
