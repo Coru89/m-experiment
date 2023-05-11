@@ -1,3 +1,5 @@
+{{ 'lens-slider.css' | asset_url | stylesheet_tag }}
+
 {%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
     {%- assign blends_with_background = false -%}
   {%- else -%}
@@ -103,15 +105,19 @@
                         {%- case block.type -%}
 
                             {%- when 'lens_item' -%}
+                                {% assign count = count | plus: 1 %}
                                 <div class="lens-slider__item">
-                                    {{ block.settings.title }} 
-
+                                    <div class="lens-slider__item-title">
+                                        {{ block.settings.title }} 
+                                    </div>
+                                    
                                     {%- assign lens_image = block.settings.lens_image -%}
-                                    <a href="{{ variant.url }}" class="product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: lens_image.aspect_ratio }}%; --aspect-ratio: {{ lens_image.aspect_ratio }}">
+                                    <a href="{{ variant.url }}" class="lens-slider__item-image-link product-item__aspect-ratio aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: lens_image.aspect_ratio }}%; --aspect-ratio: {{ lens_image.aspect_ratio }}">
                                         <img class="product-item__primary-image" loading="lazy" data-media-id="{{ lens_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
                                     </a>
-    
-                                    {{ block.settings.lens_description }} 
+                                    <div class="lens-slider__item-description">
+                                        {{ block.settings.lens_description }} 
+                                    </div>
                                 </div>
                         {%- endcase -%}
                     {%- endfor -%}
@@ -120,12 +126,10 @@
                     </div>
                 </div>
         
-
-                    
                 {%- if count == 0 -%}
-                {%- assign products_shown = section.settings.products_count -%}
+                    {%- assign products_shown = section.settings.products_count -%}
                 {%- else -%}
-                {%- assign products_shown = count | default: section.settings.products_count | at_most: section.settings.products_count -%}
+                    {%- assign products_shown = count | default: section.settings.products_count | at_most: section.settings.products_count -%}
                 {%- endif -%}
     
                 {%- if products_shown > 2 -%}

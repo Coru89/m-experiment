@@ -1,0 +1,12 @@
+.lens-slider__item-title, .lens-slider__item-description {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center; }
+
+.lens-slider__item-title {
+  font-size: 22px;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784); }
+
+.lens-slider__item-description {
+  font-size: 20px; }
