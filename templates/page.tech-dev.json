@@ -361,7 +361,7 @@
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-04-18_at_9.32.06_AM.png",
+            "image": "shopify:\/\/shop_images\/M_Carbon.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "M CARBON",
@@ -376,7 +376,7 @@
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Atomic_13.jpg",
+            "image": "shopify:\/\/shop_images\/Atomic_13.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Atomic 13",
@@ -413,7 +413,7 @@
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-04-18_at_9.32.28_AM.png",
+            "image": "shopify:\/\/shop_images\/Thermo_Carbon.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Thermo Carbon",
@@ -428,7 +428,7 @@
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-04-18_at_9.32.39_AM.png",
+            "image": "shopify:\/\/shop_images\/Atomic_14.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "ATOMIC 14",
@@ -680,9 +680,7 @@
         "712f49d8-aa2f-48d3-8b97-30619d5f24ac"
       ],
       "settings": {
-        "subheading": "Your title",
         "title": "Collection",
-        "content": "",
         "products_count": 10,
         "products_per_row": 4,
         "background": "rgba(0,0,0,0)",

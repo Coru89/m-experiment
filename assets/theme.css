@@ -15372,3 +15372,9 @@ h3.heading.heading--small {
    word-wrap: break-word;
 }
 
+@media screen and (min-width: 740px) {
+  .slideshow h2 {
+    font-size: 54px;
+  }
+}
+
