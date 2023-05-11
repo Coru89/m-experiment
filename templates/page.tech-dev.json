@@ -209,8 +209,10 @@
         "subheading": "Res+",
         "caption": "<p>HD lenses reduce distortion and offer a wider field of view, creating a superior and more detailed visual experience.<\/p>",
         "overlay_content_position": "bottom-left",
-        "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__01_Desktop_AFTER.jpg",
-        "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_01_BEFORE.jpg"
+        "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_BEFORE.jpg",
+        "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_AFTER.jpg",
+        "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_BEFORE.jpg",
+        "imageafter_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_AFTER_1.jpg"
       }
     },
     "e0f1843d-f939-423a-b1bf-e7144941f569": {
