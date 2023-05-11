@@ -72,7 +72,7 @@
         "show_category": true,
         "show_excerpt": false,
         "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "#ffffff"
       }
     }
   },
