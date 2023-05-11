@@ -1,5 +1,10 @@
 {
   "sections": {
+    "fa144651-4964-4d9e-897c-20fd6f91fb3c": {
+      "type": "blog-hero",
+      "settings": {
+      }
+    },
     "blog-post-banner": {
       "type": "blog-post-banner",
       "disabled": true,
@@ -75,7 +80,7 @@
     "blog-post-prev-next": {
       "type": "blog-post-prev-next",
       "custom_css": [
-        "h3.heading, h2.heading {color: #fff;}"
+        "h3.heading,h2.heading {color: #fff;}"
       ],
       "settings": {
       }
@@ -89,6 +94,7 @@
     }
   },
   "order": [
+    "fa144651-4964-4d9e-897c-20fd6f91fb3c",
     "blog-post-banner",
     "e1896578-0393-48a9-b032-35295f8953ee",
     "main",
