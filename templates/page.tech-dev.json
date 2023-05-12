@@ -422,7 +422,7 @@
       "settings": {
         "title": "Polarized Lens Options",
         "products_count": 8,
-        "products_per_row": 4,
+        "products_per_row": 3,
         "background": "#ffffff",
         "text_color": "#6b6b6b",
         "button_background": "rgba(0,0,0,0)",
