@@ -73,7 +73,7 @@
                 <header class="section__header {% if section.settings.content != blank %}section__header--tight{% endif %}">
                     <div class="text-container">
                         {%- if section.settings.title != blank -%}
-                            <div id="{{ section.settings.title | handleize }}" class="">{{ section.settings.title }}</div>
+                            <h2 id="{{ section.settings.title | handleize }}" class="lens-slider__heading">{{ section.settings.title }}</h2>
                         {%- endif -%}
                     </div>
                 </header>

@@ -1,3 +1,6 @@
+.lens-slider__heading {
+  text-transform: uppercase; }
+
 .lens-slider__item-title, .lens-slider__item-description {
   font-weight: 500;
   text-transform: uppercase;
@@ -9,4 +12,5 @@
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784); }
 
 .lens-slider__item-description {
-  font-size: 20px; }
+  font-size: 20px;
+  line-height: 23px; }

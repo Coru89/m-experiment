@@ -1,4 +1,8 @@
 .lens-slider {
+    &__heading {
+        text-transform: uppercase;
+    }
+
     &__item {
         &-title,
         &-description {
@@ -15,6 +19,7 @@
 
         &-description {
             font-size: 20px;
+            line-height: 23px;
         }
     }
 }
