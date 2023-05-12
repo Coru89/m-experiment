@@ -206,6 +206,18 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "26ebcc7e-2237-4e13-a4a8-719be81dcae5": {
+      "type": "lens-slider",
+      "settings": {
+        "title": "Title",
+        "products_count": 8,
+        "products_per_row": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c": {
       "type": "gallery",
       "disabled": true,
@@ -310,6 +322,18 @@
         "autoplay": true,
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
+      }
+    },
+    "d9e4ca97-5f03-4713-8530-2883a11ab72d": {
+      "type": "lens-slider",
+      "settings": {
+        "title": "Title",
+        "products_count": 8,
+        "products_per_row": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "43b5b045-a39c-460c-9feb-9b43b6f1191a": {
@@ -700,10 +724,12 @@
     "0edee54d-36a8-4ae5-a6a7-745219016cb6",
     "09a65779-9793-4bf6-b148-10df80b12801",
     "a4eb0185-549e-4d2d-b9fd-fbed3c1ceec8",
+    "26ebcc7e-2237-4e13-a4a8-719be81dcae5",
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c",
     "020fd511-6f2a-4dc4-9663-99b8cb72e8fe",
     "35f6f6de-38b5-423a-ad59-ddbadf1f0189",
     "e0f1843d-f939-423a-b1bf-e7144941f569",
+    "d9e4ca97-5f03-4713-8530-2883a11ab72d",
     "43b5b045-a39c-460c-9feb-9b43b6f1191a",
     "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa",
     "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
