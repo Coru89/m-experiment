@@ -414,7 +414,8 @@
         "b7a82948-4ffc-4253-a618-245f53da938b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Homepage-RelentlessPursuitFun_02.png",
+            "image": "shopify:\/\/shop_images\/DHomepage-RelentlessPursuitFun_02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MHomepage-RelentlessPursuitFun_02.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
