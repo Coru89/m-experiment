@@ -395,7 +395,8 @@
         "template--15613256990870__07443d72-c1b9-4248-9951-fc3e505affc5-16679634112a5ab8f7-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Homepage-RelentlessPursuitFun_01.png",
+            "image": "shopify:\/\/shop_images\/Homepage-DRelentlessPursuitFun_03.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MHomepage-RelentlessPursuitFun_03.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
