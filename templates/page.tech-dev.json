@@ -637,7 +637,7 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_OBSIDIAN_Mir_Lens_0.1x.png",
+            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
             "lens_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
           }
         },
@@ -653,7 +653,7 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_OBSIDIAN_Lens_0.1x.png",
+            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
             "lens_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
           }
         },
