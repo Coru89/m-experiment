@@ -208,12 +208,24 @@
     },
     "26ebcc7e-2237-4e13-a4a8-719be81dcae5": {
       "type": "lens-slider",
+      "blocks": {
+        "d3d835c8-9d80-4835-be33-8a034c32f488": {
+          "type": "lens_item",
+          "settings": {
+            "title": "",
+            "lens_description": ""
+          }
+        }
+      },
+      "block_order": [
+        "d3d835c8-9d80-4835-be33-8a034c32f488"
+      ],
       "settings": {
-        "title": "Title",
+        "title": "Plasmachromatic Lens Options",
         "products_count": 8,
         "products_per_row": 4,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
