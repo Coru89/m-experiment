@@ -25,7 +25,8 @@
         "fce9e4af-4749-49ad-bcc0-f5ef7116b0ff": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Leisure-Main_03.png",
+            "image": "shopify:\/\/shop_images\/Leisure_Business_02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Leisure_Business_Mobile_02.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
