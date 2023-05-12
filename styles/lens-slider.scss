@@ -4,6 +4,10 @@
     }
 
     &__item {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
         &-title,
         &-description {
             text-transform: uppercase;
@@ -20,6 +24,7 @@
         &-description {
             font-size: 18px;
             line-height: 23px;
+            padding-top: 28px;
         }
     }
 }
