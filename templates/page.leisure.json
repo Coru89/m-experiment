@@ -122,7 +122,8 @@
         "94a3a34f-0fdc-4112-9b93-8e3ff296664a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Leisure-Main_02.png",
+            "image": "shopify:\/\/shop_images\/Leisure_Pleasure_02_a1eeed66-9e75-4e0b-b737-bd12a0056962.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Leisure_Pleasure_02.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
