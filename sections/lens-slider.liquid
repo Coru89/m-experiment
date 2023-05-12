@@ -44,6 +44,7 @@
   
       --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
       --section-products-per-row: 2;
+      --vertical-breather: 6.5rem;
     }
   
     @media screen and (min-width: 741px) {
@@ -156,7 +157,10 @@
                     </div>
                 {%- endif -%}
             </product-list>
-
+            <div class="lens-slider__bottom-border">
+              <div class="lens-slider__bottom-border--yellow"></div>
+              <div class="lens-slider__bottom-border--grey"></div>
+            </div>
         </div>
     </div>
 </section>

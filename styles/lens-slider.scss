@@ -27,4 +27,23 @@
             padding-top: 28px;
         }
     }
+
+    &__bottom-border {
+        display: flex;
+        height: 1px;
+        padding-top: 4rem;
+        width: 100%;
+
+        &--yellow {
+            background-color: #E2A829;
+            height: 1px;
+            width: 33.33%;
+        }
+
+        &--grey {
+            background-color: #3E3E3E;
+            height: 1px;
+            width: 66.66%;
+        }
+    }
 }
