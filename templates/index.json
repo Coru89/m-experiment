@@ -258,8 +258,8 @@
         "mobile_item_size": "large",
         "desktop_item_size": "large",
         "spacing": "loose",
-        "background": "#3e3e3e",
-        "text_color": "rgba(0,0,0,0)"
+        "background": "#000000",
+        "text_color": "#fbfbfb"
       }
     },
     "de5586b4-25e1-4884-83f2-e37c4e24502a": {
