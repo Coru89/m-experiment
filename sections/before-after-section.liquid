@@ -96,8 +96,9 @@
     }
 {% endstyle%}
 
-
-<h3 class="heading h2">{{ section.settings.header}}</h3>
+{% if section.settings.header %}
+    <h3 class="heading h2">{{ section.settings.header }}</h3>
+{% endif %}
 <div class="before-after-images-container">
     
 	<div class='twentytwenty-container {{ section.id }}'>
