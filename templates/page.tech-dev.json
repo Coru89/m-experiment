@@ -686,7 +686,7 @@
       ],
       "custom_css": [
         ".slideshow__text-wrapper {padding-top: 24px;}",
-        ".slideshow__text-wrapper .heading--large {margin-bottom: 2rem;}"
+        ".slideshow__text-wrapper .heading--large {margin-bottom: 24px;}"
       ],
       "settings": {
         "section_height": "auto",
