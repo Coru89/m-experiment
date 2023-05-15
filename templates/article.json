@@ -83,6 +83,8 @@
         "h3.heading,h2.heading {color: #fff;}"
       ],
       "settings": {
+        "show_author": false,
+        "show_date": true
       }
     },
     "blog-post-comments": {
