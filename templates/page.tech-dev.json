@@ -665,7 +665,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4117.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/DCI-mobile.png",
+            "mobile_image": "shopify:\/\/shop_images\/dual-chamber-infusion-mobile.png",
             "text_position": "top_center",
             "subheading": "2 SHOT COLOR PROCESS.",
             "title": "Dual Chamber Infusion",
@@ -699,6 +699,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4120.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lens-clutch-mobile.png",
             "text_position": "middle_right",
             "subheading": "THE QUICKEST, MOST SECURE WAY TO SWITCH LENSES.",
             "title": "LENS CLUTCH",
@@ -732,7 +733,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4121.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/shackle-mobile_1761b4ac-0718-4d93-9178-ce0e88b54bf6.png",
+            "mobile_image": "shopify:\/\/shop_images\/shackle-mobile.png",
             "text_position": "middle_left",
             "subheading": "DESIGNED TO ATTACHED TO THE FRAME'S BRIDGE.  ADJUSTABLE FOR DIFFERENT NOSE SIZES AND PROVIDES A SECURE, NON-SLIP FIT.",
             "title": "SHACKLE",
