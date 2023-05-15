@@ -684,6 +684,9 @@
       "block_order": [
         "abe46ed9-4f0f-4729-b675-a1de289f0505"
       ],
+      "custom_css": [
+        ".slideshow__text-wrapper {padding-top: 32px;}"
+      ],
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
