@@ -757,7 +757,7 @@
         "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2"
       ],
       "custom_css": [
-        ".content-box--text-left {width: 50%;}",
+        ".content-box--text-left {width: 50%; margin-left: 0;}",
         "@media screen and (min-width: 1000px) {.content-box--text-left {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); }}"
       ],
       "settings": {
