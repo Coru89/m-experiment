@@ -627,7 +627,8 @@
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1"
       ],
       "custom_css": [
-        ".multi-column__image-wrapper img {min-height: 300px;}"
+        ".multi-column__image-wrapper img {max-height: 300px;}",
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset;}}"
       ],
       "settings": {
         "reveal_on_scroll": true,
