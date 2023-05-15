@@ -685,7 +685,8 @@
         "abe46ed9-4f0f-4729-b675-a1de289f0505"
       ],
       "custom_css": [
-        ".slideshow__text-wrapper {padding-top: 32px;}"
+        ".slideshow__text-wrapper {padding-top: 24px;}",
+        ".slideshow__text-wrapper .heading--large {margin-bottom: 2rem;}"
       ],
       "settings": {
         "section_height": "auto",
