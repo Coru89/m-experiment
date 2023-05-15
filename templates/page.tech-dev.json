@@ -788,7 +788,7 @@
       ],
       "custom_css": [
         ".content-box--text-right {width: 50%;}",
-        "@media screen and (min-width: 741px) {{}}"
+        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); }}"
       ],
       "settings": {
         "section_height": "auto",
