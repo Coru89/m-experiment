@@ -665,6 +665,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4117.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/DCI-mobile.png",
             "text_position": "top_center",
             "subheading": "2 SHOT COLOR PROCESS.",
             "title": "Dual Chamber Infusion",
