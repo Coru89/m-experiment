@@ -94,11 +94,12 @@
         font-weight: 400;
         line-height: 20px;
     }
-{% endstyle%}
+{% endstyle %}
 
-{% if section.settings.header %}
+{%- if section.settings.header != null and section.settings.header != "" -%}
     <h3 class="heading h2">{{ section.settings.header }}</h3>
-{% endif %}
+{%- endif -%}
+
 <div class="before-after-images-container">
     
 	<div class='twentytwenty-container {{ section.id }}'>
@@ -124,10 +125,9 @@
     "class": "before-after-section",
     "settings": [
     {
-        "type":"text",
-        "id":"header",
-        "label": "Section Title",
-        "default":"Header"
+        "type": "text",
+        "id": "header",
+        "label": "Section Title"
     },
     {
         "type":"header",
