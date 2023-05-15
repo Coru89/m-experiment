@@ -29,6 +29,14 @@
       <a href="{{ article.url }}">{{ article.title }}</a>
     </h3>
 
+    {%- if section.settings.show_author -%}
+      <div class="article__meta-item article__author">{{ 'article.general.written_by' | t: author: article.author }}</div>
+    {%- endif -%}
+
+    {%- if section.settings.show_date -%}
+      <time class="article__meta-item article__date">{{ article.published_at | date: format: 'abbreviated_date' }}</time>
+    {%- endif -%}
+
     {%- if section.settings.show_excerpt and article.excerpt_or_content != blank -%}
       <div class="article-item__excerpt text--small">
         {{- article.excerpt_or_content | strip_html | truncate: 200 -}}

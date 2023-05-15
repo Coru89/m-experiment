@@ -7580,10 +7580,14 @@ input:checked + .popover__choice-label::after,
   display: grid;
   grid-gap: 14px;
   gap: 14px;
-  margin-top: 40px;
   padding-top: 24px;
   border-top: 1px solid rgb(var(--border-color));
   width: 100%;
+}
+
+.article__info .article__date,
+.article__info .article__author {
+  font-weight: 700;
 }
 
 .article__meta-item + .article__meta-item::before {
@@ -7700,14 +7704,6 @@ input:checked + .popover__choice-label::after,
     right: 0;
   }
 
-  .article__info {
-    position: absolute;
-    top: 0;
-    width: 170px;
-    margin-top: 0;
-    padding-top: 30px;
-    gap: 28px;
-  }
 
   .article__meta {
     display: grid;
