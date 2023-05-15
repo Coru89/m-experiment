@@ -765,6 +765,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4124.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/slics-mobile.png",
             "text_position": "middle_right",
             "subheading": "EAR SOCKS THAT PREVENT DISCOMFORT OR IRRITATION.",
             "title": "SLICS",
