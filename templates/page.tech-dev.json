@@ -685,8 +685,6 @@
         "abe46ed9-4f0f-4729-b675-a1de289f0505"
       ],
       "custom_css": [
-        ".slideshow__text-wrapper {padding-top: 24px;}",
-        "@media screen and (min-width: 1000px) {.slideshow__text-wrapper {padding-top: max( var(--vertical-breather), calc((var(--header-height) + 40px) * var(--enable-transparent-header)) ); }}",
         ".slideshow__text-wrapper .heading--large {margin-bottom: 24px;}",
         "@media screen and (min-width: 1000px) {.slideshow__text-wrapper .heading--large {margin-bottom: 40px; }}",
         ".slideshow h2 {font-size: 24px;}",
