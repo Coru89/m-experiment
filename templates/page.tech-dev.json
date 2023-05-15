@@ -626,6 +626,9 @@
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0",
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1"
       ],
+      "custom_css": [
+        ".multi-column__image-wrapper img {min-height: 300px;}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": true,
