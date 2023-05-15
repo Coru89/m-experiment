@@ -786,6 +786,10 @@
       "block_order": [
         "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb"
       ],
+      "custom_css": [
+        ".content-box--text-right {width: 50%;}",
+        "@media screen and (min-width: 741px) {{}}"
+      ],
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
