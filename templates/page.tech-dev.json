@@ -574,6 +574,10 @@
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0",
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1"
       ],
+      "custom_css": [
+        ".multi-column__image-wrapper img {max-height: 300px;}",
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": true,
@@ -628,7 +632,7 @@
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
-        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset;}}"
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
       ],
       "settings": {
         "reveal_on_scroll": true,
