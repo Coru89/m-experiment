@@ -15374,10 +15374,27 @@ h3.heading.heading--small {
    word-wrap: break-word;
 }
 
+.slideshow h2 {
+  font-size: 24px;
+}
+
 @media screen and (min-width: 740px) {
   .slideshow h2 {
     font-size: 54px;
   }
+}
+
+.slideshow h3.heading--small {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 740px) {
+  .slideshow h3.heading--small {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
 }
 
 .footer .linklist__item {

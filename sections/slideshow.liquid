@@ -97,7 +97,7 @@
           {%- capture section_content -%}
 
           {%- if block.settings.title != blank -%}
-            <h2 class="heading heading--large">
+            <h2 class="heading h4">
               <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
             </h2>
           {%- endif -%}
