@@ -795,8 +795,8 @@
         "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb"
       ],
       "custom_css": [
-        ".content-box--text-right {width: 50%;}",
-        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); }}"
+        ".content-box--text-right {width: 50%; margin-right: 0;}",
+        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}"
       ],
       "settings": {
         "section_height": "auto",
