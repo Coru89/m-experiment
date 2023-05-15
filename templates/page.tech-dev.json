@@ -686,7 +686,9 @@
       ],
       "custom_css": [
         ".slideshow__text-wrapper {padding-top: 24px;}",
-        ".slideshow__text-wrapper .heading--large {font-size: 32px; margin-bottom: 24px;}"
+        ".slideshow__text-wrapper .heading--large {margin-bottom: 24px;}",
+        ".slideshow h2 {font-size: 24px;}",
+        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
       ],
       "settings": {
         "section_height": "auto",
