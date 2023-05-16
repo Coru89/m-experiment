@@ -8,7 +8,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Leisure_Business_01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Leisure_Business_Mobile_01.jpg",
-            "text_position": "bottom_right",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -24,10 +25,12 @@
         },
         "fce9e4af-4749-49ad-bcc0-f5ef7116b0ff": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Leisure_Business_02.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Leisure_Business_Mobile_02.jpg",
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -46,7 +49,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Leisure_Pleasure_01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Leisure_Pleasure_01_68a063cf-beaf-48fb-ad1b-d33d6acf8d50.jpg",
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -66,7 +70,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Glass2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/glass2_m.jpg",
-            "text_position": "middle_left",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -86,7 +91,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Glass1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/glass1_m.jpg",
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -102,10 +108,12 @@
         },
         "13893eec-3a17-4f8d-ab7e-dfdcab23d34a": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Leisure_Pleasure_03.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Leisure_Pleasure_03_02435d0e-6fb3-4ac6-a32a-d680dcde802d.jpg",
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -121,10 +129,12 @@
         },
         "94a3a34f-0fdc-4112-9b93-8e3ff296664a": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Leisure_Pleasure_02_a1eeed66-9e75-4e0b-b737-bd12a0056962.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Leisure_Pleasure_02.jpg",
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -684,7 +694,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Chick_d8f973ff-7c5d-447f-84e4-3107e1ced9f7.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Chick_1_4e9803f9-99fe-4a2f-b621-661f2c186c95.jpg",
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -702,7 +713,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
+            "impact-font": false,
             "subheading": "Tell your story",
             "title": "Slide 2",
             "button_1_text": "",
