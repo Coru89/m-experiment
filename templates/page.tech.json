@@ -210,8 +210,7 @@
         "ff54663b-83d1-4460-8308-c91d58480fac"
       ],
       "custom_css": [
-        ".slideshow__slide-inner {max-height: 350px;}",
-        "@media screen and (min-width: 1000px) {.slideshow__slide-inner {max-height: unset; }}"
+
       ],
       "settings": {
         "section_height": "auto",
@@ -421,8 +420,7 @@
         "3ae6fc04-d284-4c98-b6d0-b25b447824f5"
       ],
       "custom_css": [
-        ".slideshow__slide-inner {max-height: 350px;}",
-        "@media screen and (min-width: 740px) {.slideshow__slide-inner {max-height: unset; }}"
+
       ],
       "settings": {
         "section_height": "auto",
