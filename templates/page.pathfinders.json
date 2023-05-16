@@ -71,6 +71,8 @@
         "stack_mobile": false,
         "show_category": true,
         "show_excerpt": false,
+        "show_author": false,
+        "show_date": true,
         "background": "rgba(0,0,0,0)",
         "text_color": "#ffffff"
       }
