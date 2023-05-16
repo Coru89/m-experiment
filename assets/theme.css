@@ -15393,10 +15393,15 @@ h3.heading.heading--small {
 }
 
 .slideshow .text-container {
-  width: 40%;
+  width: 50%;
   z-index: 1;
-  padding: 50px;
-  /* max-width: 30%; */
+}
+
+@media screen and (min-width: 740px) {
+  .slideshow .text-container {
+    padding: 50px;
+    width: 40%;
+  }
 }
 
 /* .slideshow h3.heading--small {

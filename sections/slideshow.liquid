@@ -1,3 +1,7 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
 <style>
   #shopify-section-{{ section.id }} {
     --progress-bar-color: {{ section.blocks.first.settings.text_color.red }}, {{ section.blocks.first.settings.text_color.green }}, {{ section.blocks.first.settings.text_color.blue }};
@@ -67,6 +71,28 @@
           text-align: center;
       {% endif %}
     }
+
+    {% if block.settings.impact-font == true %}
+
+      #block-{{ section.id }}-{{ block.id }} .text-container {
+        width: 100%;
+      }
+
+      #block-{{ section.id }}-{{ block.id }} .heading {
+        font-family: "Anton", sans-serif;
+        {% comment %} font-size: 140px; {% endcomment %}
+        font-size: 120px;
+        color: black;
+        text-align: center;
+        -webkit-text-stroke: 2px white;
+        transform: scaleY(0.7) scaleX(1.42) translateZ(0);
+        font-weight: 400;
+        backface-visibility: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
+        color: transparent;
+      
+      }
+    {% endif %}
   {%- endfor -%}
 </style>
 
@@ -374,6 +400,12 @@
             }
           ],
           "default": "middle-center"
+      },
+      {
+        "type": "checkbox",
+        "id": "impact-font",
+        "label": "Use Impact Font",
+        "default": false
       },
         {
           "type": "text",
