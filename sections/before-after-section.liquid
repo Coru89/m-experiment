@@ -20,24 +20,36 @@
         height: 100%;
 
         {% if section.settings.overlay_content_position == "top-left" %}
-            align-items: flex-start;
-            justify-content: flex-start;
-        {% elsif section.settings.overlay_content_position == "bottom-left" %}
-            align-items: flex-end;
-        {% elsif section.settings.overlay_content_position == "top-middle" %}
-            justify-content: center;
-            
-        {% elsif section.settings.overlay_content_position == "bottom-middle" %}
-            align-items: flex-end;
-            justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+      {% elsif section.settings.overlay_content_position == "top-center" %}
+        justify-content: center;
+        text-align: center;
+      {% elsif section.settings.overlay_content_position == "middle-left" %}
+        align-items: center;
+      
+      {% elsif section.settings.overlay_content_position == "middle-right" %}
+        align-items: center;
+        justify-content: flex-end;
 
-        {% elsif section.settings.overlay_content_position == "top-right" %}
-            justify-content: flex-end;
-
-        {% elsif section.settings.overlay_content_position == "bottom-right" %}
-            align-items: flex-end;
-            justify-content: flex-end;
-        {% endif %}
+      {% elsif section.settings.overlay_content_position == "bottom-left" %}
+          align-items: flex-end;
+      {% elsif section.settings.overlay_content_position == "bottom-center" %}
+          align-items: flex-end;
+          justify-content: center;
+          text-align: center;
+    
+      {% elsif section.settings.overlay_content_position == "top-right" %}
+          justify-content: flex-end;
+    
+      {% elsif section.settings.overlay_content_position == "bottom-right" %}
+          align-items: flex-end;
+          justify-content: flex-end;
+      {% elsif section.settings.overlay_content_position == "middle-center" %}
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+      {% endif %}
     }
 
     .before-after-images-container{
@@ -68,18 +80,37 @@
     .before-after-images-container .overlay-content {
         display: none;
         position: relative;
-        padding: 30px;
+        padding: 24px;
         z-index: 39;
         color: #fff;
         line-height: 1.5;
     }
 
     @media screen and (min-width: 1000px) {
-       .before-after-images-container .overlay-content{
+       .before-after-images-container .overlay-content {
          display: block;
-         max-width: 30%;
          padding: 50px;
        }
+    }
+
+    @media screen and (min-width: 740px) {
+        .before-after-images-container .overlay-content p {
+            width: auto;
+            max-width: 280px;
+        }
+    }
+
+        @media screen and (min-width: 1000px) {
+            .before-after-images-container .overlay-content p {
+            max-width: 300px;
+        }
+    }
+
+        @media screen and (min-width: 1200px) {
+        .before-after-images-container .overlay-content p {
+            max-width: 350px;
+            
+        }
     }
 
     .before-after-images-container .overlay-content *,
@@ -88,10 +119,13 @@
     }
 
     .before-after-images-container .overlay-content .heading{
-        margin-bottom: 15px;
+        margin-bottom: 16px;
+    }
+    .before-after-images-container .mobile-content .heading {
+        margin-bottom: 16px;
     }
 
-    .before-after-images-container .overlay-content p{
+    .before-after-images-container .overlay-content p {
         font-weight: 400;
         line-height: 20px;
     }

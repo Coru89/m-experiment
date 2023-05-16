@@ -68,6 +68,12 @@
       {% endif %}
     }
 
+    #block-{{ section.id }}-{{ block.id }} .subheading {
+      {% if block.settings.overlay_content_position == "top-center" or block.settings.overlay_content_position == "bottom-center" or block.settings.overlay_content_position == "middle-center" %}
+        margin: auto;
+      {% endif %}
+    }
+
     {% if block.settings.impact-font == true %}
 
       #block-{{ section.id }}-{{ block.id }} .text-container {
@@ -228,9 +234,8 @@
               {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
               {%- assign text_position = block.settings.text_position | split: '_' | last -%}
 
-              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather">
+              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }}">
                 <div class="text-container">
-                {% comment %} <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container"> {% endcomment %}
                   {{- section_content -}}
                 </div>
               </div>
