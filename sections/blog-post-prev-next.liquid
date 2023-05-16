@@ -8,12 +8,29 @@
       <div class="scroller">
         <div class="scroller__inner">
           <article-list {% if settings.stagger_blog_posts_apparition %}stagger-apparition{% endif %} class="article-list article-list--scrollable">
-            {%- if blog.next_article -%}
-              {%- render 'article-item', article: blog.next_article, heading_size: 'h5' -%}
+            {%- if blog.previous_article -%}
+              <div class="article-item__wrapper">
+                <a href="{{ blog.previous_article.url }}" class="article__label">
+                  <svg focusable="false" width="17" height="14" class="article__icon article__icon-left icon--nav-arrow-left  icon--direction-aware " viewBox="0 0 17 14">
+                    <path d="M17 7H2M8 1L2 7l6 6" stroke="currentColor" stroke-width="1" fill="none"></path>
+                  </svg>
+                  Previous Article
+                </a>
+                {%- render 'article-item', article: blog.previous_article, heading_size: 'h5' -%}
+              </div>
             {%- endif -%}
 
-            {%- if blog.previous_article -%}
-              {%- render 'article-item', article: blog.previous_article, heading_size: 'h5' -%}
+            {%- if blog.next_article -%}
+              <div class="article-item__wrapper">
+                <div class="article__label">
+                  Next Article
+                  <svg focusable="false" width="17" height="14" class="article__icon article__icon-right icon--nav-arrow-right icon--direction-aware " viewBox="0 0 17 14">
+                    <path d="M0 7h15M9 1l6 6-6 6" stroke="currentColor" stroke-width="1" fill="none"></path>
+                  </svg>
+                </div>
+                
+                {%- render 'article-item', article: blog.next_article, heading_size: 'h5' -%}
+              </div>
             {%- endif -%}
           </article-list>
         </div>
