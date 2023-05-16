@@ -788,9 +788,7 @@
       ],
       "custom_css": [
         ".content-box--text-left {width: 50%; margin-left: 0;}",
-        "@media screen and (min-width: 1000px) {.content-box--text-left {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-left: 24px; }}",
-        ".slideshow h2 {font-size: 24px;}",
-        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
+        "@media screen and (min-width: 1000px) {.content-box--text-left {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-left: 24px; }}"
       ],
       "settings": {
         "section_height": "auto",
