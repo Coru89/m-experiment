@@ -15373,16 +15373,16 @@ h3.heading.heading--small {
 
 /* slideshow customizations */
 
-/* .slideshow__text-wrapper .heading {
+.slideshow__text-wrapper .heading {
    word-wrap: break-word;
-} */
+} 
 
 
 .subheading,
 .subheading * {
   color: #fff;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 1.5;
 }
 
 @media screen and (min-width: 740px) {
@@ -15400,7 +15400,7 @@ h3.heading.heading--small {
 @media screen and (min-width: 740px) {
   .slideshow .text-container {
     padding: 50px;
-    width: 40%;
+    width: 30%;
   }
 }
 

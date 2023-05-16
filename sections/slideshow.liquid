@@ -1,7 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
 <style>
   #shopify-section-{{ section.id }} {
     --progress-bar-color: {{ section.blocks.first.settings.text_color.red }}, {{ section.blocks.first.settings.text_color.green }}, {{ section.blocks.first.settings.text_color.blue }};
@@ -13,7 +9,7 @@
 
 
   {%- for block in section.blocks -%}
-    {% comment %} {%- assign text_position = block.settings.text_position | split: '_' | first -%}
+    {%- assign text_position = block.settings.text_position | split: '_' | first -%}
 
     {%- case text_position -%}
       {%- when 'top' -%}
@@ -22,7 +18,7 @@
         {%- assign section_items_alignment = 'center' -%}
       {%- when 'bottom' -%}
         {%- assign section_items_alignment = 'flex-end' -%}
-    {%- endcase -%} {% endcomment %}
+    {%- endcase -%}
 
     #block-{{ section.id }}-{{ block.id }} {
       --heading-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
@@ -75,23 +71,52 @@
     {% if block.settings.impact-font == true %}
 
       #block-{{ section.id }}-{{ block.id }} .text-container {
-        width: 100%;
+        width: auto;
       }
 
       #block-{{ section.id }}-{{ block.id }} .heading {
-        font-family: "Anton", sans-serif;
-        {% comment %} font-size: 140px; {% endcomment %}
-        font-size: 120px;
-        color: black;
-        text-align: center;
-        -webkit-text-stroke: 2px white;
-        transform: scaleY(0.7) scaleX(1.42) translateZ(0);
-        font-weight: 400;
-        backface-visibility: hidden;
         -webkit-font-smoothing: subpixel-antialiased;
+        -webkit-text-stroke: 2px white;
+        backface-visibility: hidden;
+        color: black;
         color: transparent;
-      
+        font-family: "Anton", sans-serif;
+        font-size: 90px;
+        font-weight: 400;
+        text-align: center;
+        transform: scaleY(0.45) scaleX(1) translateZ(0);
+        margin-bottom: 0;
+        position: relative;
+        top: -23px;
       }
+
+      @media screen and (min-width: 740px) {
+        #block-{{ section.id }}-{{ block.id }} .heading {
+          font-size: 150px;
+          position: relative;
+          top: -64px;
+          -webkit-text-stroke: 3px white;
+        }
+      }
+
+      #block-{{ section.id }}-{{ block.id }} .subheading {
+        margin-top: 0;
+        position: relative;
+        top: -30px;
+        letter-spacing: 4.9px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      @media screen and (min-width: 740px) {
+        #block-{{ section.id }}-{{ block.id }} .subheading {
+          margin-top: -24px;
+          position: relative;
+          top: -64px;
+          font-size: 20px;
+        }
+      }
+
     {% endif %}
   {%- endfor -%}
 </style>
