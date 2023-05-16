@@ -62,6 +62,7 @@
     },
     "72274fc1-a426-4303-8685-aacc57947029": {
       "type": "before-after-section",
+      "disabled": true,
       "settings": {
         "header": "LENS TECHNOLOGy",
         "subheading": "M9M",
@@ -75,6 +76,7 @@
     },
     "0edee54d-36a8-4ae5-a6a7-745219016cb6": {
       "type": "lens-slider",
+      "disabled": true,
       "blocks": {
         "d05775ee-7b3c-44b0-afe6-8c968e4a58c9": {
           "type": "lens_item",
@@ -322,54 +324,6 @@
         "imageafter_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_AFTER.jpg"
       }
     },
-    "35f6f6de-38b5-423a-ad59-ddbadf1f0189": {
-      "type": "before-after-section",
-      "settings": {
-        "header": "",
-        "subheading": "Res+",
-        "caption": "<p>HD lenses reduce distortion and offer a wider field of view, creating a superior and more detailed visual experience.<\/p>",
-        "overlay_content_position": "top-right",
-        "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_BEFORE.jpg",
-        "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_AFTER.jpg",
-        "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_BEFORE.jpg",
-        "imageafter_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_AFTER_1.jpg"
-      }
-    },
-    "e0f1843d-f939-423a-b1bf-e7144941f569": {
-      "type": "slideshow",
-      "blocks": {
-        "ad130915-1828-43e5-abe1-248a3fa4a71a": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4116.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Artboard_2_7ad5c9e3-d2cf-4528-86b4-791130600526.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "POLARIZED",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "ad130915-1828-43e5-abe1-248a3fa4a71a"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
     "d9e4ca97-5f03-4713-8530-2883a11ab72d": {
       "type": "lens-slider",
       "blocks": {
@@ -434,6 +388,92 @@
         "text_color": "#6b6b6b",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76": {
+      "type": "slideshow",
+      "blocks": {
+        "3ae6fc04-d284-4c98-b6d0-b25b447824f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Desktop_03.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Mobile_02_1.jpg",
+            "text_position": "bottom_right",
+            "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
+            "title": "Eye Fence",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "3ae6fc04-d284-4c98-b6d0-b25b447824f5"
+      ],
+      "custom_css": [
+        ".slideshow__slide-inner {max-height: 350px;}",
+        "@media screen and (min-width: 740px) {.slideshow__slide-inner {max-height: unset; }}"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "35f6f6de-38b5-423a-ad59-ddbadf1f0189": {
+      "type": "before-after-section",
+      "settings": {
+        "header": "",
+        "subheading": "Res+",
+        "caption": "<p>HD lenses reduce distortion and offer a wider field of view, creating a superior and more detailed visual experience.<\/p>",
+        "overlay_content_position": "top-right",
+        "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_BEFORE.jpg",
+        "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_AFTER.jpg",
+        "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_BEFORE.jpg",
+        "imageafter_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_AFTER_1.jpg"
+      }
+    },
+    "e0f1843d-f939-423a-b1bf-e7144941f569": {
+      "type": "slideshow",
+      "blocks": {
+        "ad130915-1828-43e5-abe1-248a3fa4a71a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_4116.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Artboard_2_7ad5c9e3-d2cf-4528-86b4-791130600526.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "POLARIZED",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "ad130915-1828-43e5-abe1-248a3fa4a71a"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     },
     "43b5b045-a39c-460c-9feb-9b43b6f1191a": {
@@ -501,44 +541,6 @@
       },
       "block_order": [
         "template--15950527692950__f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa-1679247474ac6fb71f-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76": {
-      "type": "slideshow",
-      "blocks": {
-        "3ae6fc04-d284-4c98-b6d0-b25b447824f5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Desktop_03.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Mobile_02_1.jpg",
-            "text_position": "bottom_right",
-            "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
-            "title": "Eye Fence",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "3ae6fc04-d284-4c98-b6d0-b25b447824f5"
-      ],
-      "custom_css": [
-        ".slideshow__slide-inner {max-height: 350px;}",
-        "@media screen and (min-width: 740px) {.slideshow__slide-inner {max-height: unset; }}"
       ],
       "settings": {
         "section_height": "auto",
@@ -864,12 +866,12 @@
     "26ebcc7e-2237-4e13-a4a8-719be81dcae5",
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c",
     "020fd511-6f2a-4dc4-9663-99b8cb72e8fe",
+    "d9e4ca97-5f03-4713-8530-2883a11ab72d",
+    "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
     "35f6f6de-38b5-423a-ad59-ddbadf1f0189",
     "e0f1843d-f939-423a-b1bf-e7144941f569",
-    "d9e4ca97-5f03-4713-8530-2883a11ab72d",
     "43b5b045-a39c-460c-9feb-9b43b6f1191a",
     "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa",
-    "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
     "fe014da0-6a33-405c-b4b7-9096fdd9915d",
     "b94428e8-336a-4948-b3fb-06ee7f4aae6a",
     "76168366-8546-453e-8bfb-8cfeb9280c10",
