@@ -15,7 +15,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2023-04-18_at_9.29.16_AM.png",
-            "text_position": "top_center",
+            "overlay_content_position": "middle-center",
             "subheading": "",
             "title": "",
             "button_1_text": "",
@@ -33,7 +33,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
             "subheading": "Tell your story",
             "title": "Slide 2",
             "button_1_text": "",
@@ -188,7 +188,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Desktop_01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Mobile_01.jpg",
-            "text_position": "bottom_right",
+            "overlay_content_position": "bottom-right",
             "subheading": "These mirrored lenses reflect light away from your eyes, reducing glare and eye strain while giving you privacy",
             "title": "Plasmachromatic",
             "button_1_text": "",
@@ -398,7 +398,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Desktop_03.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Mobile_02_1.jpg",
-            "text_position": "bottom_right",
+            "overlay_content_position": "bottom-right",
             "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
             "title": "Eye Fence",
             "button_1_text": "",
@@ -450,7 +450,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4116.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Artboard_2_7ad5c9e3-d2cf-4528-86b4-791130600526.jpg",
-            "text_position": "middle_center",
+            "overlay_content_position": "middle-center",
             "subheading": "",
             "title": "POLARIZED",
             "button_1_text": "",
@@ -524,7 +524,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4115.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Artboard_1_a62e2ff0-6341-4d36-9913-208b11ae689b.jpg",
-            "text_position": "middle_right",
+            "overlay_content_position": "middle-center",
             "subheading": "",
             "title": "NON-HDO",
             "button_1_text": "",
@@ -688,7 +688,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4117.jpg",
             "mobile_image": "shopify:\/\/shop_images\/dual-chamber-infusion-mobile.png",
-            "text_position": "top_center",
+            "overlay_content_position": "top-center",
             "subheading": "2 SHOT COLOR PROCESS.",
             "title": "Dual Chamber Infusion",
             "button_1_text": "",
@@ -726,7 +726,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4120.jpg",
             "mobile_image": "shopify:\/\/shop_images\/lens-clutch-mobile.png",
-            "text_position": "middle_right",
+            "overlay_content_position": "middle-right",
             "subheading": "The quickest, most secure way to switch lenses.",
             "title": "LENS CLUTCH",
             "button_1_text": "",
@@ -746,8 +746,7 @@
       ],
       "custom_css": [
         ".content-box--text-right {width: 50%; margin-right: 0;}",
-        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}",
-        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
+        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}"
       ],
       "settings": {
         "section_height": "auto",
@@ -765,7 +764,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4121.jpg",
             "mobile_image": "shopify:\/\/shop_images\/shackle-mobile.png",
-            "text_position": "middle_left",
+            "overlay_content_position": "middle-left",
             "subheading": "Designed to attached to the frame's bridge.  Adjustable for different nose sizes and provides a secure, non-slip fit.",
             "title": "SHACKLE",
             "button_1_text": "",
@@ -803,7 +802,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4124.jpg",
             "mobile_image": "shopify:\/\/shop_images\/slics-mobile.png",
-            "text_position": "middle_right",
+            "overlay_content_position": "middle-right",
             "subheading": "Ear socks that prevent discomfort or irritation.",
             "title": "SLICS",
             "button_1_text": "",
@@ -823,8 +822,7 @@
       ],
       "custom_css": [
         ".content-box--text-right {width: 50%; margin-right: 0;}",
-        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}",
-        "@media screen and (min-width: 740px) {.slideshow h2 {font-size: 54px; }}"
+        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}"
       ],
       "settings": {
         "section_height": "auto",
