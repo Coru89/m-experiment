@@ -40,6 +40,7 @@
         justify-content: flex-start;
       {% elsif block.settings.overlay_content_position == "top-center" %}
         justify-content: center;
+        text-align: center;
       {% elsif block.settings.overlay_content_position == "middle-left" %}
         align-items: center;
       
@@ -49,12 +50,10 @@
 
       {% elsif block.settings.overlay_content_position == "bottom-left" %}
           align-items: flex-end;
-      {% comment %} {% elsif block.settings.overlay_content_position == "top-middle" %}
-          justify-content: center; {% endcomment %}
-          
       {% elsif block.settings.overlay_content_position == "bottom-center" %}
           align-items: flex-end;
           justify-content: center;
+          text-align: center;
     
       {% elsif block.settings.overlay_content_position == "top-right" %}
           justify-content: flex-end;
@@ -65,6 +64,7 @@
       {% elsif block.settings.overlay_content_position == "middle-center" %}
           align-items: center;
           justify-content: center;
+          text-align: center;
       {% endif %}
     }
   {%- endfor -%}
