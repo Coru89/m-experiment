@@ -398,7 +398,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Desktop_03.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Mobile_02_1.jpg",
-            "overlay_content_position": "bottom-right",
+            "overlay_content_position": "top-right",
             "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
             "title": "Eye Fence",
             "button_1_text": "",
