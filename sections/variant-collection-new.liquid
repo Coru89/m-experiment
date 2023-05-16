@@ -155,7 +155,13 @@
                   {%- assign smallest_image_aspect_ratio = 1 -%}
                 {%- endif -%}
 
-                <prev-next-buttons class="product-list__prev-next{% if count <= section.settings.products_per_row %} product-list__prev-next--hidden{% endif %}" style="--smallest-image-aspect-ratio: {{ smallest_image_aspect_ratio }}">
+                {%- if products_shown == 3 -%}
+                  {%- assign hiddenClass = 'product-list__prev-next--md-hidden' -%}
+                {%- else -%}
+                  {%- assign hiddenClass = 'product-list__prev-next--lg-hidden' -%}
+                {%- endif -%}
+
+                <prev-next-buttons class="product-list__prev-next{% if count <= section.settings.products_per_row %} {{ hiddenClass }}{% endif %}" style="--smallest-image-aspect-ratio: {{ smallest_image_aspect_ratio }}">
                   <button class="product-list__arrow prev-next-button prev-next-button--prev" disabled>
                     <span class="visually-hidden">{{ 'general.accessibility.previous' | t }}</span>
                     {%- include 'icon' with 'nav-arrow-left-small', block: true, direction_aware: true -%}
