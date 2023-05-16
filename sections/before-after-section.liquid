@@ -15,8 +15,9 @@
         display:none
     }
 
-    #shopify-section-{{ section.id }} .twentytwenty-container {
+    #shopify-section-{{ section.id }} .container {
         display: flex;
+        height: 100%;
 
         {% if section.settings.overlay_content_position == "top-left" %}
             align-items: flex-start;
@@ -57,13 +58,11 @@
         padding: 30px;
     }
 
-    
     @media screen and (min-width: 1000px) {
         .before-after-images-container .mobile-content {
             display: none;
         }
     }
-
 
     .before-after-images-container .overlay-content {
         display: none;
@@ -76,7 +75,7 @@
     @media screen and (min-width: 1000px) {
        .before-after-images-container .overlay-content{
          display: block;
-         max-width: 30%;
+         max-width: 40%;
          padding: 50px;
        }
     }
@@ -105,11 +104,17 @@
 	<div class='twentytwenty-container {{ section.id }}'>
         <img src='{{ section.settings.imagebefore_desktop | img_url: '1920x' }}' />
     	<img src='{{ section.settings.imageafter_desktop | img_url: '1920x' }}' />
+        
+        <div class="container">
+            <div class="overlay-content">
+                <div class="text-container">
+                    <h4 class="heading h3">{{section.settings.subheading}}</h4>
+                    {{section.settings.caption}}
+                </div>
 
-        <div class="overlay-content">
-            <h4 class="heading h3">{{section.settings.subheading}}</h4>
-            {{section.settings.caption}}
+            </div>
         </div>
+
 	</div>
 
     <div class="mobile-content">
@@ -149,33 +154,45 @@
         "type": "select",
         "id": "overlay_content_position",
         "label":"Content Position",
-        "options":[
-            {
-                "value": "top-left",
-                "label": "Top Left"
-            },
-            {
-                "value": "bottom-left",
-                "label": "Bottom Left"
-            },
-            {
-                "value": "top-middle",
-                "label": "Top Middle"
-            },
-            {
-                "value": "bottom-middle",
-                "label": "Bottom Middle"
-            },
-            {
-                "value": "top-right",
-                "label": "Top Right"
-            },
-            {
-                "value": "bottom-right",
-                "label": "Bottom Right"
-            }
+        "options": [
+          {
+            "value": "top-left",
+            "label": "Top left"
+          },
+          {
+            "value": "top-center",
+            "label": "Top center"
+          },
+          {
+            "value": "top-right",
+            "label": "Top right"
+          },
+          {
+            "value": "middle-left",
+            "label": "Middle left"
+          },
+          {
+            "value": "middle-center",
+            "label": "Middle center"
+          },
+          {
+            "value": "middle-right",
+            "label": "Middle right"
+          },
+          {
+            "value": "bottom-left",
+            "label": "Bottom left"
+          },
+          {
+            "value": "bottom-center",
+            "label": "Bottom center"
+          },
+          {
+            "value": "bottom-right",
+            "label": "Bottom right"
+          }
         ],
-        "default":"top-left"
+        "default": "middle-center"
     },
     {
         "type":"header",

@@ -3,11 +3,13 @@
     --progress-bar-color: {{ section.blocks.first.settings.text_color.red }}, {{ section.blocks.first.settings.text_color.green }}, {{ section.blocks.first.settings.text_color.blue }};
     --section-autoplay-duration: {% if section.settings.autoplay %}{{ section.settings.cycle_speed }}s{% else %}0s{% endif %};
     --section-animation-play-state: paused;
-    background-color: {{ section.settings.background }}; /* Allows to set a placeholder color while loading */
+      background-color: {{ section.settings.background }}; /* Allows to set a placeholder color while loading */
   }
 
+
+
   {%- for block in section.blocks -%}
-    {%- assign text_position = block.settings.text_position | split: '_' | first -%}
+    {% comment %} {%- assign text_position = block.settings.text_position | split: '_' | first -%}
 
     {%- case text_position -%}
       {%- when 'top' -%}
@@ -16,7 +18,7 @@
         {%- assign section_items_alignment = 'center' -%}
       {%- when 'bottom' -%}
         {%- assign section_items_alignment = 'flex-end' -%}
-    {%- endcase -%}
+    {%- endcase -%} {% endcomment %}
 
     #block-{{ section.id }}-{{ block.id }} {
       --heading-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
@@ -27,6 +29,43 @@
       --section-blocks-alignment: {{ section_items_alignment }};
       --section-blocks-overlay-color: {{ block.settings.overlay_color.red }}, {{ block.settings.overlay_color.green }}, {{ block.settings.overlay_color.blue }};
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
+    }
+  
+    #block-{{ section.id }}-{{ block.id }} .slideshow__text-wrapper {
+      display: flex;
+      height: 100%;
+
+      {% if block.settings.overlay_content_position == "top-left" %}
+        align-items: flex-start;
+        justify-content: flex-start;
+      {% elsif block.settings.overlay_content_position == "top-center" %}
+        justify-content: center;
+      {% elsif block.settings.overlay_content_position == "middle-left" %}
+        align-items: center;
+      
+      {% elsif block.settings.overlay_content_position == "middle-right" %}
+        align-items: center;
+        justify-content: flex-end;
+
+      {% elsif block.settings.overlay_content_position == "bottom-left" %}
+          align-items: flex-end;
+      {% comment %} {% elsif block.settings.overlay_content_position == "top-middle" %}
+          justify-content: center; {% endcomment %}
+          
+      {% elsif block.settings.overlay_content_position == "bottom-center" %}
+          align-items: flex-end;
+          justify-content: center;
+    
+      {% elsif block.settings.overlay_content_position == "top-right" %}
+          justify-content: flex-end;
+    
+      {% elsif block.settings.overlay_content_position == "bottom-right" %}
+          align-items: flex-end;
+          justify-content: flex-end;
+      {% elsif block.settings.overlay_content_position == "middle-center" %}
+          align-items: center;
+          justify-content: center;
+      {% endif %}
     }
   {%- endfor -%}
 </style>
@@ -98,7 +137,7 @@
 
           {%- if block.settings.title != blank -%}
             <h2 class="heading h3">
-              <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
+              <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title }}</split-lines>
             </h2>
           {%- endif -%}
 
@@ -139,7 +178,8 @@
               {%- assign text_position = block.settings.text_position | split: '_' | last -%}
 
               <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather">
-                <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container">
+                <div class="text-container">
+                {% comment %} <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container"> {% endcomment %}
                   {{- section_content -}}
                 </div>
               </div>
@@ -293,48 +333,48 @@
         },
         {
           "type": "select",
-          "id": "text_position",
-          "label": "Text position",
+          "id": "overlay_content_position",
+          "label":"Content Position",
           "options": [
             {
-              "value": "top_left",
+              "value": "top-left",
               "label": "Top left"
             },
             {
-              "value": "top_center",
+              "value": "top-center",
               "label": "Top center"
             },
             {
-              "value": "top_right",
+              "value": "top-right",
               "label": "Top right"
             },
             {
-              "value": "middle_left",
+              "value": "middle-left",
               "label": "Middle left"
             },
             {
-              "value": "middle_center",
+              "value": "middle-center",
               "label": "Middle center"
             },
             {
-              "value": "middle_right",
+              "value": "middle-right",
               "label": "Middle right"
             },
             {
-              "value": "bottom_left",
+              "value": "bottom-left",
               "label": "Bottom left"
             },
             {
-              "value": "bottom_center",
+              "value": "bottom-center",
               "label": "Bottom center"
             },
             {
-              "value": "bottom_right",
+              "value": "bottom-right",
               "label": "Bottom right"
             }
           ],
-          "default": "middle_center"
-        },
+          "default": "middle-center"
+      },
         {
           "type": "text",
           "id": "subheading",

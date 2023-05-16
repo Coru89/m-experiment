@@ -15373,9 +15373,10 @@ h3.heading.heading--small {
 
 /* slideshow customizations */
 
-.slideshow__text-wrapper .heading {
+/* .slideshow__text-wrapper .heading {
    word-wrap: break-word;
-}
+} */
+
 
 .subheading,
 .subheading * {
@@ -15389,6 +15390,13 @@ h3.heading.heading--small {
   .subheading * {
     font-weight: 400;
   }
+}
+
+.slideshow .text-container {
+  width: 40%;
+  z-index: 1;
+  padding: 50px;
+  /* max-width: 30%; */
 }
 
 /* .slideshow h3.heading--small {
