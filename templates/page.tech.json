@@ -211,7 +211,7 @@
       ],
       "custom_css": [
         ".slideshow__slide-inner {max-height: 350px;}",
-        "@media screen and (min-width: 740px) {.slideshow__slide-inner {max-height: unset; }}"
+        "@media screen and (min-width: 1000px) {.slideshow__slide-inner {max-height: unset; }}"
       ],
       "settings": {
         "section_height": "auto",
