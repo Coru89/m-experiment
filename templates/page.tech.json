@@ -185,6 +185,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Desktop_01.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Mobile_01.jpg",
             "text_position": "bottom_right",
             "subheading": "These mirrored lenses reflect light away from your eyes, reducing glare and eye strain while giving you privacy",
             "title": "PLASMOCHROMATIC",
@@ -512,6 +513,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Desktop_03.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Mobile_02_1.jpg",
             "text_position": "bottom_right",
             "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
             "title": "Eye Fence",
