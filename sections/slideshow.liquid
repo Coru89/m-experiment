@@ -35,39 +35,86 @@
       display: flex;
       height: 100%;
 
-      {% if block.settings.content_position_mobile == "top-left" %}
-        align-items: flex-start;
-        justify-content: flex-start;
-      {% elsif block.settings.content_position_mobile == "top-center" %}
-        justify-content: center;
-        text-align: center;
-      {% elsif block.settings.content_position_mobile == "middle-left" %}
-        align-items: center;
-      
-      {% elsif block.settings.content_position_mobile == "middle-right" %}
-        align-items: center;
-        justify-content: flex-end;
-
-      {% elsif block.settings.content_position_mobile == "bottom-left" %}
-          align-items: flex-end;
-      {% elsif block.settings.content_position_mobile == "bottom-center" %}
-          align-items: flex-end;
+      {% if block.settings.content_position_mobile != "none" %}
+        {% if block.settings.content_position_mobile == "top-left" %}
+          align-items: flex-start;
+          justify-content: flex-start;
+        {% elsif block.settings.content_position_mobile == "top-center" %}
           justify-content: center;
           text-align: center;
-    
-      {% elsif block.settings.content_position_mobile == "top-right" %}
-          justify-content: flex-end;
-    
-      {% elsif block.settings.content_position_mobile == "bottom-right" %}
-          align-items: flex-end;
-          justify-content: flex-end;
-      {% elsif block.settings.content_position_mobile == "middle-center" %}
+        {% elsif block.settings.content_position_mobile == "middle-left" %}
           align-items: center;
+        
+        {% elsif block.settings.content_position_mobile == "middle-right" %}
+          align-items: center;
+          justify-content: flex-end;
+
+        {% elsif block.settings.content_position_mobile == "bottom-left" %}
+            align-items: flex-end;
+        {% elsif block.settings.content_position_mobile == "bottom-center" %}
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+      
+        {% elsif block.settings.content_position_mobile == "top-right" %}
+            justify-content: flex-end;
+      
+        {% elsif block.settings.content_position_mobile == "bottom-right" %}
+            align-items: flex-end;
+            justify-content: flex-end;
+        {% elsif block.settings.content_position_mobile == "middle-center" %}
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        {% endif %}
+      {% else %}
+        {% if block.settings.overlay_content_position == "top-left" %}
+          align-items: flex-start;
+          justify-content: flex-start;
+          text-align: unset;
+        {% elsif block.settings.overlay_content_position == "top-center" %}
+          align-items: unset;  
           justify-content: center;
           text-align: center;
+        {% elsif block.settings.overlay_content_position == "middle-left" %}
+          align-items: center;
+          justify-content: unset;
+          text-align: unset;
+        
+        {% elsif block.settings.overlay_content_position == "middle-right" %}
+          align-items: center;
+          justify-content: flex-end;
+          text-align: unset;
+
+        {% elsif block.settings.overlay_content_position == "bottom-left" %}
+            align-items: flex-end;
+            justify-content: unset;
+            text-align: unset;
+        {% elsif block.settings.overlay_content_position == "bottom-center" %}
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+      
+        {% elsif block.settings.overlay_content_position == "top-right" %}
+          align-items: unset;    
+          justify-content: flex-end;
+          text-align: unset;
+      
+        {% elsif block.settings.overlay_content_position == "bottom-right" %}
+            align-items: flex-end;
+            justify-content: flex-end;
+            text-align: unset;
+        {% elsif block.settings.overlay_content_position == "middle-center" %}
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        {% endif %}
+        
+
       {% endif %}
     
     }
+
     @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .slideshow__text-wrapper {
 
@@ -116,10 +163,44 @@
       }
     }
 
+    #block-{{ section.id }}-{{ block.id }} .heading {
+      {% if block.settings.impact-font == true %}
+        font-size: calc({{ block.settings.heading_font_size_mobile }}px*1.55);
+        line-height: calc({{ block.settings.heading_font_size_mobile }}px*1.5);
+      {% else %}
+        font-size: {{ block.settings.heading_font_size_mobile }}px;
+      {% endif %}
+
+        opacity: {{ block.settings.heading_font_opacity }};
+
+      {% if block.settings.heading_drop_shadow == true %}
+        filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 3px {{ block.settings.heading_drop_shadow_color }});
+      {% endif %}
+    }
+
+    @media screen and (min-width: 740px) {
+      #block-{{ section.id }}-{{ block.id }} .heading {
+        {% if block.settings.impact-font == true %}
+          font-size: calc({{ block.settings.heading_font_size_desktop }}px*1.55);
+          line-height: calc({{ block.settings.heading_font_size_desktop }}px*1.5);
+          {% comment %} line-height: calc({{ block.settings.heading_font_size_desktop }}px/2.25); {% endcomment %}
+        {% else %}
+          font-size: {{ block.settings.heading_font_size_desktop }}px;
+        {% endif %}
+      }
+    }
+
     #block-{{ section.id }}-{{ block.id }} .subheading {
+      font-size: {{ block.settings.subheading_font_size_mobile }}px;
       {% if block.settings.overlay_content_position == "top-center" or block.settings.overlay_content_position == "bottom-center" or block.settings.overlay_content_position == "middle-center" %}
         margin: auto;
       {% endif %}
+    }
+
+    @media screen and (min-width: 740px) {
+      #block-{{ section.id }}-{{ block.id }} .subheading {
+        font-size: {{ block.settings.subheading_font_size_desktop }}px;
+      }
     }
 
     {% if block.settings.impact-font == true %}
@@ -135,43 +216,36 @@
         color: black;
         color: transparent;
         font-family: "Anton", sans-serif;
-        font-size: 90px;
+        {% comment %} font-size: 90px; {% endcomment %}
         font-weight: 400;
         text-align: center;
         transform: scaleY(0.45) scaleX(1) translateZ(0);
         margin-bottom: 0;
-        position: relative;
-        top: -23px;
+        {% comment %} position: relative;
+        top: -23px; {% endcomment %}
       }
 
       @media screen and (min-width: 740px) {
         #block-{{ section.id }}-{{ block.id }} .heading {
-          font-size: 150px;
-          position: relative;
-          top: -64px;
+          {% comment %} font-size: 150px; {% endcomment %}
+          {% comment %} position: relative;
+          top: -64px; {% endcomment %}
           -webkit-text-stroke: 3px white;
         }
       }
 
       #block-{{ section.id }}-{{ block.id }} .subheading {
         margin-top: 0;
-        position: relative;
-        top: -30px;
+        {% comment %} position: relative;
+        top: -30px; {% endcomment %}
         letter-spacing: 4.9px;
         font-weight: 400;
         line-height: 1.5;
       }
 
-      @media screen and (min-width: 740px) {
-        #block-{{ section.id }}-{{ block.id }} .subheading {
-          margin-top: -24px;
-          position: relative;
-          top: -64px;
-          font-size: 20px;
-        }
-      }
 
     {% endif %}
+
   {%- endfor -%}
 </style>
 
@@ -650,7 +724,7 @@
           "id": "heading_font_size_desktop",
           "label": "Heading Font Size Desktop",
           "min": 30,
-          "max": 130,
+          "max": 100,
           "step": 1,
           "default": 36,
           "unit": "px"
@@ -660,9 +734,10 @@
           "id": "heading_font_size_mobile",
           "label": "Heading Font Size Mobile",
           "min": 18,
-          "max": 80,
+          "max": 40,
           "step": 1,
-          "default": 26
+          "default": 26,
+          "unit": "px"
         },
         {
           "type": "range",
@@ -671,7 +746,8 @@
           "min": 14,
           "max": 32,
           "step": 1,
-          "default": 16
+          "default": 16,
+          "unit": "px"
         },
         {
           "type": "range",

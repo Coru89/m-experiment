@@ -14061,15 +14061,18 @@ shopify-payment-terms {
 }
 
 .slideshow--small {
-  --slideshow-min-height: 120vw;
+  /* --slideshow-min-height: 120vw; */
+  --slideshow-min-height: 80vw;
 }
 
 .slideshow--medium {
-  --slideshow-min-height: 133vw;
+  /* --slideshow-min-height: 133vw; */
+  --slideshow-min-height: 100vw;
 }
 
 .slideshow--large {
-  --slideshow-min-height: 160vw;
+  /* --slideshow-min-height: 160vw; */
+  --slideshow-min-height: 133vw;
 }
 
 .slideshow--fit {
@@ -15462,7 +15465,7 @@ h3.heading.heading--small {
   
 }
 
-.slideshow__slide-inner {
+/* .slideshow__slide-inner {
   max-height: 350px;
 }
 
@@ -15475,7 +15478,7 @@ h3.heading.heading--small {
   .slideshow__slide-inner {
     max-height: unset;
   }
-}
+} */
 
 .footer .linklist__item {
   display: block;
