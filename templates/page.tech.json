@@ -16,9 +16,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Title_Desktop_01.png",
             "overlay_content_position": "top-left",
+            "content_position_mobile": "bottom-left",
             "impact-font": true,
-            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at libero nec risus tincidunt luctus.",
             "title": "m-technology",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at libero nec risus tincidunt luctus.",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -28,20 +29,19 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "content_position_mobile": "bottom-right",
             "heading_font_opacity": 1,
             "heading_drop_shadow": true,
             "heading_drop_shadow_x-offset": 15,
             "heading_drop_shadow_y-offset": 15,
             "heading_drop_shadow_color": "#ffffff",
             "heading_font_size_desktop": 80,
-            "heading_font_size_mobile": 40,
+            "heading_font_size_mobile": 50,
             "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 2,
-            "nudge_text_x-axis_mobile": 10,
-            "nudge_text_y-axis_desktop": -10,
-            "nudge_text_y-axis_mobile": 30
+            "subheading_font_size_mobile": 13,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": -10
           }
         },
         "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-1": {
@@ -49,9 +49,10 @@
           "disabled": true,
           "settings": {
             "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "Tell your story",
             "title": "Slide 2",
+            "subheading": "Tell your story",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -61,7 +62,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -71,10 +71,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -83,7 +83,7 @@
         "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-1"
       ],
       "settings": {
-        "section_height": "medium",
+        "section_height": "small",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -219,9 +219,10 @@
             "image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Desktop_01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Mobile_01.jpg",
             "overlay_content_position": "bottom-right",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "These mirrored lenses reflect light away from your eyes, reducing glare and eye strain while giving you privacy",
             "title": "Plasmachromatic",
+            "subheading": "These mirrored lenses reflect light away from your eyes, reducing glare and eye strain while giving you privacy",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -231,7 +232,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 20,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -241,10 +241,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -255,7 +255,7 @@
 
       ],
       "settings": {
-        "section_height": "medium",
+        "section_height": "small",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -443,9 +443,10 @@
             "image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Desktop_03.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Tech_Eyefence_Mobile_02_1.jpg",
             "overlay_content_position": "bottom-right",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
             "title": "Eye Fence",
+            "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -455,7 +456,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 20,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -465,10 +465,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": -1,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 5,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -479,7 +479,7 @@
 
       ],
       "settings": {
-        "section_height": "medium",
+        "section_height": "small",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -501,17 +501,18 @@
     },
     "e0f1843d-f939-423a-b1bf-e7144941f569": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "ad130915-1828-43e5-abe1-248a3fa4a71a": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4116.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Artboard_2_7ad5c9e3-d2cf-4528-86b4-791130600526.jpg",
             "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "",
             "title": "POLARIZED",
+            "subheading": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -521,7 +522,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -531,10 +531,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -542,7 +542,7 @@
         "ad130915-1828-43e5-abe1-248a3fa4a71a"
       ],
       "settings": {
-        "section_height": "auto",
+        "section_height": "small",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -590,6 +590,7 @@
     },
     "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--15950527692950__f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa-1679247474ac6fb71f-0": {
           "type": "image",
@@ -598,9 +599,10 @@
             "image": "shopify:\/\/shop_images\/Group_4115.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Artboard_1_a62e2ff0-6341-4d36-9913-208b11ae689b.jpg",
             "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "",
             "title": "NON-HDO",
+            "subheading": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -610,7 +612,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -620,10 +621,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -631,7 +632,7 @@
         "template--15950527692950__f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa-1679247474ac6fb71f-0"
       ],
       "settings": {
-        "section_height": "auto",
+        "section_height": "small",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -777,9 +778,10 @@
             "image": "shopify:\/\/shop_images\/Group_4117.jpg",
             "mobile_image": "shopify:\/\/shop_images\/dual-chamber-infusion-mobile.png",
             "overlay_content_position": "top-center",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "2 SHOT COLOR PROCESS.",
             "title": "Dual Chamber Infusion",
+            "subheading": "2 SHOT COLOR PROCESS.",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -789,7 +791,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -799,10 +800,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": -10,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -810,8 +811,7 @@
         "abe46ed9-4f0f-4729-b675-a1de289f0505"
       ],
       "custom_css": [
-        ".slideshow__text-wrapper .heading--large {margin-bottom: 24px;}",
-        "@media screen and (min-width: 1000px) {.slideshow__text-wrapper .heading--large {margin-bottom: 40px; }}"
+
       ],
       "settings": {
         "section_height": "auto",
@@ -830,9 +830,10 @@
             "image": "shopify:\/\/shop_images\/Group_4120.jpg",
             "mobile_image": "shopify:\/\/shop_images\/lens-clutch-mobile.png",
             "overlay_content_position": "middle-right",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "The quickest, most secure way to switch lenses.",
             "title": "LENS CLUTCH",
+            "subheading": "The quickest, most secure way to switch lenses.",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -842,7 +843,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -852,10 +852,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -863,8 +863,7 @@
         "5c373ad6-7a66-400a-a553-fb430bc2e4dc"
       ],
       "custom_css": [
-        ".content-box--text-right {width: 50%; margin-right: 0;}",
-        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}"
+
       ],
       "settings": {
         "section_height": "auto",
@@ -883,9 +882,10 @@
             "image": "shopify:\/\/shop_images\/Group_4121.jpg",
             "mobile_image": "shopify:\/\/shop_images\/shackle-mobile.png",
             "overlay_content_position": "middle-left",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "Designed to attached to the frame's bridge.  Adjustable for different nose sizes and provides a secure, non-slip fit.",
             "title": "SHACKLE",
+            "subheading": "Designed to attached to the frame's bridge.  Adjustable for different nose sizes and provides a secure, non-slip fit.",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -895,7 +895,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -905,10 +904,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -916,8 +915,7 @@
         "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2"
       ],
       "custom_css": [
-        ".content-box--text-left {width: 50%; margin-left: 0;}",
-        "@media screen and (min-width: 1000px) {.content-box--text-left {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-left: 24px; }}"
+
       ],
       "settings": {
         "section_height": "auto",
@@ -936,9 +934,10 @@
             "image": "shopify:\/\/shop_images\/Group_4124.jpg",
             "mobile_image": "shopify:\/\/shop_images\/slics-mobile.png",
             "overlay_content_position": "middle-right",
+            "content_position_mobile": "none",
             "impact-font": false,
-            "subheading": "Ear socks that prevent discomfort or irritation.",
             "title": "SLICS",
+            "subheading": "Ear socks that prevent discomfort or irritation.",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -948,7 +947,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "content_position_mobile": "none",
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -958,10 +956,10 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "nudge_text_x-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_y-axis_mobile": 0
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0
           }
         }
       },
@@ -969,8 +967,7 @@
         "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb"
       ],
       "custom_css": [
-        ".content-box--text-right {width: 50%; margin-right: 0;}",
-        "@media screen and (min-width: 1000px) {.content-box--text-right {width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 9); margin-right: 24px; }}"
+
       ],
       "settings": {
         "section_height": "auto",
