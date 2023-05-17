@@ -67,7 +67,7 @@
           justify-content: flex-start;
           text-align: unset;
         {% elsif block.settings.overlay_content_position == "top-center" %}
-          align-items: unset;  
+          align-items: unset;
           justify-content: center;
           text-align: center;
         {% elsif block.settings.overlay_content_position == "middle-left" %}
@@ -85,9 +85,9 @@
         {% elsif block.settings.overlay_content_position == "bottom-center" %}
           align-items: flex-end;
           justify-content: center;
-          text-align: center;    
+          text-align: center;
         {% elsif block.settings.overlay_content_position == "top-right" %}
-          align-items: unset;    
+          align-items: unset;
           justify-content: flex-end;
           text-align: unset;
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
@@ -100,7 +100,7 @@
           text-align: center;
         {% endif %}
       {% endif %}
-    
+
     }
 
     @media screen and (min-width: 740px) {
@@ -110,7 +110,7 @@
           justify-content: flex-start;
           text-align: unset;
         {% elsif block.settings.overlay_content_position == "top-center" %}
-          align-items: unset;  
+          align-items: unset;
           justify-content: center;
           text-align: center;
         {% elsif block.settings.overlay_content_position == "middle-left" %}
@@ -130,7 +130,7 @@
           justify-content: center;
           text-align: center;
         {% elsif block.settings.overlay_content_position == "top-right" %}
-          align-items: unset;    
+          align-items: unset;
           justify-content: flex-end;
           text-align: unset;
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
@@ -235,13 +235,20 @@
 </style>
 
 <section class="section section--flush">
-  <slide-show reveal-on-scroll {% if section.settings.autoplay %}auto-play{% endif %} transition-type="{{ section.settings.transition_type | escape }}" class="slideshow slideshow--{{ section.settings.section_height }}">
+  <slide-show
+    reveal-on-scroll
+    {% if section.settings.autoplay %}
+      auto-play
+    {% endif %}
+    transition-type="{{ section.settings.transition_type | escape }}"
+    class="slideshow slideshow--{{ section.settings.section_height }}"
+  >
     <div class="slideshow__slide-list">
       {%- for block in section.blocks -%}
         {%- comment -%}
-        ------------------------------------------------------------------------------------------------------------------
-        IMAGE PART
-        ------------------------------------------------------------------------------------------------------------------
+          ------------------------------------------------------------------------------------------------------------------
+          IMAGE PART
+          ------------------------------------------------------------------------------------------------------------------
         {%- endcomment -%}
 
         {%- assign image = block.settings.image -%}
@@ -251,8 +258,8 @@
         {%- assign image_aspect_ratio = image.aspect_ratio | default: 2.63 -%}
 
         {%- comment -%}
-        If the image is split and that we want to preserve the ratio, we have to multiply the ratio by 2 (as each image
-        only account for half the screen size)
+          If the image is split and that we want to preserve the ratio, we have to multiply the ratio by 2 (as each image
+          only account for half the screen size)
         {%- endcomment -%}
 
         {%- if image != blank and split_image != blank and section.settings.section_height == 'auto' -%}
@@ -362,8 +369,16 @@
           {% endif %}
         {%- endcapture -%}
 
-        <slide-show-item {% if section.settings.transition_type != 'reveal' %}reveal-visibility{% endif %} {{ slide_attributes }}>
-          {%- if block.settings.button_1_link != blank and block.settings.button_1_text == blank and block.settings.button_2_text == blank -%}
+        <slide-show-item
+          {% if section.settings.transition_type != 'reveal' %}
+            reveal-visibility
+          {% endif %}
+          {{ slide_attributes }}
+        >
+          {%- if block.settings.button_1_link != blank
+            and block.settings.button_1_text == blank
+            and block.settings.button_2_text == blank
+          -%}
             <a class="slideshow__slide-inner" href="{{ block.settings.button_1_link }}">
               {{- slide_content -}}
             </a>
@@ -377,9 +392,20 @@
     </div>
 
     {%- if section.blocks.size > 1 -%}
-      <page-dots {% if section.settings.autoplay %}animation-timer{% endif %} class="slideshow__nav container">
+      <page-dots
+        {% if section.settings.autoplay %}
+          animation-timer
+        {% endif %}
+        class="slideshow__nav container"
+      >
         {%- for block in section.blocks -%}
-          <button class="slideshow__progress-bar" aria-controls="block-{{ section.id }}-{{ block.id }}" {% if forloop.first %}aria-current="true"{% endif%}>
+          <button
+            class="slideshow__progress-bar"
+            aria-controls="block-{{ section.id }}-{{ block.id }}"
+            {% if forloop.first %}
+              aria-current="true"
+            {% endif %}
+          >
             <span class="visually-hidden">{{ 'general.accessibility.go_to_slide' | t: num: forloop.index }}</span>
           </button>
         {%- endfor -%}
@@ -491,13 +517,134 @@
           "info": "1000 x 1400px .jpg recommended. If none is set, desktop image will be used."
         },
         {
+          "type": "range",
+          "id": "overlay_opacity",
+          "label": "Overlay opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 30
+        },
+        {
           "type": "header",
-          "content": "Content"
+          "content": "Header"
+        },
+        {
+          "type": "checkbox",
+          "id": "impact-font",
+          "label": "Use Impact Font",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Slide title"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_opacity",
+          "label": "Heading Font Opacity",
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "default": 1
+        },
+        {
+          "type": "header",
+          "content": "Header - Drop Shadow"
+        },
+        {
+          "type": "checkbox",
+          "id": "heading_drop_shadow",
+          "label": "Heading Drop Shadow",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "heading_drop_shadow_x-offset",
+          "label": "Heading Drop Shadow X-Offset",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 10,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_drop_shadow_y-offset",
+          "label": "Heading Drop Shadow Y-Offset",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 10,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_desktop",
+          "label": "Heading Font Size Desktop",
+          "min": 30,
+          "max": 100,
+          "step": 1,
+          "default": 36,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_mobile",
+          "label": "Heading Font Size Mobile",
+          "min": 18,
+          "max": 60,
+          "step": 1,
+          "default": 26,
+          "unit": "px"
+        },
+        {
+          "type": "color",
+          "id": "heading_drop_shadow_color",
+          "label": "Heading Drop Shadow Color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "header",
+          "content": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Tell your story"
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_desktop",
+          "label": "Subheading Font Size Desktop",
+          "min": 14,
+          "max": 32,
+          "step": 1,
+          "default": 16,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_mobile",
+          "label": "Subheading Font Size Mobile",
+          "min": 12,
+          "max": 32,
+          "step": 1,
+          "default": 16,
+          "unit": "px"
+        },
+        {
+          "type": "header",
+          "content": "Content Position"
         },
         {
           "type": "select",
           "id": "overlay_content_position",
-          "label":"Content Position",
+          "label": "Content Position Desktop",
           "options": [
             {
               "value": "top-left",
@@ -537,72 +684,98 @@
             }
           ],
           "default": "middle-center"
-      },
-      {
-        "type": "select",
-        "id": "content_position_mobile",
-        "label": "Content Position Mobile",
-        "options": [
-          {
-            "value": "none",
-            "label": "None"
-          },
-          {
-            "value": "top-left",
-            "label": "Top left"
-          },
-          {
-            "value": "top-center",
-            "label": "Top center"
-          },
-          {
-            "value": "top-right",
-            "label": "Top right"
-          },
-          {
-            "value": "middle-left",
-            "label": "Middle left"
-          },
-          {
-            "value": "middle-center",
-            "label": "Middle center"
-          },
-          {
-            "value": "middle-right",
-            "label": "Middle right"
-          },
-          {
-            "value": "bottom-left",
-            "label": "Bottom left"
-          },
-          {
-            "value": "bottom-center",
-            "label": "Bottom center"
-          },
-          {
-            "value": "bottom-right",
-            "label": "Bottom right"
-          }
-        ],
-        "default": "none"
-      },
-      {
-        "type": "checkbox",
-        "id": "impact-font",
-        "label": "Use Impact Font",
-        "default": false
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading",
-        "default": "Slide title"
-      },
+        },
         {
-          "type": "text",
-          "id": "subheading",
-          "label": "Subheading",
-          "default": "Tell your story"
+          "type": "select",
+          "id": "content_position_mobile",
+          "label": "Content Position Mobile",
+          "options": [
+            {
+              "value": "none",
+              "label": "None"
+            },
+            {
+              "value": "top-left",
+              "label": "Top left"
+            },
+            {
+              "value": "top-center",
+              "label": "Top center"
+            },
+            {
+              "value": "top-right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle-left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle-center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle-right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom-left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom-center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom-right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_x-axis_mobile",
+          "label": "Nudge Text X-Axis Mobile",
+          "min": -10,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_y-axis_mobile",
+          "label": "Nudge Text Y-Axis Mobile",
+          "min": -10,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_x-axis_desktop",
+          "label": "Nudge Text X-Axis Desktop",
+          "min": -10,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_y-axis_desktop",
+          "label": "Nudge Text Y-Axis Desktop",
+          "min": -10,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "header",
+          "content": "Buttons"
         },
         {
           "type": "text",
@@ -652,137 +825,6 @@
           "id": "overlay_color",
           "label": "Overlay",
           "default": "#000000"
-        },
-        {
-          "type": "range",
-          "id": "overlay_opacity",
-          "label": "Overlay opacity",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "unit": "%",
-          "default": 30
-        },
-        {
-          "type": "range",
-          "id": "heading_font_opacity",
-          "label": "Heading Font Opacity",
-          "min": 0,
-          "max": 1,
-          "step": 0.1,
-          "default": 1
-        },
-        {
-          "type": "checkbox",
-          "id": "heading_drop_shadow",
-          "label": "Heading Drop Shadow",
-          "default": false
-        },
-        {
-          "type": "range",
-          "id": "heading_drop_shadow_x-offset",
-          "label": "Heading Drop Shadow X-Offset",
-          "min": -30,
-          "max": 30,
-          "step": 1,
-          "default": 10,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "heading_drop_shadow_y-offset",
-          "label": "Heading Drop Shadow Y-Offset",
-          "min": -30,
-          "max": 30,
-          "step": 1,
-          "default": 10,
-          "unit": "px"
-        },
-        {
-          "type": "color",
-          "id": "heading_drop_shadow_color",
-          "label": "Heading Drop Shadow Color",
-          "default": "#FFFFFF"
-        },
-        {
-          "type": "range",
-          "id": "heading_font_size_desktop",
-          "label": "Heading Font Size Desktop",
-          "min": 30,
-          "max": 100,
-          "step": 1,
-          "default": 36,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "heading_font_size_mobile",
-          "label": "Heading Font Size Mobile",
-          "min": 18,
-          "max": 60,
-          "step": 1,
-          "default": 26,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "subheading_font_size_desktop",
-          "label": "Subheading Font Size Desktop",
-          "min": 14,
-          "max": 32,
-          "step": 1,
-          "default": 16,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "subheading_font_size_mobile",
-          "label": "Subheading Font Size Mobile",
-          "min": 12,
-          "max": 32,
-          "step": 1,
-          "default": 16,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "nudge_text_x-axis_mobile",
-          "label": "Nudge Text X-Axis Mobile",
-          "min": -10,
-          "max": 10,
-          "step": 1,
-          "default": 0,
-          "unit": "%"
-        },
-        {
-          "type": "range",
-          "id": "nudge_text_y-axis_mobile",
-          "label": "Nudge Text Y-Axis Mobile",
-          "min": -10,
-          "max": 10,
-          "step": 1,
-          "default": 0,
-          "unit": "%"
-        },
-        {
-          "type": "range",
-          "id": "nudge_text_x-axis_desktop",
-          "label": "Nudge Text X-Axis Desktop",
-          "min": -10,
-          "max": 10,
-          "step": 1,
-          "default": 0,
-          "unit": "%"
-        },
-        {
-          "type": "range",
-          "id": "nudge_text_y-axis_desktop",
-          "label": "Nudge Text Y-Axis Desktop",
-          "min": -10,
-          "max": 10,
-          "step": 1,
-          "default": 0,
-          "unit": "%"
         }
       ]
     }
