@@ -15411,6 +15411,12 @@ h3.heading.heading--small {
 
 @media screen and (min-width: 740px) {
   .slideshow .text-container {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slideshow .text-container {
     padding: 50px;
   }
 }
@@ -15422,9 +15428,10 @@ h3.heading.heading--small {
 }
 
 .slideshow .subheading {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   width: 40vw;
+  line-height: 22.5px;
 }
 
 @media screen and (min-width: 740px) {
@@ -15433,11 +15440,11 @@ h3.heading.heading--small {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .slideshow .subheading {
     width: 300px;
   }
-}
+} */
 
 @media screen and (min-width: 1200px) {
   .slideshow .subheading {

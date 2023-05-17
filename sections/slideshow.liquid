@@ -30,42 +30,90 @@
       --section-blocks-overlay-color: {{ block.settings.overlay_color.red }}, {{ block.settings.overlay_color.green }}, {{ block.settings.overlay_color.blue }};
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
     }
-  
+
     #block-{{ section.id }}-{{ block.id }} .slideshow__text-wrapper {
       display: flex;
       height: 100%;
 
-      {% if block.settings.overlay_content_position == "top-left" %}
+      {% if block.settings.content_position_mobile == "top-left" %}
         align-items: flex-start;
         justify-content: flex-start;
-      {% elsif block.settings.overlay_content_position == "top-center" %}
+      {% elsif block.settings.content_position_mobile == "top-center" %}
         justify-content: center;
         text-align: center;
-      {% elsif block.settings.overlay_content_position == "middle-left" %}
+      {% elsif block.settings.content_position_mobile == "middle-left" %}
         align-items: center;
       
-      {% elsif block.settings.overlay_content_position == "middle-right" %}
+      {% elsif block.settings.content_position_mobile == "middle-right" %}
         align-items: center;
         justify-content: flex-end;
 
-      {% elsif block.settings.overlay_content_position == "bottom-left" %}
+      {% elsif block.settings.content_position_mobile == "bottom-left" %}
           align-items: flex-end;
-      {% elsif block.settings.overlay_content_position == "bottom-center" %}
+      {% elsif block.settings.content_position_mobile == "bottom-center" %}
           align-items: flex-end;
           justify-content: center;
           text-align: center;
     
-      {% elsif block.settings.overlay_content_position == "top-right" %}
+      {% elsif block.settings.content_position_mobile == "top-right" %}
           justify-content: flex-end;
     
-      {% elsif block.settings.overlay_content_position == "bottom-right" %}
+      {% elsif block.settings.content_position_mobile == "bottom-right" %}
           align-items: flex-end;
           justify-content: flex-end;
-      {% elsif block.settings.overlay_content_position == "middle-center" %}
+      {% elsif block.settings.content_position_mobile == "middle-center" %}
           align-items: center;
           justify-content: center;
           text-align: center;
       {% endif %}
+    
+    }
+    @media screen and (min-width: 740px) {
+      #block-{{ section.id }}-{{ block.id }} .slideshow__text-wrapper {
+
+
+        {% if block.settings.overlay_content_position == "top-left" %}
+          align-items: flex-start;
+          justify-content: flex-start;
+          text-align: unset;
+        {% elsif block.settings.overlay_content_position == "top-center" %}
+          align-items: unset;  
+          justify-content: center;
+          text-align: center;
+        {% elsif block.settings.overlay_content_position == "middle-left" %}
+          align-items: center;
+          justify-content: unset;
+          text-align: unset;
+        
+        {% elsif block.settings.overlay_content_position == "middle-right" %}
+          align-items: center;
+          justify-content: flex-end;
+          text-align: unset;
+
+        {% elsif block.settings.overlay_content_position == "bottom-left" %}
+            align-items: flex-end;
+            justify-content: unset;
+            text-align: unset;
+        {% elsif block.settings.overlay_content_position == "bottom-center" %}
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+      
+        {% elsif block.settings.overlay_content_position == "top-right" %}
+          align-items: unset;    
+          justify-content: flex-end;
+          text-align: unset;
+      
+        {% elsif block.settings.overlay_content_position == "bottom-right" %}
+            align-items: flex-end;
+            justify-content: flex-end;
+            text-align: unset;
+        {% elsif block.settings.overlay_content_position == "middle-center" %}
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        {% endif %}
+      }
     }
 
     #block-{{ section.id }}-{{ block.id }} .subheading {
@@ -507,6 +555,173 @@
           "step": 1,
           "unit": "%",
           "default": 30
+        },
+        {
+          "type": "select",
+          "id": "content_position_mobile",
+          "label": "Content Position Mobile",
+          "options": [
+            {
+              "value": "none",
+              "label": "None"
+            },
+            {
+              "value": "top-left",
+              "label": "Top left"
+            },
+            {
+              "value": "top-center",
+              "label": "Top center"
+            },
+            {
+              "value": "top-right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle-left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle-center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle-right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom-left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom-center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom-right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_opacity",
+          "label": "Heading Font Opacity",
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "default": 1
+        },
+        {
+          "type": "checkbox",
+          "id": "heading_drop_shadow",
+          "label": "Heading Drop Shadow",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "heading_drop_shadow_x-offset",
+          "label": "Heading Drop Shadow X-Offset",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 10,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_drop_shadow_y-offset",
+          "label": "Heading Drop Shadow Y-Offset",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 10,
+          "unit": "px"
+        },
+        {
+          "type": "color",
+          "id": "heading_drop_shadow_color",
+          "label": "Heading Drop Shadow Color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_desktop",
+          "label": "Heading Font Size Desktop",
+          "min": 30,
+          "max": 130,
+          "step": 1,
+          "default": 36,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_mobile",
+          "label": "Heading Font Size Mobile",
+          "min": 18,
+          "max": 80,
+          "step": 1,
+          "default": 26
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_desktop",
+          "label": "Subheading Font Size Desktop",
+          "min": 14,
+          "max": 32,
+          "step": 1,
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_mobile",
+          "label": "Subheading Font Size Mobile",
+          "min": 12,
+          "max": 32,
+          "step": 1,
+          "default": 16,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_x-axis_desktop",
+          "label": "Nudge Text X-Axis Desktop",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_x-axis_mobile",
+          "label": "Nudge Text X-Axis Mobile",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_y-axis_desktop",
+          "label": "Nudge Text Y-Axis Desktop",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_y-axis_mobile",
+          "label": "Nudge Text Y-Axis Mobile",
+          "min": -30,
+          "max": 30,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
         }
       ]
     }
