@@ -156,7 +156,7 @@
         opacity: {{ block.settings.heading_font_opacity }};
 
       {% if block.settings.heading_drop_shadow == true %}
-        filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 3px {{ block.settings.heading_drop_shadow_color }});
+        filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 4px {{ block.settings.heading_drop_shadow_color }});
       {% endif %}
     }
 
@@ -211,7 +211,7 @@
         font-family: "Anton", sans-serif;
         font-weight: 400;
         margin-bottom: 0;
-        text-align: center;
+        {% comment %} text-align: center; {% endcomment %}
         transform: scaleY(0.45) scaleX(1) translateZ(0);
       }
 
@@ -719,7 +719,7 @@
           "id": "heading_font_size_mobile",
           "label": "Heading Font Size Mobile",
           "min": 18,
-          "max": 40,
+          "max": 60,
           "step": 1,
           "default": 26,
           "unit": "px"
