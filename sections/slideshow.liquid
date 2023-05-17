@@ -6,8 +6,6 @@
       background-color: {{ section.settings.background }}; /* Allows to set a placeholder color while loading */
   }
 
-
-
   {%- for block in section.blocks -%}
     {%- assign text_position = block.settings.text_position | split: '_' | first -%}
 
@@ -44,21 +42,17 @@
           text-align: center;
         {% elsif block.settings.content_position_mobile == "middle-left" %}
           align-items: center;
-        
         {% elsif block.settings.content_position_mobile == "middle-right" %}
           align-items: center;
           justify-content: flex-end;
-
         {% elsif block.settings.content_position_mobile == "bottom-left" %}
             align-items: flex-end;
         {% elsif block.settings.content_position_mobile == "bottom-center" %}
             align-items: flex-end;
             justify-content: center;
             text-align: center;
-      
         {% elsif block.settings.content_position_mobile == "top-right" %}
             justify-content: flex-end;
-      
         {% elsif block.settings.content_position_mobile == "bottom-right" %}
             align-items: flex-end;
             justify-content: flex-end;
@@ -80,45 +74,37 @@
           align-items: center;
           justify-content: unset;
           text-align: unset;
-        
         {% elsif block.settings.overlay_content_position == "middle-right" %}
           align-items: center;
           justify-content: flex-end;
           text-align: unset;
-
         {% elsif block.settings.overlay_content_position == "bottom-left" %}
-            align-items: flex-end;
-            justify-content: unset;
-            text-align: unset;
+          align-items: flex-end;
+          justify-content: unset;
+          text-align: unset;
         {% elsif block.settings.overlay_content_position == "bottom-center" %}
-            align-items: flex-end;
-            justify-content: center;
-            text-align: center;
-      
+          align-items: flex-end;
+          justify-content: center;
+          text-align: center;    
         {% elsif block.settings.overlay_content_position == "top-right" %}
           align-items: unset;    
           justify-content: flex-end;
           text-align: unset;
-      
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
-            align-items: flex-end;
-            justify-content: flex-end;
-            text-align: unset;
+          align-items: flex-end;
+          justify-content: flex-end;
+          text-align: unset;
         {% elsif block.settings.overlay_content_position == "middle-center" %}
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
         {% endif %}
-        
-
       {% endif %}
     
     }
 
     @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .slideshow__text-wrapper {
-
-
         {% if block.settings.overlay_content_position == "top-left" %}
           align-items: flex-start;
           justify-content: flex-start;
@@ -131,34 +117,30 @@
           align-items: center;
           justify-content: unset;
           text-align: unset;
-        
         {% elsif block.settings.overlay_content_position == "middle-right" %}
           align-items: center;
           justify-content: flex-end;
           text-align: unset;
-
         {% elsif block.settings.overlay_content_position == "bottom-left" %}
-            align-items: flex-end;
-            justify-content: unset;
-            text-align: unset;
+          align-items: flex-end;
+          justify-content: unset;
+          text-align: unset;
         {% elsif block.settings.overlay_content_position == "bottom-center" %}
-            align-items: flex-end;
-            justify-content: center;
-            text-align: center;
-      
+          align-items: flex-end;
+          justify-content: center;
+          text-align: center;
         {% elsif block.settings.overlay_content_position == "top-right" %}
           align-items: unset;    
           justify-content: flex-end;
           text-align: unset;
-      
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
-            align-items: flex-end;
-            justify-content: flex-end;
-            text-align: unset;
+          align-items: flex-end;
+          justify-content: flex-end;
+          text-align: unset;
         {% elsif block.settings.overlay_content_position == "middle-center" %}
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
         {% endif %}
       }
     }
@@ -183,7 +165,6 @@
         {% if block.settings.impact-font == true %}
           font-size: calc({{ block.settings.heading_font_size_desktop }}px*1.55);
           line-height: calc({{ block.settings.heading_font_size_desktop }}px*1.5);
-          {% comment %} line-height: calc({{ block.settings.heading_font_size_desktop }}px/2.25); {% endcomment %}
         {% else %}
           font-size: {{ block.settings.heading_font_size_desktop }}px;
         {% endif %}
@@ -203,44 +184,48 @@
       }
     }
 
-    {% if block.settings.impact-font == true %}
+    #block-{{ section.id }}-{{ block.id }} .text-container {
+      position: relative;
+      bottom: {{ block.settings.nudge_text_y-axis_mobile }}%;
+      left: {{ block.settings.nudge_text_x-axis_mobile }}%;
+    }
 
+    @media screen and (min-width: 740px) {
+      #block-{{ section.id }}-{{ block.id }} .text-container {
+        bottom: {{ block.settings.nudge_text_y-axis_desktop }}%;
+        left: {{ block.settings.nudge_text_x-axis_desktop }}%;
+      }
+    }
+
+    {% if block.settings.impact-font == true %}
       #block-{{ section.id }}-{{ block.id }} .text-container {
         width: auto;
       }
 
       #block-{{ section.id }}-{{ block.id }} .heading {
         -webkit-font-smoothing: subpixel-antialiased;
-        -webkit-text-stroke: 2px white;
+        -webkit-text-stroke: 1px white;
         backface-visibility: hidden;
         color: black;
         color: transparent;
         font-family: "Anton", sans-serif;
-        {% comment %} font-size: 90px; {% endcomment %}
         font-weight: 400;
+        margin-bottom: 0;
         text-align: center;
         transform: scaleY(0.45) scaleX(1) translateZ(0);
-        margin-bottom: 0;
-        {% comment %} position: relative;
-        top: -23px; {% endcomment %}
       }
 
       @media screen and (min-width: 740px) {
         #block-{{ section.id }}-{{ block.id }} .heading {
-          {% comment %} font-size: 150px; {% endcomment %}
-          {% comment %} position: relative;
-          top: -64px; {% endcomment %}
-          -webkit-text-stroke: 3px white;
+          -webkit-text-stroke: 2px white;
         }
       }
 
       #block-{{ section.id }}-{{ block.id }} .subheading {
-        margin-top: 0;
-        {% comment %} position: relative;
-        top: -30px; {% endcomment %}
-        letter-spacing: 4.9px;
         font-weight: 400;
+        letter-spacing: 4.9px;
         line-height: 1.5;
+        margin-top: 0;
       }
 
 
@@ -554,22 +539,70 @@
           "default": "middle-center"
       },
       {
+        "type": "select",
+        "id": "content_position_mobile",
+        "label": "Content Position Mobile",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "top-left",
+            "label": "Top left"
+          },
+          {
+            "value": "top-center",
+            "label": "Top center"
+          },
+          {
+            "value": "top-right",
+            "label": "Top right"
+          },
+          {
+            "value": "middle-left",
+            "label": "Middle left"
+          },
+          {
+            "value": "middle-center",
+            "label": "Middle center"
+          },
+          {
+            "value": "middle-right",
+            "label": "Middle right"
+          },
+          {
+            "value": "bottom-left",
+            "label": "Bottom left"
+          },
+          {
+            "value": "bottom-center",
+            "label": "Bottom center"
+          },
+          {
+            "value": "bottom-right",
+            "label": "Bottom right"
+          }
+        ],
+        "default": "none"
+      },
+      {
         "type": "checkbox",
         "id": "impact-font",
         "label": "Use Impact Font",
         "default": false
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Slide title"
       },
         {
           "type": "text",
           "id": "subheading",
           "label": "Subheading",
           "default": "Tell your story"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Heading",
-          "default": "Slide title"
         },
         {
           "type": "text",
@@ -629,54 +662,6 @@
           "step": 1,
           "unit": "%",
           "default": 30
-        },
-        {
-          "type": "select",
-          "id": "content_position_mobile",
-          "label": "Content Position Mobile",
-          "options": [
-            {
-              "value": "none",
-              "label": "None"
-            },
-            {
-              "value": "top-left",
-              "label": "Top left"
-            },
-            {
-              "value": "top-center",
-              "label": "Top center"
-            },
-            {
-              "value": "top-right",
-              "label": "Top right"
-            },
-            {
-              "value": "middle-left",
-              "label": "Middle left"
-            },
-            {
-              "value": "middle-center",
-              "label": "Middle center"
-            },
-            {
-              "value": "middle-right",
-              "label": "Middle right"
-            },
-            {
-              "value": "bottom-left",
-              "label": "Bottom left"
-            },
-            {
-              "value": "bottom-center",
-              "label": "Bottom center"
-            },
-            {
-              "value": "bottom-right",
-              "label": "Bottom right"
-            }
-          ],
-          "default": "none"
         },
         {
           "type": "range",
@@ -761,30 +746,10 @@
         },
         {
           "type": "range",
-          "id": "nudge_text_x-axis_desktop",
-          "label": "Nudge Text X-Axis Desktop",
-          "min": -30,
-          "max": 30,
-          "step": 1,
-          "default": 0,
-          "unit": "%"
-        },
-        {
-          "type": "range",
           "id": "nudge_text_x-axis_mobile",
           "label": "Nudge Text X-Axis Mobile",
-          "min": -30,
-          "max": 30,
-          "step": 1,
-          "default": 0,
-          "unit": "%"
-        },
-        {
-          "type": "range",
-          "id": "nudge_text_y-axis_desktop",
-          "label": "Nudge Text Y-Axis Desktop",
-          "min": -30,
-          "max": 30,
+          "min": -10,
+          "max": 10,
           "step": 1,
           "default": 0,
           "unit": "%"
@@ -793,8 +758,28 @@
           "type": "range",
           "id": "nudge_text_y-axis_mobile",
           "label": "Nudge Text Y-Axis Mobile",
-          "min": -30,
-          "max": 30,
+          "min": -10,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_x-axis_desktop",
+          "label": "Nudge Text X-Axis Desktop",
+          "min": -10,
+          "max": 10,
+          "step": 1,
+          "default": 0,
+          "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_text_y-axis_desktop",
+          "label": "Nudge Text Y-Axis Desktop",
+          "min": -10,
+          "max": 10,
           "step": 1,
           "default": 0,
           "unit": "%"

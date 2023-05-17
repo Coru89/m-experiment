@@ -15,9 +15,9 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Title_Desktop_01.png",
-            "overlay_content_position": "middle-center",
+            "overlay_content_position": "top-left",
             "impact-font": true,
-            "subheading": "Lorem Ipmsum",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at libero nec risus tincidunt luctus.",
             "title": "m-technology",
             "button_1_text": "",
             "button_1_link": "",
@@ -27,7 +27,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "content_position_mobile": "bottom-right",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": true,
+            "heading_drop_shadow_x-offset": 15,
+            "heading_drop_shadow_y-offset": 15,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 80,
+            "heading_font_size_mobile": 40,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 2,
+            "nudge_text_x-axis_mobile": 10,
+            "nudge_text_y-axis_desktop": -10,
+            "nudge_text_y-axis_mobile": 30
           }
         },
         "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-1": {
@@ -46,7 +60,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 30,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -55,7 +83,7 @@
         "template--15950527692950__ceb0eeae-dc5f-4ebf-b839-83f7d9697809-1677209833393b2445-1"
       ],
       "settings": {
-        "section_height": "auto",
+        "section_height": "medium",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -202,7 +230,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 20
+            "overlay_opacity": 20,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -213,7 +255,7 @@
 
       ],
       "settings": {
-        "section_height": "auto",
+        "section_height": "medium",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -412,7 +454,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 20
+            "overlay_opacity": 20,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": -1,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 5,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -423,7 +479,7 @@
 
       ],
       "settings": {
-        "section_height": "auto",
+        "section_height": "medium",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -464,7 +520,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -539,7 +609,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -704,7 +788,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -743,7 +841,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -782,7 +894,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
@@ -821,7 +947,21 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "content_position_mobile": "none",
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_mobile": 0
           }
         }
       },
