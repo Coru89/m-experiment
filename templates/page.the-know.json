@@ -94,7 +94,7 @@
             "overlay_opacity": 30,
             "impact-font": true,
             "title": "New Begginings",
-            "heading_font_size_desktop": 80,
+            "heading_font_size_desktop": 70,
             "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_fill_color": "#000000",
