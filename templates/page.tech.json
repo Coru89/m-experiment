@@ -862,6 +862,7 @@
       "blocks": {
         "5c373ad6-7a66-400a-a553-fb430bc2e4dc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4120.jpg",
             "mobile_image": "shopify:\/\/shop_images\/lens-clutch-mobile.png",
