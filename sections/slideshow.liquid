@@ -196,25 +196,17 @@
     }
 
     {% if block.settings.subheading_narrow_width == true %}
-      
         @media screen and (min-width: 740px) {
           #block-{{ section.id }}-{{ block.id }} .subheading {
-
               width: 280px;
-
           }
         }
 
         @media screen and (min-width: 1200px) {
-      #block-{{ section.id }}-{{ block.id }} .subheading {
-       
-
+          #block-{{ section.id }}-{{ block.id }} .subheading {
             width: 350px;
-            
-
         }
       }
-      
     {% endif %}
 
     @media screen and (min-width: 1000px) {
