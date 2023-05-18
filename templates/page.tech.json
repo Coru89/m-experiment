@@ -989,7 +989,7 @@
             "mobile_image": "shopify:\/\/shop_images\/shackle-mobile.png",
             "overlay_opacity": 0,
             "impact-font": false,
-            "title": "SHACKLE",
+            "title": "RATCHET",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
@@ -1015,10 +1015,45 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
+        },
+        "b74f0135-e3a0-4fc9-ba62-8a01ea7e6da8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shackle_Nose_Piece.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ratchet_Nose_Piece_mobile.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "RATCHET",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#FFFFFF",
+            "subheading": "Designed to attached to the frame's bridge.  Adjustable for different nose sizes and provides a secure, non-slip fit.",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "top-left",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2"
+        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2",
+        "b74f0135-e3a0-4fc9-ba62-8a01ea7e6da8"
       ],
       "custom_css": [
 
