@@ -811,6 +811,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Dual_Chamber_Infusion_02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Dual_Chamber_Infusion_mobile_02.jpg",
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "DUAL CHAMBER INFUSION",
