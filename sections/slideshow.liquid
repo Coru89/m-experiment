@@ -223,6 +223,8 @@
         letter-spacing: 3px;
         transform: scaleY(0.55) scaleX(1) translateZ(0);
         margin-bottom: 1rem;
+        font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 6vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
+        line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 6vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
       }
 
       @media screen and (min-width: 740px) {
