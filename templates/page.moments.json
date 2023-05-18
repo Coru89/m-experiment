@@ -52,7 +52,7 @@
             "impact-font": true,
             "title": "The Moments",
             "heading_font_size_desktop": 75,
-            "heading_font_size_mobile": 35,
+            "heading_font_size_mobile": 32,
             "heading_font_opacity": 1,
             "heading_fill_color": "#000000",
             "heading_fill_opacity": 0.4,
