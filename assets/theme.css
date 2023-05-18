@@ -15377,7 +15377,7 @@ h3.heading.heading--small {
 /* slideshow customizations */
 
 .slideshow__text-wrapper .heading {
-   word-wrap: break-word;
+   word-break: break-all;
 } 
 
 @media screen and (min-width: 740px) {
