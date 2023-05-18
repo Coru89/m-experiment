@@ -1108,6 +1108,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Slics.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Slics_mobile.jpg",
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "SLICS",
@@ -1121,7 +1122,7 @@
             "subheading": "Atomic 14 ear pads for a non-slip grip",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "overlay_content_position": "middle-right",
+            "overlay_content_position": "bottom-right",
             "content_position_mobile": "none",
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": 0,
