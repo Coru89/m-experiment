@@ -1021,7 +1021,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shackle_Nose_Piece.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Ratchet_Nose_Piece_mobile.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ratchet_mobile.jpg",
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "RATCHET",
@@ -1035,7 +1035,7 @@
             "subheading": "Adjustable for different nose sizes and provides a secure, non-slip fit.",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "overlay_content_position": "top-left",
+            "overlay_content_position": "bottom-left",
             "content_position_mobile": "none",
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": 0,
@@ -1072,6 +1072,7 @@
       "blocks": {
         "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4124.jpg",
             "mobile_image": "shopify:\/\/shop_images\/slics-mobile.png",
