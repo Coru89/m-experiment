@@ -48,6 +48,7 @@
       "blocks": {
         "template--15613745332374__eed23217-bfd8-43c9-900b-f97700c79a8a-1674948253476c5fac-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2160x1000_new_beginnings_2_e9e8645a-b268-448f-b66a-3491794c4e26.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_new_beginnings_2_2f62c73b-70d8-48e5-adac-0cfddb415a63.jpg",
