@@ -103,7 +103,7 @@
 
     }
 
-    @media screen and (min-width: 740px) {
+    @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} .slideshow__text-wrapper {
         {% if block.settings.overlay_content_position == "top-left" %}
           align-items: flex-start;
@@ -178,11 +178,11 @@
         text-transform: uppercase;
       {% endif %}
       {% if block.settings.subheading_bold == true %}
-        font-weight: 700;
+        font-weight: 500;
       {% endif %}
     }
 
-    @media screen and (min-width: 740px) {
+    @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} .subheading {
         font-size: {{ block.settings.subheading_font_size_desktop }}px;
         {% if block.settings.overlay_content_position == "top-center" or block.settings.overlay_content_position == "bottom-center" or block.settings.overlay_content_position == "middle-center" %}
@@ -199,7 +199,7 @@
       left: {{ block.settings.nudge_text_x-axis_mobile }}%;
     }
 
-    @media screen and (min-width: 740px) {
+    @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} .text-container {
         bottom: {{ block.settings.nudge_text_y-axis_desktop }}%;
         left: {{ block.settings.nudge_text_x-axis_desktop }}%;
@@ -243,7 +243,7 @@
         margin-top: 0;
 
         {% if block.settings.subheading_bold == true %}
-          font-weight: 700;
+          font-weight: 500;
         {% else %}
           font-weight: 300;
         {% endif %}
@@ -253,7 +253,7 @@
         #block-{{ section.id }}-{{ block.id }} .subheading  {
           letter-spacing: 4.5px;
           {% if block.settings.subheading_bold == true %}
-            font-weight: 700;
+            font-weight: 500;
           {% else %}
             font-weight: 400;
           {% endif %}
