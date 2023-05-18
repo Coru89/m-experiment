@@ -18,7 +18,6 @@
             "overlay_opacity": 0,
             "impact-font": true,
             "title": "m-technology",
-<<<<<<< HEAD
             "heading_font_size_desktop": 60,
             "heading_font_size_mobile": 26,
             "heading_font_opacity": 0.9,
@@ -31,19 +30,9 @@
             "subheading_type": "default",
             "subheading_uppercase": false,
             "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at libero nec risus tincidunt luctus.",
-=======
-            "heading_font_size_desktop": 100,
-            "heading_font_size_mobile": 50,
-            "heading_font_opacity": 0.9,
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": -2,
-            "heading_drop_shadow_y-offset": 6,
-            "heading_drop_shadow_color": "#ffffff",
-            "subheading": "",
->>>>>>> 95b323815e1f646a8660330281a64e176d81cd62
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 13,
-            "overlay_content_position": "middle-center",
+            "overlay_content_position": "top-left",
             "content_position_mobile": "bottom-left",
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": 0,
