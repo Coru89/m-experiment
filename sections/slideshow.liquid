@@ -189,7 +189,33 @@
       {% if block.settings.subheading_bold == true %}
         font-weight: 500;
       {% endif %}
+
+      {% if block.settings.subheading_narrow_width == true %}
+        width: 40vw;
+      {% endif %}
     }
+
+    {% if block.settings.subheading_narrow_width == true %}
+      
+        @media screen and (min-width: 740px) {
+          #block-{{ section.id }}-{{ block.id }} .subheading {
+
+              width: 280px;
+
+          }
+        }
+
+        @media screen and (min-width: 1200px) {
+      #block-{{ section.id }}-{{ block.id }} .subheading {
+       
+
+            width: 350px;
+            
+
+        }
+      }
+      
+    {% endif %}
 
     @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} .subheading {
@@ -695,6 +721,12 @@
           "type": "checkbox",
           "id": "subheading_bold",
           "label": "Bold",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "subheading_narrow_width",
+          "label": "Narrow Width",
           "default": false
         },
         {

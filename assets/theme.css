@@ -15422,28 +15422,7 @@ h3.heading.heading--small {
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5;
-  width: 40vw;
 }
-
-@media screen and (min-width: 740px) {
-  .slideshow .subheading {
-    width: 280px;
-  }
-}
-
-/* @media screen and (min-width: 1000px) {
-  .slideshow .subheading {
-    width: 300px;
-  }
-} */
-
-@media screen and (min-width: 1200px) {
-  .slideshow .subheading {
-    width: 350px;
-    
-  }
-}
-
 
 @media screen and (min-width: 740px) {
   .slideshow h3.heading--small {
