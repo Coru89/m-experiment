@@ -92,7 +92,7 @@
             "overlay_content_position": "middle-left",
             "content_position_mobile": "top-center",
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": -4,
             "nudge_text_x-axis_desktop": 2,
             "nudge_text_y-axis_desktop": 7,
             "button_1_text": "",
