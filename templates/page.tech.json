@@ -898,6 +898,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lens_Clutch.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Lens_Clutch_mobile.jpg",
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "LENS CLUTCH",
@@ -911,7 +912,7 @@
             "subheading": "The quickest, most secure way to switch lenses.",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
-            "overlay_content_position": "middle-center",
+            "overlay_content_position": "bottom-right",
             "content_position_mobile": "none",
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": 0,
