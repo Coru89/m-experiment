@@ -353,8 +353,8 @@
 
           {%- if block.settings.title != blank -%}
             <h2 class="heading h3">
-              {% comment %} <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title }}</split-lines> {% endcomment %}
-              {{ block.settings.title }}
+              <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title }}</split-lines>
+              {% comment %} {{ block.settings.title }} {% endcomment %}
             </h2>
           {%- endif -%}
 
