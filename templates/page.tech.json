@@ -18,12 +18,12 @@
             "overlay_opacity": 0,
             "impact-font": true,
             "title": "m-technology",
+            "heading_font_size_desktop": 80,
+            "heading_font_size_mobile": 50,
             "heading_font_opacity": 0.9,
             "heading_drop_shadow": true,
             "heading_drop_shadow_x-offset": 15,
             "heading_drop_shadow_y-offset": 15,
-            "heading_font_size_desktop": 80,
-            "heading_font_size_mobile": 50,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at libero nec risus tincidunt luctus.",
             "subheading_font_size_desktop": 16,
@@ -51,12 +51,12 @@
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "Slide 2",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "Tell your story",
             "subheading_font_size_desktop": 16,
@@ -221,12 +221,12 @@
             "overlay_opacity": 20,
             "impact-font": false,
             "title": "Plasmachromatic",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "These mirrored lenses reflect light away from your eyes, reducing glare and eye strain while giving you privacy",
             "subheading_font_size_desktop": 16,
@@ -255,7 +255,7 @@
 
       ],
       "settings": {
-        "section_height": "small",
+        "section_height": "auto",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -445,12 +445,12 @@
             "overlay_opacity": 20,
             "impact-font": false,
             "title": "Eye Fence",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
             "subheading_font_size_desktop": 16,
@@ -479,7 +479,7 @@
 
       ],
       "settings": {
-        "section_height": "small",
+        "section_height": "auto",
         "transition_type": "sweep",
         "autoplay": true,
         "cycle_speed": 5,
@@ -511,12 +511,12 @@
             "overlay_opacity": 0,
             "impact-font": false,
             "title": "POLARIZED",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "",
             "subheading_font_size_desktop": 16,
@@ -601,12 +601,12 @@
             "overlay_opacity": 0,
             "impact-font": false,
             "title": "NON-HDO",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "",
             "subheading_font_size_desktop": 16,
@@ -774,18 +774,19 @@
       "blocks": {
         "abe46ed9-4f0f-4729-b675-a1de289f0505": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4117.jpg",
             "mobile_image": "shopify:\/\/shop_images\/dual-chamber-infusion-mobile.png",
             "overlay_opacity": 0,
             "impact-font": false,
             "title": "Dual Chamber Infusion",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "2 SHOT COLOR PROCESS.",
             "subheading_font_size_desktop": 16,
@@ -805,10 +806,45 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
+        },
+        "a4de9dad-ceb2-49ec-ab5c-5cc6bdc068bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dual_Chamber_Infusion_02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Dual_Chamber_Infusion_mobile_02.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "DUAL CHAMBER INFUSION",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "subheading": "2 SHOT COLOR PROCESS",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "bottom-left",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "abe46ed9-4f0f-4729-b675-a1de289f0505"
+        "abe46ed9-4f0f-4729-b675-a1de289f0505",
+        "a4de9dad-ceb2-49ec-ab5c-5cc6bdc068bf"
       ],
       "custom_css": [
 
@@ -826,18 +862,19 @@
       "blocks": {
         "5c373ad6-7a66-400a-a553-fb430bc2e4dc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4120.jpg",
             "mobile_image": "shopify:\/\/shop_images\/lens-clutch-mobile.png",
             "overlay_opacity": 0,
             "impact-font": false,
             "title": "LENS CLUTCH",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "The quickest, most secure way to switch lenses.",
             "subheading_font_size_desktop": 16,
@@ -857,10 +894,79 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
+        },
+        "ca9e559b-3e2f-4c48-a521-6faea62f4c7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lens_Clutch.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Lens_Clutch_mobile.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "LENS CLUTCH",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "subheading": "The quickest, most secure way to switch lenses.",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "bottom-right",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        },
+        "eeb5ded2-0bb4-461e-8499-a270f8f8a65c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "Slide title",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "subheading": "Tell your story",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "5c373ad6-7a66-400a-a553-fb430bc2e4dc"
+        "5c373ad6-7a66-400a-a553-fb430bc2e4dc",
+        "ca9e559b-3e2f-4c48-a521-6faea62f4c7b",
+        "eeb5ded2-0bb4-461e-8499-a270f8f8a65c"
       ],
       "custom_css": [
 
@@ -878,18 +984,19 @@
       "blocks": {
         "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4121.jpg",
             "mobile_image": "shopify:\/\/shop_images\/shackle-mobile.png",
             "overlay_opacity": 0,
             "impact-font": false,
-            "title": "SHACKLE",
+            "title": "RATCHET",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "Designed to attached to the frame's bridge.  Adjustable for different nose sizes and provides a secure, non-slip fit.",
             "subheading_font_size_desktop": 16,
@@ -909,10 +1016,45 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
+        },
+        "b74f0135-e3a0-4fc9-ba62-8a01ea7e6da8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shackle_Nose_Piece.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ratchet_mobile.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "RATCHET",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "subheading": "Adjustable for different nose sizes and provides a secure, non-slip fit.",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "bottom-left",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2"
+        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2",
+        "b74f0135-e3a0-4fc9-ba62-8a01ea7e6da8"
       ],
       "custom_css": [
 
@@ -930,18 +1072,19 @@
       "blocks": {
         "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_4124.jpg",
             "mobile_image": "shopify:\/\/shop_images\/slics-mobile.png",
             "overlay_opacity": 0,
             "impact-font": false,
             "title": "SLICS",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
             "heading_drop_shadow_color": "#ffffff",
             "subheading": "Ear socks that prevent discomfort or irritation.",
             "subheading_font_size_desktop": 16,
@@ -961,10 +1104,45 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
+        },
+        "8ce57e43-1875-4cf6-be1d-12b4cb925e8a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slics.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Slics_mobile.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "SLICS",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "subheading": "Atomic 14 ear pads for a non-slip grip",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "bottom-right",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb"
+        "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb",
+        "8ce57e43-1875-4cf6-be1d-12b4cb925e8a"
       ],
       "custom_css": [
 
