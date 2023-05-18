@@ -91,7 +91,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Website_2160x1080_12.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_12.jpg",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "impact-font": true,
             "title": "New Begginings",
             "heading_font_size_desktop": 55,
