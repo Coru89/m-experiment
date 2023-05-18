@@ -1103,10 +1103,44 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
+        },
+        "8ce57e43-1875-4cf6-be1d-12b4cb925e8a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slics.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "SLICS",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#FFFFFF",
+            "subheading": "Atomic 14 ear pads for a non-slip grip",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-right",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb"
+        "ca9d8793-9ec0-4dc5-bb1b-104fb0c5c9fb",
+        "8ce57e43-1875-4cf6-be1d-12b4cb925e8a"
       ],
       "custom_css": [
 
