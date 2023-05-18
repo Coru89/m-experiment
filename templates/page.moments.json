@@ -48,7 +48,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Website_2160x1080_06.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_06.jpg",
-            "overlay_opacity": 20,
+            "overlay_opacity": 30,
             "impact-font": true,
             "title": "The Moments",
             "heading_font_size_desktop": 75,
