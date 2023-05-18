@@ -161,20 +161,16 @@
       {% endif %}
     }
 
-    {% comment %} @media screen and (min-width: 740px) {
+    @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
         {% if block.settings.impact-font == true %}
           {% comment %} font-size: calc({{ block.settings.heading_font_size_desktop }}px*1.75);
           line-height: calc({{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
-          font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
-          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        {% else %}
-          {% comment %} font-size: {{ block.settings.heading_font_size_desktop }}px; {% endcomment %}
-          font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
+          font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
+          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
         {% endif %}
       }
-    } {% endcomment %}
-
+    }
     #block-{{ section.id }}-{{ block.id }} .subheading {
       font-size: {{ block.settings.subheading_font_size_mobile }}px;
       {% if block.settings.content_position_mobile == "top-center" or block.settings.content_position_mobile == "bottom-center" or block.settings.content_position_mobile == "middle-center" %}
