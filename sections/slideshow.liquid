@@ -177,6 +177,9 @@
       {% if block.settings.subheading_uppercase == true %}
         text-transform: uppercase;
       {% endif %}
+      {% if block.settings.subheading_bold == true %}
+        font-weight: 700;
+      {% endif %}
     }
 
     @media screen and (min-width: 740px) {
@@ -218,7 +221,6 @@
         font-family: "Impact", sans-serif;
         font-weight: 400;
         letter-spacing: 3px;
-        {% comment %} margin-bottom: 0; {% endcomment %}
         transform: scaleY(0.55) scaleX(1) translateZ(0);
         margin-bottom: 1rem;
       }
@@ -237,15 +239,24 @@
       }
 
       #block-{{ section.id }}-{{ block.id }} .subheading {
-        font-weight: 300;
         letter-spacing: 3px;
         margin-top: 0;
+
+        {% if block.settings.subheading_bold == true %}
+          font-weight: 700;
+        {% else %}
+          font-weight: 300;
+        {% endif %}
       }
 
       @media screen and (min-width: 740px) {
         #block-{{ section.id }}-{{ block.id }} .subheading  {
           letter-spacing: 4.5px;
-          font-weight: 400;
+          {% if block.settings.subheading_bold == true %}
+            font-weight: 700;
+          {% else %}
+            font-weight: 400;
+          {% endif %}
         }
       }
 
@@ -668,7 +679,13 @@
         {
           "type": "checkbox",
           "id": "subheading_uppercase",
-          "label": "Use Uppercase",
+          "label": "Uppercase",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "subheading_bold",
+          "label": "Bold",
           "default": false
         },
         {
