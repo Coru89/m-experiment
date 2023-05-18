@@ -15,7 +15,10 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 12px;
+        
+        @media screen and (min-width: 740px) {
+            padding: 12px;
+        }
 
         &-title,
         &-description {
@@ -39,6 +42,7 @@
             font-size: 15px;
             line-height: 23px;
             padding-top: 28px;
+            word-break: break-word;
 
             @media screen and (min-width: 740px) {
                 font-size: 18px;
