@@ -166,8 +166,8 @@
         "fe254021-864f-4893-b0be-ea2512881717": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Page_Desktop_04_V2.png",
-            "mobile_image": "shopify:\/\/shop_images\/M_Exp_Page_Mobile_04_6bb65c4b-39a1-4ad2-9c08-98472e27d527.jpg",
+            "image": "shopify:\/\/shop_images\/M_Exp_Page_Desktop_04_V2_8d5de450-723e-40a6-b76b-6cb8574ac0a8.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Exp_Page_Mobile_04_v2.png",
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "The Lab",
