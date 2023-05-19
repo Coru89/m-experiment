@@ -15,6 +15,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Tech_Title_Desktop_01.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Exp_Page_Mobile_11.jpg",
             "overlay_opacity": 0,
             "impact-font": true,
             "title": "m-technology",
