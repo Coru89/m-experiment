@@ -27,6 +27,7 @@
       "blocks": {
         "1657778372bfbfe7fa-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Website_2160x1080_13_6a715e39-9221-42d3-8db4-ae17482fb28b.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_MTM_3_7d76f5ea-85a3-48bf-ab40-267a92977123.jpg",
