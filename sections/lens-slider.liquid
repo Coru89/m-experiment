@@ -106,17 +106,19 @@
                                       <img class="product-item__primary-image lens-slider__item-image" loading="lazy" data-media-id="{{ lens_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
                                     {% endif %}
 
-                                    <div class="lens-slider__item-title">
-                                      {{ block.settings.title }} 
-                                    </div>
-                                  
-                                    {% comment %} {%- assign lens_icon_image = block.settings.lens_icon_image -%}
-                                    {% if lens_icon_image %}
-                                      <img class="product-item__primary-image lens-slider__item-image" loading="lazy" data-media-id="{{ lens_icon_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_icon_image, sizes: '40' %}>
-                                    {% endif %} {% endcomment %}
-
-                                    <div class="lens-slider__item-description">
-                                        {{ block.settings.lens_description }} 
+                                    <div class="lens-slider__content">
+                                      <div class="lens-slider__item-title">
+                                        {{ block.settings.title }} 
+                                      </div>
+                                    
+                                      {% comment %} {%- assign lens_icon_image = block.settings.lens_icon_image -%}
+                                      {% if lens_icon_image %}
+                                        <img class="product-item__primary-image lens-slider__item-image" loading="lazy" data-media-id="{{ lens_icon_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_icon_image, sizes: '40' %}>
+                                      {% endif %} {% endcomment %}
+  
+                                      <div class="lens-slider__item-description">
+                                          {{ block.settings.lens_description }} 
+                                      </div>
                                     </div>
                                 </div>
                         {%- endcase -%}
