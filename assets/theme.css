@@ -15401,17 +15401,17 @@ h3.heading.heading--small {
 
 @media screen and (min-width: 740px) {
   .slideshow .text-container {
-    padding: 30px 0;
+    padding: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .slideshow .text-container {
-    padding: 50px 0;
+    padding: 50px 100px;
   }
 }
 
-@media screen and (min-width: 740px) {
+/* @media screen and (min-width: 740px) {
   .slideshow .heading {
     padding: 0 30px;
     width: auto;
@@ -15422,7 +15422,7 @@ h3.heading.heading--small {
   .slideshow .heading {
     padding: 0 100px;
   }
-}
+} */
 
 .slideshow .subheading {
   color: #fff; 
