@@ -115,6 +115,7 @@
         },
         "c313b7b9-e3d1-42db-9259-2c6bd8f28469": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Webiste_Experiments_DT_01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_13.jpg",
@@ -171,7 +172,7 @@
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 0,
             "heading_drop_shadow_y-offset": 3,
-            "heading_drop_shadow_color": "#000",
+            "heading_drop_shadow_color": "#000000",
             "heading_drop_shadow_opacity": 16,
             "subheading_type": "default",
             "subheading_uppercase": false,
