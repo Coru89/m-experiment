@@ -169,7 +169,7 @@
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       {% endif %}
         {% comment %} opacity: {{ block.settings.heading_font_opacity }}; {% endcomment %}
-        opacity: var(--heading-font-opacity);
+        {% comment %} opacity: var(--heading-font-opacity); {% endcomment %}
       {% if block.settings.heading_drop_shadow == true %}
         filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 6px {{ dropShadowColor }});
       {% endif %}
@@ -278,7 +278,7 @@
 
       @media screen and (min-width: 740px) {
         #block-{{ section.id }}-{{ block.id }} .heading {
-          -webkit-text-stroke: 2px {{ block.settings.heading_stroke_color }};
+          -webkit-text-stroke: 2px {{ headingStrokeColor }};
         }
       }
     {% endif %}
