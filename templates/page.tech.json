@@ -318,6 +318,10 @@
         "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d",
         "38e836aa-10c5-4c1e-b30a-21f8b0868a2b"
       ],
+      "custom_css": [
+        ".product-list__inner:first-of-type {margin-top: 0rem;}",
+        ".lens-slider__content {position: relative; bottom: 2rem;}"
+      ],
       "settings": {
         "title": "Plasmachromatic Lens Options",
         "products_count": 8,
