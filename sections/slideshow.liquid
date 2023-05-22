@@ -184,7 +184,7 @@
       {% if block.settings.impact-font == true %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
         line-height: 1.25;
-        {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75); {% endcomment %}
+        line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
       {% else %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       {% endif %}
