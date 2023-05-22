@@ -494,7 +494,7 @@
             "subheading_text_align": "left",
             "subheading_text_align_mobile": "left",
             "subheading_color": "#ffffff",
-            "subheading_opacity": 80,
+            "subheading_opacity": 65,
             "overlay_content_position": "middle-left",
             "content_position_mobile": "top-left",
             "nudge_text_x-axis_mobile": 0,
