@@ -51,7 +51,7 @@
   width: 100%; }
   @media screen and (min-width: 740px) {
     .lens-slider__bottom-border {
-      padding-top: 4rem; } }
+      padding-top: 2.5rem; } }
   .lens-slider__bottom-border--yellow {
     background-color: #E2A829;
     height: 1px;
