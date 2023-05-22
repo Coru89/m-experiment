@@ -15469,6 +15469,7 @@ h3.heading.heading--small {
 }
 
 .article__label {
+  display: block;
   font-weight: 500;
   padding-bottom: 24px;
 }
