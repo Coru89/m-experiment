@@ -260,7 +260,7 @@
             "subheading_text_align": "left",
             "subheading_text_align_mobile": "center",
             "overlay_content_position": "middle-right",
-            "content_position_mobile": "none",
+            "content_position_mobile": "bottom-right",
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": 0,
             "nudge_text_x-axis_desktop": 0,
