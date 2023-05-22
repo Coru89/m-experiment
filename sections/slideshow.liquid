@@ -17,9 +17,9 @@
       {%- render 'color_to_rgba' with color: block.settings.heading_fill_color, opacity: headingFillOpacity -%}
     {% endcapture %}
 
-    {% assign headingFillOpacity = block.settings.heading_drop_shadow_opacity | prepend: '0.' | round: 2 %}
-    {% capture headingFillColor %}
-      {%- render 'color_to_rgba' with color: block.settings.heading_drop_shadow_color, opacity: headingFillOpacity -%}
+    {% assign headingStrokeOpacity = block.settings.heading_stroke_opacity | prepend: '0.' | round: 2 %}
+    {% capture headingStrokeColor %}
+      {%- render 'color_to_rgba' with color: block.settings.heading_stroke_color, opacity: headingStrokeOpacity -%}
     {% endcapture %}
 
     {% comment %} {%- assign text_position = block.settings.text_position | split: '_' | first -%}
@@ -650,8 +650,8 @@
         },
         {
           "type": "range",
-          "id": "heading_font_opacity",
-          "label": "Heading Font Opacity",
+          "id": "heading_stroke_opacity",
+          "label": "Heading Stroke Opacity",
           "min": 0,
           "max": 100,
           "step": 1,
