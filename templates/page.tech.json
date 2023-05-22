@@ -321,7 +321,7 @@
       "custom_css": [
         ".product-list__inner:first-of-type {margin-top: 0rem;}",
         ".lens-slider__content {position: relative; bottom: 2rem;}",
-        "@media screen and (min-width: 1000px) {.lens__header {margin-bottom: 0; }}"
+        "@media screen and (min-width: 1000px) {.lens-slider__header {margin-bottom: 0; }}"
       ],
       "settings": {
         "title": "Plasmachromatic Lens Options",
