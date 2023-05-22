@@ -390,6 +390,114 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
+    },
+    "56f96a37-a265-4e9c-91d1-694e024217db": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16021663252630__56f96a37-a265-4e9c-91d1-694e024217db-1684727142b7005ad7-0": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "Slide 1",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_fill_color": "#000000",
+            "heading_fill_opacity": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#FFFFFF",
+            "subheading_type": "default",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_narrow_width": false,
+            "subheading": "Tell your story",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--16021663252630__56f96a37-a265-4e9c-91d1-694e024217db-1684727142b7005ad7-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "c8e2d158-585f-4393-8d8b-32ce4ba6d0fc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16021663252630__c8e2d158-585f-4393-8d8b-32ce4ba6d0fc-1684727142b7005ad7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Golf__moments_9bd785ab-27c6-4c1e-aa18-5a9b04e23127.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Golf_moments_mob_598396fc-2c39-457b-b2b0-c9a48b139e60.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_fill_color": "#000000",
+            "heading_fill_opacity": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#FFFFFF",
+            "subheading_type": "default",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_narrow_width": false,
+            "subheading": "",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--16021663252630__c8e2d158-585f-4393-8d8b-32ce4ba6d0fc-1684727142b7005ad7-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -400,6 +508,8 @@
     "1775bbaf-8187-4b4a-a81f-1783b8e1b502",
     "c8ebc0ee-32cd-4ee0-8cd9-c4ec12c234e6",
     "5f441315-6615-4426-b95d-e14acaf469ec",
-    "fcedff0f-9eaa-4439-989b-d3e702d1f7a8"
+    "fcedff0f-9eaa-4439-989b-d3e702d1f7a8",
+    "56f96a37-a265-4e9c-91d1-694e024217db",
+    "c8e2d158-585f-4393-8d8b-32ce4ba6d0fc"
   ]
 }
