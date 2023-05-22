@@ -71,7 +71,7 @@
     <div class="section__color-wrapper">
         <div class="container vertical-breather">
             {%- if section.settings.title != blank or section.settings.subheading != blank or section.settings.content != blank -%}
-                <header class="section__header{% if section.settings.content != blank %}section__header--tight{% endif %}">
+                <header class="section__header lens-slider__header{% if section.settings.content != blank %}section__header--tight{% endif %}">
                     <div class="text-container">
                         {%- if section.settings.title != blank -%}
                             <h2 id="{{ section.settings.title | handleize }}" class="lens-slider__heading">{{ section.settings.title }}</h2>
