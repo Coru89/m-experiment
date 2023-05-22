@@ -227,6 +227,61 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
+    },
+    "c8ebc0ee-32cd-4ee0-8cd9-c4ec12c234e6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16021663252630__c8ebc0ee-32cd-4ee0-8cd9-c4ec12c234e6-1684727142b7005ad7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2160x1000_MTM_Method-to-Madness_5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_MTM_Method-to-Madness_-_3.jpg",
+            "overlay_opacity": 30,
+            "impact-font": false,
+            "title": "",
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "heading_font_opacity": 1,
+            "heading_fill_color": "#000000",
+            "heading_fill_opacity": 0,
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#FFFFFF",
+            "subheading_type": "default",
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "subheading_narrow_width": false,
+            "subheading": "",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--16021663252630__c8ebc0ee-32cd-4ee0-8cd9-c4ec12c234e6-1684727142b7005ad7-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -234,6 +289,7 @@
     "285fd1e9-715d-46bc-91b5-ac4cddba53de",
     "f5c6ec1d-d3b0-4558-8fd9-ccdab7d42a10",
     "66189850-8a37-4cb8-9ba0-bbdc0f8a8330",
-    "1775bbaf-8187-4b4a-a81f-1783b8e1b502"
+    "1775bbaf-8187-4b4a-a81f-1783b8e1b502",
+    "c8ebc0ee-32cd-4ee0-8cd9-c4ec12c234e6"
   ]
 }
