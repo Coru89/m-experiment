@@ -531,6 +531,9 @@
     },
     "9d031a7c-8a01-4d78-acf6-b455a691a1d4": {
       "type": "custom-html",
+      "custom_css": [
+        ".container {padding-bottom: 0;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
