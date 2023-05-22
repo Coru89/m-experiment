@@ -7,7 +7,12 @@
   }
 
   {%- for block in section.blocks -%}
-    {%- assign text_position = block.settings.text_position | split: '_' | first -%}
+    {% assign opacity = block.settings.heading_drop_shadow_opacity | prepend: '0.' | round: 2 %}
+    {% capture dropShadowColor %}
+      {%- render 'color_to_rgba' with color: block.settings.heading_drop_shadow_color, opacity: opacity -%}
+    {% endcapture %}
+
+    {% comment %} {%- assign text_position = block.settings.text_position | split: '_' | first -%}
 
     {%- case text_position -%}
       {%- when 'top' -%}
@@ -16,7 +21,7 @@
         {%- assign section_items_alignment = 'center' -%}
       {%- when 'bottom' -%}
         {%- assign section_items_alignment = 'flex-end' -%}
-    {%- endcase -%}
+    {%- endcase -%} {% endcomment %}
 
     #block-{{ section.id }}-{{ block.id }} {
       --heading-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
@@ -24,7 +29,7 @@
       --primary-button-background: {{ block.settings.button_background.red }}, {{ block.settings.button_background.green }}, {{ block.settings.button_background.blue }};
       --primary-button-text-color: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }};
 
-      --section-blocks-alignment: {{ section_items_alignment }};
+      {% comment %} --section-blocks-alignment: {{ section_items_alignment }}; {% endcomment %}
       --section-blocks-overlay-color: {{ block.settings.overlay_color.red }}, {{ block.settings.overlay_color.green }}, {{ block.settings.overlay_color.blue }};
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
     }
@@ -39,7 +44,7 @@
           justify-content: flex-start;
         {% elsif block.settings.content_position_mobile == "top-center" %}
           justify-content: center;
-          text-align: center;
+          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.content_position_mobile == "middle-left" %}
           align-items: center;
         {% elsif block.settings.content_position_mobile == "middle-right" %}
@@ -50,7 +55,7 @@
         {% elsif block.settings.content_position_mobile == "bottom-center" %}
             align-items: flex-end;
             justify-content: center;
-            text-align: center;
+            {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.content_position_mobile == "top-right" %}
             justify-content: flex-end;
         {% elsif block.settings.content_position_mobile == "bottom-right" %}
@@ -59,7 +64,7 @@
         {% elsif block.settings.content_position_mobile == "middle-center" %}
             align-items: center;
             justify-content: center;
-            text-align: center;
+            {% comment %} text-align: center; {% endcomment %}
         {% endif %}
       {% else %}
         {% if block.settings.overlay_content_position == "top-left" %}
@@ -69,38 +74,37 @@
         {% elsif block.settings.overlay_content_position == "top-center" %}
           align-items: unset;
           justify-content: center;
-          text-align: center;
+          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-left" %}
           align-items: center;
           justify-content: unset;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-right" %}
           align-items: center;
           justify-content: flex-end;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-left" %}
           align-items: flex-end;
           justify-content: unset;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-center" %}
           align-items: flex-end;
           justify-content: center;
-          text-align: center;
+          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "top-right" %}
           align-items: unset;
           justify-content: flex-end;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
           align-items: flex-end;
           justify-content: flex-end;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-center" %}
           align-items: center;
           justify-content: center;
-          text-align: center;
+          {% comment %} text-align: center; {% endcomment %}
         {% endif %}
       {% endif %}
-
     }
 
     @media screen and (min-width: 1000px) {
@@ -108,39 +112,39 @@
         {% if block.settings.overlay_content_position == "top-left" %}
           align-items: flex-start;
           justify-content: flex-start;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "top-center" %}
           align-items: unset;
           justify-content: center;
-          text-align: center;
+          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-left" %}
           align-items: center;
           justify-content: unset;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-right" %}
           align-items: center;
           justify-content: flex-end;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-left" %}
           align-items: flex-end;
           justify-content: unset;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-center" %}
           align-items: flex-end;
           justify-content: center;
-          text-align: center;
+          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "top-right" %}
           align-items: unset;
           justify-content: flex-end;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
           align-items: flex-end;
           justify-content: flex-end;
-          text-align: unset;
+          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-center" %}
           align-items: center;
           justify-content: center;
-          text-align: center;
+          {% comment %} text-align: center; {% endcomment %}
         {% endif %}
       }
     }
@@ -149,15 +153,12 @@
       {% if block.settings.impact-font == true %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
         line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        {% comment %} font-size: calc({{ block.settings.heading_font_size_mobile }}px*1.75);
-        line-height: calc({{ block.settings.heading_font_size_mobile }}px*1.5); {% endcomment %}
       {% else %}
-        {% comment %} font-size: {{ block.settings.heading_font_size_mobile }}px; {% endcomment %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       {% endif %}
         opacity: {{ block.settings.heading_font_opacity }};
       {% if block.settings.heading_drop_shadow == true %}
-        filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 4px {{ block.settings.heading_drop_shadow_color }});
+        filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 6px {{ dropShadowColor }});
       {% endif %}
     }
 
@@ -166,8 +167,6 @@
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
           line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
-          {% comment %} font-size: calc({{ block.settings.heading_font_size_desktop }}px*1.75);
-          line-height: calc({{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
         {% endif %}
       }
     }
@@ -180,6 +179,8 @@
 
     #block-{{ section.id }}-{{ block.id }} .subheading {
       font-size: {{ block.settings.subheading_font_size_mobile }}px;
+      text-align: {{ block.settings.subheading_text_align_mobile }};
+
       {% if block.settings.content_position_mobile == "top-center" or block.settings.content_position_mobile == "bottom-center" or block.settings.content_position_mobile == "middle-center" %}
         margin: auto;
       {% endif %}
@@ -189,7 +190,6 @@
       {% if block.settings.subheading_bold == true %}
         font-weight: 500;
       {% endif %}
-
       {% if block.settings.subheading_narrow_width == true %}
         width: 40vw;
       {% endif %}
@@ -198,7 +198,7 @@
     {% if block.settings.subheading_narrow_width == true %}
         @media screen and (min-width: 740px) {
           #block-{{ section.id }}-{{ block.id }} .subheading {
-              width: 280px;
+            width: 280px;
           }
         }
 
@@ -212,6 +212,7 @@
     @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} .subheading {
         font-size: {{ block.settings.subheading_font_size_desktop }}px;
+        text-align: {{ block.settings.subheading_text_align }};
         {% if block.settings.overlay_content_position == "top-center" or block.settings.overlay_content_position == "bottom-center" or block.settings.overlay_content_position == "middle-center" %}
           margin: auto;
         {% else %}
@@ -408,10 +409,10 @@
 
           {%- if section_content != blank -%}
             <div class="container">
-              {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
-              {%- assign text_position = block.settings.text_position | split: '_' | last -%}
+              {% comment %} {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
+              {%- assign text_position = block.settings.text_position | split: '_' | last -%} {% endcomment %}
 
-              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }}">
+              <div class="slideshow__text-wrapper">
                 <div class="text-container">
                   {{- section_content -}}
                 </div>
@@ -666,7 +667,7 @@
           "min": -30,
           "max": 30,
           "step": 1,
-          "default": 10,
+          "default": 0,
           "unit": "px"
         },
         {
@@ -676,14 +677,24 @@
           "min": -30,
           "max": 30,
           "step": 1,
-          "default": 10,
+          "default": 3,
           "unit": "px"
         },
         {
           "type": "color",
           "id": "heading_drop_shadow_color",
           "label": "Heading Drop Shadow Color",
-          "default": "#FFFFFF"
+          "default": "#000"
+        },
+        {
+          "type": "range",
+          "id": "heading_drop_shadow_opacity",
+          "label": "Heading Drop Shadow Opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 16,
+          "unit": "%"
         },
         {
           "type": "header",
@@ -747,6 +758,44 @@
           "step": 1,
           "default": 16,
           "unit": "px"
+        },
+        {
+          "type": "select",
+          "id": "subheading_text_align",
+          "label": "Subheading Text Align Desktop",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "subheading_text_align_mobile",
+          "label": "Subheading Text Align Mobile",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
         },
         {
           "type": "header",
