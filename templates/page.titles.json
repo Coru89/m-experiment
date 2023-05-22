@@ -50,49 +50,10 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
-        },
-        "template--16021663252630__285fd1e9-715d-46bc-91b5-ac4cddba53de-1684727142b7005ad7-1": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 30,
-            "impact-font": false,
-            "title": "Slide 2",
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
-            "heading_font_opacity": 1,
-            "heading_fill_color": "#000000",
-            "heading_fill_opacity": 0,
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 10,
-            "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#FFFFFF",
-            "subheading_type": "default",
-            "subheading_uppercase": false,
-            "subheading_bold": false,
-            "subheading_narrow_width": false,
-            "subheading": "Tell your story",
-            "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "overlay_content_position": "middle-center",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
         }
       },
       "block_order": [
-        "template--16021663252630__285fd1e9-715d-46bc-91b5-ac4cddba53de-1684727142b7005ad7-0",
-        "template--16021663252630__285fd1e9-715d-46bc-91b5-ac4cddba53de-1684727142b7005ad7-1"
+        "template--16021663252630__285fd1e9-715d-46bc-91b5-ac4cddba53de-1684727142b7005ad7-0"
       ],
       "settings": {
         "section_height": "auto",
@@ -144,49 +105,10 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000"
           }
-        },
-        "template--16021663252630__f5c6ec1d-d3b0-4558-8fd9-ccdab7d42a10-1684727142b7005ad7-1": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 30,
-            "impact-font": false,
-            "title": "Slide 2",
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
-            "heading_font_opacity": 1,
-            "heading_fill_color": "#000000",
-            "heading_fill_opacity": 0,
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 10,
-            "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#FFFFFF",
-            "subheading_type": "default",
-            "subheading_uppercase": false,
-            "subheading_bold": false,
-            "subheading_narrow_width": false,
-            "subheading": "Tell your story",
-            "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "overlay_content_position": "middle-center",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
         }
       },
       "block_order": [
-        "template--16021663252630__f5c6ec1d-d3b0-4558-8fd9-ccdab7d42a10-1684727142b7005ad7-0",
-        "template--16021663252630__f5c6ec1d-d3b0-4558-8fd9-ccdab7d42a10-1684727142b7005ad7-1"
+        "template--16021663252630__f5c6ec1d-d3b0-4558-8fd9-ccdab7d42a10-1684727142b7005ad7-0"
       ],
       "settings": {
         "section_height": "auto",
