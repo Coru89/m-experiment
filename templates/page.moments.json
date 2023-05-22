@@ -5,7 +5,6 @@
       "blocks": {
         "template--15898702741654__830c2257-c367-433c-a96e-50887de39db9-1674948253476c5fac-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Golf__moments_1edbdd61-e76d-45f4-9d49-17ffd2fdbd61.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Golf_moments_mob_ad204508-55fe-4048-a59d-930f9c277a85.jpg",
@@ -20,10 +19,11 @@
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#FFFFFF",
+            "heading_drop_shadow_color": "#ffffff",
             "subheading_type": "default",
             "subheading_uppercase": false,
             "subheading_bold": false,
+            "subheading_narrow_width": false,
             "subheading": "",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -59,10 +59,11 @@
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#FFFFFF",
+            "heading_drop_shadow_color": "#ffffff",
             "subheading_type": "default",
             "subheading_uppercase": true,
             "subheading_bold": true,
+            "subheading_narrow_width": false,
             "subheading": "Embrace the journey",
             "subheading_font_size_desktop": 24,
             "subheading_font_size_mobile": 16,

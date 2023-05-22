@@ -27,8 +27,9 @@
       "blocks": {
         "1657778372bfbfe7fa-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/2160x1000_MTM_5_397d21e9-531d-4147-8935-6642561bdee6.jpg",
+            "image": "shopify:\/\/shop_images\/M_Website_2160x1080_13_6a715e39-9221-42d3-8db4-ae17482fb28b.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_MTM_3_7d76f5ea-85a3-48bf-ab40-267a92977123.jpg",
             "overlay_opacity": 0,
             "impact-font": false,
@@ -109,13 +110,13 @@
         "c313b7b9-e3d1-42db-9259-2c6bd8f28469": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Website_2160x1080_13_6a715e39-9221-42d3-8db4-ae17482fb28b.jpg",
+            "image": "shopify:\/\/shop_images\/M_Webiste_Experiments_DT_01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_13.jpg",
             "overlay_opacity": 30,
             "impact-font": true,
             "title": "METHOD TO MADNESS",
             "heading_font_size_desktop": 64,
-            "heading_font_size_mobile": 26,
+            "heading_font_size_mobile": 35,
             "heading_font_opacity": 1,
             "heading_fill_color": "#000000",
             "heading_fill_opacity": 0,
@@ -124,8 +125,8 @@
             "heading_drop_shadow_y-offset": 10,
             "heading_drop_shadow_color": "#ffffff",
             "subheading_type": "default",
-            "subheading_uppercase": false,
-            "subheading_bold": false,
+            "subheading_uppercase": true,
+            "subheading_bold": true,
             "subheading_narrow_width": false,
             "subheading": "IT'S IN OUR DNA",
             "subheading_font_size_desktop": 16,
@@ -166,8 +167,8 @@
         "fe254021-864f-4893-b0be-ea2512881717": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Page_Desktop_04_V2.png",
-            "mobile_image": "shopify:\/\/shop_images\/M_Exp_Page_Mobile_04_6bb65c4b-39a1-4ad2-9c08-98472e27d527.jpg",
+            "image": "shopify:\/\/shop_images\/M_Exp_Page_Desktop_04_V2_8d5de450-723e-40a6-b76b-6cb8574ac0a8.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Exp_Page_Mobile_04_v3.png",
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "The Lab",
