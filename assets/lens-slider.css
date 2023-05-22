@@ -1,5 +1,5 @@
 .lens-slider .container {
-  padding: 70px var(--container-gutter); }
+  padding: 3rem var(--container-gutter); }
   @media screen and (min-width: 740px) {
     .lens-slider .container {
       padding: var(--vertical-breather) var(--container-gutter); } }
@@ -47,8 +47,11 @@
   display: -ms-flexbox;
   display: flex;
   height: 1px;
-  padding-top: 4rem;
+  padding-top: 2rem;
   width: 100%; }
+  @media screen and (min-width: 740px) {
+    .lens-slider__bottom-border {
+      padding-top: 4rem; } }
   .lens-slider__bottom-border--yellow {
     background-color: #E2A829;
     height: 1px;

@@ -1,6 +1,6 @@
 .lens-slider {
     .container {
-        padding: 70px var(--container-gutter);
+        padding: 3rem var(--container-gutter);
 
         @media screen and (min-width: 740px) {
             padding: var(--vertical-breather) var(--container-gutter);
@@ -53,8 +53,12 @@
     &__bottom-border {
         display: flex;
         height: 1px;
-        padding-top: 4rem;
+        padding-top: 2rem;
         width: 100%;
+
+        @media screen and (min-width: 740px) {
+            padding-top: 4rem;
+        }
 
         &--yellow {
             background-color: #E2A829;
