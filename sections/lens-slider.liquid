@@ -101,15 +101,15 @@
                                 {% assign count = count | plus: 1 %}
                                 {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: variant.image.aspect_ratio -%}
                                 <div class="lens-slider__item">
-                                    <div class="lens-slider__item-title">
-                                        {{ block.settings.title }} 
-                                    </div>
-                                    
                                     {%- assign lens_image = block.settings.lens_image -%}
                                     {% if lens_image %}
                                       <img class="product-item__primary-image lens-slider__item-image" loading="lazy" data-media-id="{{ lens_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
                                     {% endif %}
 
+                                    <div class="lens-slider__item-title">
+                                      {{ block.settings.title }} 
+                                    </div>
+                                  
                                     {%- assign lens_icon_image = block.settings.lens_icon_image -%}
                                     {% if lens_icon_image %}
                                       <img class="product-item__primary-image lens-slider__item-image" loading="lazy" data-media-id="{{ lens_icon_image.id | escape }}" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: lens_icon_image, sizes: '40' %}>
