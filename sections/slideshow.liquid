@@ -182,7 +182,6 @@
     @media screen and (min-width: 741px) and (max-width: 999px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        line-height: 1.5;
         {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
       }
     }
@@ -191,7 +190,7 @@
       #block-{{ section.id }}-{{ block.id }} .heading {
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
+          {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
         {% endif %}
       }
     }
