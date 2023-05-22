@@ -890,7 +890,7 @@
             "subheading_narrow_width": false,
             "subheading": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             "subheading_font_size_desktop": 22,
-            "subheading_font_size_mobile": 18,
+            "subheading_font_size_mobile": 16,
             "subheading_text_align": "center",
             "subheading_text_align_mobile": "center",
             "subheading_color": "#ffffff",
