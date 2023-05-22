@@ -224,7 +224,6 @@
       font-size: {{ block.settings.subheading_font_size_mobile }}px;
       text-align: {{ block.settings.subheading_text_align_mobile }};
       color: {{ subheadingColor }};
-      margin-top: 0;
 
       {% if block.settings.content_position_mobile == "top-center" or block.settings.content_position_mobile == "bottom-center" or block.settings.content_position_mobile == "middle-center" %}
         margin: auto;
@@ -303,6 +302,11 @@
           -webkit-text-stroke: 2px {{ headingStrokeColor }};
         }
       }
+
+      #block-{{ section.id }}-{{ block.id }} .subheading {
+        margin: 0;
+      }
+
     {% endif %}
 
     {% comment %} ***Subheading Styles*** {% endcomment %}
