@@ -12,6 +12,11 @@
       {%- render 'color_to_rgba' with color: block.settings.heading_drop_shadow_color, opacity: dropShadowOpacity -%}
     {% endcapture %}
 
+    {% assign headingFillOpacity = block.settings.heading_fill_opacity | prepend: '0.' | round: 2 %}
+    {% capture headingFillColor %}
+      {%- render 'color_to_rgba' with color: block.settings.heading_fill_color, opacity: headingFillOpacity -%}
+    {% endcapture %}
+
     {% assign headingFillOpacity = block.settings.heading_drop_shadow_opacity | prepend: '0.' | round: 2 %}
     {% capture headingFillColor %}
       {%- render 'color_to_rgba' with color: block.settings.heading_drop_shadow_color, opacity: headingFillOpacity -%}
@@ -660,12 +665,6 @@
           "default": "#000000"
         },
         {
-          "type": "color",
-          "id": "heading_stroke_color",
-          "label": "Heading Stroke Color",
-          "default": "#fff"
-        },
-        {
           "type": "range",
           "id": "heading_fill_opacity",
           "label": "Heading Fill Opacity",
@@ -674,6 +673,12 @@
           "step": 1,
           "default": 0,
           "unit": "%"
+        },
+        {
+          "type": "color",
+          "id": "heading_stroke_color",
+          "label": "Heading Stroke Color",
+          "default": "#fff"
         },
         {
           "type": "header",
