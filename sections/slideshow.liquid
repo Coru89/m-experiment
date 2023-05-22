@@ -224,6 +224,7 @@
       font-size: {{ block.settings.subheading_font_size_mobile }}px;
       text-align: {{ block.settings.subheading_text_align_mobile }};
       color: {{ subheadingColor }};
+      margin-top: 0;
 
       {% if block.settings.content_position_mobile == "top-center" or block.settings.content_position_mobile == "bottom-center" or block.settings.content_position_mobile == "middle-center" %}
         margin: auto;
@@ -294,7 +295,7 @@
         font-weight: 400;
         letter-spacing: 1px;
         transform: scaleY(0.55) scaleX(1) translateZ(0);
-        margin-bottom: 0;
+        margin: 0;
       }
 
       @media screen and (min-width: 740px) {
