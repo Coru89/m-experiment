@@ -287,12 +287,12 @@
 
       #block-{{ section.id }}-{{ block.id }} .heading {
         -webkit-font-smoothing: subpixel-antialiased;
-        -webkit-text-stroke: 1.5px {{ headingStrokeColor }};
+        -webkit-text-stroke: 1px {{ headingStrokeColor }};
         backface-visibility: hidden;
         color: {{ headingFillColor }};
         font-family: "Impact", sans-serif;
         font-weight: 400;
-        {% comment %} letter-spacing: 3px; {% endcomment %}
+        letter-spacing: 1px;
         transform: scaleY(0.5) scaleX(1) translateZ(0);
         margin-bottom: 0;
       }
