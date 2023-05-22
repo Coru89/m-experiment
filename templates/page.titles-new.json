@@ -607,7 +607,7 @@
             "subheading_text_align": "center",
             "subheading_text_align_mobile": "center",
             "subheading_color": "#ffffff",
-            "subheading_opacity": 100,
+            "subheading_opacity": 80,
             "overlay_content_position": "middle-center",
             "content_position_mobile": "none",
             "nudge_text_x-axis_mobile": 0,
