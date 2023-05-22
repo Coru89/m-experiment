@@ -202,7 +202,7 @@
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
           line-height: 1.35;
-          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
+          {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
         {% endif %}
       }
     }
@@ -888,6 +888,22 @@
               "label": "Right"
             }
           ]
+        },
+        {
+          "type": "color",
+          "id": "subheading_color",
+          "label": "Subheading Color",
+          "default": "#fff"
+        },
+        {
+          "type": "range",
+          "id": "subheading_opacity",
+          "label": "Subheading Opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 16,
+          "unit": "%"
         },
         {
           "type": "header",
