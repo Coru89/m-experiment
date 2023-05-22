@@ -779,7 +779,7 @@
             "subheading": "It's our DNA",
             "subheading_font_size_desktop": 30,
             "subheading_font_size_mobile": 18,
-            "subheading_text_align": "left",
+            "subheading_text_align": "right",
             "subheading_text_align_mobile": "center",
             "subheading_color": "#ffffff",
             "subheading_opacity": 65,
