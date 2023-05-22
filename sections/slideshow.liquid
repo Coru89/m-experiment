@@ -179,7 +179,7 @@
       #block-{{ section.id }}-{{ block.id }} .heading {
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-          line-height: 1.5;
+          line-height: 1.35;
           {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
         {% endif %}
       }
@@ -314,7 +314,7 @@
 
       @media screen and (min-width: 740px) {
         #block-{{ section.id }}-{{ block.id }} .subheading * {
-          line-height: 1.35;
+          line-height: 1.5;
         }
       }
     {% endif %}
