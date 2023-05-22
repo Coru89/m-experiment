@@ -132,6 +132,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/2160x1000_Action_Jigawatt_dsk.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1000x1400_Action_Jigawatt_mob.jpg",
             "overlay_opacity": 30,
             "impact-font": false,
             "title": "",
