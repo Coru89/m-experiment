@@ -198,17 +198,18 @@
     @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
         text-align: {{ block.settings.heading_text_align_desktop }};
+
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
           line-height: 1.35;
-          {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
+          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
         {% endif %}
       }
     }
     @media screen and (min-width: 741px) and (max-width: 999px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
+        line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
       }
     }
 
@@ -216,7 +217,7 @@
       #block-{{ section.id }}-{{ block.id }} .heading {
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-          {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
+          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
         {% endif %}
       }
     }
