@@ -398,9 +398,10 @@
         "template--16021663252630__56f96a37-a265-4e9c-91d1-694e024217db-1684727142b7005ad7-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-04-18_at_9.29.16_AM.png",
             "overlay_opacity": 30,
             "impact-font": false,
-            "title": "Slide 1",
+            "title": "",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
             "heading_font_opacity": 1,
@@ -414,7 +415,7 @@
             "subheading_uppercase": false,
             "subheading_bold": false,
             "subheading_narrow_width": false,
-            "subheading": "Tell your story",
+            "subheading": "",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
             "overlay_content_position": "middle-center",
