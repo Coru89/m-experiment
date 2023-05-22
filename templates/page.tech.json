@@ -537,7 +537,7 @@
         "html": "",
         "add_vertical_spacing": true,
         "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
+        "background": "#191919",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -826,6 +826,9 @@
     },
     "76168366-8546-453e-8bfb-8cfeb9280c10": {
       "type": "rich-text",
+      "custom_css": [
+
+      ],
       "settings": {
         "subheading": "",
         "title": "FRAME TECHNOLOGY",
