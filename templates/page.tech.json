@@ -175,6 +175,11 @@
         "f4e3ecca-4dda-44bc-80a0-13446870624b",
         "712f49d8-aa2f-48d3-8b97-30619d5f24ac"
       ],
+      "custom_css": [
+        ".product-list__inner:first-of-type {margin-top: 0rem;}",
+        ".lens-slider__content {position: relative; bottom: 2rem;}",
+        ".lens-slider__header {margin-bottom: 0;}"
+      ],
       "settings": {
         "title": "M9M Lens Options",
         "products_count": 10,
@@ -321,7 +326,7 @@
       "custom_css": [
         ".product-list__inner:first-of-type {margin-top: 0rem;}",
         ".lens-slider__content {position: relative; bottom: 2rem;}",
-        "@media screen and (min-width: 1000px) {.lens__header {margin-bottom: 0; }}"
+        ".lens-slider__header {margin-bottom: 0;}"
       ],
       "settings": {
         "title": "Plasmachromatic Lens Options",
@@ -443,6 +448,11 @@
         "939f84c7-2408-45be-8007-c5c7279f9f01",
         "a307d5ce-76c8-4c64-b35c-1fd31bc6eff0",
         "f6a16a48-a45d-4bbf-9a4f-26aea2e5e333"
+      ],
+      "custom_css": [
+        ".product-list__inner:first-of-type {margin-top: 0rem;}",
+        ".lens-slider__content {position: relative; bottom: 2rem;}",
+        ".lens-slider__header {margin-bottom: 0;}"
       ],
       "settings": {
         "title": "Polarized Lens Options",
