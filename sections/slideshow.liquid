@@ -177,6 +177,15 @@
       }
     }
 
+    @media screen and (min-width: 1000px) {
+      #block-{{ section.id }}-{{ block.id }} .heading {
+        {% if block.settings.impact-font == true %}
+          font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
+          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
+        {% endif %}
+      }
+    }
+
     #block-{{ section.id }}-{{ block.id }} .subheading {
       font-size: {{ block.settings.subheading_font_size_mobile }}px;
       text-align: {{ block.settings.subheading_text_align_mobile }};
@@ -609,8 +618,8 @@
           "type": "range",
           "id": "heading_font_size_desktop",
           "label": "Heading Font Size Desktop",
-          "min": 30,
-          "max": 75,
+          "min": 50,
+          "max": 100,
           "step": 1,
           "default": 36,
           "unit": "px"
