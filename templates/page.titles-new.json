@@ -67,7 +67,7 @@
             "heading_font_size_mobile": 39,
             "heading_font_opacity": 0.7,
             "heading_fill_color": "#000000",
-            "heading_fill_opacity": 0.2,
+            "heading_fill_opacity": 0.3,
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 0,
             "heading_drop_shadow_y-offset": 3,
