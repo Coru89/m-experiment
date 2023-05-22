@@ -500,7 +500,7 @@
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": -10,
             "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 10,
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
