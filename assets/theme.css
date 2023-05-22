@@ -15413,13 +15413,14 @@ h3.heading.heading--small {
 
 @media screen and (min-width: 740px) {
   .slideshow .heading {
+    padding: 0 30px;
     width: auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .slideshow .heading {
-    padding: 0 50px;
+    padding: 0 100px;
   }
 }
 

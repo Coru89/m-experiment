@@ -6,18 +6,36 @@
       background-color: {{ section.settings.background }}; /* Allows to set a placeholder color while loading */
   }
 
+  {% assign maxPercentage = 100 %}
+
   {%- for block in section.blocks -%}
-    {% assign dropShadowOpacity = block.settings.heading_drop_shadow_opacity | prepend: '0.' | round: 2 %}
+    {% if block.settings.heading_drop_shadow_opacity == 100 %}
+      {% assign dropShadowOpacity = 1 %}
+      {% else %}
+      {% assign dropShadowOpacity = block.settings.heading_drop_shadow_opacity | divided_by: 100.0 | round: 2 %}
+    {% endif %}
+    
     {% capture dropShadowColor %}
       {%- render 'color_to_rgba' with color: block.settings.heading_drop_shadow_color, opacity: dropShadowOpacity -%}
     {% endcapture %}
 
-    {% assign headingFillOpacity = block.settings.heading_fill_opacity | prepend: '0.' | round: 2 %}
+    {% if block.settings.headingFillOpacity == maxPercentage %}
+      {% assign headingFillOpacity = 1 %}
+      {% else %}
+      {% assign headingFillOpacity = block.settings.heading_fill_opacity | divided_by: 100.0 | round: 2 %}
+    {% endif %}
+
+
     {% capture headingFillColor %}
       {%- render 'color_to_rgba' with color: block.settings.heading_fill_color, opacity: headingFillOpacity -%}
     {% endcapture %}
 
-    {% assign headingStrokeOpacity = block.settings.heading_stroke_opacity | prepend: '0.' | round: 2 %}
+    {% if block.settings.headingStrokeOpacity == maxPercentage %}
+      {% assign headingStrokeOpacity = 1 %}
+      {% else %}
+      {% assign headingStrokeOpacity = block.settings.heading_stroke_opacity | divided_by: 100.0 | round: 2 %}
+    {% endif %}
+
     {% capture headingStrokeColor %}
       {%- render 'color_to_rgba' with color: block.settings.heading_stroke_color, opacity: headingStrokeOpacity -%}
     {% endcapture %}
@@ -161,6 +179,8 @@
     }
 
     #block-{{ section.id }}-{{ block.id }} .heading {
+      text-align: {{ block.settings.heading_text_align_mobile }};
+
       {% if block.settings.impact-font == true %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
         line-height: 1.25;
@@ -177,6 +197,7 @@
 
     @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
+        text-align: {{ block.settings.heading_text_align_desktop }};
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
           line-height: 1.35;
@@ -266,7 +287,7 @@
 
       #block-{{ section.id }}-{{ block.id }} .heading {
         -webkit-font-smoothing: subpixel-antialiased;
-        -webkit-text-stroke: 1.5px {{ block.settings.heading_stroke_color }};
+        -webkit-text-stroke: 1.5px {{ headingStrokeColor }};
         backface-visibility: hidden;
         color: {{ headingFillColor }};
         font-family: "Impact", sans-serif;
@@ -322,6 +343,8 @@
   {%- endfor -%}
 </style>
 
+
+
 <section class="section section--flush">
   <slide-show
     reveal-on-scroll
@@ -333,6 +356,7 @@
   >
     <div class="slideshow__slide-list">
       {%- for block in section.blocks -%}
+        <script>console.log('hi', {{ block.settings.heading_fill_opacity | json }});</script>
         {%- comment -%}
           ------------------------------------------------------------------------------------------------------------------
           IMAGE PART
@@ -649,16 +673,6 @@
           "unit": "px"
         },
         {
-          "type": "range",
-          "id": "heading_stroke_opacity",
-          "label": "Heading Stroke Opacity",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "default": 100,
-          "unit": "%"
-        },
-        {
           "type": "color",
           "id": "heading_fill_color",
           "label": "Heading Fill Color",
@@ -679,6 +693,54 @@
           "id": "heading_stroke_color",
           "label": "Heading Stroke Color",
           "default": "#fff"
+        },
+        {
+          "type": "range",
+          "id": "heading_stroke_opacity",
+          "label": "Heading Stroke Opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 100,
+          "unit": "%"
+        },
+        {
+          "type": "select",
+          "id": "Heading_text_align",
+          "label": "Heading Text Align Desktop",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "heading_text_align_mobile",
+          "label": "Heading Text Align Mobile",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
         },
         {
           "type": "header",
