@@ -180,7 +180,7 @@
 
       {% if block.settings.impact-font == true %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        line-height: 1;
+        line-height: 65px;
         {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75); {% endcomment %}
       {% else %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
@@ -304,7 +304,13 @@
       }
 
       #block-{{ section.id }}-{{ block.id }} .subheading {
-        margin: 0;
+        margin: -1rem;
+      }
+
+      @media screen and (min-width: 1000px) {
+        #block-{{ section.id }}-{{ block.id }} .subheading {
+          margin: -2rem 0 0 0;
+        }
       }
 
     {% endif %}
