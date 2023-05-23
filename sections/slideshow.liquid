@@ -36,25 +36,12 @@
       {%- render 'color_to_rgba' with color: block.settings.subheading_color, opacity: subheadingOpacity -%}
     {% endcapture %}
 
-
-    {% comment %} {%- assign text_position = block.settings.text_position | split: '_' | first -%}
-
-    {%- case text_position -%}
-      {%- when 'top' -%}
-        {%- assign section_items_alignment = 'flex-start' -%}
-      {%- when 'middle' -%}
-        {%- assign section_items_alignment = 'center' -%}
-      {%- when 'bottom' -%}
-        {%- assign section_items_alignment = 'flex-end' -%}
-    {%- endcase -%} {% endcomment %}
-
     #block-{{ section.id }}-{{ block.id }} {
       --heading-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
       --text-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
       --primary-button-background: {{ block.settings.button_background.red }}, {{ block.settings.button_background.green }}, {{ block.settings.button_background.blue }};
       --primary-button-text-color: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }};
 
-      {% comment %} --section-blocks-alignment: {{ section_items_alignment }}; {% endcomment %}
       --section-blocks-overlay-color: {{ block.settings.overlay_color.red }}, {{ block.settings.overlay_color.green }}, {{ block.settings.overlay_color.blue }};
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
       --heading-font-opacity: {{ block.settings.heading_font_opacity | divided_by: 100.0 }};
@@ -71,7 +58,6 @@
         {% elsif block.settings.content_position_mobile == "top-center" %}
           align-items: flex-start;
           justify-content: center;
-          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.content_position_mobile == "middle-left" %}
           align-items: center;
         {% elsif block.settings.content_position_mobile == "middle-right" %}
@@ -82,7 +68,6 @@
         {% elsif block.settings.content_position_mobile == "bottom-center" %}
             align-items: flex-end;
             justify-content: center;
-            {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.content_position_mobile == "top-right" %}
             justify-content: flex-end;
         {% elsif block.settings.content_position_mobile == "bottom-right" %}
@@ -91,7 +76,6 @@
         {% elsif block.settings.content_position_mobile == "middle-center" %}
             align-items: center;
             justify-content: center;
-            {% comment %} text-align: center; {% endcomment %}
         {% endif %}
       {% else %}
         {% if block.settings.overlay_content_position == "top-left" %}
@@ -101,35 +85,27 @@
         {% elsif block.settings.overlay_content_position == "top-center" %}
           align-items: flex-start;
           justify-content: center;
-          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-left" %}
           align-items: center;
           justify-content: unset;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-right" %}
           align-items: center;
           justify-content: flex-end;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-left" %}
           align-items: flex-end;
           justify-content: unset;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-center" %}
           align-items: flex-end;
           justify-content: center;
-          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "top-right" %}
           align-items: unset;
           justify-content: flex-end;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
           align-items: flex-end;
           justify-content: flex-end;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-center" %}
           align-items: center;
           justify-content: center;
-          {% comment %} text-align: center; {% endcomment %}
         {% endif %}
       {% endif %}
     }
@@ -139,39 +115,30 @@
         {% if block.settings.overlay_content_position == "top-left" %}
           align-items: flex-start;
           justify-content: flex-start;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "top-center" %}
           align-items: unset;
           justify-content: center;
-          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-left" %}
           align-items: center;
           justify-content: unset;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-right" %}
           align-items: center;
           justify-content: flex-end;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-left" %}
           align-items: flex-end;
           justify-content: unset;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-center" %}
           align-items: flex-end;
           justify-content: center;
-          {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "top-right" %}
           align-items: unset;
           justify-content: flex-end;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "bottom-right" %}
           align-items: flex-end;
           justify-content: flex-end;
-          {% comment %} text-align: unset; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-center" %}
           align-items: center;
           justify-content: center;
-          {% comment %} text-align: center; {% endcomment %}
         {% endif %}
       }
     }
@@ -181,14 +148,11 @@
 
       {% if block.settings.impact-font == true %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        {% comment %} line-height: 65px; {% endcomment %}
         line-height: 1;
-        {% comment %} line-height: calc(clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75) + 8px); {% endcomment %}
       {% else %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       {% endif %}
-        {% comment %} opacity: {{ block.settings.heading_font_opacity }}; {% endcomment %}
-        {% comment %} opacity: var(--heading-font-opacity); {% endcomment %}
+
       {% if block.settings.heading_drop_shadow == true %}
         filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 6px {{ dropShadowColor }});
       {% endif %}
@@ -201,7 +165,6 @@
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
           line-height: 1.35;
-          {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
         {% endif %}
       }
     }
@@ -217,7 +180,6 @@
       #block-{{ section.id }}-{{ block.id }} .heading {
         {% if block.settings.impact-font == true %}
           font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-          {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5); {% endcomment %}
         {% endif %}
       }
     }
@@ -240,12 +202,6 @@
         width: 40vw;
       {% endif %}
     }
-
-    {% comment %} @media screen and (min-width: 1000px) {
-      #block-{{ section.id }}-{{ block.id }} .subheading {
-        margin-top: {{ block.settings.nudge_subheading_y-axis_desktop }}rem;
-      }
-    }  {% endcomment %}
 
     {% if block.settings.subheading_narrow_width == true %}
         @media screen and (min-width: 740px) {
@@ -312,16 +268,6 @@
         }
       }
 
-      {% comment %} #block-{{ section.id }}-{{ block.id }} .subheading {
-        margin: -1rem 0 0 0;
-      }
-
-      @media screen and (min-width: 1000px) {
-        #block-{{ section.id }}-{{ block.id }} .subheading {
-          margin: -2rem 0 0 0;
-        }
-      } {% endcomment %}
-
     {% endif %}
 
     {% comment %} ***Subheading Styles*** {% endcomment %}
@@ -332,7 +278,6 @@
 
       #block-{{ section.id }}-{{ block.id }} .subheading {
         letter-spacing: 3px;
-        {% comment %} margin-top: 0; {% endcomment %}
 
         {% if block.settings.subheading_bold == true %}
           font-weight: 500;
@@ -440,7 +385,6 @@
           {%- if block.settings.title != blank -%}
             <h2 class="heading h3">
               <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title }}</split-lines>
-              {% comment %} {{ block.settings.title }} {% endcomment %}
             </h2>
           {%- endif -%}
 
@@ -475,9 +419,6 @@
 
           {%- if section_content != blank -%}
             <div class="container">
-              {% comment %} {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
-              {%- assign text_position = block.settings.text_position | split: '_' | last -%} {% endcomment %}
-
               <div class="slideshow__text-wrapper">
                 <div class="text-container">
                   {{- section_content -}}
