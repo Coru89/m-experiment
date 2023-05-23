@@ -53,6 +53,7 @@
         },
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2160x1000_new_beginnings_1_18176b37-2ea3-4e40-81c1-dd3776ac60e8.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_new_beginnings_1_6d85044b-a215-47a7-b0d4-525fe15b4df3.jpg",
@@ -377,7 +378,7 @@
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": 0,
             "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 2,
             "nudge_subheading_y-axis_mobile": 0,
             "nudge_subheading_y-axis_desktop": -2,
             "button_1_text": "",
