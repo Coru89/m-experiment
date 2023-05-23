@@ -69,6 +69,7 @@
           align-items: flex-start;
           justify-content: flex-start;
         {% elsif block.settings.content_position_mobile == "top-center" %}
+          align-items: flex-start;
           justify-content: center;
           {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.content_position_mobile == "middle-left" %}
@@ -98,7 +99,7 @@
           justify-content: flex-start;
           text-align: unset;
         {% elsif block.settings.overlay_content_position == "top-center" %}
-          align-items: unset;
+          align-items: flex-start;
           justify-content: center;
           {% comment %} text-align: center; {% endcomment %}
         {% elsif block.settings.overlay_content_position == "middle-left" %}
