@@ -125,6 +125,7 @@
       "settings": {
         "header": "LENS TECHNOLOGy",
         "subheading": "M9M",
+        "subheading_color": "#F1F2F2",
         "caption": "<p>The high-contrast Lenses are engineered to enhance color perception and improve visual acuity in varying light conditions.<\/p>",
         "overlay_content_position": "top-left",
         "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_M9M_Desktop_AFTER.jpg",
@@ -265,7 +266,7 @@
             "heading_drop_shadow_y-offset": 10,
             "heading_drop_shadow_color": "#ffffff",
             "heading_drop_shadow_opacity": 16,
-            "subheading_type": "default",
+            "subheading_type": "alternate",
             "subheading_uppercase": false,
             "subheading_bold": true,
             "subheading_narrow_width": true,
@@ -410,6 +411,7 @@
       "settings": {
         "header": "",
         "subheading": "Polarized",
+        "subheading_color": "#F1F2F2",
         "caption": "<p>Our high-perfomance polarized lenses block 99.9% of reflective glare for the most vivid and detailed visual experiences.<\/p>",
         "overlay_content_position": "bottom-left",
         "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Polarized_Desktop_AFTER.jpg",
@@ -509,7 +511,7 @@
             "heading_drop_shadow_y-offset": 10,
             "heading_drop_shadow_color": "#ffffff",
             "heading_drop_shadow_opacity": 16,
-            "subheading_type": "default",
+            "subheading_type": "alternate",
             "subheading_uppercase": false,
             "subheading_bold": true,
             "subheading_narrow_width": true,
@@ -556,7 +558,7 @@
     "9d031a7c-8a01-4d78-acf6-b455a691a1d4": {
       "type": "custom-html",
       "custom_css": [
-        ".container {height: 90px}"
+        ".container {height: 90px;}"
       ],
       "settings": {
         "subheading": "",
@@ -573,6 +575,7 @@
       "settings": {
         "header": "",
         "subheading": "Res+",
+        "subheading_color": "#F1F2F2",
         "caption": "<p>HD lenses reduce distortion and offer a wider field of view, creating a superior and more detailed visual experience.<\/p>",
         "overlay_content_position": "top-right",
         "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_BEFORE.jpg",
