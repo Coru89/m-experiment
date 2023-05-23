@@ -1,0 +1,6 @@
+.impact__image--placeholder {
+  background: black; }
+
+@media screen and (min-width: 1200px) {
+  .impact .text-container {
+    padding: 50px 100px; } }

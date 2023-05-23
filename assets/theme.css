@@ -15407,27 +15407,15 @@ h3.heading.heading--small {
 
 @media screen and (min-width: 1200px) {
   .slideshow .text-container {
-    padding: 50px 100px;
+    padding: 50px 0;
   }
 }
 
-/* @media screen and (min-width: 740px) {
-  .slideshow .heading {
-    padding: 0 30px;
-    width: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .slideshow .heading {
-    padding: 0 100px;
-  }
-} */
 
 .slideshow .subheading {
   color: #fff; 
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -15439,20 +15427,7 @@ h3.heading.heading--small {
   
 }
 
-/* .slideshow__slide-inner {
-  max-height: 350px;
-}
 
-@media screen and (min-width: 740px) {
-  .slideshow__slide-inner {
-    max-height: 450px;
-  }
-} 
-@media screen and (min-width: 1000px) {
-  .slideshow__slide-inner {
-    max-height: unset;
-  }
-} */
 
 .footer .linklist__item {
   display: block;

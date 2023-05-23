@@ -107,35 +107,39 @@
         }
     }
 
-        /* @media screen and (min-width: 1000px) {
-            .before-after-images-container .overlay-content p {
-                max-width: 2px;
-            }
-        } */
-
-        @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
         .before-after-images-container .overlay-content p {
             max-width: 350px;
             
         }
     }
 
-    .before-after-images-container .overlay-content *,
-    .before-after-images-container .mobile-content * {
-        color: #fff;
-    }
 
     .before-after-images-container .overlay-content .heading{
         margin-bottom: 16px;
+        color: #fff;
     }
     .before-after-images-container .mobile-content .heading {
         margin-bottom: 16px;
+        color: #fff;
     }
 
     .before-after-images-container .overlay-content p {
-        font-weight: 400;
-        line-height: 20px;
+        font-weight: 300;
+        line-height: 1.5;
+        line-height: 1.125;
+        color: {{ section.settings.subheading_color }};
+        letter-spacing: 3px;
     }
+
+    @media screen and (min-width: 740px) {
+        .before-after-images-container .overlay-content p {
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 4px;
+        }
+    }
+ 
 {% endstyle %}
 
 {%- if section.settings.header != null and section.settings.header != "" -%}
@@ -186,6 +190,12 @@
         "id": "subheading",
         "default": "Subheading",
         "label": "Subheading"
+    },
+    {
+        "type": "color",
+        "id": "subheading_color",
+        "label": "Subheading Color",
+        "default": "#F1F2F2"
     },
     {
         "type": "richtext",

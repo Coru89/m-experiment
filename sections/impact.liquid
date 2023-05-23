@@ -286,7 +286,7 @@
   
         @media screen and (min-width: 740px) {
           #block-{{ section.id }}-{{ block.id }} .subheading  {
-            letter-spacing: 4.5px;
+            letter-spacing: 4px;
             {% if block.settings.subheading_bold == true %}
               font-weight: 500;
             {% else %}
@@ -312,7 +312,7 @@
         auto-play
       {% endif %}
       transition-type="{{ section.settings.transition_type | escape }}"
-      class="slideshow slideshow--{{ section.settings.section_height }}"
+      class="slideshow impact slideshow--{{ section.settings.section_height }}"
     >
       <div class="slideshow__slide-list">
         {%- for block in section.blocks -%}
