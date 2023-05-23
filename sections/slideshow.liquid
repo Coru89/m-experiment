@@ -193,59 +193,6 @@
       }
     }
 
-    {% comment %} ***IMPACT FONT*** {% endcomment %}
-    {% comment %} {% if block.settings.impact-font == true %}
-      #block-{{ section.id }}-{{ block.id }} .text-container {
-        width: auto;
-      }
-
-      #block-{{ section.id }}-{{ block.id }} .heading {
-        -webkit-font-smoothing: subpixel-antialiased;
-        -webkit-text-stroke: 1px {{ headingStrokeColor }};
-        backface-visibility: hidden;
-        color: {{ headingFillColor }};
-        font-family: "Impact", sans-serif;
-        font-weight: 400;
-        letter-spacing: 1px;
-        transform: scaleY(0.55) scaleX(1) translateZ(0);
-        margin: 0;
-
-        font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        line-height: 1;
-      }
-
-      @media screen and (min-width: 740px) {
-        #block-{{ section.id }}-{{ block.id }} .heading {
-          -webkit-text-stroke: 2px {{ headingStrokeColor }};
-          font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-          line-height: 1.35;
-        }
-      }
-
-      @media screen and (min-width: 741px) and (max-width: 999px) {
-        #block-{{ section.id }}-{{ block.id }} .heading {
-          font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-          line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.5);
-        }
-      }
-
-      @media screen and (min-width: 1000px) {
-        #block-{{ section.id }}-{{ block.id }} .heading {
-          font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 9vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        }
-      }
-
-      #block-{{ section.id }}-{{ block.id }} .subheading {
-        margin-top: {{ block.settings.nudge_subheading_y-axis_mobile }}rem;
-      }
-
-      @media screen and (min-width: 1000px) {
-        #block-{{ section.id }}-{{ block.id }} .subheading {
-          margin-top: {{ block.settings.nudge_subheading_y-axis_desktop }}rem;
-        }
-      }
-
-    {% endif %} {% endcomment %}
 
     {% comment %} ***Subheading Styles*** {% endcomment %}
     {% if block.settings.subheading_type == "alternate" %}
@@ -784,12 +731,6 @@
               "label": "Right"
             }
           ]
-        },
-        {
-          "type": "color",
-          "id": "subheading_color",
-          "label": "Subheading Color",
-          "default": "#fff"
         },
         {
           "type": "range",
