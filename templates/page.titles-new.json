@@ -926,7 +926,7 @@
             "subheading_color": "#ffffff",
             "subheading_opacity": 65,
             "overlay_content_position": "middle-center",
-            "content_position_mobile": "none",
+            "content_position_mobile": "top-center",
             "nudge_text_x-axis_mobile": 0,
             "nudge_text_y-axis_mobile": 0,
             "nudge_text_x-axis_desktop": 0,
