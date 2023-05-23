@@ -11181,6 +11181,22 @@ input:checked + .popover__choice-label::after,
     transform: scale(1);
   }
 }
+
+.multi-column__text-container p {
+  font-weight: 300;
+  line-height: 1.5;
+  line-height: 1.125;
+  letter-spacing: 3px;
+}
+
+@media screen and (min-width: 740px) {
+  .multi-column__text-container p {
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 4px;
+  }
+}
+
 .newsletter__form {
   margin-top: 32px;
 }

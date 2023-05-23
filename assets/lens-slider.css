@@ -40,7 +40,8 @@
     word-break: break-word; }
     @media screen and (min-width: 740px) {
       .lens-slider__item-description {
-        font-size: 18px; } }
+        font-size: 18px;
+        font-weight: 500; } }
 
 .lens-slider__bottom-border {
   display: -webkit-box;
