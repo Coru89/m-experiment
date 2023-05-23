@@ -1021,7 +1021,7 @@
             "heading_font_size_desktop": 72,
             "heading_font_size_mobile": 38,
             "heading_fill_color": "#000000",
-            "heading_fill_opacity": 15,
+            "heading_fill_opacity": 20,
             "heading_stroke_color": "#ffffff",
             "heading_stroke_opacity": 70,
             "Heading_text_align": "center",
