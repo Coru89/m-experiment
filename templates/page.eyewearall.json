@@ -1,16 +1,16 @@
 {
   "sections": {
     "db6ac7d7-65e1-4bf7-af11-e11036663098": {
-      "type": "slideshow",
+      "type": "impact",
       "blocks": {
         "template--15725203914902__db6ac7d7-65e1-4bf7-af11-e11036663098-1666196739b1b13fce-0": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/2160x1000_collection_1_eae80a5a-a759-4cdf-8831-1afd733b2517.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_collection_1_fbc66d74-4b21-416c-b0ce-4c6336c1d685.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
+            "overlay_opacity": 0,
             "title": "",
+            "subheading": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -18,8 +18,7 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_color": "#000000"
           }
         },
         "template--15725203914902__db6ac7d7-65e1-4bf7-af11-e11036663098-1666196739b1b13fce-1": {
@@ -27,9 +26,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/fishing_gear_4936fcc6-9f17-47ee-b1c5-8c720ce49748.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Drums_2_edeff6d2-837f-44d8-926f-861c3bfe95ac.jpg",
-            "text_position": "middle_center",
-            "subheading": "",
+            "overlay_opacity": 0,
             "title": "",
+            "subheading": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -37,8 +36,7 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_color": "#000000"
           }
         }
       },
