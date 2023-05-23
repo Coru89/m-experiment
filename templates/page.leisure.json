@@ -302,7 +302,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/rollover_fullbleed_seven.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Jiga_2_f2449839-6326-4013-8fa7-a41edabb8505.jpg",
-            "overlay_opacity": 30,
+            "overlay_opacity": 10,
             "title": "Leisure",
             "heading_font_size_desktop": 62,
             "heading_font_size_mobile": 36,
