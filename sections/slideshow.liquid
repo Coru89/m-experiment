@@ -224,12 +224,11 @@
     #block-{{ section.id }}-{{ block.id }} .subheading {
       font-size: {{ block.settings.subheading_font_size_mobile }}px;
       text-align: {{ block.settings.subheading_text_align_mobile }};
-      color: {{ subheadingColor }};
-      margin-top: {{ block.settings.nudge_subheading_y-axis_mobile }}rem;
-      
+      color: {{ subheadingColor }};      
       {% if block.settings.content_position_mobile == "top-center" or block.settings.content_position_mobile == "bottom-center" or block.settings.content_position_mobile == "middle-center" %}
         margin: auto;
       {% endif %}
+      margin-top: {{ block.settings.nudge_subheading_y-axis_mobile }}rem;
       {% if block.settings.subheading_uppercase == true %}
         text-transform: uppercase;
       {% endif %}
@@ -241,11 +240,11 @@
       {% endif %}
     }
 
-    @media screen and (min-width: 1000px) {
+    {% comment %} @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} .subheading {
         margin-top: {{ block.settings.nudge_subheading_y-axis_desktop }}rem;
       }
-    } 
+    }  {% endcomment %}
 
     {% if block.settings.subheading_narrow_width == true %}
         @media screen and (min-width: 740px) {
@@ -270,6 +269,7 @@
         {% else %}
           margin: unset;
         {% endif %}
+          margin-top: {{ block.settings.nudge_subheading_y-axis_desktop }}rem;
       }
     }
 
