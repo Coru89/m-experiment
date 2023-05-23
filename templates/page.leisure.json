@@ -310,10 +310,10 @@
         "bedf9160-ce7b-4159-830f-7ed6b12da3bf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Website_2160x1080_05.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_05.jpg",
+            "image": "shopify:\/\/shop_images\/Leisure_Pleasure_01.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Leisure_Pleasure_01_68a063cf-beaf-48fb-ad1b-d33d6acf8d50.jpg",
             "overlay_opacity": 30,
-            "title": "Action",
+            "title": "Pleasure",
             "heading_font_size_desktop": 78,
             "heading_font_size_mobile": 36,
             "heading_fill_color": "#000000",
@@ -358,10 +358,10 @@
         "6c5a399c-88a7-4011-99d6-213a05d5999d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Website_2160x1080_05.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_05.jpg",
+            "image": "shopify:\/\/shop_images\/Leisure_Business_01.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Leisure_Business_Mobile_01.jpg",
             "overlay_opacity": 30,
-            "title": "Action",
+            "title": "Business",
             "heading_font_size_desktop": 78,
             "heading_font_size_mobile": 36,
             "heading_fill_color": "#000000",
