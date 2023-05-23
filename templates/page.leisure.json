@@ -347,7 +347,6 @@
         },
         "bedf9160-ce7b-4159-830f-7ed6b12da3bf": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2160x1080_Slide_Leisure_5.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_0008_101MBSR3_3105.jpg",
@@ -378,7 +377,7 @@
             "subheading_opacity": 100,
             "overlay_content_position": "middle-right",
             "content_position_mobile": "top-left",
-            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_x-axis_mobile": -1,
             "nudge_text_y-axis_mobile": 5,
             "nudge_text_x-axis_desktop": 3,
             "nudge_text_y-axis_desktop": 2,
