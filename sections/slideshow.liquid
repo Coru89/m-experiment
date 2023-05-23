@@ -180,8 +180,9 @@
 
       {% if block.settings.impact-font == true %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75);
-        line-height: 65px;
-        {% comment %} line-height: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75); {% endcomment %}
+        {% comment %} line-height: 65px; {% endcomment %}
+        line-height: 1;
+        {% comment %} line-height: calc(clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px*1.75) + 8px); {% endcomment %}
       {% else %}
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 3vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       {% endif %}
@@ -224,7 +225,9 @@
       font-size: {{ block.settings.subheading_font_size_mobile }}px;
       text-align: {{ block.settings.subheading_text_align_mobile }};
       color: {{ subheadingColor }};
-
+      position: relative;
+      bottom: {{ block.settings.nudge_subheading_y-axis }}rem;
+      
       {% if block.settings.content_position_mobile == "top-center" or block.settings.content_position_mobile == "bottom-center" or block.settings.content_position_mobile == "middle-center" %}
         margin: auto;
       {% endif %}
@@ -238,6 +241,12 @@
         width: 40vw;
       {% endif %}
     }
+
+    {% comment %} @media screen and (min-width: 1000px) {
+      #block-{{ section.id }}-{{ block.id }} .subheading {
+        bottom: calc({{ block.settings.nudge_subheading_y-axis }}rem + 1rem);
+      }
+    } {% endcomment %}
 
     {% if block.settings.subheading_narrow_width == true %}
         @media screen and (min-width: 740px) {
@@ -303,7 +312,7 @@
         }
       }
 
-      #block-{{ section.id }}-{{ block.id }} .subheading {
+      {% comment %} #block-{{ section.id }}-{{ block.id }} .subheading {
         margin: -1rem 0 0 0;
       }
 
@@ -311,7 +320,7 @@
         #block-{{ section.id }}-{{ block.id }} .subheading {
           margin: -2rem 0 0 0;
         }
-      }
+      } {% endcomment %}
 
     {% endif %}
 
@@ -914,6 +923,16 @@
           "step": 1,
           "default": 100,
           "unit": "%"
+        },
+        {
+          "type": "range",
+          "id": "nudge_subheading_y-axis",
+          "label": "Nudge Subheading Position Y-Axis",
+          "min": -3,
+          "max": 3,
+          "step": 0.5,
+          "default": 1,
+          "unit": "rem"
         },
         {
           "type": "header",
