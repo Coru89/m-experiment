@@ -5,6 +5,7 @@
       "blocks": {
         "template--15725203914902__db6ac7d7-65e1-4bf7-af11-e11036663098-1666196739b1b13fce-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2160x1000_collection_1_eae80a5a-a759-4cdf-8831-1afd733b2517.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_collection_1_fbc66d74-4b21-416c-b0ce-4c6336c1d685.jpg",
@@ -53,6 +54,7 @@
         },
         "template--15725203914902__db6ac7d7-65e1-4bf7-af11-e11036663098-1666196739b1b13fce-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/fishing_gear_4936fcc6-9f17-47ee-b1c5-8c720ce49748.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Drums_2_edeff6d2-837f-44d8-926f-861c3bfe95ac.jpg",
@@ -105,9 +107,9 @@
             "image": "shopify:\/\/shop_images\/2160x1000_collection_ddb07450-1153-4c55-9ee8-eb2dbe8919e1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_collection_fd7807a9-7523-4fd7-8f1b-e02cb73ab42d.jpg",
             "overlay_opacity": 30,
-            "title": "Impact Heading",
-            "heading_font_size_desktop": 82,
-            "heading_font_size_mobile": 26,
+            "title": "M-Expiriment",
+            "heading_font_size_desktop": 65,
+            "heading_font_size_mobile": 30,
             "heading_fill_color": "#000000",
             "heading_fill_opacity": 30,
             "heading_stroke_color": "#fff",
@@ -122,7 +124,7 @@
             "subheading_type": "default",
             "subheading_uppercase": true,
             "subheading_bold": true,
-            "subheading": "subheading text",
+            "subheading": "Collection",
             "subheading_font_size_desktop": 30,
             "subheading_font_size_mobile": 16,
             "subheading_text_align": "center",
