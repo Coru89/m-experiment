@@ -64,7 +64,6 @@
           "disabled": true,
           "settings": {
             "overlay_opacity": 30,
-            "impact-font": false,
             "title": "Slide 2",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
@@ -82,7 +81,6 @@
             "subheading_type": "default",
             "subheading_uppercase": false,
             "subheading_bold": false,
-            "subheading_narrow_width": false,
             "subheading": "Tell your story",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
