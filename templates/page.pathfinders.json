@@ -13,6 +13,7 @@
       "blocks": {
         "template--15898582581398__0724090d-e9f6-41ba-8e92-6f1fcae0824a-1674948253476c5fac-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/path_dsk.jpg",
             "mobile_image": "shopify:\/\/shop_images\/path_mob.jpg",
@@ -96,7 +97,7 @@
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 4,
             "nudge_subheading_y-axis_mobile": -0.5,
-            "nudge_subheading_y-axis_desktop": -2,
+            "nudge_subheading_y-axis_desktop": -2.5,
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
