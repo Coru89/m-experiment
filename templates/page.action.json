@@ -154,7 +154,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Website_2160x1080_05.jpg",
             "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_05.jpg",
-            "overlay_opacity": 30,
+            "overlay_opacity": 10,
             "title": "Action",
             "heading_font_size_desktop": 78,
             "heading_font_size_mobile": 36,
