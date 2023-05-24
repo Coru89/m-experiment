@@ -828,26 +828,6 @@
             "unit": "%"
           },
           {
-            "type": "range",
-            "id": "nudge_subheading_y-axis_mobile",
-            "label": "Header/Subheader Spacing Y-Axis Mobile (Impact Font Only)",
-            "min": -3,
-            "max": 3,
-            "step": 0.5,
-            "default": 0,
-            "unit": "rem"
-          },
-          {
-            "type": "range",
-            "id": "nudge_subheading_y-axis_desktop",
-            "label": "Header/Subheader Spacing Y-Axis Desktop (Impact Font Only)",
-            "min": -3,
-            "max": 3,
-            "step": 0.5,
-            "default": -2,
-            "unit": "rem"
-          },
-          {
             "type": "header",
             "content": "Text Alignment"
           },
@@ -1010,6 +990,30 @@
           },
           {
             "type": "header",
+            "content": "Adjust Gap Between Heading and Subheading"
+          },
+          {
+            "type": "range",
+            "id": "nudge_subheading_y-axis_mobile",
+            "label": "Header/Subheader Spacing Y-Axis Mobile",
+            "min": -3,
+            "max": 3,
+            "step": 0.5,
+            "default": 0,
+            "unit": "rem"
+          },
+          {
+            "type": "range",
+            "id": "nudge_subheading_y-axis_desktop",
+            "label": "Header/Subheader Spacing Y-Axis Desktop",
+            "min": -3,
+            "max": 3,
+            "step": 0.5,
+            "default": -2,
+            "unit": "rem"
+          },
+          {
+            "type": "header",
             "content": "Buttons"
           },
           {
@@ -1066,20 +1070,22 @@
             "type": "image",
             "settings": {
               "title": "Transparent Text, with fill",
-              "heading_stroke_opacity": 80
+              "heading_stroke_opacity": 80,
+              "subheading": "Center top position for mobile"
             }
           },
           {
             "type": "image",
             "settings": {
               "title": "Opaque Text, No Fill",
-              "heading_fill_opacity": 0
+              "heading_fill_opacity": 0,
+              "subheading": "Center top position for mobile"
             }
           },
           {
             "type": "image",
             "settings": {
-              "title": "Middle Left Position Desktop",
+              "title": "Middle Left",
               "heading_font_size_desktop": 62,
               "heading_font_size_mobile": 36,
               "heading_fill_color": "#000000",
@@ -1096,7 +1102,7 @@
               "subheading_type": "default",
               "subheading_uppercase": true,
               "subheading_bold": true,
-              "subheading": "Top Left Positioned for Mobile",
+              "subheading": "Top Left Position for Mobile",
               "subheading_font_size_desktop": 30,
               "subheading_font_size_mobile": 16,
               "subheading_text_align": "left",
@@ -1121,14 +1127,14 @@
           {
             "type": "image",
             "settings": {
-              "title": "Middle Right Position Desktop",
+              "title": "Middle Right",
               "heading_fill_opacity": 0,
               "heading_font_size_desktop": 78,
               "heading_font_size_mobile": 36,
               "heading_fill_color": "#000000",
               "heading_fill_opacity": 7,
               "heading_stroke_color": "#ffffff",
-              "heading_stroke_opacity": 50,
+              "heading_stroke_opacity": 80,
               "Heading_text_align": "left",
               "heading_text_align_mobile": "left",
               "heading_drop_shadow": true,
@@ -1136,7 +1142,7 @@
               "heading_drop_shadow_y-offset": 3,
               "heading_drop_shadow_color": "#000000",
               "heading_drop_shadow_opacity": 16,
-              "subheading": "",
+              "subheading": "Bottom right position for mobile",
               "subheading_type": "default",
               "subheading_uppercase": true,
               "subheading_bold": true,
@@ -1151,6 +1157,48 @@
               "nudge_text_x-axis_desktop": 0,
               "nudge_text_y-axis_desktop": 0,
               "nudge_subheading_y-axis_mobile": -0.5,
+              "nudge_subheading_y-axis_desktop": -2.5,
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": "",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "overlay_color": "#000000"
+            }
+          },
+          {
+            "type": "image",
+            "settings": {
+              "title": "Alternate Text Subheading",
+              "heading_font_size_desktop": 75,
+              "heading_font_size_mobile": 24,
+              "heading_fill_color": "#000000",
+              "heading_fill_opacity": 0,
+              "heading_stroke_color": "#ffffff",
+              "heading_stroke_opacity": 100,
+              "Heading_text_align": "center",
+              "heading_text_align_mobile": "center",
+              "heading_drop_shadow": false,
+              "heading_drop_shadow_x-offset": 0,
+              "heading_drop_shadow_y-offset": 3,
+              "heading_drop_shadow_color": "#000000",
+              "heading_drop_shadow_opacity": 16,
+              "subheading_type": "alternate",
+              "subheading_uppercase": false,
+              "subheading_bold": false,
+              "subheading": "Center top position for mobile",
+              "subheading_font_size_desktop": 20,
+              "subheading_font_size_mobile": 15,
+              "subheading_text_align": "center",
+              "subheading_text_align_mobile": "center",
+              "overlay_content_position": "middle-center",
+              "content_position_mobile": "top-center",
+              "nudge_text_x-axis_mobile": 0,
+              "nudge_text_y-axis_mobile": -6,
+              "nudge_text_x-axis_desktop": 0,
+              "nudge_text_y-axis_desktop": 10,
+              "nudge_subheading_y-axis_mobile": 0.5,
               "nudge_subheading_y-axis_desktop": -2.5,
               "button_1_text": "",
               "button_1_link": "",
