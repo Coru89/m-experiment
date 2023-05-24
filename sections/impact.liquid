@@ -23,17 +23,12 @@
       {% endcapture %}
   
   
-      {% assign headingStrokeOpacity = block.settings.heading_stroke_opacity | divided_by: 100.0 | round: 2 %}
+      {% assign headingFontOpacity = block.settings.heading_stroke_opacity | divided_by: 100.0 | round: 2 %}
   
-      {% capture headingStrokeColor %}
-        {%- render 'color_to_rgba' with color: block.settings.heading_stroke_color, opacity: headingStrokeOpacity -%}
+      {% capture headingFontColor %}
+        {%- render 'color_to_rgba' with color: block.settings.heading_stroke_color, opacity: headingFontOpacity -%}
       {% endcapture %}
   
-      {% assign subheadingOpacity = block.settings.subheading_opacity | divided_by: 100.0 | round: 2 %}
-  
-      {% capture subheadingColor %}
-        {%- render 'color_to_rgba' with color: block.settings.subheading_color, opacity: subheadingOpacity -%}
-      {% endcapture %}
   
       #block-{{ section.id }}-{{ block.id }} {
         --heading-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
@@ -160,7 +155,7 @@
       #block-{{ section.id }}-{{ block.id }} .subheading {
         font-size: {{ block.settings.subheading_font_size_mobile }}px;
         text-align: {{ block.settings.subheading_text_align_mobile }};
-        color: {{ subheadingColor }};
+        color: {{ headingFontColor }};
         {% if block.settings.content_position_mobile == "top-center" or block.settings.content_position_mobile == "bottom-center" or block.settings.content_position_mobile == "middle-center" %}
           margin: auto;
         {% endif %}
@@ -222,7 +217,7 @@
   
         #block-{{ section.id }}-{{ block.id }} .heading {
           -webkit-font-smoothing: subpixel-antialiased;
-          -webkit-text-stroke: 1px {{ headingStrokeColor }};
+          -webkit-text-stroke: 1px {{ headingFontColor }};
           backface-visibility: hidden;
           color: {{ headingFillColor }};
           font-family: "Impact", sans-serif;
@@ -236,7 +231,7 @@
   
         @media screen and (min-width: 740px) {
           #block-{{ section.id }}-{{ block.id }} .heading {
-            -webkit-text-stroke: 2px {{ headingStrokeColor }};
+            -webkit-text-stroke: 2px {{ headingFontColor }};
             font-size: clamp({{ block.settings.heading_font_size_mobile }}px*1.75, 7vw, {{ block.settings.heading_font_size_desktop }}px*1.75);
             line-height: 1.35;
           }
@@ -594,7 +589,7 @@
           },
           {
             "type": "header",
-            "content": "Heading"
+            "content": "Headings Content"
           },
           {
             "type": "textarea",
@@ -603,24 +598,34 @@
             "default": "Impact Heading"
           },
           {
-            "type": "range",
-            "id": "heading_font_size_desktop",
-            "label": "Heading Font Size Max (desktop)",
-            "min": 30,
-            "max": 100,
-            "step": 1,
-            "default": 82,
-            "unit": "px"
+            "type": "textarea",
+            "id": "subheading",
+            "label": "Subheading",
+            "default": "subheading text"
+          },
+          {
+            "type": "header",
+            "content": "Headings Font Color"
+          },
+          {
+            "type": "color",
+            "id": "heading_stroke_color",
+            "label": "Font Color",
+            "default": "#fff"
           },
           {
             "type": "range",
-            "id": "heading_font_size_mobile",
-            "label": "Heading Font Size Min (mobile)",
-            "min": 18,
-            "max": 60,
+            "id": "heading_stroke_opacity",
+            "label": "Font Opacity",
+            "min": 0,
+            "max": 100,
             "step": 1,
-            "default": 26,
-            "unit": "px"
+            "default": 100,
+            "unit": "%"
+          },
+          {
+            "type": "header",
+            "content": "Headings Font Fill Color (inside)"
           },
           {
             "type": "color",
@@ -639,143 +644,28 @@
             "unit": "%"
           },
           {
-            "type": "color",
-            "id": "heading_stroke_color",
-            "label": "Heading Stroke Color",
-            "default": "#fff"
+            "type": "header",
+            "content": "Font Sizes"
           },
           {
             "type": "range",
-            "id": "heading_stroke_opacity",
-            "label": "Heading Stroke Opacity",
-            "min": 0,
+            "id": "heading_font_size_desktop",
+            "label": "Heading Font Size Max Desktop",
+            "min": 30,
             "max": 100,
             "step": 1,
-            "default": 100,
-            "unit": "%"
-          },
-          {
-            "type": "select",
-            "id": "Heading_text_align",
-            "label": "Heading Text Align Desktop",
-            "options": [
-              {
-                "value": "left",
-                "label": "Left"
-              },
-              {
-                "value": "center",
-                "label": "Center"
-              },
-              {
-                "value": "right",
-                "label": "Right"
-              }
-            ],
-            "default": "center"
-          },
-          {
-            "type": "select",
-            "id": "heading_text_align_mobile",
-            "label": "Heading Text Align Mobile",
-            "options": [
-              {
-                "value": "left",
-                "label": "Left"
-              },
-              {
-                "value": "center",
-                "label": "Center"
-              },
-              {
-                "value": "right",
-                "label": "Right"
-              }
-            ],
-            "default": "center"
-          },
-          {
-            "type": "header",
-            "content": "Header - Drop Shadow"
-          },
-          {
-            "type": "checkbox",
-            "id": "heading_drop_shadow",
-            "label": "Heading Drop Shadow",
-            "default": false
-          },
-          {
-            "type": "range",
-            "id": "heading_drop_shadow_x-offset",
-            "label": "Heading Drop Shadow X-Offset",
-            "min": -30,
-            "max": 30,
-            "step": 1,
-            "default": 0,
+            "default": 82,
             "unit": "px"
           },
           {
             "type": "range",
-            "id": "heading_drop_shadow_y-offset",
-            "label": "Heading Drop Shadow Y-Offset",
-            "min": -30,
-            "max": 30,
+            "id": "heading_font_size_mobile",
+            "label": "Heading Font Size Min Mobile",
+            "min": 18,
+            "max": 60,
             "step": 1,
-            "default": 3,
+            "default": 26,
             "unit": "px"
-          },
-          {
-            "type": "color",
-            "id": "heading_drop_shadow_color",
-            "label": "Heading Drop Shadow Color",
-            "default": "#000"
-          },
-          {
-            "type": "range",
-            "id": "heading_drop_shadow_opacity",
-            "label": "Heading Drop Shadow Opacity",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "default": 16,
-            "unit": "%"
-          },
-          {
-            "type": "header",
-            "content": "Subheading"
-          },
-          {
-            "type": "select",
-            "id": "subheading_type",
-            "label": "Subheading Type",
-            "options": [
-              {
-                "value": "default",
-                "label": "default"
-              },
-              {
-                "value": "alternate",
-                "label": "alternate"
-              }
-            ]
-          },
-          {
-            "type": "checkbox",
-            "id": "subheading_uppercase",
-            "label": "Uppercase",
-            "default": true
-          },
-          {
-            "type": "checkbox",
-            "id": "subheading_bold",
-            "label": "Bold",
-            "default": true
-          },
-          {
-            "type": "textarea",
-            "id": "subheading",
-            "label": "Subheading",
-            "default": "subheading text"
           },
           {
             "type": "range",
@@ -796,62 +686,6 @@
             "step": 1,
             "default": 16,
             "unit": "px"
-          },
-          {
-            "type": "select",
-            "id": "subheading_text_align",
-            "label": "Subheading Text Align Desktop",
-            "options": [
-              {
-                "value": "left",
-                "label": "Left"
-              },
-              {
-                "value": "center",
-                "label": "Center"
-              },
-              {
-                "value": "right",
-                "label": "Right"
-              }
-            ],
-            "default": "center"
-          },
-          {
-            "type": "select",
-            "id": "subheading_text_align_mobile",
-            "label": "Subheading Text Align Mobile",
-            "options": [
-              {
-                "value": "left",
-                "label": "Left"
-              },
-              {
-                "value": "center",
-                "label": "Center"
-              },
-              {
-                "value": "right",
-                "label": "Right"
-              }
-            ],
-            "default": "center"
-          },
-          {
-            "type": "color",
-            "id": "subheading_color",
-            "label": "Subheading Color",
-            "default": "#fff"
-          },
-          {
-            "type": "range",
-            "id": "subheading_opacity",
-            "label": "Subheading Opacity",
-            "min": 0,
-            "max": 100,
-            "step": 1,
-            "default": 100,
-            "unit": "%"
           },
           {
             "type": "header",
@@ -950,6 +784,10 @@
             "default": "none"
           },
           {
+            "type": "header",
+            "content": "Content Position Advanced (for finer adjustments)"
+          },
+          {
             "type": "range",
             "id": "nudge_text_x-axis_mobile",
             "label": "Nudge Text X-Axis Mobile",
@@ -1011,6 +849,167 @@
           },
           {
             "type": "header",
+            "content": "Text Alignment"
+          },
+          {
+            "type": "select",
+            "id": "Heading_text_align",
+            "label": "Heading Text Align Desktop",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "center"
+          },
+          {
+            "type": "select",
+            "id": "heading_text_align_mobile",
+            "label": "Heading Text Align Mobile",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "center"
+          },
+          {
+            "type": "select",
+            "id": "subheading_text_align",
+            "label": "Subheading Text Align Desktop",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "center"
+          },
+          {
+            "type": "select",
+            "id": "subheading_text_align_mobile",
+            "label": "Subheading Text Align Mobile",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "center"
+          },
+          {
+            "type": "header",
+            "content": "Header - Drop Shadow"
+          },
+          {
+            "type": "checkbox",
+            "id": "heading_drop_shadow",
+            "label": "Heading Drop Shadow",
+            "default": false
+          },
+          {
+            "type": "range",
+            "id": "heading_drop_shadow_x-offset",
+            "label": "Heading Drop Shadow X-Offset",
+            "min": -30,
+            "max": 30,
+            "step": 1,
+            "default": 0,
+            "unit": "px"
+          },
+          {
+            "type": "range",
+            "id": "heading_drop_shadow_y-offset",
+            "label": "Heading Drop Shadow Y-Offset",
+            "min": -30,
+            "max": 30,
+            "step": 1,
+            "default": 3,
+            "unit": "px"
+          },
+          {
+            "type": "color",
+            "id": "heading_drop_shadow_color",
+            "label": "Heading Drop Shadow Color",
+            "default": "#000"
+          },
+          {
+            "type": "range",
+            "id": "heading_drop_shadow_opacity",
+            "label": "Heading Drop Shadow Opacity",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 16,
+            "unit": "%"
+          },
+          {
+            "type": "header",
+            "content": "Misc. Subheading Styles"
+          },
+          {
+            "type": "select",
+            "id": "subheading_type",
+            "label": "Subheading Type",
+            "options": [
+              {
+                "value": "default",
+                "label": "default"
+              },
+              {
+                "value": "alternate",
+                "label": "alternate"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "id": "subheading_uppercase",
+            "label": "Uppercase",
+            "default": true
+          },
+          {
+            "type": "checkbox",
+            "id": "subheading_bold",
+            "label": "Bold",
+            "default": true
+          },
+          {
+            "type": "header",
             "content": "Buttons"
           },
           {
@@ -1037,12 +1036,6 @@
           {
             "type": "header",
             "content": "Colors"
-          },
-          {
-            "type": "color",
-            "id": "text_color",
-            "label": "Text",
-            "default": "#ffffff"
           },
           {
             "type": "color",
@@ -1073,7 +1066,6 @@
             "type": "image",
             "settings": {
               "title": "Transparent Text, with fill",
-              "subheading_opacity": 60,
               "heading_stroke_opacity": 80
             }
           },
@@ -1082,6 +1074,91 @@
             "settings": {
               "title": "Opaque Text, No Fill",
               "heading_fill_opacity": 0
+            }
+          },
+          {
+            "type": "image",
+            "settings": {
+              "title": "Middle Left Position Desktop",
+              "heading_font_size_desktop": 62,
+              "heading_font_size_mobile": 36,
+              "heading_fill_color": "#000000",
+              "heading_fill_opacity": 20,
+              "heading_stroke_color": "#ffffff",
+              "heading_stroke_opacity": 80,
+              "Heading_text_align": "left",
+              "heading_text_align_mobile": "left",
+              "heading_drop_shadow": true,
+              "heading_drop_shadow_x-offset": 0,
+              "heading_drop_shadow_y-offset": 3,
+              "heading_drop_shadow_color": "#000000",
+              "heading_drop_shadow_opacity": 16,
+              "subheading_type": "default",
+              "subheading_uppercase": true,
+              "subheading_bold": true,
+              "subheading": "Top Left Positioned for Mobile",
+              "subheading_font_size_desktop": 30,
+              "subheading_font_size_mobile": 16,
+              "subheading_text_align": "left",
+              "subheading_text_align_mobile": "left",
+              "overlay_content_position": "middle-left",
+              "content_position_mobile": "top-left",
+              "nudge_text_x-axis_mobile": -1,
+              "nudge_text_y-axis_mobile": 2,
+              "nudge_text_x-axis_desktop": -7,
+              "nudge_text_y-axis_desktop": 2,
+              "nudge_subheading_y-axis_mobile": -0.5,
+              "nudge_subheading_y-axis_desktop": -2.5,
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": "",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "overlay_color": "#000000"
+            }
+          },
+          {
+            "type": "image",
+            "settings": {
+              "title": "Middle Right Position Desktop",
+              "heading_fill_opacity": 0,
+              "heading_font_size_desktop": 78,
+              "heading_font_size_mobile": 36,
+              "heading_fill_color": "#000000",
+              "heading_fill_opacity": 7,
+              "heading_stroke_color": "#ffffff",
+              "heading_stroke_opacity": 50,
+              "Heading_text_align": "left",
+              "heading_text_align_mobile": "left",
+              "heading_drop_shadow": true,
+              "heading_drop_shadow_x-offset": 0,
+              "heading_drop_shadow_y-offset": 3,
+              "heading_drop_shadow_color": "#000000",
+              "heading_drop_shadow_opacity": 16,
+              "subheading": "",
+              "subheading_type": "default",
+              "subheading_uppercase": true,
+              "subheading_bold": true,
+              "subheading_font_size_desktop": 30,
+              "subheading_font_size_mobile": 16,
+              "subheading_text_align": "left",
+              "subheading_text_align_mobile": "left",
+              "overlay_content_position": "middle-right",
+              "content_position_mobile": "bottom-right",
+              "nudge_text_x-axis_mobile": 0,
+              "nudge_text_y-axis_mobile": 0,
+              "nudge_text_x-axis_desktop": 0,
+              "nudge_text_y-axis_desktop": 0,
+              "nudge_subheading_y-axis_mobile": -0.5,
+              "nudge_subheading_y-axis_desktop": -2.5,
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": "",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "overlay_color": "#000000"
             }
           }
         ]
