@@ -3,16 +3,21 @@
 {{ '//cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.min.js' | script_tag }}
 {{ '//cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css'| stylesheet_tag }}
 
-<script>$(function($){$('.twentytwenty-container').twentytwenty();});</script>
+<script>
+    $(window).load(function () {
+        $(function($){$('.twentytwenty-container').twentytwenty();});
+    });
+</script>
 
-{% style%}
+
+{% style %}
     .before-after-section .h2{
         color: #fff;
         text-align: center;
         padding-top: 40px;
     }
     .twentytwenty-overlay {
-        display:none
+        display: none;
     }
 
     #shopify-section-{{ section.id }} .container {
@@ -146,23 +151,58 @@
     <h3 class="heading h2">{{ section.settings.header }}</h3>
 {%- endif -%}
 
-<div class="before-after-images-container">
+{%- assign imagebefore_desktop = section.settings.imagebefore_desktop -%}
+{%- assign imageafter_desktop = section.settings.imageafter_desktop -%}
+{%- assign imagebefore_mobile = section.settings.imagebefore_mobile -%}
+{%- assign imageafter_mobile = section.settings.imageafter_mobile -%}
     
-	<div class='twentytwenty-container {{ section.id }}'>
-        <img src='{{ section.settings.imagebefore_desktop | img_url: '1920x' }}' />
-    	<img src='{{ section.settings.imageafter_desktop | img_url: '1920x' }}' />
-        
+
+<div class="before-after-images-container">
+    <div class='twentytwenty-container hidden-pocket {{ section.id }}'>
+        {{- imagebefore_desktop | image_url: width: 3000 | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {{- imageafter_desktop | image_url: width: 3000 | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {% comment %} <img class="hidden-pocket" src='{{ imagebefore_desktop | img_url: '1920x' }}' />
+        <img class="hidden-pocket" src='{{ imageafter_desktop | img_url: '1920x' }}' /> {% endcomment %}
+
         <div class="container">
             <div class="overlay-content">
                 <div class="text-container">
-                    <h4 class="heading h3">{{section.settings.subheading}}</h4>
-                    {{section.settings.caption}}
+                    <h4 class="heading h3">
+                        <span>
+                            {{ section.settings.subheading }}
+                        </span>
+                    </h4>
+                    <span>
+                        {{section.settings.caption}}
+                    </span>
                 </div>
-
             </div>
         </div>
 
-	</div>
+    </div>
+
+    <div class='twentytwenty-container {{ section.id }} hidden-lap-and-up'>
+        {{- imagebefore_mobile | image_url: width: 3000 | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {{- imageafter_mobile | image_url: width: 3000 | image_tag: sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {% comment %} <img class="hidden-lap-and-up" src='{{ imagebefore_mobile | img_url: '480x' }}' />
+        <img class="hidden-lap-and-up" src='{{ imageafter_mobile | img_url: '480x' }}' /> {% endcomment %}
+    
+        <div class="container">
+            <div class="overlay-content">
+                <div class="text-container">
+                    <h4 class="heading h3">
+                        <span>
+                            {{section.settings.subheading}}
+                        </span>
+                    </h4>
+                    <span class="heading-animate">
+                        {{section.settings.caption}}
+                    </span>
+                </div>
+
+            </div>
+        </div> 
+    </div>
 
     <div class="mobile-content">
         <h4 class="heading h3">{{section.settings.subheading}}</h4>
@@ -170,6 +210,9 @@
     </div>
     
 </div>
+
+
+
 
 {% schema %}
   {
@@ -291,3 +334,6 @@
 
 {% javascript %}
 {% endjavascript %}
+
+
+

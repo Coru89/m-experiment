@@ -374,13 +374,13 @@
   
             {%- if block.settings.title != blank -%}
               <h2 class="heading h3">
-                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title }}</split-lines>
+                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title }}</span>
               </h2>
             {%- endif -%}
   
               {%- if block.settings.subheading != blank -%}
                 <p class="subheading">
-                  <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</split-lines>
+                  <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</span>
                 </p>
               {%- endif -%}
   

@@ -3194,7 +3194,7 @@
   var SlideshowItem = class extends HTMLElement {
     async connectedCallback() {
       this._pendingAnimations = [];
-      this.addEventListener("split-lines:re-split", (event) => {
+      this.addEventListener("split-lines:re-split:", (event) => {
         Array.from(event.target.children).forEach((line) => line.style.visibility = this.selected ? "visible" : "hidden");
       });
       if (MediaFeatures.prefersReducedMotion()) {
@@ -3217,7 +3217,7 @@
       }
       this._pendingAnimations.forEach((animation2) => animation2.cancel());
       this._pendingAnimations = [];
-      let animation = null, textElements = await resolveAsyncIterator(this.querySelectorAll("split-lines, .button-group, .button-wrapper")), imageElements = Array.from(this.querySelectorAll(".slideshow__image-wrapper"));
+      let animation = null, textElements = await resolveAsyncIterator(this.querySelectorAll("split-lines, .button-group, .button-wrapper, .heading-animate")), imageElements = Array.from(this.querySelectorAll(".slideshow__image-wrapper"));
       switch (transitionType) {
         case "sweep":
           animation = new CustomAnimation(new SequenceEffect([
@@ -3253,7 +3253,7 @@
     async transitionToEnter(transitionType, shouldAnimate = true, reverseDirection = false) {
       this.removeAttribute("hidden");
       await this._untilReady();
-      let animation = null, textElements = await resolveAsyncIterator(this.querySelectorAll("split-lines, .button-group, .button-wrapper")), imageElements = Array.from(this.querySelectorAll(".slideshow__image-wrapper"));
+      let animation = null, textElements = await resolveAsyncIterator(this.querySelectorAll("split-lines, .button-group, .button-wrapper, .test")), imageElements = Array.from(this.querySelectorAll(".slideshow__image-wrapper"));
       switch (transitionType) {
         case "sweep":
           animation = new CustomAnimation(new SequenceEffect([
