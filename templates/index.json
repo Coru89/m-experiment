@@ -600,7 +600,7 @@
             "overlay_content_position": "middle-center",
             "content_position_mobile": "none",
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": -3,
+            "nudge_text_y-axis_mobile": -5,
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 0,
             "Heading_text_align": "center",
