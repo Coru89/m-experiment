@@ -3253,7 +3253,7 @@
     async transitionToEnter(transitionType, shouldAnimate = true, reverseDirection = false) {
       this.removeAttribute("hidden");
       await this._untilReady();
-      let animation = null, textElements = await resolveAsyncIterator(this.querySelectorAll("split-lines, .button-group, .button-wrapper, .test")), imageElements = Array.from(this.querySelectorAll(".slideshow__image-wrapper"));
+      let animation = null, textElements = await resolveAsyncIterator(this.querySelectorAll("split-lines, .button-group, .button-wrapper, .heading-animate")), imageElements = Array.from(this.querySelectorAll(".slideshow__image-wrapper"));
       switch (transitionType) {
         case "sweep":
           animation = new CustomAnimation(new SequenceEffect([
