@@ -374,13 +374,13 @@
   
             {%- if block.settings.title != blank -%}
               <h2 class="heading h3">
-                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title }}</span>
+                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | newline_to_br }}</span>
               </h2>
             {%- endif -%}
   
               {%- if block.settings.subheading != blank -%}
                 <p class="subheading">
-                  <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</span>
+                  <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | newline_to_br }}</span>
                 </p>
               {%- endif -%}
   
@@ -1077,7 +1077,7 @@
           {
             "type": "image",
             "settings": {
-              "title": "Opaque Text, No Fill",
+              "title": "Opaque Text No Fill",
               "heading_fill_opacity": 0,
               "subheading": "Center top position for mobile"
             }
