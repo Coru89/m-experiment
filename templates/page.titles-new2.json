@@ -7,63 +7,19 @@
         "page_width": "medium"
       }
     },
-    "31f72a6d-efce-4bf8-9d99-c512d1947579": {
+    "bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c": {
       "type": "impact",
       "blocks": {
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/f018336789b2aeadd36824877b836f8d.png",
-            "overlay_opacity": 30,
-            "title": "EYE<br>\nSHIELD",
-            "subheading": "SO MUCH PROTECTION\n\nIT SHOULD BE ILLEGAL",
-            "heading_stroke_color": "#de2a2a",
-            "heading_stroke_opacity": 69,
-            "heading_fill_color": "#f3ff34",
-            "heading_fill_opacity": 29,
-            "heading_font_size_desktop": 82,
-            "heading_font_size_mobile": 26,
-            "subheading_font_size_desktop": 30,
-            "subheading_font_size_mobile": 16,
-            "overlay_content_position": "top-left",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "Heading_text_align": "center",
-            "heading_text_align_mobile": "center",
-            "subheading_text_align": "center",
-            "subheading_text_align_mobile": "center",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 0,
-            "heading_drop_shadow_y-offset": 3,
-            "heading_drop_shadow_color": "#000",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_type": "default",
-            "subheading_uppercase": true,
-            "subheading_bold": true,
-            "nudge_subheading_y-axis_mobile": 0,
-            "nudge_subheading_y-axis_desktop": -2,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        },
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-1": {
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-0": {
           "type": "image",
           "settings": {
             "overlay_opacity": 30,
-            "title": "Opaque Text, No Fill",
+            "title": "Transparent Text, with fill",
             "subheading": "Center top position for mobile",
             "heading_stroke_color": "#fff",
-            "heading_stroke_opacity": 100,
+            "heading_stroke_opacity": 80,
             "heading_fill_color": "#000000",
-            "heading_fill_opacity": 0,
+            "heading_fill_opacity": 30,
             "heading_font_size_desktop": 82,
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 30,
@@ -97,7 +53,52 @@
             "overlay_color": "#000000"
           }
         },
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-2": {
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M_Exp_Page_Desktop_04_V2_8d5de450-723e-40a6-b76b-6cb8574ac0a8.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_Exp_Page_Mobile_04_v2.png",
+            "overlay_opacity": 30,
+            "title": "MAD\nSCIENCE\nCHAMBER",
+            "subheading": "BEYOND\nSANITY",
+            "heading_stroke_color": "#fff",
+            "heading_stroke_opacity": 100,
+            "heading_fill_color": "#000000",
+            "heading_fill_opacity": 100,
+            "heading_font_size_desktop": 82,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 30,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "Heading_text_align": "center",
+            "heading_text_align_mobile": "center",
+            "subheading_text_align": "center",
+            "subheading_text_align_mobile": "center",
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000",
+            "heading_drop_shadow_opacity": 16,
+            "subheading_type": "default",
+            "subheading_uppercase": true,
+            "subheading_bold": true,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": -2,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        },
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-2": {
           "type": "image",
           "settings": {
             "overlay_opacity": 30,
@@ -140,7 +141,7 @@
             "overlay_color": "#000000"
           }
         },
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-3": {
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-3": {
           "type": "image",
           "settings": {
             "overlay_opacity": 30,
@@ -183,7 +184,7 @@
             "overlay_color": "#000000"
           }
         },
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-4": {
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-4": {
           "type": "image",
           "settings": {
             "overlay_opacity": 30,
@@ -228,11 +229,11 @@
         }
       },
       "block_order": [
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-0",
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-1",
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-2",
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-3",
-        "template--16023345070230__31f72a6d-efce-4bf8-9d99-c512d1947579-1684940004d12947e6-4"
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-0",
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-1",
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-2",
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-3",
+        "template--16023345070230__bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c-1685001714a927d1fd-4"
       ],
       "settings": {
         "section_height": "auto",
@@ -245,6 +246,6 @@
   },
   "order": [
     "main",
-    "31f72a6d-efce-4bf8-9d99-c512d1947579"
+    "bbcf95ca-c8b1-4caa-b289-2b9aa9e4e86c"
   ]
 }
