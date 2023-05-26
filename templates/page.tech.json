@@ -142,29 +142,33 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png"
-           }
+            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png",
+            "lens_description": ""
+          }
         },
         "69fdbabb-85d7-4666-9ad8-fe463728797a": {
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png"
-           }
+            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
+            "lens_description": ""
+          }
         },
         "f4e3ecca-4dda-44bc-80a0-13446870624b": {
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png"
-            }
+            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
+            "lens_description": ""
+          }
         },
         "712f49d8-aa2f-48d3-8b97-30619d5f24ac": {
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png"
-           }
+            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
+            "lens_description": ""
+          }
         }
       },
       "block_order": [
@@ -252,6 +256,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
             "subheading": "These mirrored lenses reflect light away from your eyes, reducing glare and eye strain while giving you privacy",
+            "subheading_type": "default",
             "subheading_color": "#f1f2f2",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -296,21 +301,24 @@
           "type": "lens_item",
           "settings": {
             "title": "Sepia",
-            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png",
+            "lens_description": ""
           }
         },
         "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d": {
           "type": "lens_item",
           "settings": {
             "title": "Sepia",
-            "lens_image": "shopify:\/\/shop_images\/Giga_SEPIA_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_SEPIA_Lens.png",
+            "lens_description": ""
           }
         },
         "38e836aa-10c5-4c1e-b30a-21f8b0868a2b": {
           "type": "lens_item",
           "settings": {
             "title": "Sepia",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
+            "lens_description": ""
           }
         }
       },
@@ -403,35 +411,40 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
+            "lens_description": ""
           }
         },
         "a99b0b00-3757-4422-9167-c5e82a92d068": {
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
+            "lens_description": ""
           }
         },
         "939f84c7-2408-45be-8007-c5c7279f9f01": {
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
+            "lens_description": ""
           }
         },
         "a307d5ce-76c8-4c64-b35c-1fd31bc6eff0": {
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png",
+            "lens_description": ""
           }
         },
         "f6a16a48-a45d-4bbf-9a4f-26aea2e5e333": {
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png"
+            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
+            "lens_description": ""
           }
         }
       },
@@ -480,6 +493,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
             "subheading": "Eye Fence Impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -569,6 +583,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -666,6 +681,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -740,10 +756,7 @@
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
-        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}",
-        ".multi-column__text-container p:not(.heading) {font-weight: 300; line-height: 1.125; letter-spacing: 3px;}",
-        "@media screen and (min-width: 740px) {.multi-column__text-container p:not(.heading) {font-weight: 400; line-height: 1.5; letter-spacing: 4px; }}",
-        ".multi-column .heading {letter-spacing: -1.9%; font-weight: 700 !important;}"
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -862,6 +875,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "2 SHOT COLOR PROCESS.",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -903,6 +917,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "2 SHOT COLOR PROCESS",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -964,6 +979,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "The quickest, most secure way to switch lenses.",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -1005,6 +1021,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
             "subheading": "The quickest, most secure way to switch lenses.",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -1045,6 +1062,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "Tell your story",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -1107,6 +1125,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "Designed to attached to the frame's bridge.  Adjustable for different nose sizes and provides a secure, non-slip fit.",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -1148,6 +1167,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
             "subheading": "Adjustable for different nose sizes and provides a secure, non-slip fit.",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -1209,6 +1229,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "Ear socks that prevent discomfort or irritation.",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
@@ -1250,6 +1271,7 @@
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading": "Atomic 14 ear pads for a non-slip grip",
+            "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 16,
