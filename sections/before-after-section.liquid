@@ -120,29 +120,20 @@
     }
 
 
+    .before-after-images-container .overlay-content *,
+    .before-after-images-container .mobile-content * {
+        color: #fff;
+    }
+
     .before-after-images-container .overlay-content .heading{
         margin-bottom: 16px;
-        color: #fff;
     }
     .before-after-images-container .mobile-content .heading {
         margin-bottom: 16px;
-        color: #fff;
     }
 
     .before-after-images-container .overlay-content p {
-        font-weight: 300;
-        line-height: 1.5;
-        line-height: 1.125;
-        color: {{ section.settings.subheading_color }};
-        letter-spacing: 3px;
-    }
-
-    @media screen and (min-width: 740px) {
-        .before-after-images-container .overlay-content p {
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 4px;
-        }
+        font-weight: 400;
     }
  
 {% endstyle %}
