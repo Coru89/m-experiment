@@ -416,7 +416,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "video_url": "https:\/\/vimeo.com\/813337590",
+        "video_url": "https:\/\/vimeo.com\/813337590?loop=1",
         "image": "shopify:\/\/shop_images\/DIE-CAST.00_03_35_05.Still002_3e4dac44-bbf1-4c27-9eb7-98d8c757e56e.jpg",
         "background_type": "full_width",
         "video_size": "large",
@@ -463,10 +463,10 @@
             "caption": ""
           }
         },
-        "fea6850a-389d-4b32-a9bd-f7ea70024b56": {
+        "9256609a-77c2-47c6-950c-c314e4f45db3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_03_ae588a1a-6d02-43fc-af64-72c5c2c40ec0.png",
+            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_02.png",
             "caption": ""
           }
         },
@@ -505,10 +505,10 @@
             "caption": ""
           }
         },
-        "82a67250-6bea-4975-8090-50a065a034ab": {
+        "325fc43a-5cf8-44a8-81a3-d23102ff1455": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_01_c81b29fb-aae8-499a-bfa6-f5b9028a372f.png",
+            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_13.png",
             "caption": ""
           }
         }
@@ -516,13 +516,13 @@
       "block_order": [
         "16577782772a28c94d-0",
         "16577782772a28c94d-1",
-        "fea6850a-389d-4b32-a9bd-f7ea70024b56",
+        "9256609a-77c2-47c6-950c-c314e4f45db3",
         "16577782772a28c94d-2",
         "43ae91dd-2015-434d-a834-d9612631af62",
         "f5e62cd3-ca86-45b5-ad6f-561992056132",
         "2d911138-032d-4649-900c-b3afc1324af4",
         "cb9b9a2d-46f8-4d50-a6a6-1c3e00b94e87",
-        "82a67250-6bea-4975-8090-50a065a034ab"
+        "325fc43a-5cf8-44a8-81a3-d23102ff1455"
       ],
       "settings": {
         "subheading": "",
@@ -584,6 +584,19 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "8a36f04a-1ebb-4724-803b-1a469b35058a": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/813337590?h=46672b3b96\" width=\"100%\" height=\"360\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -597,6 +610,7 @@
     "165924581572ac0ec0",
     "1659246357f7f42bf8",
     "16592477891d8702b5",
-    "165924842847449d9b"
+    "165924842847449d9b",
+    "8a36f04a-1ebb-4724-803b-1a469b35058a"
   ]
 }
