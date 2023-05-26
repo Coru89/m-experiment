@@ -759,8 +759,9 @@
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
         "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}",
-        ".multi-column__text-container p:not(.heading) {font-weight: 300; line-height: 1.5; line-height: 1.125; letter-spacing: 3px;}",
-        "@media screen and (min-width: 740px) {.multi-column__text-container p:not(.heading) {font-weight: 400; line-height: 1.5; letter-spacing: 4px; }}"
+        ".multi-column__text-container p:not(.heading) {font-weight: 300; line-height: 1.125; letter-spacing: 3px;}",
+        "@media screen and (min-width: 740px) {.multi-column__text-container p:not(.heading) {font-weight: 400; line-height: 1.5; letter-spacing: 4px; }}",
+        ".multi-column .heading {letter-spacing: -1.9%; font-weight: 700 !important;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
