@@ -834,11 +834,11 @@
     "76168366-8546-453e-8bfb-8cfeb9280c10": {
       "type": "rich-text",
       "custom_css": [
-
+        ".container {padding-top: 2rem;}"
       ],
       "settings": {
         "subheading": "",
-        "title": "FRAME TECHNOLOGY",
+        "title": "Frame Technology",
         "content": "",
         "button_text": "",
         "button_link": "",
