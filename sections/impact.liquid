@@ -260,10 +260,8 @@
           }
         }
   
-
-  
       {% comment %} ***Subheading Styles*** {% endcomment %}
-      {% if block.settings.subheading_type == "alternate" %}
+      {% comment %} {% if block.settings.subheading_type == "alternate" %}
         #block-{{ section.id }}-{{ block.id }} .subheading * {
           line-height: 1.125;
         }
@@ -295,7 +293,7 @@
             line-height: 1.5;
           }
         }
-      {% endif %}
+      {% endif %} {% endcomment %}
   
     {%- endfor -%}
   </style>
@@ -962,21 +960,6 @@
             "content": "Misc. Subheading Styles"
           },
           {
-            "type": "select",
-            "id": "subheading_type",
-            "label": "Subheading Type",
-            "options": [
-              {
-                "value": "default",
-                "label": "default"
-              },
-              {
-                "value": "alternate",
-                "label": "alternate"
-              }
-            ]
-          },
-          {
             "type": "checkbox",
             "id": "subheading_uppercase",
             "label": "Uppercase",
@@ -1099,7 +1082,6 @@
               "heading_drop_shadow_y-offset": 3,
               "heading_drop_shadow_color": "#000000",
               "heading_drop_shadow_opacity": 16,
-              "subheading_type": "default",
               "subheading_uppercase": true,
               "subheading_bold": true,
               "subheading": "Top Left Position for Mobile",
@@ -1143,7 +1125,6 @@
               "heading_drop_shadow_color": "#000000",
               "heading_drop_shadow_opacity": 16,
               "subheading": "Bottom right position for mobile",
-              "subheading_type": "default",
               "subheading_uppercase": true,
               "subheading_bold": true,
               "subheading_font_size_desktop": 30,
@@ -1184,7 +1165,6 @@
               "heading_drop_shadow_y-offset": 3,
               "heading_drop_shadow_color": "#000000",
               "heading_drop_shadow_opacity": 16,
-              "subheading_type": "alternate",
               "subheading_uppercase": false,
               "subheading_bold": false,
               "subheading": "Center top position for mobile",
