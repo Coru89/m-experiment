@@ -11153,10 +11153,6 @@ input:checked + .popover__choice-label::after,
   }
 }
 
-.multi-column .heading {
-  font-weight: 700;
-}
-
 @media screen and (min-width: 1200px) {
   .multi-column--pico {
     --section-items-per-row: 8;
