@@ -11694,9 +11694,9 @@ input:checked + .popover__choice-label::after,
     align-items: flex-start;
   }
 
-  .product:not(.product--featured) {
+  /* .product:not(.product--featured) {
     margin-bottom: 80px;
-  }
+  } */
 
   .product__media {
     --product-media-width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 10);
