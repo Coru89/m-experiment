@@ -371,10 +371,26 @@
             {%- capture section_content -%}
   
             {%- if block.settings.title != blank -%}
-              <h2 class="heading h3">
-                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | newline_to_br }}</span>
+              <h2 
+                class="heading h3{% if block.settings.title_mobile %} hidden-pocket{% endif %}"
+              >
+                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                  {{ block.settings.title | newline_to_br }}
+                </span>
               </h2>
             {%- endif -%}
+
+            {%- if block.settings.title_mobile -%}
+              <h2 class="heading h3 hidden-lap-and-up">
+                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                  {% if block.settings.title_mobile == blank %}
+                    {{ block.settings.title | newline_to_br }}
+                    {% else %}
+                    {{ block.settings.title_mobile | newline_to_br }}
+                  {% endif %}
+                </span>
+              </h2>
+            {%- endif -%} 
   
               {%- if block.settings.subheading != blank -%}
                 <p class="subheading">
@@ -594,6 +610,11 @@
             "id": "title",
             "label": "Heading",
             "default": "Impact Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "title_mobile",
+            "label": "Heading Mobile"
           },
           {
             "type": "textarea",
@@ -824,7 +845,7 @@
             "step": 1,
             "default": 0,
             "unit": "%"
-          }
+          },
           {
             "type": "header",
             "content": "Text Alignment"
