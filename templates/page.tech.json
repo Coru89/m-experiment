@@ -18,6 +18,7 @@
             "mobile_image": "shopify:\/\/shop_images\/M_Exp_Page_Mobile_11.jpg",
             "overlay_opacity": 30,
             "title": "M-Technology",
+            "title_mobile": "",
             "subheading": "MATERIALS SCIENCE WITH A DASH OF MAD SCIENCE",
             "heading_stroke_color": "#ffffff",
             "heading_stroke_opacity": 100,
@@ -29,10 +30,10 @@
             "subheading_font_size_mobile": 15,
             "overlay_content_position": "middle-center",
             "content_position_mobile": "top-center",
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": -6,
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 10,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": -6,
             "Heading_text_align": "center",
             "heading_text_align_mobile": "center",
             "subheading_text_align": "center",
@@ -61,6 +62,7 @@
           "settings": {
             "overlay_opacity": 30,
             "title": "Slide 2",
+            "title_mobile": "",
             "subheading": "Tell your story",
             "heading_stroke_color": "#ffffff",
             "heading_stroke_opacity": 100,
@@ -72,10 +74,10 @@
             "subheading_font_size_mobile": 16,
             "overlay_content_position": "middle-center",
             "content_position_mobile": "none",
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
             "Heading_text_align": "left",
             "heading_text_align_mobile": "left",
             "subheading_text_align": "left",
@@ -134,7 +136,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
             "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
           }
         },
@@ -142,7 +143,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png",
             "lens_description": ""
           }
         },
@@ -150,7 +150,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
             "lens_description": ""
           }
         },
@@ -158,7 +157,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
             "lens_description": ""
           }
         },
@@ -166,7 +164,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey M9M",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
             "lens_description": ""
           }
         }
@@ -300,24 +297,24 @@
         "d3d835c8-9d80-4835-be33-8a034c32f488": {
           "type": "lens_item",
           "settings": {
-            "title": "Sepia",
-            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png",
+            "title": "Blaze",
+            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Blaze-Plasmachromatic_frnt.2.png",
             "lens_description": ""
           }
         },
         "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d": {
           "type": "lens_item",
           "settings": {
-            "title": "Sepia",
-            "lens_image": "shopify:\/\/shop_images\/Giga_SEPIA_Lens.png",
+            "title": "Glacier",
+            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Glacier-Plasmachromatic_frnt.6.png",
             "lens_description": ""
           }
         },
         "38e836aa-10c5-4c1e-b30a-21f8b0868a2b": {
           "type": "lens_item",
           "settings": {
-            "title": "Sepia",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
+            "title": "Obsidian Polarized",
+            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12.png",
             "lens_description": ""
           }
         }
@@ -411,7 +408,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
             "lens_description": ""
           }
         },
@@ -419,7 +415,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
             "lens_description": ""
           }
         },
@@ -427,7 +422,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_GLACIER_Lens.png",
             "lens_description": ""
           }
         },
@@ -435,7 +429,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_FLASH_Lens.png",
             "lens_description": ""
           }
         },
@@ -443,7 +436,6 @@
           "type": "lens_item",
           "settings": {
             "title": "Grey Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Giga_BLAZE_Lens.png",
             "lens_description": ""
           }
         }
