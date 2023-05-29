@@ -407,35 +407,24 @@
         "66ab47eb-e67b-407d-af6f-46ff5a0e4c73": {
           "type": "lens_item",
           "settings": {
-            "title": "Grey Polarized",
+            "title": "Sepia Polarized",
+            "lens_image": "shopify:\/\/shop_images\/2048_2048_jiga_Lens_Sepia_Pol_frnt.618.png",
             "lens_description": ""
           }
         },
         "a99b0b00-3757-4422-9167-c5e82a92d068": {
           "type": "lens_item",
           "settings": {
-            "title": "Grey Polarized",
+            "title": "Obsidian polarized Plasmachromatic",
+            "lens_image": "shopify:\/\/shop_images\/2048_2048_jiga_Lens_Obsidian_Pol_Plasmachromatic_frnt.554.png",
             "lens_description": ""
           }
         },
         "939f84c7-2408-45be-8007-c5c7279f9f01": {
           "type": "lens_item",
           "settings": {
-            "title": "Grey Polarized",
-            "lens_description": ""
-          }
-        },
-        "a307d5ce-76c8-4c64-b35c-1fd31bc6eff0": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Grey Polarized",
-            "lens_description": ""
-          }
-        },
-        "f6a16a48-a45d-4bbf-9a4f-26aea2e5e333": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Grey Polarized",
+            "title": "Gray Polarized",
+            "lens_image": "shopify:\/\/shop_images\/2048_2048_jiga_Lens_Gray_Polar_frnt.671.png",
             "lens_description": ""
           }
         }
@@ -443,9 +432,7 @@
       "block_order": [
         "66ab47eb-e67b-407d-af6f-46ff5a0e4c73",
         "a99b0b00-3757-4422-9167-c5e82a92d068",
-        "939f84c7-2408-45be-8007-c5c7279f9f01",
-        "a307d5ce-76c8-4c64-b35c-1fd31bc6eff0",
-        "f6a16a48-a45d-4bbf-9a4f-26aea2e5e333"
+        "939f84c7-2408-45be-8007-c5c7279f9f01"
       ],
       "custom_css": [
         ".product-list__inner:first-of-type {margin-top: 0rem;}",
@@ -804,10 +791,7 @@
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
-        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}",
-        ".multi-column__text-container p:not(.heading) {font-weight: 300; line-height: 1.125; letter-spacing: 3px;}",
-        "@media screen and (min-width: 740px) {.multi-column__text-container p:not(.heading) {font-weight: 400; line-height: 1.5; letter-spacing: 4px; }}",
-        ".multi-column .heading {letter-spacing: -1.9%; font-weight: 700 !important;}"
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
       ],
       "settings": {
         "reveal_on_scroll": true,
