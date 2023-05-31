@@ -83,7 +83,7 @@
     }
 
     .before-after-images-container .overlay-content {
-        display: none;
+        /* display: none; */
         position: relative;
         padding: 24px;
         z-index: 39;
@@ -93,7 +93,7 @@
 
     @media screen and (min-width: 1000px) {
        .before-after-images-container .overlay-content {
-         display: block;
+         /* display: block; */
          padding: 50px 30px;
        }
     }
@@ -195,10 +195,10 @@
         </div> 
     </div>
 
-    <div class="mobile-content">
+    {% comment %} <div class="mobile-content">
         <h4 class="heading h3">{{section.settings.subheading}}</h4>
         {{section.settings.caption}}
-    </div>
+    </div> {% endcomment %}
     
 </div>
 
