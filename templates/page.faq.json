@@ -327,6 +327,20 @@
             "answer": "<p>In the unlikely event your personal information is accessed, lost, or stolen by an unauthorized third party, M-Experiment will exercise commercially reasonable efforts to notify you to the extent required by law and disclose to you the personal data that was accessed\/disclosed using the contact information provided to us or by other reasonable means.<\/p>"
           }
         },
+        "2dcd76bb-3874-4fef-8bdf-2854375bf0d8": {
+          "type": "category",
+          "settings": {
+            "title": "California Proposition 65",
+            "anchorID": "ca-prop-65"
+          }
+        },
+        "8044790b-e588-49c3-926d-3837643e60b5": {
+          "type": "question",
+          "settings": {
+            "title": "California Proposition 65",
+            "answer": "<p><strong>WARNING<\/strong>. This Product can expose you to chemicals, including Bisphenol A (BPA), which is known to the State of California to cause<br\/> cancer and birth defects or other reproductive harm. For more information go to <a href=\"http:\/\/www.P65Warnings.ca.gov\" target=\"_blank\"><br\/>www.P65Warnings.ca.gov<\/a>. <\/p>"
+          }
+        },
         "17ea5ab3-9e30-49da-b31e-bb3b185f8292": {
           "type": "category",
           "settings": {
@@ -413,6 +427,8 @@
         "a81121dd-4a01-4523-b579-7d0e9a732fda",
         "1fa2cb2f-c4c3-41d1-97ab-d3eff197c671",
         "f142692f-27cb-4518-9217-b5132490c3fa",
+        "2dcd76bb-3874-4fef-8bdf-2854375bf0d8",
+        "8044790b-e588-49c3-926d-3837643e60b5",
         "17ea5ab3-9e30-49da-b31e-bb3b185f8292",
         "ffc50aae-0e0a-473d-830d-18f0de5b9d77",
         "8898f381-8c06-4722-b883-95e6ad601faa",
@@ -423,7 +439,7 @@
       "custom_css": [
         ".faq__item + .faq__item {border-top: 1px solid #e2a829;}",
         ".faq__item .animated-plus {color: #e2a829;}",
-        ".scroll-spy {box-shadow: 1px 0 rgba(var(--text-color), .65) inset;}",
+        ".scroll-spy {box-shadow: 1px 0 rgba(var(--text-color), 0.65) inset;}",
         ".scroll-spy svg {color: #e2a829;}"
       ],
       "settings": {
