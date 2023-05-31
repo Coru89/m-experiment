@@ -85,16 +85,25 @@
     .before-after-images-container .overlay-content {
         /* display: none; */
         position: relative;
-        padding: 24px;
+        padding: 24px 0;
         z-index: 39;
         color: #fff;
         line-height: 1.5;
+        width: 40vw;
+    }
+
+    @media screen and (min-width: 740px) {
+       .before-after-images-container .overlay-content {
+         padding: 30px;
+         width: auto;
+       }
     }
 
     @media screen and (min-width: 1000px) {
        .before-after-images-container .overlay-content {
          /* display: block; */
          padding: 50px 30px;
+         max-width: unset;
        }
     }
 
@@ -127,6 +136,7 @@
 
     .before-after-images-container .overlay-content .heading{
         margin-bottom: 16px;
+        font-size: clamp(26px, 3vw + 1rem, 36px);
     }
     .before-after-images-container .mobile-content .heading {
         margin-bottom: 16px;
