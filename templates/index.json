@@ -584,8 +584,8 @@
         "template--15613256990870__07443d72-c1b9-4248-9951-fc3e505affc5-16679634112a5ab8f7-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RPOF_Desktop_02.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/RPOF_Mobile_02-20230523.jpg",
+            "image": "shopify:\/\/shop_images\/RPOF_Desktop_02_346dafad-f876-4d38-a1c2-9d947bfcdda4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/RPOF_Mobile_02.jpg",
             "overlay_opacity": 30,
             "title": "The relentless pursuit of fun",
             "title_mobile": "",
@@ -804,7 +804,7 @@
             "title": "",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align": "left",
+            "Heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -845,7 +845,7 @@
             "title": "Slide 2",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align": "left",
+            "Heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
