@@ -327,11 +327,11 @@
             "answer": "<p>In the unlikely event your personal information is accessed, lost, or stolen by an unauthorized third party, M-Experiment will exercise commercially reasonable efforts to notify you to the extent required by law and disclose to you the personal data that was accessed\/disclosed using the contact information provided to us or by other reasonable means.<\/p>"
           }
         },
-        "17ea5ab3-9e30-49da-b31e-bb3b185f8292": {
+        "2dcd76bb-3874-4fef-8bdf-2854375bf0d8": {
           "type": "category",
           "settings": {
-            "title": "Supply Chain Disclosure",
-            "anchorID": "supply-chain-disclosure"
+            "title": "California Proposition 65",
+            "anchorID": "ca-prop-65"
           }
         },
         "ffc50aae-0e0a-473d-830d-18f0de5b9d77": {
@@ -339,6 +339,20 @@
           "settings": {
             "title": "SUPPLY CHAIN DISCLOSURE",
             "answer": "<p>On January 1, 2012, the California Transparency in Supply Chains Act of 2010 goes into effect. This law is designed to address the difficulty of policing slavery and human trafficking crimes by requiring certain companies that do business in California disclose their efforts to eradicate such activity from their supply chains.<\/p><p>We strive to ensure that our products are manufactured in a responsible and ethical manner. With respect to the absence of slavery and human trafficking in our supply chain, we specifically undertake the following actions.<\/p><p>SUPPLY CHAIN ASSESSMENT<\/p><p>M-EXPERIMENT requires that all of its suppliers to affirmatively disclose certain information relating to the manner in which it conducts its operations. Included in this process is the Supplier Social Responsibility Self-Assessment Questionnaire which touches upon a number of topics including the following:<\/p><p>- Labor Practices;<\/p><p>-Health & Safety;<\/p><p>-Environmental Impact; and<\/p><p>-Core Values & Ethics.<\/p><p>M-EXPERIMENT then uses this information as a basis from which to conduct audits by specially trained M-EXPERIMENT employees to validate the information provided.<\/p><p>SUPPLIER AUDITS<\/p><p>All suppliers are subject to audits which are typically scheduled in advance. These on-site factory visits are supplemented by document reviews\/desk audits.<\/p><p>In conducting all supplier audits, emphasis is placed on the following areas:<\/p><p>-Management Accountability and Responsibility;<\/p><p>-Documentation and Records;<\/p><p>-Training and Communication; and<\/p><p>-Corrective Action Process.<\/p><p>SUPPLIER CERTIFICATION<\/p><p>As part of our evaluation process, we require our suppliers to certify that the materials incorporated into the products comply with local regulations regarding slavery and human trafficking. In addition, all contractual agreements, including purchase order terms and conditions require our suppliers to reaffirm their commitment to compliance with local laws.<\/p><p>ACCOUNTABILITY STANDARDS<\/p><p>If we believe that a supplier is not in compliance with its representations, contractual commitments or legal obligations, we will provide the supplier with the opportunity to remedy any potential non-compliance through the implementation of a corrective action plan, which will include a subsequent audit by key M-EXPERIMENT personnel. Should the supplier continue to fail to meet its obligations, we will seek to eliminate such supplier from our supply chain.<\/p><p>TRAINING PROGRAMS<\/p><p>M-EXPERIMENT places great importance in providing its employees with the resources necessary to effectively and efficiently fulfill their job responsibilities. With this in mind, key M-EXPERIMENT supply chain audit personnel will receive training from Social Accountability International with an emphasis on SA8000 auditing standards as it relates to social responsibility audits.<\/p>"
+          }
+        },
+        "8044790b-e588-49c3-926d-3837643e60b5": {
+          "type": "question",
+          "settings": {
+            "title": "California Proposition 65",
+            "answer": "<p><strong>WARNING<\/strong>. This Product can expose you to chemicals, including Bisphenol A (BPA), which is known to the State of California to cause<br\/> cancer and birth defects or other reproductive harm. For more information go to <a href=\"http:\/\/www.P65Warnings.ca.gov\" target=\"_blank\"><br\/>www.P65Warnings.ca.gov<\/a>. <\/p>"
+          }
+        },
+        "17ea5ab3-9e30-49da-b31e-bb3b185f8292": {
+          "type": "category",
+          "settings": {
+            "title": "Supply Chain Disclosure",
+            "anchorID": "supply-chain-disclosure"
           }
         },
         "8898f381-8c06-4722-b883-95e6ad601faa": {
@@ -413,8 +427,10 @@
         "a81121dd-4a01-4523-b579-7d0e9a732fda",
         "1fa2cb2f-c4c3-41d1-97ab-d3eff197c671",
         "f142692f-27cb-4518-9217-b5132490c3fa",
-        "17ea5ab3-9e30-49da-b31e-bb3b185f8292",
+        "2dcd76bb-3874-4fef-8bdf-2854375bf0d8",
         "ffc50aae-0e0a-473d-830d-18f0de5b9d77",
+        "8044790b-e588-49c3-926d-3837643e60b5",
+        "17ea5ab3-9e30-49da-b31e-bb3b185f8292",
         "8898f381-8c06-4722-b883-95e6ad601faa",
         "02294147-3c98-4373-a5a7-2e7ff9a50c2f",
         "2a754433-d5fe-4de8-a0fe-decf84d9ce82",
@@ -423,7 +439,7 @@
       "custom_css": [
         ".faq__item + .faq__item {border-top: 1px solid #e2a829;}",
         ".faq__item .animated-plus {color: #e2a829;}",
-        ".scroll-spy {box-shadow: 1px 0 rgba(var(--text-color), .65) inset;}",
+        ".scroll-spy {box-shadow: 1px 0 rgba(var(--text-color), 0.65) inset;}",
         ".scroll-spy svg {color: #e2a829;}"
       ],
       "settings": {
@@ -433,11 +449,1221 @@
         "background": "#000000",
         "text_color": "#ffffff"
       }
+    },
+    "1422f169-e513-465f-bd7a-905ef5e60ae8": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-0",
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-1",
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-2",
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-3",
+        "template--16013649641622__1422f169-e513-465f-bd7a-905ef5e60ae8-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "21fe2a82-c8f9-410a-974a-9ffd406968a1": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-0",
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-1",
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-2",
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-3",
+        "template--16013649641622__21fe2a82-c8f9-410a-974a-9ffd406968a1-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c712f8b7-becc-4358-88ef-8285647115ef": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-0",
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-1",
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-2",
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-3",
+        "template--16013649641622__c712f8b7-becc-4358-88ef-8285647115ef-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f20749f2-596c-4885-aa3c-5ed728552de3": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-0",
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-1",
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-2",
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-3",
+        "template--16013649641622__f20749f2-596c-4885-aa3c-5ed728552de3-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "9b11cb30-fa99-45d6-885a-cef861a559d4": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-0",
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-1",
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-2",
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-3",
+        "template--16013649641622__9b11cb30-fa99-45d6-885a-cef861a559d4-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ea2fb1cb-2645-4110-8594-938d0d8410a3": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-0",
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-1",
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-2",
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-3",
+        "template--16013649641622__ea2fb1cb-2645-4110-8594-938d0d8410a3-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "207e5ce5-0e49-4126-a77c-cf20447b873f": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-0",
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-1",
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-2",
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-3",
+        "template--16013649641622__207e5ce5-0e49-4126-a77c-cf20447b873f-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b25f28fb-88b5-47d5-9979-b8b68fe454ce": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-0",
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-1",
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-2",
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-3",
+        "template--16013649641622__b25f28fb-88b5-47d5-9979-b8b68fe454ce-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "a524490b-8c16-45f4-8a45-06b6b835cda7": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-0",
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-1",
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-2",
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-3",
+        "template--16013649641622__a524490b-8c16-45f4-8a45-06b6b835cda7-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "763e2306-c020-4540-94c0-76ca5cc9dce5": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-0",
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-1",
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-2",
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-3",
+        "template--16013649641622__763e2306-c020-4540-94c0-76ca5cc9dce5-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "68239e12-b1ad-4bd1-9104-73a7a917ff49": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-0",
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-1",
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-2",
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-3",
+        "template--16013649641622__68239e12-b1ad-4bd1-9104-73a7a917ff49-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "46192489-ae30-414d-b1da-3b2261a2c900": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-0",
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-1",
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-2",
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-3",
+        "template--16013649641622__46192489-ae30-414d-b1da-3b2261a2c900-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cd3ffa10-e908-4ab1-8459-e3d70dc7f845": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-0",
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-1",
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-2",
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-3",
+        "template--16013649641622__cd3ffa10-e908-4ab1-8459-e3d70dc7f845-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "73fc9f94-ccd7-4c35-86f3-ef8174c4c212": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-0",
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-1",
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-2",
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-3",
+        "template--16013649641622__73fc9f94-ccd7-4c35-86f3-ef8174c4c212-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "30b99128-ff53-43ba-80d8-64cc87ce59e0": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-0",
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-1",
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-2",
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-3",
+        "template--16013649641622__30b99128-ff53-43ba-80d8-64cc87ce59e0-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1851a0c3-8404-4c79-9a46-60995c1084d9": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-0",
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-1",
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-2",
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-3",
+        "template--16013649641622__1851a0c3-8404-4c79-9a46-60995c1084d9-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "15bc0f9e-e907-4458-8142-8c070bae27e0": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-0",
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-1",
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-2",
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-3",
+        "template--16013649641622__15bc0f9e-e907-4458-8142-8c070bae27e0-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ee9a7295-dbf2-4010-a089-5218cf57990b": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-0",
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-1",
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-2",
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-3",
+        "template--16013649641622__ee9a7295-dbf2-4010-a089-5218cf57990b-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6f8a397f-20cb-4446-a8e7-27559afb936e": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-0",
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-1",
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-2",
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-3",
+        "template--16013649641622__6f8a397f-20cb-4446-a8e7-27559afb936e-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-0",
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-1",
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-2",
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-3",
+        "template--16013649641622__86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "aeb41589-534c-4c83-a86c-32423c6c761e": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-0",
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-1",
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-2",
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-3",
+        "template--16013649641622__aeb41589-534c-4c83-a86c-32423c6c761e-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "404a0073-2972-4580-906d-7ae74cbc1eff": {
+      "type": "faq",
+      "blocks": {
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other",
+            "anchorID": "privacy-policy"
+          }
+        },
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-0",
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-1",
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-2",
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-3",
+        "template--16013649641622__404a0073-2972-4580-906d-7ae74cbc1eff-1685504098e80fdb39-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
     "16600107718ea0076e",
-    "faq"
+    "faq",
+    "1422f169-e513-465f-bd7a-905ef5e60ae8",
+    "21fe2a82-c8f9-410a-974a-9ffd406968a1",
+    "c712f8b7-becc-4358-88ef-8285647115ef",
+    "f20749f2-596c-4885-aa3c-5ed728552de3",
+    "9b11cb30-fa99-45d6-885a-cef861a559d4",
+    "ea2fb1cb-2645-4110-8594-938d0d8410a3",
+    "207e5ce5-0e49-4126-a77c-cf20447b873f",
+    "b25f28fb-88b5-47d5-9979-b8b68fe454ce",
+    "a524490b-8c16-45f4-8a45-06b6b835cda7",
+    "763e2306-c020-4540-94c0-76ca5cc9dce5",
+    "68239e12-b1ad-4bd1-9104-73a7a917ff49",
+    "46192489-ae30-414d-b1da-3b2261a2c900",
+    "cd3ffa10-e908-4ab1-8459-e3d70dc7f845",
+    "73fc9f94-ccd7-4c35-86f3-ef8174c4c212",
+    "30b99128-ff53-43ba-80d8-64cc87ce59e0",
+    "1851a0c3-8404-4c79-9a46-60995c1084d9",
+    "15bc0f9e-e907-4458-8142-8c070bae27e0",
+    "ee9a7295-dbf2-4010-a089-5218cf57990b",
+    "6f8a397f-20cb-4446-a8e7-27559afb936e",
+    "86c6c27f-49e9-4ac4-9bfa-21b781b8dcb5",
+    "aeb41589-534c-4c83-a86c-32423c6c761e",
+    "404a0073-2972-4580-906d-7ae74cbc1eff"
   ]
 }
