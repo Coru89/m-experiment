@@ -1,0 +1,125 @@
+{{ 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' | stylesheet_tag }}
+{{ 'vjs.css' | asset_url | stylesheet_tag }}
+
+<script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+
+
+
+
+  
+  {%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+    JavaScript: This section composes the "external-video" element, but does not have dedicated custom element
+  ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+  
+    <video id="my-video" class="video-js" controls preload="auto" poster="{{ section.settings.image | image_url: width: 1440 }}" data-setup=''>
+        {% comment %} <source src="https://cdn.shopify.com/videos/c/o/v/a8340a931ed5494887fc95873e353131.mp4" type='video/mp4'> {% endcomment %}
+        <source src="{{ section.settings.video_url }}" type='video/mp4'>
+    </video>
+        
+
+  
+  {% schema %}
+  {
+    "name": "Video New",
+    "class": "shopify-section--video",
+    "settings": [
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "video_url",
+        "label": "Video",
+        "default": "https://cdn.shopify.com/videos/c/o/v/a8340a931ed5494887fc95873e353131.mp4"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Cover image",
+        "info": "2000 x 1125px .jpg recommended. Required if you turn off autoplay."
+      },
+      {
+        "type": "select",
+        "id": "background_type",
+        "label": "Video mode",
+        "options": [
+          {
+            "value": "full_width",
+            "label": "Full width"
+          },
+          {
+            "value": "boxed",
+            "label": "Boxed"
+          }
+        ],
+        "default": "full_width"
+      },
+      {
+        "type": "select",
+        "id": "video_size",
+        "label": "Video size",
+        "options": [
+          {
+            "value": "auto",
+            "label": "Original ratio"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "auto"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay",
+        "info": "Video is muted automatically to allow autoplay.",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background",
+        "default": "rgba(0,0,0,0)",
+        "info": "Only used for boxed background."
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "rgba(0,0,0,0)"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Video New"
+      }
+    ]
+  }
+  {% endschema %}
