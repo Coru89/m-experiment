@@ -586,7 +586,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/RPOF_Desktop_02_346dafad-f876-4d38-a1c2-9d947bfcdda4.jpg",
             "mobile_image": "shopify:\/\/shop_images\/RPOF_Mobile_02.jpg",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "title": "The relentless pursuit of fun",
             "title_mobile": "",
             "subheading": "",
