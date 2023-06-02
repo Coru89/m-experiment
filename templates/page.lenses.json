@@ -65,7 +65,7 @@
             "heading_font_size_mobile": 26,
             "subheading_font_size_desktop": 30,
             "subheading_font_size_mobile": 16,
-            "overlay_content_position": "middle-left",
+            "overlay_content_position": "bottom-left",
             "content_position_mobile": "none",
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 0,
