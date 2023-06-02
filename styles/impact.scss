@@ -24,6 +24,14 @@
     line-height: 1.35;
   }
 
+  &--black {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
+    
+    @media screen and (min-width: 1000px) {
+      -webkit-text-stroke: 2px rgba(0, 0, 0, 1);
+    }
+  }
+
   &__subheading {
     @media screen and (min-width: 1000px) {
         margin-top: -2rem !important;
