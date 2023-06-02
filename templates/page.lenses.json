@@ -5,6 +5,7 @@
       "blocks": {
         "template--15613751066774__625f3711-09b9-42d8-bc18-60b4f0e90669-1667966232dbf01a6e-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Lens_Title_Page_New.png",
             "mobile_image": "shopify:\/\/shop_images\/M_Lens_Title_Page_Mobile_01.jpg",
@@ -279,10 +280,10 @@
             "subheading_opacity": 100,
             "overlay_content_position": "middle-center",
             "content_position_mobile": "none",
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -320,10 +321,10 @@
             "subheading_opacity": 100,
             "overlay_content_position": "middle-center",
             "content_position_mobile": "none",
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
