@@ -306,7 +306,10 @@
 
           {%- if block.settings.title != blank -%}
             <h2 class="heading h3">
-              <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | newline_to_br }}</split-lines>
+              {% comment %} <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | newline_to_br }}</split-lines> {% endcomment %}
+              <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                {{ block.settings.title | newline_to_br }}
+              </span>
             </h2>
           {%- endif -%}
 
