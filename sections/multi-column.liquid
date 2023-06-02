@@ -4,6 +4,10 @@
   {%- assign blends_with_background = true -%}
 {%- endif -%}
 
+{% if section.settings.use_impact %}
+  {{ 'impact.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
 <style>
   #shopify-section-{{ section.id }} {
     {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
@@ -59,11 +63,11 @@
         <header class="section__header {% if section.settings.content != blank %}section__header--tight{% endif %} section__header--{{ section.settings.column_alignment }}">
           <div class="text-container">
             {%- if section.settings.title != blank -%}
-              <h2 class="heading h2">{{ section.settings.title }}</h2>
+              <h2 class="heading h2{% if section.settings.use_impact %} impact{% endif %}">{{ section.settings.title }}</h2>
             {%- endif -%}
         
             {%- if section.settings.subheading != blank -%}
-              <h3 class="heading heading--small">{{ section.settings.subheading }}</h3>
+              <h3 class="heading heading--small{% if section.settings.use_impact %} impact__subheading{% endif %}">{{ section.settings.subheading }}</h3>
             {%- endif -%}
 
             {%- if section.settings.content != blank -%}
@@ -338,6 +342,12 @@
       "id": "subheading",
       "label": "Subheading",
       "default": "Subheading"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_impact",
+      "label": "Impact font",
+      "default": false
     },
     {
       "type": "text",

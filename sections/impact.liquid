@@ -305,7 +305,7 @@
         auto-play
       {% endif %}
       transition-type="{{ section.settings.transition_type | escape }}"
-      class="slideshow impact slideshow--{{ section.settings.section_height }}"
+      class="slideshow impact-section slideshow--{{ section.settings.section_height }}"
     >
       <div class="slideshow__slide-list">
         {%- for block in section.blocks -%}
@@ -345,7 +345,7 @@
                 {{- image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: sizes_attributes, widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
               {%- else -%}
                 {% capture image_name %}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
-                {{- image_name | placeholder_svg_tag: 'slideshow__image slideshow__image--placeholder impact__image--placeholder' -}}
+                {{- image_name | placeholder_svg_tag: 'slideshow__image slideshow__image--placeholder impact-section__image--placeholder' -}}
               {%- endif -%}
             </div>
   
