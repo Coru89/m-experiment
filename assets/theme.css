@@ -15473,6 +15473,10 @@ h3.heading.heading--small {
   padding-bottom: 24px;
 }
 
+.article__back {
+  padding-bottom: 0;
+}
+
 .article__icon {
   vertical-align: middle;
 }

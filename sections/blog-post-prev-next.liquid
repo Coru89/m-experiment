@@ -3,6 +3,12 @@
     <div class="container">
       <header class="section__header text-container">
         <h2 class="heading h3">{{ 'article.general.continue_reading' | t }}</h2>
+        <a href="{{ section.settings.blogs_path }}" class="article__label article__back">
+          <svg focusable="false" width="17" height="14" class="article__icon article__icon-left icon--nav-arrow-left  icon--direction-aware " viewBox="0 0 17 14">
+            <path d="M17 7H2M8 1L2 7l6 6" stroke="currentColor" stroke-width="1" fill="none"></path>
+          </svg>
+          {{ section.settings.blogs_display }}
+        </a>
       </header>
 
       <div class="scroller">
@@ -49,6 +55,17 @@
       "content": "Previous and next article will be displayed (if they exists)."
     },
     {
+      "type": "url",
+      "id": "blogs_path",
+      "label": "URL to all blogs"
+    },
+    {
+      "type": "text",
+      "id": "blogs_display",
+      "label": "Display for all blogs",
+      "default": "All blogs"
+    },
+    {
       "type": "checkbox",
       "id": "show_author",
       "label": "Show author",
@@ -60,6 +77,8 @@
       "label": "Show date",
       "default": true
     }
+
+    
   ]
 }
 {% endschema %}
