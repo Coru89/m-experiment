@@ -509,6 +509,7 @@
       ],
       "settings": {
         "subheading": "Shop best sellers",
+        "use_impact": true,
         "title": "FEATURED STYLES",
         "content": "",
         "products_count": 10,
