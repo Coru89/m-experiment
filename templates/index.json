@@ -459,9 +459,9 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": true,
-        "subheading": "EXPLORE",
+        "subheading": "",
         "use_impact": true,
-        "title": "COLLECTIONS",
+        "title": "first born",
         "content": "",
         "column_alignment": "center",
         "mobile_item_size": "large",
