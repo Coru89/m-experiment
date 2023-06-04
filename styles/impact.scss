@@ -4,7 +4,6 @@
   backface-visibility: hidden;
   color: rgba(0, 0, 0, 0);
   font-family: "Impact", sans-serif;
-  font-family: "Impact";
   font-size: clamp(24px * 1.75, 7vw, 75px * 1.75);
   font-weight: 400;
   letter-spacing: 1px;
@@ -14,19 +13,33 @@
   transform: scaleY(0.55) scaleX(1) translateZ(0);
   word-break: break-word;
 
-  @media screen and (min-width: 1000px) {
-    font-size: clamp(24px * 1.75, 9vw, 75px * 1.75);
+  @media screen and (min-width: 740px) {
+    font-size: clamp(24px * 1.75, 7vw, 75px * 1.75);
   }
 
   @media screen and (min-width: 1000px) {
     -webkit-text-stroke: 2px rgba(255, 255, 255, 1);
-    font-size: clamp(24px * 1.75, 7vw, 75px * 1.75);
+    font-size: clamp(24px * 1.75, 9vw, 75px * 1.75);
     line-height: 1.35;
+  }
+
+  &--small {
+    font-size: clamp(24px * 1.75, 7vw, 30px * 1.75);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+
+    @media screen and (min-width: 740px) {
+      -webkit-text-stroke: 1.5px rgba(255, 255, 255, 1);
+      font-size: clamp(24px * 1.75, 9vw, 30px * 1.75);
+    }
+
+    @media screen and (min-width: 1000px) {
+      font-size: clamp(24px * 1.75, 7vw, 35px * 1.75);
+    }
   }
 
   &--black {
     -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
-    
+
     @media screen and (min-width: 1000px) {
       -webkit-text-stroke: 2px rgba(0, 0, 0, 1);
     }
@@ -34,7 +47,7 @@
 
   &__subheading {
     @media screen and (min-width: 1000px) {
-        margin-top: -2rem !important;
+      margin-top: -2rem !important;
     }
   }
 

@@ -142,8 +142,13 @@
               {%- assign desktop_items_per_row_minus_one = desktop_items_per_row | minus: 1 -%}
               {%- assign gap_width = desktop_item_gap | divided_by: desktop_items_per_row | times: desktop_items_per_row_minus_one -%}
 
+
               {%- for block in section.blocks -%}
                 {%- capture block_content -%}
+                  {%- if block.settings.title_impact != blank -%}
+                    <h4 class="impact impact--small">{{ block.settings.title_impact | newline_to_br }}</h4>
+                  {%- endif -%}
+
                   {%- if block.settings.image != blank -%}
                     {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: block.settings.image.aspect_ratio -%}
 
@@ -247,6 +252,11 @@
           "id": "title",
           "label": "Heading",
           "default": "Your content"
+        },
+        {
+          "type": "text",
+          "id": "title_impact",
+          "label": "Impact Heading"
         },
         {
           "type": "richtext",
