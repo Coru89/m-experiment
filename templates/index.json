@@ -459,9 +459,9 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": true,
-        "subheading": "EXPLORE",
+        "subheading": "",
         "use_impact": true,
-        "title": "COLLECTIONS",
+        "title": "first born",
         "content": "",
         "column_alignment": "center",
         "mobile_item_size": "large",
@@ -509,6 +509,7 @@
       ],
       "settings": {
         "subheading": "Shop best sellers",
+        "use_impact": true,
         "title": "FEATURED STYLES",
         "content": "",
         "products_count": 10,
@@ -587,7 +588,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/RPOF_Desktop_02_346dafad-f876-4d38-a1c2-9d947bfcdda4.jpg",
             "mobile_image": "shopify:\/\/shop_images\/RPOF_Mobile_02.jpg",
-            "overlay_opacity": 0,
+            "overlay_opacity": 6,
             "title": "The relentless pursuit of fun",
             "title_mobile": "",
             "subheading": "",
