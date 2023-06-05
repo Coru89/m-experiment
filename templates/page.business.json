@@ -396,7 +396,7 @@
           "type": "variant-collection",
           "settings": {
             "product": "business",
-            "subheading": "Business",
+            "subheading": "",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -410,8 +410,8 @@
         "32fde58c-8bd3-44a2-9656-74bf8d961afc"
       ],
       "settings": {
-        "subheading": "Pleasure",
-        "title": "Leisure",
+        "subheading": "",
+        "title": "",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
