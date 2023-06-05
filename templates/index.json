@@ -3,51 +3,6 @@
     "slideshow": {
       "type": "impact",
       "blocks": {
-        "3319e415-fdc1-4762-aca3-11d3c005328b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2160x1000_collection.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_collection_dfe9cb19-704a-4c60-b197-2bc618452c48.jpg",
-            "overlay_opacity": 0,
-            "title": "",
-            "title_mobile": "",
-            "subheading": "",
-            "heading_stroke_color": "#ffffff",
-            "heading_stroke_opacity": 100,
-            "heading_fill_color": "#000000",
-            "heading_fill_opacity": 0,
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
-            "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "overlay_content_position": "middle-center",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "Heading_text_align": "left",
-            "heading_text_align_mobile": "left",
-            "subheading_text_align": "left",
-            "subheading_text_align_mobile": "left",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 10,
-            "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#ffffff",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_uppercase": false,
-            "subheading_bold": false,
-            "nudge_subheading_y-axis_mobile": 0,
-            "nudge_subheading_y-axis_desktop": -2,
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/pages\/eyewearall",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        },
         "cf292079-9d57-40e0-988a-7852d5e0ab96": {
           "type": "image",
           "settings": {
@@ -86,6 +41,51 @@
             "nudge_subheading_y-axis_desktop": -2,
             "button_1_text": "",
             "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        },
+        "3319e415-fdc1-4762-aca3-11d3c005328b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2160x1000_collection.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_collection_dfe9cb19-704a-4c60-b197-2bc618452c48.jpg",
+            "overlay_opacity": 0,
+            "title": "",
+            "title_mobile": "",
+            "subheading": "",
+            "heading_stroke_color": "#ffffff",
+            "heading_stroke_opacity": 100,
+            "heading_fill_color": "#000000",
+            "heading_fill_opacity": 0,
+            "heading_font_size_desktop": 36,
+            "heading_font_size_mobile": 26,
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 16,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "Heading_text_align": "left",
+            "heading_text_align_mobile": "left",
+            "subheading_text_align": "left",
+            "subheading_text_align_mobile": "left",
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 10,
+            "heading_drop_shadow_y-offset": 10,
+            "heading_drop_shadow_color": "#ffffff",
+            "heading_drop_shadow_opacity": 16,
+            "subheading_uppercase": false,
+            "subheading_bold": false,
+            "nudge_subheading_y-axis_mobile": 0,
+            "nudge_subheading_y-axis_desktop": -2,
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/pages\/eyewearall",
             "button_2_text": "",
             "button_2_link": "",
             "button_background": "#ffffff",
@@ -369,8 +369,8 @@
         }
       },
       "block_order": [
-        "3319e415-fdc1-4762-aca3-11d3c005328b",
         "cf292079-9d57-40e0-988a-7852d5e0ab96",
+        "3319e415-fdc1-4762-aca3-11d3c005328b",
         "slide-1",
         "cffa2c35-26a5-4ea6-89e4-c00f8cb742b2",
         "e8c945ae-fb9f-4165-9e67-6e1786fcab4e",
@@ -384,6 +384,95 @@
         "autoplay": true,
         "cycle_speed": 6,
         "background": "rgba(0,0,0,0)"
+      }
+    },
+    "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
+      "type": "multi-column",
+      "blocks": {
+        "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pleasure_Collections.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "title_impact": "BUSINESS",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "325ef00a-1c5d-4127-9002-6e052e6eefd7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pleasure_Collections.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "title_impact": "PLEASURE",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/leisure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "5e3535ff-e48f-4e76-809d-72971a758cae": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Giga_Collections.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "title_impact": "ACTION",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/active",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "affd5561-24e0-4f96-981a-0196ce83cbe6": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "title_impact": "",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0",
+        "325ef00a-1c5d-4127-9002-6e052e6eefd7",
+        "5e3535ff-e48f-4e76-809d-72971a758cae",
+        "affd5561-24e0-4f96-981a-0196ce83cbe6"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "use_impact": false,
+        "title": "first born",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "#000000",
+        "text_color": "#fbfbfb"
       }
     },
     "1657043079714849ea": {
@@ -421,22 +510,6 @@
             "vertical_alignment": "start"
           }
         },
-        "1657043078db9402e7-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "title_impact": "",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
         "1657043078db9402e7-3": {
           "type": "item",
           "disabled": true,
@@ -457,7 +530,6 @@
       "block_order": [
         "1657043078db9402e7-0",
         "1657043078db9402e7-1",
-        "1657043078db9402e7-2",
         "1657043078db9402e7-3"
       ],
       "settings": {
@@ -1275,6 +1347,7 @@
   },
   "order": [
     "slideshow",
+    "c2ca878c-b82a-4427-bc4c-559a19c255ad",
     "1657043079714849ea",
     "de5586b4-25e1-4884-83f2-e37c4e24502a",
     "featured-collections",
