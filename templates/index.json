@@ -392,7 +392,7 @@
         "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pleasure_Collections.png",
+            "image": "shopify:\/\/shop_images\/M_HP_Business_1200x1200_6b7d9293-597e-48b5-8877-7cbc965cc017.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -408,7 +408,7 @@
         "325ef00a-1c5d-4127-9002-6e052e6eefd7": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pleasure_Collections.png",
+            "image": "shopify:\/\/shop_images\/M_HP_Pleasure_1200x1200_692998da-3c63-409a-a607-0f238ecbf19e.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -424,11 +424,11 @@
         "5e3535ff-e48f-4e76-809d-72971a758cae": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Giga_Collections.png",
+            "image": "shopify:\/\/shop_images\/M_HP_Gigawatt_1200x1200_21007c35-91f4-4630-90a7-cab7584e9306.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "title_impact": "ACTION",
+            "title_impact": "GIGAWATT",
             "content": "",
             "link_text": "",
             "link_url": "shopify:\/\/pages\/active",
