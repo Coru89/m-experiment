@@ -318,12 +318,30 @@
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12.png",
             "lens_description": "Available for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>, <a href=\"\/pages\/business\">Business<\/a> & \n<a href=\"\/pages\/pleasure\">Pleasure<\/a>"
           }
+        },
+        "294fe1f5-295f-4a2c-8f64-3d330242c59e": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Obsidian",
+            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12_936aab8e-6425-4759-a984-67c83cc1b3e1.png",
+            "lens_description": "Available for for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>, <a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
+          }
+        },
+        "47f59aa2-0f0e-400a-a740-c18674bee419": {
+          "type": "lens_item",
+          "settings": {
+            "title": "Copper",
+            "lens_image": "shopify:\/\/shop_images\/Business_Copper_Plasmachromatic_frnt.49.png",
+            "lens_description": "Available for <a href=\"\/pages\/business\">Business<\/a> & for <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
+          }
         }
       },
       "block_order": [
         "d3d835c8-9d80-4835-be33-8a034c32f488",
         "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d",
-        "38e836aa-10c5-4c1e-b30a-21f8b0868a2b"
+        "38e836aa-10c5-4c1e-b30a-21f8b0868a2b",
+        "294fe1f5-295f-4a2c-8f64-3d330242c59e",
+        "47f59aa2-0f0e-400a-a740-c18674bee419"
       ],
       "custom_css": [
         ".product-list__inner:first-of-type {margin-top: 0rem;}",
@@ -409,7 +427,7 @@
         "66ab47eb-e67b-407d-af6f-46ff5a0e4c73": {
           "type": "lens_item",
           "settings": {
-            "title": "Sepia Polarized",
+            "title": "Sepia",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Sepia_Polar_frnt.26.png",
             "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
           }
@@ -417,7 +435,7 @@
         "a99b0b00-3757-4422-9167-c5e82a92d068": {
           "type": "lens_item",
           "settings": {
-            "title": "Obsidian polarized Plasmachromatic",
+            "title": "Obsidian Plasmachromatic",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12_936aab8e-6425-4759-a984-67c83cc1b3e1.png",
             "lens_description": "Only Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
           }
@@ -425,16 +443,24 @@
         "939f84c7-2408-45be-8007-c5c7279f9f01": {
           "type": "lens_item",
           "settings": {
-            "title": "Gray Polarized",
+            "title": "Gray",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_frnt.42.png",
             "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
+          }
+        },
+        "5ec8db55-96a9-44e7-b866-16551a5e1e27": {
+          "type": "lens_item",
+          "settings": {
+            "title": "",
+            "lens_description": ""
           }
         }
       },
       "block_order": [
         "66ab47eb-e67b-407d-af6f-46ff5a0e4c73",
         "a99b0b00-3757-4422-9167-c5e82a92d068",
-        "939f84c7-2408-45be-8007-c5c7279f9f01"
+        "939f84c7-2408-45be-8007-c5c7279f9f01",
+        "5ec8db55-96a9-44e7-b866-16551a5e1e27"
       ],
       "custom_css": [
         ".product-list__inner:first-of-type {margin-top: 0rem;}",
