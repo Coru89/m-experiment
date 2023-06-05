@@ -316,7 +316,7 @@
           "settings": {
             "title": "Obsidian Polarized",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12.png",
-            "lens_description": "Available for <a href=\"\/pages\/business\">Business<\/a>, \n<a href=\"\/pages\/pleasure\">Pleasure<\/a> &\n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
+            "lens_description": "Available for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>, <a href=\"\/pages\/business\">Business<\/a> & \n<a href=\"\/pages\/pleasure\">Pleasure<\/a>"
           }
         }
       },
@@ -411,7 +411,7 @@
           "settings": {
             "title": "Sepia Polarized",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Sepia_Polar_frnt.26.png",
-            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> and <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
+            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
           }
         },
         "a99b0b00-3757-4422-9167-c5e82a92d068": {
@@ -419,7 +419,7 @@
           "settings": {
             "title": "Obsidian polarized Plasmachromatic",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12_936aab8e-6425-4759-a984-67c83cc1b3e1.png",
-            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
+            "lens_description": "Only Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
           }
         },
         "939f84c7-2408-45be-8007-c5c7279f9f01": {
@@ -427,7 +427,7 @@
           "settings": {
             "title": "Gray Polarized",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_frnt.42.png",
-            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> and <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
+            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
           }
         }
       },
