@@ -122,6 +122,7 @@
         "subheading_color": "#f1f2f2",
         "caption": "<p>The high-contrast Lenses are engineered to enhance color perception and improve visual acuity in varying light conditions.<\/p>",
         "overlay_content_position": "top-left",
+        "content_position_mobile": "none",
         "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_M9M_Desktop_AFTER.jpg",
         "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_M9M_Desktop_BEFORE.jpg",
         "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_M9M_Mobile_BEFORE.jpg",
@@ -299,7 +300,7 @@
           "settings": {
             "title": "Blaze",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Blaze-Plasmachromatic_frnt.2.png",
-            "lens_description": ""
+            "lens_description": "Only available for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
           }
         },
         "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d": {
@@ -307,7 +308,7 @@
           "settings": {
             "title": "Glacier",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Glacier-Plasmachromatic_frnt.6.png",
-            "lens_description": ""
+            "lens_description": "Only available for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
           }
         },
         "38e836aa-10c5-4c1e-b30a-21f8b0868a2b": {
@@ -315,7 +316,7 @@
           "settings": {
             "title": "Obsidian Polarized",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12.png",
-            "lens_description": ""
+            "lens_description": "Available for <a href=\"\/pages\/business\">Business<\/a>, \n<a href=\"\/pages\/pleasure\">Pleasure<\/a> &\n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
           }
         }
       },
@@ -395,6 +396,7 @@
         "subheading_color": "#f1f2f2",
         "caption": "<p>Our high-perfomance polarized lenses block 99.9% of reflective glare for the most vivid and detailed visual experiences.<\/p>",
         "overlay_content_position": "bottom-left",
+        "content_position_mobile": "none",
         "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Polarized_Desktop_AFTER.jpg",
         "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Polarized_Desktop_BEFORE.jpg",
         "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_AFTER.jpg",
@@ -409,7 +411,7 @@
           "settings": {
             "title": "Sepia Polarized",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Sepia_Polar_frnt.26.png",
-            "lens_description": ""
+            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> and <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
           }
         },
         "a99b0b00-3757-4422-9167-c5e82a92d068": {
@@ -417,7 +419,7 @@
           "settings": {
             "title": "Obsidian polarized Plasmachromatic",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12_936aab8e-6425-4759-a984-67c83cc1b3e1.png",
-            "lens_description": ""
+            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
           }
         },
         "939f84c7-2408-45be-8007-c5c7279f9f01": {
@@ -425,7 +427,7 @@
           "settings": {
             "title": "Gray Polarized",
             "lens_image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_frnt.42.png",
-            "lens_description": ""
+            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> and <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
           }
         }
       },
@@ -533,6 +535,7 @@
         "subheading_color": "#f1f2f2",
         "caption": "<p>HD lenses reduce distortion and offer a wider field of view, creating a superior and more detailed visual experience.<\/p>",
         "overlay_content_position": "bottom-left",
+        "content_position_mobile": "none",
         "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_BEFORE.jpg",
         "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_AFTER.jpg",
         "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_BEFORE.jpg",
@@ -705,6 +708,7 @@
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "M CARBON",
+            "title_impact": "",
             "content": "<p>Twice as strong and 25% lighter than acetate, this proprietary frame material offers superior comfort, durability, and perfromance.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -720,6 +724,7 @@
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Atomic 13",
+            "title_impact": "",
             "content": "<p>This high-purity aluminum is strong to take it yet lightweight enough to make for a comfortable fit all day long.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -762,6 +767,7 @@
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Thermo Carbon",
+            "title_impact": "",
             "content": "<p>Combining proven impact resistance, maximum optical clarity, and superior lens durability.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -777,6 +783,7 @@
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "ATOMIC 14",
+            "title_impact": "",
             "content": "<p>Silicon technology that provides a high-comfort, no slip grip that keeps your eyewear in place.<\/p>",
             "link_text": "",
             "link_url": "",
