@@ -113,6 +113,27 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "76168366-8546-453e-8bfb-8cfeb9280c10": {
+      "type": "rich-text",
+      "custom_css": [
+        ".container {padding-top: 2rem;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Lens Technology",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "72274fc1-a426-4303-8685-aacc57947029": {
       "type": "before-after-section",
       "disabled": true,
@@ -842,11 +863,8 @@
         "text_color": "#ffffff"
       }
     },
-    "76168366-8546-453e-8bfb-8cfeb9280c10": {
+    "9b1f2b98-61e5-4930-8b79-d5d8177d7f6d": {
       "type": "rich-text",
-      "custom_css": [
-        ".container {padding-top: 2rem;}"
-      ],
       "settings": {
         "subheading": "",
         "title": "Frame Technology",
@@ -1340,6 +1358,7 @@
   "order": [
     "main",
     "ceb0eeae-dc5f-4ebf-b839-83f7d9697809",
+    "76168366-8546-453e-8bfb-8cfeb9280c10",
     "72274fc1-a426-4303-8685-aacc57947029",
     "0edee54d-36a8-4ae5-a6a7-745219016cb6",
     "09a65779-9793-4bf6-b148-10df80b12801",
@@ -1356,7 +1375,7 @@
     "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa",
     "fe014da0-6a33-405c-b4b7-9096fdd9915d",
     "b94428e8-336a-4948-b3fb-06ee7f4aae6a",
-    "76168366-8546-453e-8bfb-8cfeb9280c10",
+    "9b1f2b98-61e5-4930-8b79-d5d8177d7f6d",
     "7b8c6e37-074a-40a4-91be-445e6fad0e89",
     "d4fc4188-4f52-418e-82fb-31520e2c6db6",
     "36bbad3e-a34d-4690-a95e-6533fddaaceb",
