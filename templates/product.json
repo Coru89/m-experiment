@@ -102,6 +102,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "You may also like",
