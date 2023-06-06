@@ -22,15 +22,15 @@
 
         &-title,
         &-description {
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
             text-align: center;
         }
 
         &-title {
             font-size: 18px;
             font-weight: 500;
+            letter-spacing: 0.05em;
             text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+            text-transform: uppercase;
             word-break: break-word;
 
             @media screen and (min-width: 740px) {
@@ -45,7 +45,7 @@
             word-break: break-word;
 
             @media screen and (min-width: 740px) {
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 500;
             }
         }
