@@ -1,12 +1,37 @@
 {
   "sections": {
+    "b7183089-9740-47c2-90dd-ee066557638d": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/2160x900_0006_Day-2_10252.jpg",
+        "subheading": "M-EXPERIMENT",
+        "title": "LEGAL",
+        "content": "<p>We welcome you to the M-EXPERIMENT website and thank you for visiting. We ask that you review the following basic terms that govern the use of the site and the purchasing of products from our site. By using M-EXPERIMENT’s website you agree to follow and be bound by these terms. These terms may be changed from time to time and your use of the site following any such changes shall confirm your agreement to follow and be bound by the terms as modified.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 80
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": false,
+        "page_width": "medium"
       }
     }
   },
   "order": [
+    "b7183089-9740-47c2-90dd-ee066557638d",
     "main"
   ]
 }
