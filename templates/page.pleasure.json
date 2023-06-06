@@ -343,7 +343,7 @@
             "subheading_font_size_mobile": 16,
             "overlay_content_position": "middle-right",
             "content_position_mobile": "top-left",
-            "nudge_text_x-axis_desktop": -2,
+            "nudge_text_x-axis_desktop": 5,
             "nudge_text_y-axis_desktop": 2,
             "nudge_text_x-axis_mobile": -1,
             "nudge_text_y-axis_mobile": 2,
