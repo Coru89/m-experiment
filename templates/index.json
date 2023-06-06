@@ -387,6 +387,45 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "2744b90e-63a9-4d9c-bd13-3528cb10a38b": {
+      "type": "multi-column",
+      "settings": {
+        "reveal_on_scroll": false,
+        "stack_items": false,
+        "subheading": "",
+        "use_impact": true,
+        "title": "FIRST BORN",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ba4a3efa-9dab-447a-b3b2-bafe4633e167": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Eyewear_Title_Giga_02_88c95cc9-f906-4fba-b805-66db9fae16e9.png",
+        "subheading": "",
+        "title": "GIGAWATT",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/pages\/gigawatt",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "bottom_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
       "type": "multi-column",
       "blocks": {
@@ -396,8 +435,8 @@
             "image": "shopify:\/\/shop_images\/M_HP_Business_1200x1200v2.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "title_impact": "BUSINESS",
+            "title": "BUSINESS",
+            "title_impact": "",
             "content": "",
             "link_text": "",
             "link_url": "",
@@ -412,8 +451,8 @@
             "image": "shopify:\/\/shop_images\/M_HP_Pleasure_1200x1200v2.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "title_impact": "PLEASURE",
+            "title": "PLEASURE",
+            "title_impact": "",
             "content": "",
             "link_text": "",
             "link_url": "shopify:\/\/pages\/leisure",
@@ -428,8 +467,8 @@
             "image": "shopify:\/\/shop_images\/M_HP_Gigawatt_1200x1200_21007c35-91f4-4630-90a7-cab7584e9306.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "title_impact": "GIGAWATT",
+            "title": "GIGAWATT",
+            "title_impact": "",
             "content": "",
             "link_text": "",
             "link_url": "shopify:\/\/pages\/active",
@@ -465,7 +504,7 @@
         "reveal_on_scroll": true,
         "stack_items": true,
         "subheading": "",
-        "use_impact": false,
+        "use_impact": true,
         "title": "first born",
         "content": "",
         "column_alignment": "center",
@@ -478,6 +517,7 @@
     },
     "1657043079714849ea": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "1657043078db9402e7-0": {
           "type": "item",
@@ -566,37 +606,6 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "#e2a829",
         "button_text_color": "#191919"
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "test-collection",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "subheading": "Shop best sellers",
-        "use_impact": false,
-        "title": "FEATURED STYLES",
-        "content": "",
-        "products_count": 10,
-        "products_per_row": 4,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "#fbfbfb",
-        "text_color": "#191919",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "89b6fea9-b1de-4d79-ac53-b64b0eb60b33": {
@@ -811,6 +820,37 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "test-collection",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "use_impact": false,
+        "title": "FEATURED STYLES",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#fbfbfb",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -835,7 +875,7 @@
             "image": "shopify:\/\/shop_images\/MEX0007-Beauty-Shots13783.jpg",
             "subheading": "",
             "title": "APPAREL",
-            "link_text": "Shop",
+            "link_text": "Explore",
             "link_url": "\/pages\/gear\/#apparel",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
@@ -849,7 +889,7 @@
             "image": "shopify:\/\/shop_images\/MEX0007-Beauty-Shots13783_copy.png",
             "subheading": "",
             "title": "HEADWEAR",
-            "link_text": "SHOP",
+            "link_text": "Explore",
             "link_url": "\/pages\/gear\/#headwear",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
@@ -1051,6 +1091,7 @@
     },
     "165704420041f25f84": {
       "type": "image-with-text-block",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/2160x1000_new_beginnings_nocopy.jpg",
@@ -1348,13 +1389,15 @@
   },
   "order": [
     "slideshow",
+    "2744b90e-63a9-4d9c-bd13-3528cb10a38b",
+    "ba4a3efa-9dab-447a-b3b2-bafe4633e167",
     "c2ca878c-b82a-4427-bc4c-559a19c255ad",
     "1657043079714849ea",
     "de5586b4-25e1-4884-83f2-e37c4e24502a",
-    "featured-collections",
     "89b6fea9-b1de-4d79-ac53-b64b0eb60b33",
     "shop-the-look",
     "07443d72-c1b9-4248-9951-fc3e505affc5",
+    "featured-collections",
     "collection-list",
     "e68a84ea-1ba9-4b45-912b-1d53785353aa",
     "61e4ee14-b329-451b-a5f2-5bdccddeb70e",
