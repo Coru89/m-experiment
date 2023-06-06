@@ -639,10 +639,10 @@
     "de5586b4-25e1-4884-83f2-e37c4e24502a": {
       "type": "video_with_cta",
       "settings": {
-        "subheading": "METHOD TO MADNESS",
-        "title": "EXPERIMENTS",
+        "subheading": "",
+        "title": "",
         "content": "",
-        "button_text": "WATCH",
+        "button_text": "",
         "button_link": "shopify:\/\/pages\/experiments",
         "text_alignment": "center",
         "video_url": "https:\/\/vimeo.com\/821299635?share=copy",
