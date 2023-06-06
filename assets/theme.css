@@ -15553,6 +15553,19 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
 
 /* legal RTE styles */
 
+.template-page-legal .rte h1 {
+  color: #fff;
+  font-size: 32px;
+  padding: 0 24px;
+}
+
+@media screen and (min-width: 740px) {
+  .template-page-legal .rte h1 {
+    font-size: 40px;
+  }
+
+}
+
 .template-page-legal .rte h2 {
     background: rgb(38, 38, 38);
     color: #fff;
@@ -15593,10 +15606,6 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
 .shopify-section--main-customers-addresses .account__address svg {
   color: #000;
 }
-
-/* .login-form-container h1 {
-  color: #fff;
-} */
 
 .shopify-section--main-customers-login h1 {
   color: #fff;
