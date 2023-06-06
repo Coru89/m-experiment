@@ -28,10 +28,16 @@
         "show_title": false,
         "page_width": "medium"
       }
+    },
+    "567b14ae-6e5d-47a5-8bab-78f1baaab484": {
+      "type": "page-links",
+      "settings": {
+      }
     }
   },
   "order": [
     "b7183089-9740-47c2-90dd-ee066557638d",
-    "main"
+    "main",
+    "567b14ae-6e5d-47a5-8bab-78f1baaab484"
   ]
 }
