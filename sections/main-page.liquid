@@ -1,7 +1,10 @@
 <section>
   <div class="container">
     <div class="page-header">
-      <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb breadcrumb--floating text--xsmall hidden-phone">
+      <nav
+        aria-label="{{ 'general.breadcrumb.title' | t }}"
+        class="breadcrumb breadcrumb--floating text--xsmall hidden-phone"
+      >
         <ol class="breadcrumb__list" role="list">
           <li class="breadcrumb__item">
             <a class="breadcrumb__link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a>
@@ -24,11 +27,23 @@
       </div>
     </div>
 
-    {%- unless template.suffix contains 'contact' or template.suffix contains 'faq' -%}
-      <div class="page-content page-content--{{ section.settings.page_width }} rte">
-        {{- page.content -}}
-      </div>
-    {%- endunless -%}
+    <div class="page-content__wrapper">
+      {% if template == 'page.legal' %}
+        <div class="faq-navigation hidden-pocket">
+          <scroll-spy class="scroll-spy">
+            <ul class="scroll-spy__list list--unstyled">
+              {% comment %} code gets injected here via legal.js {% endcomment %}
+            </ul>
+          </scroll-spy>
+        </div>
+      {% endif %}
+
+      {%- unless template.suffix contains 'contact' or template.suffix contains 'faq' -%}
+        <div class="page-content page-content--{{ section.settings.page_width }} rte">
+          {{- page.content -}}
+        </div>
+      {%- endunless -%}
+    </div>
   </div>
 </section>
 

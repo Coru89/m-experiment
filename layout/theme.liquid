@@ -85,6 +85,9 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
     <script src="{{ 'vendor.js' | asset_url }}" defer></script>
+    {% if template == 'page.legal' %}
+      <script src="{{ 'legal.js' | asset_url }}" defer></script>
+    {% endif %}
     <script src="{{ 'theme.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
 

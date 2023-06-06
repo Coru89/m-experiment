@@ -1825,6 +1825,10 @@ p + .button-group,
   max-width: none;
 }
 
+.page-content__wrapper {
+  position: relative;
+}
+
 @media screen and (min-width: 741px) {
   .page-header__text-wrapper {
     margin-top: 68px;
@@ -4121,6 +4125,10 @@ p + .button-group,
   top: calc(24px + var(--header-height, 0px) * var(--enable-sticky-header) + var(--announcement-bar-height, 0px) * var(--enable-sticky-announcement-bar));
 }
 
+.scroll-spy svg {
+  color: #e2a829;
+}
+
 .scroll-spy__list {
   padding-left: 6px;
 }
@@ -4132,6 +4140,10 @@ p + .button-group,
 
 .scroll-spy__item.is-visible {
   opacity: 1;
+}
+
+.scroll-spy__item a {
+  color: #fff;
 }
 
 .scroll-spy__anchor {
