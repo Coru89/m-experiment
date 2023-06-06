@@ -15537,3 +15537,34 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
     padding: 32px;
   }
 }
+
+/* legal RTE styles */
+
+.template-page-legal .rte h2 {
+    background: rgb(38, 38, 38);
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    line-height: 1.2222222222;
+    margin-bottom: 0;
+    padding: 20px 24px;
+    scroll-margin-top: calc(var(--header-height, 0px) * var(--enable-sticky-header) + var(--announcement-bar-height, 0px) * var(--enable-sticky-announcement-bar) + var(--anchor-offset, 20px));
+    text-transform: var(--heading-text-transform);
+  --anchor-offset: 20px;
+}
+
+.template-page-legal .rte h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 24px;
+  margin: 0;
+}
+
+.template-page-legal .rte p {
+  padding: 20px 24px;
+}
+
+.template-page-legal .rte p:first-of-type {
+  margin-top: 0;
+}
