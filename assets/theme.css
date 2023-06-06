@@ -5430,6 +5430,7 @@ select:focus,
 
 .drawer__title {
   /* We use flex positioning in case the title contains an icon or extra content */
+  color: #fff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -15567,4 +15568,28 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
 
 .template-page-legal .rte p:first-of-type {
   margin-top: 0;
+}
+
+.shopify-section--main-customers-addresses h1,
+.shopify-section--main-customers-addresses h1 *,
+.shopify-section--main-customers-addresses .account__address-title,
+.shopify-section--main-customers-addresses .account__address-details {
+    color: #fff;
+}
+
+.shopify-section--main-customers-addresses .account__address,
+.shopify-section--main-customers-addresses .account__address svg {
+  color: #000;
+}
+
+/* .login-form-container h1 {
+  color: #fff;
+} */
+
+.shopify-section--main-customers-login h1 {
+  color: #fff;
+}
+
+.shopify-section--main-customers-account h1 {
+  color: #fff;
 }
