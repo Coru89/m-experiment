@@ -170,6 +170,7 @@
         },
         "b476622e-a452-46b7-b205-21091aa65fd4": {
           "type": "variant-collection",
+          "disabled": true,
           "settings": {
             "product": "jigawatt-lenses",
             "subheading": "JIGAWATT",
