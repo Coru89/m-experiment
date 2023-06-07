@@ -55,6 +55,8 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 
     {%- comment -%}Preload important resources{%- endcomment -%}
     <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+    {{ 'redesign.css' | asset_url | stylesheet_tag }}
+
     <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
     <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
 
