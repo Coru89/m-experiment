@@ -6,6 +6,7 @@
         "template--16013649707158__2aeec8a7-3c80-4e36-a978-1bc0d6344a8a-1686115008f8388299-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hero-home.png",
             "overlay_opacity": 30,
             "title": "<span style=\"text-transform: uppercase;\">New Begginings...<\/span> just for fun",
             "heading_font_size_desktop": 32,
@@ -27,7 +28,7 @@
             "subheading_text_align": "left",
             "subheading_text_align_mobile": "left",
             "subheading_opacity": 100,
-            "overlay_content_position": "middle-center",
+            "overlay_content_position": "bottom-right",
             "content_position_mobile": "none",
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 0,
@@ -486,6 +487,7 @@
     },
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b": {
       "type": "multi-column",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "stack_items": false,
@@ -503,6 +505,7 @@
     },
     "3fb0957f-3573-4889-818d-10bd6f508d5c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -525,6 +528,7 @@
     },
     "e49d7aa9-8c82-43f7-8c06-4ede73f50d61": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -547,6 +551,7 @@
     },
     "ba4a3efa-9dab-447a-b3b2-bafe4633e167": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
