@@ -6,7 +6,7 @@
         "cf292079-9d57-40e0-988a-7852d5e0ab96": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2160x1000_new_beginnings_nocopy.jpg",
+            "image": "shopify:\/\/shop_images\/hero-home.png",
             "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_new_beginnings_nocopy_mob.jpg",
             "overlay_opacity": 30,
             "title": "New Beginnings",
