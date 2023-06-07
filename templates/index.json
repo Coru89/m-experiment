@@ -389,6 +389,7 @@
     },
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b": {
       "type": "multi-column",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "stack_items": false,
@@ -406,6 +407,7 @@
     },
     "3fb0957f-3573-4889-818d-10bd6f508d5c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -428,6 +430,7 @@
     },
     "e49d7aa9-8c82-43f7-8c06-4ede73f50d61": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -450,6 +453,7 @@
     },
     "ba4a3efa-9dab-447a-b3b2-bafe4633e167": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
