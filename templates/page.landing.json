@@ -3,6 +3,8 @@
     "main": {
       "type": "landing",
       "settings": {
+        "title": "Legal",
+        "menu": "legal"
       }
     }
   },
