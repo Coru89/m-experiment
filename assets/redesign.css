@@ -1,2 +1,5 @@
 .template-index store-header {
   background-color: #000; }
+
+.template-index .section {
+  padding-top: 2rem; }
