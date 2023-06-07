@@ -16,6 +16,10 @@
 
         h2 {
             font-family: 'ITC Avant Garde Gothic Std Extra Light', sans-serif;
+            font-size: clamp(26px, 4vw, 80px) !important;
+            font-weight: 275;
+            text-transform: none !important;
+            opacity: 0.6;
         }
     }
 }
