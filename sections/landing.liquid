@@ -1,8 +1,32 @@
+
+{{ section.settings.title }} 
+
+{%- assign menu = section.settings.menu.links -%}
+{%- for link in menu -%}
+  {{ link.title | link_to: link.url }}
+{%- endfor -%}
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+  "name": "Landing Page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Landing Page"
+    }
+  ]
+}  
 {% endschema %}
 
 {% stylesheet %}
