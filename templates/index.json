@@ -389,7 +389,6 @@
     },
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b": {
       "type": "multi-column",
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "stack_items": false,
@@ -407,7 +406,6 @@
     },
     "3fb0957f-3573-4889-818d-10bd6f508d5c": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -430,7 +428,6 @@
     },
     "e49d7aa9-8c82-43f7-8c06-4ede73f50d61": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -453,7 +450,6 @@
     },
     "ba4a3efa-9dab-447a-b3b2-bafe4633e167": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -496,7 +492,7 @@
         "325ef00a-1c5d-4127-9002-6e052e6eefd7": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_HP_Pleasure_1200x1200v3.jpg",
+            "image": "shopify:\/\/shop_images\/M_HP_Pleasure_1200x1200v2.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "PLEASURE",
@@ -512,7 +508,7 @@
         "5e3535ff-e48f-4e76-809d-72971a758cae": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_HP_Gigawatt_1200x1200v2.jpg",
+            "image": "shopify:\/\/shop_images\/M_HP_Gigawatt_1200x1200_21007c35-91f4-4630-90a7-cab7584e9306.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "GIGAWATT",
@@ -553,7 +549,7 @@
         "stack_items": true,
         "subheading": "",
         "use_impact": true,
-        "title": "the first born",
+        "title": "first born",
         "content": "",
         "column_alignment": "center",
         "mobile_item_size": "large",
@@ -639,10 +635,10 @@
     "de5586b4-25e1-4884-83f2-e37c4e24502a": {
       "type": "video_with_cta",
       "settings": {
-        "subheading": "",
-        "title": "",
+        "subheading": "METHOD TO MADNESS",
+        "title": "EXPERIMENTS",
         "content": "",
-        "button_text": "",
+        "button_text": "WATCH",
         "button_link": "shopify:\/\/pages\/experiments",
         "text_alignment": "center",
         "video_url": "https:\/\/vimeo.com\/821299635?share=copy",

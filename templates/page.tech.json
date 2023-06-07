@@ -520,7 +520,7 @@
             "heading_drop_shadow_opacity": 16,
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
-            "subheading": "M Carbon backed impact resistance lenses protect your eyes from flying debris, UV rays, and other hazards.",
+            "subheading": "M Carbon backed impact Resistance protects your eyes from flying debris, UV rays, and other hazards.",
             "subheading_type": "default",
             "subheading_color": "#ffffff",
             "subheading_font_size_desktop": 16,
@@ -580,7 +580,7 @@
         "header": "",
         "subheading": "Res+",
         "subheading_color": "#f1f2f2",
-        "caption": "<p>High-Definition optical clarity reduces distortion and offers a wider field of view, creating a superior and more detailed optical experience.<\/p>",
+        "caption": "<p>HD optical clarity reduces distortion and offers a wider field of view, creating a superior and more detailed optical experience.<\/p>",
         "overlay_content_position": "bottom-left",
         "content_position_mobile": "none",
         "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_BEFORE.jpg",
@@ -751,7 +751,7 @@
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Carbon_01.png",
+            "image": "shopify:\/\/shop_images\/M_Carbon.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "M CARBON",
@@ -767,12 +767,12 @@
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Atomic_13_01.png",
+            "image": "shopify:\/\/shop_images\/Atomic_13.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Atomic 13",
             "title_impact": "",
-            "content": "<p>Carefully selected lightweight blend of <sub>13<\/sub>Al that incorporates trace elements of Cu (Copper), Mg (Magnesium), Mn (Manganese) and Si (Silicon).  Each is precisely blended by Alcoa to impart qualities of toughness, lightness, and strength.<\/p>",
+            "content": "<p>Carefully selected lightweight blend of &lt;sub&gt;13&lt;\/sub&gt;Al that incorporates trace elements of Cu (Copper), Mg (Magnesium), Mn (Manganese) and Si (Silicon).  Each is precisely blended by Alcoa to impart qualities of toughness, lightness, and strength.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -810,7 +810,7 @@
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Thermo_Carbon_02.png",
+            "image": "shopify:\/\/shop_images\/Thermo_Carbon.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Thermo Carbon",
