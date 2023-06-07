@@ -53,7 +53,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Lens_Title_Page_New_02.png",
-            "mobile_image": "shopify:\/\/shop_images\/M_Lens_Title_Mobile_1000x1400_ac3f58a3-c726-46f4-99bf-f1abeaaae8fe.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Lens_Title_Moblie_1000x1400_d869848c-67c6-4c3c-94b6-9e1521ec3a02.jpg",
             "overlay_opacity": 30,
             "title": "REPLACEMENT",
             "title_mobile": "",
@@ -67,7 +67,7 @@
             "subheading_font_size_desktop": 30,
             "subheading_font_size_mobile": 16,
             "overlay_content_position": "middle-left",
-            "content_position_mobile": "bottom-left",
+            "content_position_mobile": "top-center",
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": -9,
             "nudge_text_x-axis_mobile": 0,
