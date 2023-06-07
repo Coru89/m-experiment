@@ -54,7 +54,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Lens_Title_Page_New_02.png",
             "mobile_image": "shopify:\/\/shop_images\/M_Lens_Title_Moblie_1000x1400_d869848c-67c6-4c3c-94b6-9e1521ec3a02.jpg",
-            "overlay_opacity": 30,
+            "overlay_opacity": 1,
             "title": "REPLACEMENT",
             "title_mobile": "",
             "subheading": "LENSES",
