@@ -6,5 +6,5 @@
   padding: 3rem 0;
   margin: 0; }
 
-.template-index .shopify-section--slideshow .section {
+.template-index .shopify-section--slideshow:first-of-type .section {
   padding-top: 9rem; }
