@@ -404,6 +404,13 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "902eac69-e85d-4dbd-908b-b9534c086cbf": {
+      "type": "video-new",
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a8340a931ed5494887fc95873e353131.mp4",
+        "image": "shopify:\/\/shop_images\/Experiments.jpg"
+      }
+    },
     "3fb0957f-3573-4889-818d-10bd6f508d5c": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -1274,56 +1281,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "timeline": {
-      "type": "timeline",
-      "disabled": true,
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "label": "2000",
-            "title": "Your heading",
-            "content": "<p>Write content about your store<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "label": "2010",
-            "title": "Your heading",
-            "content": "<p>Write content about your store<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "label": "2020",
-            "title": "Your heading",
-            "content": "<p>Write content about your store<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Timeline",
-        "text_position": "middle",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "item_background": "rgba(0,0,0,0)",
-        "item_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "featured-product": {
       "type": "featured-product",
       "disabled": true,
@@ -1382,6 +1339,7 @@
   "order": [
     "slideshow",
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b",
+    "902eac69-e85d-4dbd-908b-b9534c086cbf",
     "3fb0957f-3573-4889-818d-10bd6f508d5c",
     "e49d7aa9-8c82-43f7-8c06-4ede73f50d61",
     "ba4a3efa-9dab-447a-b3b2-bafe4633e167",
@@ -1403,7 +1361,6 @@
     "image-with-text",
     "blog-posts",
     "testimonials",
-    "timeline",
     "featured-product"
   ]
 }
