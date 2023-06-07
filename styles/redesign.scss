@@ -9,6 +9,7 @@
         margin: 0;
     }
 
+    // top slideshow section of homepage
     .shopify-section--slideshow:first-of-type {
         .section {
             padding-top: 9rem;
@@ -19,7 +20,70 @@
             font-size: clamp(26px, 4vw, 80px) !important;
             font-weight: 275;
             text-transform: none !important;
-            opacity: 0.6;
+            opacity: 0.5;
+        }
+    }
+
+    .shopify-section--multi-column {
+        * {
+            font-family: 'ITC Avant Garde Gothic Std Extra Light', sans-serif;
+        }
+
+        h2 {
+            font-size: clamp(26px, 4vw, 80px) !important;
+            font-weight: 275;
+            opacity: 0.5;
+            position: relative;
+            z-index: 1;
+        }
+
+        multi-column {
+            margin-top: -4.5rem;
+        }
+
+        .multi-column__item {
+            align-items: flex-end;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            
+            &::before {
+                content: '';
+                display: block;
+                position: relative;
+                padding-bottom: 70%;
+            }
+
+        }
+
+        .multi-column__text-container {
+            .heading {
+                font-size: clamp(26px, 3vw, 60px) !important;
+                font-weight: 275;
+                opacity: 0.5;
+            }
+        }
+
+        .multi-column__image-wrapper {
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+        }
+
+        .multi-column__image {
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
         }
     }
 }
