@@ -1,10 +1,34 @@
+{{ 'landing.css' | asset_url | stylesheet_tag }}
 
-{{ section.settings.title }} 
+
 
 {%- assign menu = section.settings.menu.links -%}
-{%- for link in menu -%}
-  {{ link.title | link_to: link.url }}
-{%- endfor -%}
+
+<section class="section landing">
+  <div class="landing__inner container">
+    <header class="section__header ">
+      <div class="text-container">
+        <h2 class="heading h2 landing__heading">{{ section.settings.title }}</h2>
+        <h3 class="heading heading--small landing__heading">{{ section.settings.subheading }}</h3>
+      </div>
+    </header>
+
+    <ul class="landing__blocks-list">
+      {%- for link in menu -%}
+        <li class="landing__blocks-item">
+          <a href="link.url" class="landing__blocks-item-link">
+            <span class="landing__blocks-item-title">
+              {{ link.title }}
+            </span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    
+  </div>
+</section>
+
+
 
 {% schema %}
   {
@@ -14,6 +38,11 @@
       "type": "text",
       "id": "title",
       "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
     },
     {
       "type": "link_list",
