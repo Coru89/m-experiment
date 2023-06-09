@@ -469,7 +469,7 @@ p b {
 .rte h6,
 .rte blockquote {
   display: block;
-  font-family: var(--heading-font-family);
+  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family);
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   color: rgb(var(--heading-color));
@@ -675,6 +675,10 @@ p a:not(.button),
  *       those, a "text-container" class is introduced and allow to introduce a consistent spacing.
  * -------------------------------------------------------------
  */
+
+.heading {
+  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family);
+}
 
 .heading:first-child {
   margin-top: 0;

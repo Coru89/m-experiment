@@ -2,14 +2,22 @@
   #shopify-section-{{ section.id }} .footer {
     {%- assign border_color = settings.footer_background | color_mix: settings.footer_text_color, 85 -%}
 
-    --background: {{ settings.footer_background.red }}, {{ settings.footer_background.green }}, {{ settings.footer_background.blue }};
+    --background: {{ section.settings.color_bg }};
+    {% comment %} --background: {{ settings.footer_background.red }}, {{ settings.footer_background.green }}, {{ settings.footer_background.blue }}; {% endcomment %}
     --heading-color: {{ settings.footer_text_color.red }}, {{ settings.footer_text_color.green }}, {{ settings.footer_text_color.blue }};
-    --text-color: {{ settings.footer_text_color.red }}, {{ settings.footer_text_color.green }}, {{ settings.footer_text_color.blue }};
+    {% comment %} --text-color: {{ settings.footer_text_color.red }}, {{ settings.footer_text_color.green }}, {{ settings.footer_text_color.blue }}; {% endcomment %}
+    --text-color: {{ section.settings.color_text }};
     --border-color: {{ border_color.red }}, {{ border_color.green }}, {{ border_color.blue }};
+
+    color: var(--text-color);
+  }
+
+  #shopify-section-{{ section.id }} .footer__item-title {
+    color: var(--text-color);
   }
 </style>
 
-<footer class="footer {% if settings.footer_background == settings.background %}footer--bordered{% endif %}">
+<footer class="footer" style="background-color: var(--background)">
   <div class="container">
     <div class="footer__inner">
       <div class="footer__item-list">
@@ -283,6 +291,22 @@
       "id": "cookie_bar_content",
       "label": "Content",
       "default": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "label": "Background Color",
+      "id": "color_bg",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "label": "Text Color",
+      "id": "color_text",
+      "default": "#000"
     }
   ],
   "blocks": [
