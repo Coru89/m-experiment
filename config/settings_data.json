@@ -138,7 +138,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/hero-home.png",
-              "image_width": 300
+              "image_width": 200
             }
           },
           "links": {
@@ -414,6 +414,8 @@
             "social_media"
           ],
           "settings": {
+            "color_bg": "#fff",
+            "color_text": "#000"
           }
         }
       }
@@ -524,6 +526,8 @@
             "social_media"
           ],
           "settings": {
+            "color_bg": "#fff",
+            "color_text": "#000"
           }
         }
       }
@@ -639,6 +643,8 @@
             "social_media"
           ],
           "settings": {
+            "color_bg": "#fff",
+            "color_text": "#000"
           }
         }
       }
@@ -751,6 +757,8 @@
             "social_media"
           ],
           "settings": {
+            "color_bg": "#fff",
+            "color_text": "#000"
           }
         }
       }
