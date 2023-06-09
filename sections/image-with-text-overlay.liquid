@@ -5,7 +5,7 @@
 {%- endif -%}
 
 <style>
-  {%- assign text_position = section.settings.text_position | split: '_' | first -%}
+  {% comment %} {%- assign text_position = section.settings.text_position | split: '_' | first -%}
 
   {%- case text_position -%}
     {%- when 'top' -%}
@@ -14,7 +14,103 @@
       {%- assign section_items_alignment = 'center' -%}
     {%- when 'bottom' -%}
       {%- assign section_items_alignment = 'flex-end' -%}
-  {%- endcase -%}
+  {%- endcase -%} {% endcomment %}
+
+  #shopify-section-{{ section.id }} .image-overlay__content-wrapper {
+    display: flex;
+    height: 100%;
+
+    {% if section.settings.content_position_mobile != "none" %}
+      {% if section.settings.content_position_mobile == "top-left" %}
+        align-items: flex-start;
+        justify-content: flex-start;
+      {% elsif section.settings.content_position_mobile == "top-center" %}
+        align-items: flex-start;
+        justify-content: center;
+      {% elsif section.settings.content_position_mobile == "middle-left" %}
+        align-items: center;
+      {% elsif section.settings.content_position_mobile == "middle-right" %}
+        align-items: center;
+        justify-content: flex-end;
+      {% elsif section.settings.content_position_mobile == "bottom-left" %}
+          align-items: flex-end;
+      {% elsif section.settings.content_position_mobile == "bottom-center" %}
+          align-items: flex-end;
+          justify-content: center;
+      {% elsif section.settings.content_position_mobile == "top-right" %}
+          justify-content: flex-end;
+      {% elsif section.settings.content_position_mobile == "bottom-right" %}
+          align-items: flex-end;
+          justify-content: flex-end;
+      {% elsif section.settings.content_position_mobile == "middle-center" %}
+          align-items: center;
+          justify-content: center;
+      {% endif %}
+    {% else %}
+      {% if section.settings.overlay_content_position == "top-left" %}
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: unset;
+      {% elsif section.settings.overlay_content_position == "top-center" %}
+        align-items: flex-start;
+        justify-content: center;
+      {% elsif section.settings.overlay_content_position == "middle-left" %}
+        align-items: center;
+        justify-content: unset;
+      {% elsif section.settings.overlay_content_position == "middle-right" %}
+        align-items: center;
+        justify-content: flex-end;
+      {% elsif section.settings.overlay_content_position == "bottom-left" %}
+        align-items: flex-end;
+        justify-content: unset;
+      {% elsif section.settings.overlay_content_position == "bottom-center" %}
+        align-items: flex-end;
+        justify-content: center;
+      {% elsif section.settings.overlay_content_position == "top-right" %}
+        align-items: unset;
+        justify-content: flex-end;
+      {% elsif section.settings.overlay_content_position == "bottom-right" %}
+        align-items: flex-end;
+        justify-content: flex-end;
+      {% elsif section.settings.overlay_content_position == "middle-center" %}
+        align-items: center;
+        justify-content: center;
+      {% endif %}
+    {% endif %}
+  }
+
+  @media screen and (min-width: 1000px) {
+    #shopify-section-{{ section.id }} .image-overlay__content-wrapper {
+      {% if section.settings.overlay_content_position == "top-left" %}
+        align-items: flex-start;
+        justify-content: flex-start;
+      {% elsif section.settings.overlay_content_position == "top-center" %}
+        align-items: unset;
+        justify-content: center;
+      {% elsif section.settings.overlay_content_position == "middle-left" %}
+        align-items: center;
+        justify-content: unset;
+      {% elsif section.settings.overlay_content_position == "middle-right" %}
+        align-items: center;
+        justify-content: flex-end;
+      {% elsif section.settings.overlay_content_position == "bottom-left" %}
+        align-items: flex-end;
+        justify-content: unset;
+      {% elsif section.settings.overlay_content_position == "bottom-center" %}
+        align-items: flex-end;
+        justify-content: center;
+      {% elsif section.settings.overlay_content_position == "top-right" %}
+        align-items: unset;
+        justify-content: flex-end;
+      {% elsif section.settings.overlay_content_position == "bottom-right" %}
+        align-items: flex-end;
+        justify-content: flex-end;
+      {% elsif section.settings.overlay_content_position == "middle-center" %}
+        align-items: center;
+        justify-content: center;
+      {% endif %}
+    }
+  }
 
   {% assign dropShadowOpacity = section.settings.heading_drop_shadow_opacity | divided_by: 100.0 | round: 2 %}
   
@@ -48,7 +144,7 @@
     --primary-button-background: {{ button_background.red }}, {{ button_background.green }}, {{ button_background.blue }};
     --primary-button-text-color: {{ button_text_color.red }}, {{ button_text_color.green }}, {{ button_text_color.blue }};
 
-    --section-items-alignment: {{ section_items_alignment }};
+    {% comment %} --section-items-alignment: {{ section_items_alignment }}; {% endcomment %}
     --section-overlay-color: {{ section.settings.overlay_color.red }}, {{ section.settings.overlay_color.green }}, {{ section.settings.overlay_color.blue }};
     --section-overlay-opacity: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
   }
@@ -96,23 +192,45 @@
     }
   }
 
-  {% if section.settings.subheading_narrow_width == true %} 
-    #shopify-section-{{ section.id }} .image-overlay__text-container {
+  #shopify-section-{{ section.id }} .image-overlay__content  {
+    text-align: {{ section.settings.content_text_align_mobile }};
+  }
+
+  @media screen and (min-width: 740px) {
+    #shopify-section-{{ section.id }} .image-overlay__content  {
+      text-align: {{ section.settings.content_text_align_desktop }};
+    }
+  }
+
+  {% if section.settings.narrow_width == true %} 
+    #shopify-section-{{ section.id }} .image-overlay__content {
       width: 280px;
     }
   {% endif %}
+
+  #shopify-section-{{ section.id }} .image-overlay__content {
+    position: relative;
+    bottom: {{ section.settings.nudge_text_y-axis_mobile }}%;
+    left: {{ section.settings.nudge_text_x-axis_mobile }}%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    #shopify-section-{{ section.id }} .image-overlay__content {
+      bottom: {{ section.settings.nudge_text_y-axis_desktop }}%;
+      left: {{ section.settings.nudge_text_x-axis_desktop }}%;
+    }
+  }
   
 
-
-  {% if section.settings.subheading_narrow_width == true %}
+  {% if section.settings.narrow_width == true %}
     @media screen and (min-width: 740px) {
-      #shopify-section-{{ section.id }} .image-overlay__text-container {
+      #shopify-section-{{ section.id }} .image-overlay__content {
         width: 280px;
       }
     }
 
     @media screen and (min-width: 1200px) {
-      #shopify-section-{{ section.id }} .image-overlay__text-container {
+      #shopify-section-{{ section.id }} .image-overlay__content {
         width: 350px;
       }
      }
@@ -122,9 +240,14 @@
 <section class="section {% unless is_boxed %}section--flush{% endunless %}">
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign image = section.settings.image -%}
+    {%- assign mobile_image = section.settings.mobile_image -%}
     {%- assign image_aspect_ratio = image.aspect_ratio | default: 2.63 -%}
 
-    <image-with-text-overlay {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-overlay image-overlay--{{ section.settings.section_height }}" {% if section.settings.section_height == 'auto' %}style="--image-aspect-ratio: {{ image_aspect_ratio }}; --mobile-image-aspect-ratio: {{ mobile_image.aspect_ratio | default: image_aspect_ratio | default: 1 }};"{% endif %}>
+
+    <image-with-text-overlay {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-overlay image-overlay--{{ section.settings.section_height }}" 
+      {% if section.settings.section_height == 'auto' %}
+        style="--image-aspect-ratio: {{ image_aspect_ratio }}; --mobile-image-aspect-ratio: {{ mobile_image.aspect_ratio | default: image_aspect_ratio | default: 1 }};"
+      {% endif %}>
       <div class="image-overlay__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.section_height == 'auto' %}style="padding-bottom: {{ 100.0 | divided_by: image_aspect_ratio }}%"{% endif %}>
         {%- if image != blank -%}
           <picture>
@@ -143,8 +266,8 @@
       </div>
 
       {%- if mobile_image != blank -%}
-        <div class="slideshow__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-          {{- mobile_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+        <div class="image-overlay__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+          {{- mobile_image | image_url: width: 3000 | image_tag: draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
         </div>
       {%- endif -%}
 
@@ -152,7 +275,7 @@
         {%- assign text_alignment = section.settings.text_position | split: '_' | last -%}
 
         <div class="image-overlay__content-wrapper">
-          <div class="image-overlay__content content-box content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} content-box--{{ text_alignment }} text-container">
+          <div class="image-overlay__content content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} text-container">
             
             
             {%- if section.settings.title != blank -%}
@@ -387,48 +510,148 @@
       "default": "medium"
     },
     {
+      "type": "header",
+      "content": "Content Position"
+    },
+    {
       "type": "select",
-      "id": "text_position",
-      "label": "Text position",
+      "id": "overlay_content_position",
+      "label": "Content Position Desktop",
       "options": [
         {
-          "value": "top_left",
+          "value": "top-left",
           "label": "Top left"
         },
         {
-          "value": "top_center",
+          "value": "top-center",
           "label": "Top center"
         },
         {
-          "value": "top_right",
+          "value": "top-right",
           "label": "Top right"
         },
         {
-          "value": "middle_left",
+          "value": "middle-left",
           "label": "Middle left"
         },
         {
-          "value": "middle_center",
+          "value": "middle-center",
           "label": "Middle center"
         },
         {
-          "value": "middle_right",
+          "value": "middle-right",
           "label": "Middle right"
         },
         {
-          "value": "bottom_left",
+          "value": "bottom-left",
           "label": "Bottom left"
         },
         {
-          "value": "bottom_center",
+          "value": "bottom-center",
           "label": "Bottom center"
         },
         {
-          "value": "bottom_right",
+          "value": "bottom-right",
           "label": "Bottom right"
         }
       ],
-      "default": "middle_center"
+      "default": "middle-center"
+    },
+    {
+      "type": "select",
+      "id": "content_position_mobile",
+      "label": "Content Position Mobile",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "top-left",
+          "label": "Top left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top center"
+        },
+        {
+          "value": "top-right",
+          "label": "Top right"
+        },
+        {
+          "value": "middle-left",
+          "label": "Middle left"
+        },
+        {
+          "value": "middle-center",
+          "label": "Middle center"
+        },
+        {
+          "value": "middle-right",
+          "label": "Middle right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "bottom-center",
+          "label": "Bottom center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom right"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "header",
+      "content": "Content Position Advanced (for finer adjustments)"
+    },
+    {
+      "type": "range",
+      "id": "nudge_text_x-axis_desktop",
+      "label": "Nudge Text X-Axis Desktop",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0,
+      "unit": "%"
+    },
+    {
+      "type": "range",
+      "id": "nudge_text_y-axis_desktop",
+      "label": "Nudge Text Y-Axis Desktop",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0,
+      "unit": "%"
+    },
+    {
+      "type": "range",
+      "id": "nudge_text_x-axis_mobile",
+      "label": "Nudge Text X-Axis Mobile",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0,
+      "unit": "%"
+    },
+    {
+      "type": "range",
+      "id": "nudge_text_y-axis_mobile",
+      "label": "Nudge Text Y-Axis Mobile",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0,
+      "unit": "%"
+    },
+    {
+      "type": "header",
+      "content": "Text Alignment"
     },
     {
       "type": "select",
@@ -494,6 +717,46 @@
       "type": "select",
       "id": "subheading_text_align_mobile",
       "label": "Subheading Text Align Mobile",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "content_text_align_desktop",
+      "label": "Content Text Align Desktop",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "content_text_align_mobile",
+      "label": "Content Text Align Mobile",
       "options": [
         {
           "value": "left",
