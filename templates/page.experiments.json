@@ -625,7 +625,7 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "top_left",
-        "heading_text_align_huh": "right",
+        "heading_text_align_huh": "left",
         "heading_text_align_mobile": "center",
         "subheading_text_align_desktop": "left",
         "subheading_text_align_mobile": "center",
