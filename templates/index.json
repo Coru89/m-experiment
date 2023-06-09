@@ -56,6 +56,29 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "3de230bb-3360-46fd-ac2c-a8b5208eedca": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "subheading": "",
+        "title": "The First Born",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "top_center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "slideshow": {
       "type": "impact",
       "disabled": true,
@@ -1393,6 +1416,7 @@
   },
   "order": [
     "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a",
+    "3de230bb-3360-46fd-ac2c-a8b5208eedca",
     "slideshow",
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b",
     "e49d7aa9-8c82-43f7-8c06-4ede73f50d61",
