@@ -138,7 +138,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/hero-home.png",
-              "image_width": 200
+              "image_width": 180
             }
           },
           "links": {
