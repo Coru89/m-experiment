@@ -777,8 +777,65 @@
         "label": "Shop the looks"
       }
     },
+    "5725c4e1-4f56-4023-b5f7-1e93404be755": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16013649707158__5725c4e1-4f56-4023-b5f7-1e93404be755-1686301120dc6289a4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RPOF_Desktop_02_346dafad-f876-4d38-a1c2-9d947bfcdda4.jpg",
+            "overlay_opacity": 30,
+            "title": "The relentless pursuit of fun",
+            "heading_font_size_desktop": 90,
+            "heading_font_size_mobile": 26,
+            "Heading_text_align_desktop": "left",
+            "heading_text_align_mobile": "left",
+            "heading_drop_shadow": false,
+            "heading_drop_shadow_x-offset": 0,
+            "heading_drop_shadow_y-offset": 3,
+            "heading_drop_shadow_color": "#000",
+            "heading_drop_shadow_opacity": 16,
+            "subheading_uppercase": false,
+            "subheading_narrow_width": true,
+            "subheading": "",
+            "subheading_type": "default",
+            "subheading_color": "#F1F2F2",
+            "subheading_font_size_desktop": 16,
+            "subheading_font_size_mobile": 15,
+            "subheading_text_align": "left",
+            "subheading_text_align_mobile": "left",
+            "subheading_opacity": 100,
+            "overlay_content_position": "middle-center",
+            "content_position_mobile": "none",
+            "nudge_text_x-axis_desktop": 0,
+            "nudge_text_y-axis_desktop": 0,
+            "nudge_text_x-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 0,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649707158__5725c4e1-4f56-4023-b5f7-1e93404be755-1686301120dc6289a4-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
     "07443d72-c1b9-4248-9951-fc3e505affc5": {
       "type": "impact",
+      "disabled": true,
       "blocks": {
         "template--15613256990870__07443d72-c1b9-4248-9951-fc3e505affc5-16679634112a5ab8f7-0": {
           "type": "image",
@@ -1302,23 +1359,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "disabled": true,
-      "settings": {
-        "blog": "",
-        "subheading": "Stay up-to-date",
-        "title": "Blog posts",
-        "articles_count": 3,
-        "stack_mobile": false,
-        "show_category": true,
-        "show_excerpt": false,
-        "show_author": true,
-        "show_date": true,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "featured-product": {
       "type": "featured-product",
       "disabled": true,
@@ -1387,6 +1427,7 @@
     "902eac69-e85d-4dbd-908b-b9534c086cbf",
     "89b6fea9-b1de-4d79-ac53-b64b0eb60b33",
     "shop-the-look",
+    "5725c4e1-4f56-4023-b5f7-1e93404be755",
     "07443d72-c1b9-4248-9951-fc3e505affc5",
     "featured-collections",
     "collection-list",
@@ -1398,7 +1439,6 @@
     "16592452799ea4ed39",
     "newsletter",
     "image-with-text",
-    "blog-posts",
     "featured-product"
   ]
 }
