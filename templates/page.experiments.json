@@ -626,7 +626,7 @@
         "link_style": "link",
         "background_type": "full_width",
         "text_width": "medium",
-        "text_position": "top_left",
+        "text_position": "middle_center",
         "heading_text_align_huh": "left",
         "heading_text_align_mobile": "center",
         "subheading_text_align_desktop": "left",
