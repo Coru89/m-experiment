@@ -530,7 +530,6 @@
     },
     "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
       "type": "multi-column",
-      "disabled": true,
       "blocks": {
         "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0": {
           "type": "item",
@@ -582,7 +581,6 @@
         },
         "affd5561-24e0-4f96-981a-0196ce83cbe6": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
