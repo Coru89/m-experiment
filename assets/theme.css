@@ -469,7 +469,7 @@ p b {
 .rte h6,
 .rte blockquote {
   display: block;
-  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family);
+  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family), sans-serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   color: rgb(var(--heading-color));
@@ -9704,6 +9704,10 @@ input:checked + .popover__choice-label::after,
 
 .header__linklist-link {
   display: block;
+  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family), sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .header__bottom-navigation .header__linklist {
@@ -9773,9 +9777,13 @@ input:checked + .popover__choice-label::after,
 }
 
 .nav-dropdown__link {
-  display: flex;
   align-items: center;
+  display: flex;
+  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family), sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   justify-content: space-between;
+  letter-spacing: 2px;
   padding: 3px 30px;
 }
 
