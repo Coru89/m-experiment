@@ -995,38 +995,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "disabled": true,
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "test-collection",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "subheading": "",
-        "use_impact": false,
-        "title": "FEATURED STYLES",
-        "content": "",
-        "products_count": 10,
-        "products_per_row": 4,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "#fbfbfb",
-        "text_color": "#191919",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -1438,7 +1406,6 @@
     "shop-the-look",
     "5725c4e1-4f56-4023-b5f7-1e93404be755",
     "07443d72-c1b9-4248-9951-fc3e505affc5",
-    "featured-collections",
     "collection-list",
     "e68a84ea-1ba9-4b45-912b-1d53785353aa",
     "61e4ee14-b329-451b-a5f2-5bdccddeb70e",
