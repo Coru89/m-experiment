@@ -614,7 +614,7 @@
         "subheading": "Subheading",
         "title": "The Lab",
         "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-        "narrow_width": false,
+        "narrow_width": true,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
         "subheading_font_size_desktop": 30,
