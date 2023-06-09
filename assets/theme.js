@@ -3830,16 +3830,13 @@
       event.target.nextElementSibling.removeAttribute("disabled");
       event.target.toggleAttribute("disabled", this.productListInner.scrollLeft * directionFlip - (this.productListInner.clientWidth + columnGap) <= 0);
       this.productListInner.scrollBy({ left: -(this.productListInner.clientWidth + columnGap) * directionFlip, behavior: "smooth" });
-      console.log('prev');
     }
     next(event) {
       const directionFlip = window.themeVariables.settings.direction === "ltr" ? 1 : -1, columnGap = parseInt(getComputedStyle(this).getPropertyValue("--product-list-column-gap"));
       event.target.previousElementSibling.removeAttribute("disabled");
       event.target.toggleAttribute("disabled", this.productListInner.scrollLeft * directionFlip + (this.productListInner.clientWidth + columnGap) * 2 >= this.productListInner.scrollWidth);
       this.productListInner.scrollBy({ left: (this.productListInner.clientWidth + columnGap) * directionFlip, behavior: "smooth" });
-      console.log('next');
       const horizontalScrollPosition =  (this.productListInner.scrollLeft + this.productListInner.clientWidth + columnGap);
-      console.log('Horizontal scroll position:', horizontalScrollPosition);
     }
     attributeChangedCallback(name) {
       var _a, _b;
@@ -4057,7 +4054,7 @@
     }
     async _setupVisibility() {
       await this.untilVisible();
-      const image = this.querySelector(".image-overlay__image"), headings = await resolveAsyncIterator(this.querySelectorAll("split-lines")), prefersReducedMotion = MediaFeatures.prefersReducedMotion();
+      const image = this.querySelector(".image-overlay__image"), headings = await resolveAsyncIterator(this.querySelectorAll("split-lines, .heading-animate")), prefersReducedMotion = MediaFeatures.prefersReducedMotion();
       await imageLoaded(image);
       const innerEffect = [
         new CustomKeyframeEffect(image, { opacity: [0, 1], transform: [`scale(${prefersReducedMotion ? 1 : 1.1})`, "scale(1)"] }, { duration: 500, easing: "cubic-bezier(0.65, 0, 0.35, 1)" }),
@@ -4105,7 +4102,7 @@
     }
     async _setupVisibility() {
       await this.untilVisible();
-      const images = Array.from(this.querySelectorAll(".image-with-text-block__image[reveal]")), headings = await resolveAsyncIterator(this.querySelectorAll("split-lines")), prefersReducedMotion = MediaFeatures.prefersReducedMotion();
+      const images = Array.from(this.querySelectorAll(".image-with-text-block__image[reveal]")), headings = await resolveAsyncIterator(this.querySelectorAll("split-lines")), prefersReducedMotion = MediaFeatures.prefersReducedMotion();     
       for (const image of images) {
         if (image.offsetParent !== null) {
           await imageLoaded(image);
