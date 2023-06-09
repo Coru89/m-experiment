@@ -212,14 +212,6 @@
     {% endif %}
   }
 
-  {% if section.settings.narrow_width == true %} 
-    @media screen and (min-width: 740px) {
-      #shopify-section-{{ section.id }} .image-overlay__content {
-        width: 280px;
-      }
-    }
-  {% endif %}
-
   @media screen and (min-width: 1000px) {
     #shopify-section-{{ section.id }} .image-overlay__content {
       bottom: {{ section.settings.nudge_text_y-axis_desktop }}%;
