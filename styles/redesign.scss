@@ -4,7 +4,7 @@
     }
 
     .section {
-        border-bottom: 4px solid #000;
+        // border-bottom: 4px solid #000;
         padding: 3rem 0;
         margin: 0;
     }
@@ -16,7 +16,7 @@
         }
 
         h2 {
-            font-family: 'ITC Avant Garde Gothic Std Extra Light', sans-serif;
+            // font-family: 'ITC Avant Garde Gothic Std Extra Light', sans-serif;
             font-size: clamp(26px, 4vw, 80px) !important;
             font-weight: 275;
             text-transform: none !important;
@@ -25,9 +25,9 @@
     }
 
     .shopify-section--multi-column {
-        * {
-            font-family: 'ITC Avant Garde Gothic Std Extra Light', sans-serif;
-        }
+        // * {
+        //     font-family: 'ITC Avant Garde Gothic Std Extra Light', sans-serif;
+        // }
 
         h2 {
             font-size: clamp(26px, 4vw, 80px) !important;
