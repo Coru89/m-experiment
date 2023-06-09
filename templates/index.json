@@ -935,6 +935,7 @@
     },
     "featured-collections": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "collection-1": {
           "type": "collection",
@@ -1019,7 +1020,7 @@
         "reveal_on_scroll": false,
         "layout": "collage",
         "subheading": "We’re Shifting Into Gear",
-        "title": "GEAR",
+        "title": "STUFF",
         "background": "#fbfbfb",
         "text_color": "#191919"
       }
