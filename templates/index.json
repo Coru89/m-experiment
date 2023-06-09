@@ -536,6 +536,7 @@
     },
     "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0": {
           "type": "item",
