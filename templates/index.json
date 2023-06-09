@@ -464,7 +464,6 @@
     },
     "3fb0957f-3573-4889-818d-10bd6f508d5c": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -487,7 +486,6 @@
     },
     "e49d7aa9-8c82-43f7-8c06-4ede73f50d61": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "auto",
@@ -510,7 +508,6 @@
     },
     "ba4a3efa-9dab-447a-b3b2-bafe4633e167": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -533,6 +530,7 @@
     },
     "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0": {
           "type": "item",
