@@ -23,7 +23,7 @@
     "product_custom_label_2_background": "#f3ff34",
     "product_in_stock_text_color": "#2e9e7b",
     "product_low_stock_text_color": "#de2a2a",
-    "heading_font": "roboto_n9",
+    "heading_font": "itc_avant_garde_gothic_n4",
     "heading_font_size": "medium",
     "heading_text_transform": "uppercase",
     "text_font": "roboto_n3",
@@ -179,7 +179,9 @@
           "show_locale_selector": true,
           "show_cookie_bar": true,
           "cookie_bar_title": "Cookie policy",
-          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>"
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>",
+          "color_bg": "#fff",
+          "color_text": "#000"
         }
       },
       "popup": {
