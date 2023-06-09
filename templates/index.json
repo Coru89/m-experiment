@@ -511,7 +511,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Eyewear_Title_Giga_02_88c95cc9-f906-4fba-b805-66db9fae16e9.png",
+        "image": "shopify:\/\/shop_images\/Eyewear_Title_Giga_02.png",
         "subheading": "",
         "title": "GIGAWATT",
         "content": "",
@@ -530,7 +530,6 @@
     },
     "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
       "type": "multi-column",
-      "disabled": true,
       "blocks": {
         "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0": {
           "type": "item",
@@ -582,7 +581,6 @@
         },
         "affd5561-24e0-4f96-981a-0196ce83cbe6": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
@@ -793,13 +791,13 @@
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 0,
             "heading_drop_shadow_y-offset": 3,
-            "heading_drop_shadow_color": "#000",
+            "heading_drop_shadow_color": "#000000",
             "heading_drop_shadow_opacity": 16,
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
             "subheading": "",
             "subheading_type": "default",
-            "subheading_color": "#F1F2F2",
+            "subheading_color": "#f1f2f2",
             "subheading_font_size_desktop": 16,
             "subheading_font_size_mobile": 15,
             "subheading_text_align": "left",
