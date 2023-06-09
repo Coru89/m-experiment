@@ -56,6 +56,30 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "3de230bb-3360-46fd-ac2c-a8b5208eedca": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/2160x1000_collection.jpg",
+        "subheading": "",
+        "title": "The First Born",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "top_center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "slideshow": {
       "type": "impact",
       "disabled": true,
@@ -477,6 +501,8 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "bottom_center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -499,6 +525,8 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "bottom_center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -521,6 +549,8 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "bottom_center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -530,6 +560,7 @@
     },
     "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "d4e3deef-03be-4c58-8e2d-8b64c54e5ba0": {
           "type": "item",
@@ -733,6 +764,8 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "middle_center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -986,38 +1019,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "disabled": true,
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "test-collection",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "subheading": "",
-        "use_impact": false,
-        "title": "FEATURED STYLES",
-        "content": "",
-        "products_count": 10,
-        "products_per_row": 4,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "#fbfbfb",
-        "text_color": "#191919",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -1193,6 +1194,8 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "middle_center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -1414,6 +1417,7 @@
   },
   "order": [
     "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a",
+    "3de230bb-3360-46fd-ac2c-a8b5208eedca",
     "slideshow",
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b",
     "e49d7aa9-8c82-43f7-8c06-4ede73f50d61",
@@ -1427,7 +1431,6 @@
     "shop-the-look",
     "5725c4e1-4f56-4023-b5f7-1e93404be755",
     "07443d72-c1b9-4248-9951-fc3e505affc5",
-    "featured-collections",
     "collection-list",
     "e68a84ea-1ba9-4b45-912b-1d53785353aa",
     "61e4ee14-b329-451b-a5f2-5bdccddeb70e",
