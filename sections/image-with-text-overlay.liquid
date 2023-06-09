@@ -46,6 +46,16 @@
     --section-overlay-color: {{ section.settings.overlay_color.red }}, {{ section.settings.overlay_color.green }}, {{ section.settings.overlay_color.blue }};
     --section-overlay-opacity: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
   }
+
+  #shopify-section-{{ section.id }} .section {
+    {%- if section.settings.remove_bottom_spacing -%}
+      padding-bottom: 0;
+    {%- endif -%}
+
+    {%- if section.settings.remove_top_spacing -%}
+      padding-top: 0;
+    {%- endif -%}
+  }
 </style>
 
 <section class="section {% unless is_boxed %}section--flush{% endunless %}">
@@ -286,6 +296,18 @@
         }
       ],
       "default": "middle_center"
+    },
+    {
+      "type": "checkbox",
+      "label": "Remove Top Spacing",
+      "id": "remove_top_spacing",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "label": "Remove Bottom Spacing",
+      "id": "remove_bottom_spacing",
+      "default": false
     },
     {
       "type": "header",
