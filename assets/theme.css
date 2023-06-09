@@ -15435,7 +15435,6 @@ h3.heading.heading--small {
   }
 }
 
-
 .slideshow .text-container {
   padding: 24px 0;
   z-index: 1;
@@ -15453,11 +15452,11 @@ h3.heading.heading--small {
   }
 }
 
-
 .slideshow .subheading {
   color: #fff; 
+  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family), sans-serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -15468,8 +15467,6 @@ h3.heading.heading--small {
   }
   
 }
-
-
 
 .footer .linklist__item {
   display: block;
