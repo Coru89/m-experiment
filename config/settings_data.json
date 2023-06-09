@@ -137,8 +137,8 @@
           "297d6f37-a99c-446d-b0c0-1220c8fbb01c": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/M_icon_f8976d07-4272-4565-914a-fecab0c4a7fe.png",
-              "image_width": 90
+              "image": "shopify:\/\/shop_images\/hero-home.png",
+              "image_width": 300
             }
           },
           "links": {
@@ -180,8 +180,8 @@
           "show_cookie_bar": true,
           "cookie_bar_title": "Cookie policy",
           "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>",
-          "color_bg": "#fff",
-          "color_text": "#000"
+          "color_bg": "#ffffff",
+          "color_text": "#000000"
         }
       },
       "popup": {
