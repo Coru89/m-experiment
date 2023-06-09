@@ -16,6 +16,12 @@
       {%- assign section_items_alignment = 'flex-end' -%}
   {%- endcase -%}
 
+  {% assign dropShadowOpacity = section.settings.heading_drop_shadow_opacity | divided_by: 100.0 | round: 2 %}
+  
+  {% capture dropShadowColor %}
+    {%- render 'color_to_rgba' with color: section.settings.heading_drop_shadow_color, opacity: dropShadowOpacity -%}
+  {% endcapture %}
+
   #shopify-section-{{ section.id }} {
     {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
       {%- assign heading_color = settings.heading_color -%}
@@ -56,6 +62,25 @@
       padding-top: 0;
     {%- endif -%}
   }
+
+  #shopify-section-{{ section.id }} .heading {
+    font-size: clamp({{ section.settings.heading_font_size_mobile }}px, 5vw + 1rem, {{ section.settings.heading_font_size_desktop }}px);
+    text-align: {{ section.settings.heading_text_align_mobile }};
+
+    {% if section.settings.heading_drop_shadow == true %}
+      filter: drop-shadow({{ section.settings.heading_drop_shadow_x-offset }}px {{ section.settings.heading_drop_shadow_y-offset }}px 6px {{ dropShadowColor }});
+    {% endif %}
+  }
+
+  #shopify-section-{{ section.id }} .subheading {
+    font-size: {{ section.settings.subheading_font_size_mobile }}px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    #shopify-section-{{ section.id }} .subheading {
+      font-size: {{ section.settings.subheading_font_size_desktop }}px;
+    }
+  }
 </style>
 
 <section class="section {% unless is_boxed %}section--flush{% endunless %}">
@@ -87,7 +112,7 @@
         <div class="image-overlay__content-wrapper">
           <div class="image-overlay__content content-box content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} content-box--{{ text_alignment }} text-container">
             {%- if section.settings.subheading != blank -%}
-              <h2 class="heading heading--small">
+              <h2 class="heading ">
                 <split-lines {% if section.settings.reveal_on_scroll %}reveal{% endif %}>{{ section.settings.subheading | escape }}</split-lines>
               </h2>
             {%- endif -%}
@@ -186,6 +211,50 @@
       "id": "content",
       "label": "Content",
       "default": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Font Sizes"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_desktop",
+      "label": "Heading Font Size Max Desktop",
+      "min": 30,
+      "max": 100,
+      "step": 1,
+      "default": 82,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "label": "Heading Font Size Min Mobile",
+      "min": 18,
+      "max": 60,
+      "step": 1,
+      "default": 26,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size_desktop",
+      "label": "Subheading Font Size Desktop",
+      "min": 14,
+      "max": 40,
+      "step": 1,
+      "default": 30,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size_mobile",
+      "label": "Subheading Font Size Mobile",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
     },
     {
       "type": "text",
@@ -308,6 +377,52 @@
       "label": "Remove Bottom Spacing",
       "id": "remove_bottom_spacing",
       "default": false
+    },
+    {
+      "type": "header",
+      "content": "Header - Drop Shadow"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_drop_shadow",
+      "label": "Heading Drop Shadow",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "heading_drop_shadow_x-offset",
+      "label": "Heading Drop Shadow X-Offset",
+      "min": -30,
+      "max": 30,
+      "step": 1,
+      "default": 0,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "heading_drop_shadow_y-offset",
+      "label": "Heading Drop Shadow Y-Offset",
+      "min": -30,
+      "max": 30,
+      "step": 1,
+      "default": 3,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "id": "heading_drop_shadow_color",
+      "label": "Heading Drop Shadow Color",
+      "default": "#000"
+    },
+    {
+      "type": "range",
+      "id": "heading_drop_shadow_opacity",
+      "label": "Heading Drop Shadow Opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 16,
+      "unit": "%"
     },
     {
       "type": "header",
