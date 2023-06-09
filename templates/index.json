@@ -6,7 +6,7 @@
         "template--16013649707158__2aeec8a7-3c80-4e36-a978-1bc0d6344a8a-1686115008f8388299-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-home.png",
+            "image": "shopify:\/\/shop_images\/header-home.png",
             "overlay_opacity": 30,
             "title": "<span style=\"text-transform: uppercase;\">New Begginings...<\/span> just for fun",
             "heading_font_size_desktop": 32,
