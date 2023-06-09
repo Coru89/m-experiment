@@ -97,7 +97,7 @@
   }
 
   {% if section.settings.subheading_narrow_width == true %} 
-    #block-{{ section.id }} .image-overlay__text-container {
+    #shopify-section-{{ section.id }} .image-overlay__text-container {
       width: 280px;
     }
   {% endif %}
@@ -106,13 +106,13 @@
 
   {% if section.settings.subheading_narrow_width == true %}
     @media screen and (min-width: 740px) {
-      #block-{{ section.id }} .image-overlay__text-container {
+      #shopify-section-{{ section.id }} .image-overlay__text-container {
         width: 280px;
       }
     }
 
     @media screen and (min-width: 1200px) {
-      #block-{{ section.id }} .image-overlay__text-container {
+      #shopify-section-{{ section.id }} .image-overlay__text-container {
         width: 350px;
       }
      }
@@ -125,7 +125,7 @@
     {%- assign image_aspect_ratio = image.aspect_ratio | default: 2.63 -%}
 
     <image-with-text-overlay {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-overlay image-overlay--{{ section.settings.section_height }}" {% if section.settings.section_height == 'auto' %}style="--image-aspect-ratio: {{ image_aspect_ratio }}"{% endif %}>
-      <div class="image-overlay__image-wrapper" {% if section.settings.section_height == 'auto' %}style="padding-bottom: {{ 100.0 | divided_by: image_aspect_ratio }}%"{% endif %}>
+      <div class="image-overlay__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.section_height == 'auto' %}style="padding-bottom: {{ 100.0 | divided_by: image_aspect_ratio }}%"{% endif %}>
         {%- if image != blank -%}
           <picture>
             <source media="(max-width: 740px)" {% render 'image-attributes', image: image, sizes: '400,500,600,700,800,900,1000', height_constraint: 800, crop: 'center', ignore_src: true %}>
@@ -141,6 +141,12 @@
           {%- endif -%}
         {%- endif -%}
       </div>
+
+      {%- if mobile_image != blank -%}
+        <div class="slideshow__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+          {{- mobile_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000', preload: preload_image -}}
+        </div>
+      {%- endif -%}
 
       {%- capture section_content -%}
         {%- assign text_alignment = section.settings.text_position | split: '_' | last -%}
@@ -239,6 +245,12 @@
       "id": "image",
       "label": "Image",
       "info": "2000 x 980px .jpg recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile image",
+      "info": "1000 x 1400px .jpg recommended. If none is set, desktop image will be used."
     },
     {
       "type": "text",
