@@ -59,6 +59,7 @@
         "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-0": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Lens_Geometry.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Lens Geometry",
@@ -74,6 +75,7 @@
         "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/plasmachromatic.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Plasmachromatic",
@@ -89,6 +91,7 @@
         "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/eye_fence.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "EYE FENCE",
@@ -104,6 +107,7 @@
         "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-3": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/res.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "RES+",
@@ -119,6 +123,7 @@
         "86b0c99b-9763-442e-946a-9511b1b184ff": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/polarized.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "POLARIZED",
