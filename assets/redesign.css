@@ -1,10 +1,6 @@
 .template-index store-header {
   background-color: #000; }
 
-.template-index .section {
-  padding: 3rem 0;
-  margin: 0; }
-
 .template-index .shopify-section--slideshow:first-of-type .section {
   padding-top: 9rem; }
 
@@ -37,7 +33,6 @@
 
 .template-index .shopify-section--multi-column .multi-column__text-container .heading {
   font-size: clamp(26px, 3vw, 60px) !important;
-  font-weight: 275;
   opacity: 0.5; }
 
 .template-index .shopify-section--multi-column .multi-column__image-wrapper {
