@@ -168,9 +168,9 @@
             "image": "shopify:\/\/shop_images\/M_Carbon_01v2jpg_3b8ba0ea-4359-4083-8b16-52bec5f304e3.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "M CARBON",
+            "title": "DAUL CHAMBER INFUSION",
             "title_impact": "",
-            "content": "<p>Proprietary frame material made from TR90 polymer.  A semitransparent polyamide providing superior heat resistance and durability, in addition to exceptional strength and crack resistance.<\/p>",
+            "content": "A multi-stage mold process using fiberglass reinforced TR90 substrate parts in Gigawatt, resulting in a stiff chassis in and around the hinge while maintaining flexibility and skin feel in the nose and ear areas for comfort.",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -184,9 +184,39 @@
             "image": "shopify:\/\/shop_images\/Atomic_13_01v2_28d8b155-3bf3-4a66-9ec1-7cc20004af3b.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Atomic 13",
+            "title": "LENS CLUTCH",
             "title_impact": "",
-            "content": "<p>Carefully selected lightweight blend of <sub>13<\/sub>Al that incorporates trace elements of Cu (Copper), Mg (Magnesium), Mn (Manganese) and Si (Silicon).  Each is precisely blended by Alcoa to impart qualities of toughness, lightness, and strength.<\/p>",
+            "content": "Lens quick release system giving you the fastest, most secure method to switch lenses.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "f6cfb63f-ee27-441a-a447-9749756525a1": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "RATCHETING NOSE PIECE",
+            "title_impact": "",
+            "content": "Adjustable nose piece system designed for different nose sizes and provides a secure, non-slip fit.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "59921f5f-56b3-4a3c-9320-83117759f42c": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "SLICS",
+            "title_impact": "",
+            "content": "Ear pads engineered with Atomic 14 providing maximum comfort and non-slip grip.",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -197,7 +227,9 @@
       },
       "block_order": [
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0",
-        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1"
+        "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1",
+        "f6cfb63f-ee27-441a-a447-9749756525a1",
+        "59921f5f-56b3-4a3c-9320-83117759f42c"
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
@@ -208,11 +240,11 @@
         "stack_items": true,
         "subheading": "",
         "use_impact": false,
-        "title": "M-MATERIALS",
+        "title": "M-Frame Technology",
         "content": "",
         "column_alignment": "center",
         "mobile_item_size": "large",
-        "desktop_item_size": "large",
+        "desktop_item_size": "medium",
         "spacing": "normal",
         "background": "#ffffff",
         "text_color": "#6b6b6b"
@@ -252,11 +284,43 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
+        },
+        "0dec8ebd-a0db-4cd9-98af-8bda847b08e4": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "title_impact": "",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "51381037-47ad-485e-bdf4-a2af689aaa21": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "title_impact": "",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
         }
       },
       "block_order": [
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0",
-        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1"
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1",
+        "0dec8ebd-a0db-4cd9-98af-8bda847b08e4",
+        "51381037-47ad-485e-bdf4-a2af689aaa21"
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
