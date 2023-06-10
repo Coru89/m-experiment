@@ -15090,8 +15090,7 @@ shopify-payment-terms {
   display: none;
 }
 
-
-.gallery {
+.article__inner .gallery {
     margin-top: 5rem;
 }
 
@@ -15406,7 +15405,7 @@ h3.heading.heading--small {
     margin: 48px 0;
 }
 
-.article .gallery {
+.gallery {
     --gallery-image-height: 320px;
 }
 
@@ -15423,7 +15422,7 @@ h3.heading.heading--small {
 }
 
 @media screen and (min-width: 1400px) {
- .article .gallery {
+ .gallery {
     --gallery-image-height: 25vw;
   }
 }
