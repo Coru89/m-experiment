@@ -165,7 +165,7 @@
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M_Carbon_01v2jpg_3b8ba0ea-4359-4083-8b16-52bec5f304e3.jpg",
+            "image": "shopify:\/\/shop_images\/dct.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "DAUL CHAMBER INFUSION",
@@ -181,7 +181,7 @@
         "template--15950527692950__fe014da0-6a33-405c-b4b7-9096fdd9915d-1678578646af2fc2c9-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Atomic_13_01v2_28d8b155-3bf3-4a66-9ec1-7cc20004af3b.jpg",
+            "image": "shopify:\/\/shop_images\/lc.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "LENS CLUTCH",
@@ -197,6 +197,7 @@
         "f6cfb63f-ee27-441a-a447-9749756525a1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/rnp.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "RATCHETING NOSE PIECE",
@@ -212,6 +213,7 @@
         "59921f5f-56b3-4a3c-9320-83117759f42c": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/slics.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "SLICS",
