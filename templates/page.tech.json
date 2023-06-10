@@ -156,7 +156,7 @@
         "desktop_item_size": "medium",
         "spacing": "tight",
         "background": "#ffffff",
-        "text_color": "#000000"
+        "text_color": "#6b6b6b"
       }
     },
     "fe014da0-6a33-405c-b4b7-9096fdd9915d": {
@@ -214,8 +214,8 @@
         "mobile_item_size": "large",
         "desktop_item_size": "large",
         "spacing": "normal",
-        "background": "#000000",
-        "text_color": "#ffffff"
+        "background": "#ffffff",
+        "text_color": "#6b6b6b"
       }
     },
     "b94428e8-336a-4948-b3fb-06ee7f4aae6a": {
