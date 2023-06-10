@@ -1,5 +1,50 @@
 {
   "sections": {
+    "822de1c8-a4ff-4770-ad92-1e77610d4456": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/tech-header-1.png",
+        "subheading": "",
+        "title": "M-Technology",
+        "content": "<p>THE MOST ADVANCED MATERIALS WITH A DASH OF MAD SCIENCE<\/p>",
+        "narrow_width": false,
+        "heading_font_size_desktop": 82,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 30,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 16,
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -111,43 +156,6 @@
         "autoplay": true,
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
-      }
-    },
-    "76168366-8546-453e-8bfb-8cfeb9280c10": {
-      "type": "rich-text",
-      "custom_css": [
-        ".container {padding-top: 2rem;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Lens Technology",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "small",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "#000000",
-        "text_color": "#ffffff",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "72274fc1-a426-4303-8685-aacc57947029": {
-      "type": "before-after-section",
-      "disabled": true,
-      "settings": {
-        "header": "LENS TECHNOLOGy",
-        "subheading": "M9M",
-        "subheading_color": "#f1f2f2",
-        "caption": "<p>The high-contrast Lenses are engineered to enhance color perception and improve visual acuity in varying light conditions.<\/p>",
-        "overlay_content_position": "top-left",
-        "content_position_mobile": "none",
-        "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_M9M_Desktop_AFTER.jpg",
-        "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_M9M_Desktop_BEFORE.jpg",
-        "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_M9M_Mobile_BEFORE.jpg",
-        "imageafter_mobile": "shopify:\/\/shop_images\/M_Tech_M9M_Mobile_AFTER.jpg"
       }
     },
     "0edee54d-36a8-4ae5-a6a7-745219016cb6": {
@@ -265,7 +273,7 @@
             "title": "Plasmachromatic",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -427,21 +435,6 @@
         "text_color": "#191919"
       }
     },
-    "020fd511-6f2a-4dc4-9663-99b8cb72e8fe": {
-      "type": "before-after-section",
-      "settings": {
-        "header": "",
-        "subheading": "Polarized",
-        "subheading_color": "#f1f2f2",
-        "caption": "<p>Our high-perfomance polarized lenses block 99.9% of reflective glare for the most vivid and detailed visual experiences.<\/p>",
-        "overlay_content_position": "bottom-left",
-        "content_position_mobile": "none",
-        "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Polarized_Desktop_AFTER.jpg",
-        "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Polarized_Desktop_BEFORE.jpg",
-        "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_AFTER.jpg",
-        "imageafter_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_BEFORE.jpg"
-      }
-    },
     "d9e4ca97-5f03-4713-8530-2883a11ab72d": {
       "type": "lens-slider",
       "blocks": {
@@ -511,7 +504,7 @@
             "title": "Eye Fence",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -574,21 +567,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "35f6f6de-38b5-423a-ad59-ddbadf1f0189": {
-      "type": "before-after-section",
-      "settings": {
-        "header": "",
-        "subheading": "Res+",
-        "subheading_color": "#f1f2f2",
-        "caption": "<p>High-Definition optical clarity reduces distortion and offers a wider field of view, creating a superior and more detailed optical experience.<\/p>",
-        "overlay_content_position": "bottom-left",
-        "content_position_mobile": "none",
-        "imagebefore_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_BEFORE.jpg",
-        "imageafter_desktop": "shopify:\/\/shop_images\/M_Tech_Res__Desktop_02_AFTER.jpg",
-        "imagebefore_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_BEFORE.jpg",
-        "imageafter_mobile": "shopify:\/\/shop_images\/M_Tech_Polarized_Mobile_02_AFTER_1.jpg"
-      }
-    },
     "e0f1843d-f939-423a-b1bf-e7144941f569": {
       "type": "slideshow",
       "disabled": true,
@@ -602,7 +580,7 @@
             "title": "POLARIZED",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -700,7 +678,7 @@
             "title": "NON-HDO",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -894,7 +872,7 @@
             "title": "Dual Chamber Infusion",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -936,7 +914,7 @@
             "title": "Dual Chamber Infusion",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -998,7 +976,7 @@
             "title": "LENS CLUTCH",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -1040,7 +1018,7 @@
             "title": "LENS CLUTCH",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -1081,7 +1059,7 @@
             "title": "Slide title",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -1144,7 +1122,7 @@
             "title": "RATCHET",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -1186,7 +1164,7 @@
             "title": "RATCHETING \nNOSE PIECE",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -1248,7 +1226,7 @@
             "title": "SLICS",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -1290,7 +1268,7 @@
             "title": "Slics",
             "heading_font_size_desktop": 36,
             "heading_font_size_mobile": 26,
-            "Heading_text_align_desktop": "left",
+            "heading_text_align_desktop": "left",
             "heading_text_align_mobile": "left",
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 10,
@@ -1356,20 +1334,17 @@
     }
   },
   "order": [
+    "822de1c8-a4ff-4770-ad92-1e77610d4456",
     "main",
     "ceb0eeae-dc5f-4ebf-b839-83f7d9697809",
-    "76168366-8546-453e-8bfb-8cfeb9280c10",
-    "72274fc1-a426-4303-8685-aacc57947029",
     "0edee54d-36a8-4ae5-a6a7-745219016cb6",
     "09a65779-9793-4bf6-b148-10df80b12801",
     "a4eb0185-549e-4d2d-b9fd-fbed3c1ceec8",
     "26ebcc7e-2237-4e13-a4a8-719be81dcae5",
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c",
-    "020fd511-6f2a-4dc4-9663-99b8cb72e8fe",
     "d9e4ca97-5f03-4713-8530-2883a11ab72d",
     "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
     "9d031a7c-8a01-4d78-acf6-b455a691a1d4",
-    "35f6f6de-38b5-423a-ad59-ddbadf1f0189",
     "e0f1843d-f939-423a-b1bf-e7144941f569",
     "43b5b045-a39c-460c-9feb-9b43b6f1191a",
     "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa",
