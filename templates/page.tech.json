@@ -255,6 +255,36 @@
     "b94428e8-336a-4948-b3fb-06ee7f4aae6a": {
       "type": "multi-column",
       "blocks": {
+        "0dec8ebd-a0db-4cd9-98af-8bda847b08e4": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "M Carbon",
+            "title_impact": "",
+            "content": "Proprietary frame material made from TR90 polymer. A semitransparent polyamide providing superior heat resistance and durability, in addition to exceptional strength and crack resistance.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "51381037-47ad-485e-bdf4-a2af689aaa21": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Atomic 13",
+            "title_impact": "",
+            "content": "Carefully selected lightweight blend of 13Al that incorporates trace elements of Cu (Copper), Mg (Magnesium), Mn (Manganese)\nand Si (Silicon).  Each is precisely blended by Alcoa to impart qualities of toughness, lightness, and strength.",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0": {
           "type": "item",
           "settings": {
@@ -286,43 +316,13 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
-        },
-        "0dec8ebd-a0db-4cd9-98af-8bda847b08e4": {
-          "type": "item",
-          "settings": {
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "title_impact": "",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "51381037-47ad-485e-bdf4-a2af689aaa21": {
-          "type": "item",
-          "settings": {
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Your content",
-            "title_impact": "",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
         }
       },
       "block_order": [
-        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0",
-        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1",
         "0dec8ebd-a0db-4cd9-98af-8bda847b08e4",
-        "51381037-47ad-485e-bdf4-a2af689aaa21"
+        "51381037-47ad-485e-bdf4-a2af689aaa21",
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-0",
+        "template--15950527692950__b94428e8-336a-4948-b3fb-06ee7f4aae6a-167934661874a785d6-1"
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
