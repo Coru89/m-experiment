@@ -1,5 +1,49 @@
 {
   "sections": {
+    "cf006507-d888-4520-9f6a-6a42b50a6337": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "subheading": "Subheading",
+        "title": "New",
+        "content": "",
+        "narrow_width": false,
+        "heading_font_size_desktop": 82,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 30,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 16,
+        "text_color": "#C7C7C7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a": {
       "type": "slideshow",
       "blocks": {
@@ -63,7 +107,7 @@
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/first_born_b1bbffc1-31cf-4e49-bbc2-c33fc0041548.png",
         "subheading": "",
-        "title": "The First Born",
+        "title": "New Beginnings",
         "content": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
@@ -1442,50 +1486,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Text 1",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Text 2",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "featured-product": {
       "type": "featured-product",
       "disabled": true,
@@ -1542,6 +1542,7 @@
     }
   },
   "order": [
+    "cf006507-d888-4520-9f6a-6a42b50a6337",
     "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a",
     "3de230bb-3360-46fd-ac2c-a8b5208eedca",
     "slideshow",
@@ -1565,7 +1566,6 @@
     "165704420041f25f84",
     "16592452799ea4ed39",
     "newsletter",
-    "image-with-text",
     "featured-product"
   ]
 }
