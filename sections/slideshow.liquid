@@ -132,6 +132,7 @@
 
     @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
+        font-size: clamp({{ section.settings.heading_font_size_mobile }}px, 10vw + 1rem, {{ section.settings.heading_font_size_desktop }}px);
         text-align: {{ block.settings.heading_text_align_desktop }};
       }
     }
