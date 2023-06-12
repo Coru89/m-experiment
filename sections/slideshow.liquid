@@ -132,8 +132,13 @@
 
     @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
-        font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 10vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
         text-align: {{ block.settings.heading_text_align_desktop }};
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      #block-{{ section.id }}-{{ block.id }} .heading {
+        font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 10vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       }
     }
 
@@ -306,14 +311,36 @@
 
           {%- capture section_content -%}
 
-          {%- if block.settings.title != blank -%}
+          {% comment %} {%- if block.settings.title != blank -%}
             <h2 class="heading h3">
               {% comment %} <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | newline_to_br }}</split-lines> {% endcomment %}
               <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                 {{ block.settings.title | newline_to_br }}
               </span>
             </h2>
+          {%- endif -%} {% endcomment %}
+
+          {%- if block.settings.title != blank -%}
+            <h2 
+              class="heading h3{% if block.settings.title_mobile %} hidden-pocket{% endif %}"
+            >
+              <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                {{ block.settings.title | newline_to_br }}
+              </span>
+            </h2>
           {%- endif -%}
+
+          {%- if block.settings.title_mobile -%}
+            <h2 class="heading h3 hidden-lap-and-up">
+              <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                {% if block.settings.title_mobile == blank %}
+                  {{ block.settings.title | newline_to_br }}
+                  {% else %}
+                  {{ block.settings.title_mobile | newline_to_br }}
+                {% endif %}
+              </span>
+            </h2>
+          {%- endif -%} 
 
             {%- if block.settings.subheading != blank -%}
               <p class="subheading">
@@ -529,31 +556,66 @@
         },
         {
           "type": "header",
-          "content": "Header"
+          "content": "Headings Content"
         },
         {
           "type": "textarea",
           "id": "title",
-          "label": "Heading"
+          "label": "Heading",
+          "default": "Impact Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "title_mobile",
+          "label": "Heading Mobile"
+        },
+        {
+          "type": "textarea",
+          "id": "subheading",
+          "label": "Subheading"
+        },
+        {
+          "type": "header",
+          "content": "Font Sizes"
         },
         {
           "type": "range",
           "id": "heading_font_size_desktop",
-          "label": "Heading Font Size Desktop",
-          "min": 30,
+          "label": "Heading Font Size Max Desktop",
+          "min": 40,
           "max": 220,
           "step": 2,
-          "default": 32,
+          "default": 82,
           "unit": "px"
         },
         {
           "type": "range",
           "id": "heading_font_size_mobile",
-          "label": "Heading Font Size Mobile",
+          "label": "Heading Font Size Min Mobile",
           "min": 18,
           "max": 60,
           "step": 2,
           "default": 26,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_desktop",
+          "label": "Subheading Font Size Desktop",
+          "min": 14,
+          "max": 60,
+          "step": 1,
+          "default": 30,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_mobile",
+          "label": "Subheading Font Size Mobile",
+          "min": 12,
+          "max": 32,
+          "step": 1,
+          "default": 16,
           "unit": "px"
         },
         {
@@ -657,50 +719,10 @@
           "default": true
         },
         {
-          "type": "textarea",
-          "id": "subheading",
-          "label": "Subheading"
-        },
-        {
-          "type": "select",
-          "id": "subheading_type",
-          "label": "Subheading Type",
-          "options": [
-            {
-              "value": "default",
-              "label": "default"
-            },
-            {
-              "value": "alternate",
-              "label": "alternate"
-            }
-          ]
-        },
-        {
           "type": "color",
           "id": "subheading_color",
           "label": "Text",
           "default": "#F1F2F2"
-        },
-        {
-          "type": "range",
-          "id": "subheading_font_size_desktop",
-          "label": "Subheading Font Size Desktop",
-          "min": 14,
-          "max": 32,
-          "step": 1,
-          "default": 16,
-          "unit": "px"
-        },
-        {
-          "type": "range",
-          "id": "subheading_font_size_mobile",
-          "label": "Subheading Font Size Mobile",
-          "min": 12,
-          "max": 32,
-          "step": 1,
-          "default": 15,
-          "unit": "px"
         },
         {
           "type": "select",

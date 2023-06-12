@@ -171,8 +171,13 @@
 
   @media screen and (min-width: 740px) {
     #shopify-section-{{ section.id }} .heading {
-      font-size: clamp({{ section.settings.heading_font_size_mobile }}px, 10vw + 1rem, {{ section.settings.heading_font_size_desktop }}px);
       text-align: {{ section.settings.heading_text_align_huh }};
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    #shopify-section-{{ section.id }} .heading {
+      font-size: clamp({{ section.settings.heading_font_size_mobile }}px, 10vw + 1rem, {{ section.settings.heading_font_size_desktop }}px);
     }
   }
 
@@ -279,14 +284,36 @@
           <div class="image-overlay__content content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} text-container">
             
             
-            {%- if section.settings.title != blank -%}
+            {% comment %} {%- if section.settings.title != blank -%}
               <h3 class="heading h3">
                 <span class="heading-animate" reveal>
                   {{ section.settings.title | newline_to_br }}
                 </span>
                 {% comment %} <split-lines {% if section.settings.reveal_on_scroll %}reveal{% endif %}>{{ section.settings.title | escape }}</split-lines> {% endcomment %}
               </h3>
+            {%- endif -%} {% endcomment %}
+
+            {%- if section.settings.title != blank -%}
+              <h2 
+                class="heading h3{% if section.settings.title_mobile %} hidden-pocket{% endif %}"
+              >
+                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                  {{ section.settings.title | newline_to_br }}
+                </span>
+              </h2>
             {%- endif -%}
+
+            {%- if section.settings.title_mobile -%}
+              <h2 class="heading h3 hidden-lap-and-up">
+                <span class="heading-animate" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                  {% if section.settings.title_mobile == blank %}
+                    {{ section.settings.title | newline_to_br }}
+                    {% else %}
+                    {{ section.settings.title_mobile | newline_to_br }}
+                  {% endif %}
+                </span>
+              </h2>
+            {%- endif -%} 
 
             
             
