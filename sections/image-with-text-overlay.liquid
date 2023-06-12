@@ -160,7 +160,7 @@
   }
 
   #shopify-section-{{ section.id }} .heading {
-    font-size: clamp({{ section.settings.heading_font_size_mobile }}px, 5vw + 1rem, {{ section.settings.heading_font_size_desktop }}px);
+    font-size: clamp({{ section.settings.heading_font_size_mobile }}px, 6vw + 1rem, {{ section.settings.heading_font_size_desktop }}px);
     margin: 0;
     text-align: {{ section.settings.heading_text_align_mobile }};
 
@@ -376,16 +376,25 @@
       "info": "1000 x 1400px .jpg recommended. If none is set, desktop image will be used."
     },
     {
-      "type": "text",
+      "type": "header",
+      "content": "Headings Content"
+    },
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "Heading",
+      "default": "Impact Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "title_mobile",
+      "label": "Heading Mobile"
+    },
+    {
+      "type": "textarea",
       "id": "subheading",
       "label": "Subheading",
       "default": "Subheading"
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Image with text overlay"
     },
     {
       "type": "richtext",
