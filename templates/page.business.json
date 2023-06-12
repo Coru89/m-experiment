@@ -21,7 +21,7 @@
         "link_style": "link",
         "background_type": "full_width",
         "text_width": "fill",
-        "overlay_content_position": "middle-left",
+        "overlay_content_position": "top-left",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
         "nudge_text_y-axis_desktop": 0,
