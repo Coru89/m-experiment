@@ -46,69 +46,13 @@
         "overlay_opacity": 30
       }
     },
-    "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16013649707158__2aeec8a7-3c80-4e36-a978-1bc0d6344a8a-1686115008f8388299-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/header-home.png",
-            "overlay_opacity": 0,
-            "title": "New\nBeginnings",
-            "heading_font_size_desktop": 100,
-            "heading_font_size_mobile": 26,
-            "heading_text_align_desktop": "left",
-            "heading_text_align_mobile": "right",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 0,
-            "heading_drop_shadow_y-offset": 3,
-            "heading_drop_shadow_color": "#000000",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_uppercase": false,
-            "subheading_narrow_width": false,
-            "subheading": "DNA DRIVEN",
-            "subheading_type": "default",
-            "subheading_color": "#f1f2f2",
-            "subheading_font_size_desktop": 30,
-            "subheading_font_size_mobile": 15,
-            "subheading_text_align": "right",
-            "subheading_text_align_mobile": "right",
-            "subheading_opacity": 100,
-            "overlay_content_position": "middle-right",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--16013649707158__2aeec8a7-3c80-4e36-a978-1bc0d6344a8a-1686115008f8388299-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
     "3de230bb-3360-46fd-ac2c-a8b5208eedca": {
       "type": "image-with-text-overlay",
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/first_born_b1bbffc1-31cf-4e49-bbc2-c33fc0041548.png",
-        "title": "New Beginnings",
+        "image": "shopify:\/\/shop_images\/the_first_born.png",
+        "title": "The First born",
         "title_mobile": "",
         "subheading": "",
         "content": "",
@@ -121,7 +65,7 @@
         "button_link": "",
         "link_style": "link",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "fill",
         "overlay_content_position": "top-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
@@ -1551,7 +1495,6 @@
   },
   "order": [
     "cf006507-d888-4520-9f6a-6a42b50a6337",
-    "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a",
     "3de230bb-3360-46fd-ac2c-a8b5208eedca",
     "slideshow",
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b",
