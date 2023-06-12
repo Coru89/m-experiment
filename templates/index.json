@@ -46,74 +46,18 @@
         "overlay_opacity": 30
       }
     },
-    "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16013649707158__2aeec8a7-3c80-4e36-a978-1bc0d6344a8a-1686115008f8388299-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/header-home.png",
-            "overlay_opacity": 0,
-            "title": "New\nBeginnings",
-            "heading_font_size_desktop": 100,
-            "heading_font_size_mobile": 26,
-            "heading_text_align_desktop": "left",
-            "heading_text_align_mobile": "right",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 0,
-            "heading_drop_shadow_y-offset": 3,
-            "heading_drop_shadow_color": "#000000",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_uppercase": false,
-            "subheading_narrow_width": false,
-            "subheading": "DNA DRIVEN",
-            "subheading_type": "default",
-            "subheading_color": "#f1f2f2",
-            "subheading_font_size_desktop": 30,
-            "subheading_font_size_mobile": 15,
-            "subheading_text_align": "right",
-            "subheading_text_align_mobile": "right",
-            "subheading_opacity": 100,
-            "overlay_content_position": "middle-right",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--16013649707158__2aeec8a7-3c80-4e36-a978-1bc0d6344a8a-1686115008f8388299-0"
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
     "3de230bb-3360-46fd-ac2c-a8b5208eedca": {
       "type": "image-with-text-overlay",
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/first_born_b1bbffc1-31cf-4e49-bbc2-c33fc0041548.png",
-        "title": "New Beginnings",
+        "image": "shopify:\/\/shop_images\/the_first_born.png",
+        "title": "The First born",
         "title_mobile": "",
         "subheading": "",
         "content": "",
         "narrow_width": false,
-        "heading_font_size_desktop": 82,
+        "heading_font_size_desktop": 122,
         "heading_font_size_mobile": 26,
         "subheading_font_size_desktop": 30,
         "subheading_font_size_mobile": 16,
@@ -121,11 +65,11 @@
         "button_link": "",
         "link_style": "link",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "fill",
         "overlay_content_position": "top-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
-        "nudge_text_y-axis_desktop": 10,
+        "nudge_text_y-axis_desktop": 7,
         "nudge_text_x-axis_mobile": 0,
         "nudge_text_y-axis_mobile": 0,
         "heading_text_align_huh": "center",
@@ -559,13 +503,13 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Eyewear_Title_Business_02.png",
+        "image": "shopify:\/\/shop_images\/Eyewear_Title_Business_03.png",
         "title": "BUSINESS",
         "title_mobile": "",
         "subheading": "",
         "content": "",
         "narrow_width": false,
-        "heading_font_size_desktop": 40,
+        "heading_font_size_desktop": 60,
         "heading_font_size_mobile": 26,
         "subheading_font_size_desktop": 30,
         "subheading_font_size_mobile": 16,
@@ -605,13 +549,13 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Eyewear_Title_Pleasure_02.png",
+        "image": "shopify:\/\/shop_images\/Eyewear_Title_Pleasure_03.png",
         "title": "PLEASURE",
         "title_mobile": "",
         "subheading": "",
         "content": "",
         "narrow_width": false,
-        "heading_font_size_desktop": 40,
+        "heading_font_size_desktop": 60,
         "heading_font_size_mobile": 26,
         "subheading_font_size_desktop": 30,
         "subheading_font_size_mobile": 16,
@@ -651,13 +595,13 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Eyewear_Title_Giga_02.png",
+        "image": "shopify:\/\/shop_images\/Eyewear_Title_Giga_03.png",
         "title": "GIGAWATT",
         "title_mobile": "",
         "subheading": "",
         "content": "",
         "narrow_width": false,
-        "heading_font_size_desktop": 40,
+        "heading_font_size_desktop": 60,
         "heading_font_size_mobile": 26,
         "subheading_font_size_desktop": 30,
         "subheading_font_size_mobile": 16,
@@ -964,8 +908,56 @@
         "label": "Shop the looks"
       }
     },
+    "91b315e1-80a0-4e0d-8be4-2c29f60bdb93": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/rpof.png",
+        "mobile_image": "shopify:\/\/shop_images\/RPOF_Mobile_02-20230523.jpg",
+        "title": "The relentless pursuit of fun",
+        "title_mobile": "The relentless\npursuit of fun",
+        "subheading": "",
+        "content": "",
+        "narrow_width": false,
+        "heading_font_size_desktop": 90,
+        "heading_font_size_mobile": 22,
+        "subheading_font_size_desktop": 30,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 16,
+        "text_color": "#c7c7c7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "5725c4e1-4f56-4023-b5f7-1e93404be755": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16013649707158__5725c4e1-4f56-4023-b5f7-1e93404be755-1686301120dc6289a4-0": {
           "type": "image",
@@ -1493,65 +1485,10 @@
         "button_background": "#e2a829",
         "button_text_color": "rgba(0,0,0,0)"
       }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "rgba(0,0,0,0)",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-        "product": "",
-        "subheading": "Subheading",
-        "title": "Featured product",
-        "show_vendor": true,
-        "show_sku": false,
-        "show_taxes_included": false,
-        "show_product_rating": false,
-        "show_share_buttons": true,
-        "help_page": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "bottom",
-        "transition_effect": "slide",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "cf006507-d888-4520-9f6a-6a42b50a6337",
-    "2aeec8a7-3c80-4e36-a978-1bc0d6344a8a",
     "3de230bb-3360-46fd-ac2c-a8b5208eedca",
     "slideshow",
     "2744b90e-63a9-4d9c-bd13-3528cb10a38b",
@@ -1564,6 +1501,7 @@
     "902eac69-e85d-4dbd-908b-b9534c086cbf",
     "89b6fea9-b1de-4d79-ac53-b64b0eb60b33",
     "shop-the-look",
+    "91b315e1-80a0-4e0d-8be4-2c29f60bdb93",
     "5725c4e1-4f56-4023-b5f7-1e93404be755",
     "07443d72-c1b9-4248-9951-fc3e505affc5",
     "collection-list",
@@ -1573,7 +1511,6 @@
     "image-with-text-block",
     "165704420041f25f84",
     "16592452799ea4ed39",
-    "newsletter",
-    "featured-product"
+    "newsletter"
   ]
 }
