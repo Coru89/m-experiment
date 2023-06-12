@@ -200,7 +200,7 @@
           {%- endform -%}
         {%- endif -%}
 
-        <span class="footer__copyright text--xsmall text--subdued">{{ shop.name }} <span class="square-separator square-separator--block square-separator--subdued"></span> {{ powered_by_link | replace: '<a', '<a class="link--faded"' }}</span>
+        <span class="footer__copyright text--xsmall text--subdued">© 2023 M-Experiment, LLC<span class="square-separator square-separator--block square-separator--subdued"></span><a onclick="showPreferences();" role="button" tabindex="0" style="cursor: pointer;">Privacy Preferences</a></span>
 
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <div class="footer__payment-methods">

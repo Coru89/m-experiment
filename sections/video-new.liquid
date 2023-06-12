@@ -29,7 +29,7 @@
     </div> {% endcomment %}
 
     {% if section.settings.video_url %}
-      <video class="video-js collection-video__video" id="my-video" controls preload="auto" {% if section.settings.image %}poster="{{ section.settings.image | image_url }}"{% endif %} data-setup=''>
+      <video autoplay muted class="video-js collection-video__video" id="my-video" controls preload="auto" {% if section.settings.image %}poster="{{ section.settings.image | image_url }}"{% endif %} data-setup='{ "muted": true }'>
           <source src="{{ section.settings.video_url }}" type='video/mp4'>
       </video>
     {% endif %}
