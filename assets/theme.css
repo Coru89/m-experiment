@@ -15465,9 +15465,9 @@ h3.heading.heading--small {
 
 .slideshow .subheading,
 image-with-text-overlay .subheading {
-  font-family: 'ITC Avant Garde Pro XLt', var(--heading-font-family), sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+  font-family: 'Inter', var(--heading-font-family), sans-serif;
+  /* font-size: 15px; */
+  font-weight: 400;
   line-height: 1.5;
 }
 
