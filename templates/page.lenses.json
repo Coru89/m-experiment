@@ -11,7 +11,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "",
-        "narrow_width": false,
+        "narrow_width": true,
         "heading_font_size_desktop": 100,
         "heading_font_size_mobile": 40,
         "subheading_font_size_desktop": 22,
@@ -20,9 +20,9 @@
         "button_link": "",
         "link_style": "link",
         "background_type": "full_width",
-        "text_width": "fill",
+        "text_width": "medium",
         "overlay_content_position": "middle-left",
-        "content_position_mobile": "top-center",
+        "content_position_mobile": "middle-center",
         "nudge_text_x-axis_desktop": 0,
         "nudge_text_y-axis_desktop": 0,
         "nudge_text_x-axis_mobile": 0,
@@ -49,6 +49,7 @@
     },
     "625f3711-09b9-42d8-bc18-60b4f0e90669": {
       "type": "impact",
+      "disabled": true,
       "blocks": {
         "template--15613751066774__625f3711-09b9-42d8-bc18-60b4f0e90669-1667966232dbf01a6e-0": {
           "type": "image",
