@@ -9710,7 +9710,7 @@ input:checked + .popover__choice-label::after,
 .header__linklist-link {
   display: block;
   font-family: 'Inter', var(--heading-font-family), sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -9784,7 +9784,7 @@ input:checked + .popover__choice-label::after,
   align-items: center;
   display: flex;
   font-family: 'Inter', var(--heading-font-family), sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   justify-content: space-between;
   padding: 3px 30px;
