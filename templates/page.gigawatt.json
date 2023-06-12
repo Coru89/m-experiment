@@ -1,5 +1,52 @@
 {
   "sections": {
+    "09e0b86c-7c4c-4067-8dd8-b2a322739ae0": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/M_Website_2160x1080_01.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Website_2160x1080_01.jpg",
+        "title": "Impact Heading",
+        "title_mobile": "",
+        "subheading": "Subheading",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "narrow_width": false,
+        "heading_font_size_desktop": 82,
+        "heading_font_size_mobile": 26,
+        "subheading_font_size_desktop": 30,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 16,
+        "text_color": "#C7C7C7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "04380fe4-d6e7-4c6d-9e81-da7d301f4df9": {
       "type": "impact",
       "blocks": {
@@ -1281,54 +1328,10 @@
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
-    },
-    "09e0b86c-7c4c-4067-8dd8-b2a322739ae0": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "title": "Impact Heading",
-        "title_mobile": "",
-        "subheading": "Subheading",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-        "narrow_width": false,
-        "heading_font_size_desktop": 82,
-        "heading_font_size_mobile": 26,
-        "subheading_font_size_desktop": 30,
-        "subheading_font_size_mobile": 16,
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "overlay_content_position": "middle-center",
-        "content_position_mobile": "none",
-        "nudge_text_x-axis_desktop": 0,
-        "nudge_text_y-axis_desktop": 0,
-        "nudge_text_x-axis_mobile": 0,
-        "nudge_text_y-axis_mobile": 0,
-        "heading_text_align_huh": "center",
-        "heading_text_align_mobile": "center",
-        "subheading_text_align_desktop": "center",
-        "subheading_text_align_mobile": "center",
-        "content_text_align_desktop": "center",
-        "content_text_align_mobile": "center",
-        "remove_top_spacing": false,
-        "remove_bottom_spacing": false,
-        "heading_drop_shadow": false,
-        "heading_drop_shadow_x-offset": 0,
-        "heading_drop_shadow_y-offset": 3,
-        "heading_drop_shadow_color": "#000",
-        "heading_drop_shadow_opacity": 16,
-        "text_color": "#C7C7C7",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
     }
   },
   "order": [
+    "09e0b86c-7c4c-4067-8dd8-b2a322739ae0",
     "04380fe4-d6e7-4c6d-9e81-da7d301f4df9",
     "5801e2f7-74f0-4053-896e-162085be37c2",
     "1661776852d184846f",
@@ -1347,7 +1350,6 @@
     "165852067643b1b37d",
     "1659194976e155addd",
     "9096a72a-e917-4e63-bdf9-62ec21b95095",
-    "2334fcde-19cc-437b-99cf-0299b37ee69a",
-    "09e0b86c-7c4c-4067-8dd8-b2a322739ae0"
+    "2334fcde-19cc-437b-99cf-0299b37ee69a"
   ]
 }
