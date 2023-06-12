@@ -174,7 +174,7 @@
           "dd7383b6-6038-40c3-987a-58e5bbf07106"
         ],
         "settings": {
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_country_selector": true,
           "show_locale_selector": true,
           "show_cookie_bar": true,
