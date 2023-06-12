@@ -102,6 +102,7 @@
     },
     "16577787768f0494e4": {
       "type": "impact",
+      "disabled": true,
       "blocks": {
         "16577787753b2b146f-1": {
           "type": "image",
