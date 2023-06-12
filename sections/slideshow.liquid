@@ -123,6 +123,7 @@
     #block-{{ section.id }}-{{ block.id }} .heading {
       font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 5vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       text-align: {{ block.settings.heading_text_align_mobile }};
+      margin: 0;
 
       {% if block.settings.heading_drop_shadow == true %}
         filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 6px {{ dropShadowColor }});
@@ -538,9 +539,9 @@
           "type": "range",
           "id": "heading_font_size_desktop",
           "label": "Heading Font Size Desktop",
-          "min": 30,
-          "max": 100,
-          "step": 1,
+          "min": 40,
+          "max": 220,
+          "step": 2,
           "default": 32,
           "unit": "px"
         },
@@ -550,7 +551,7 @@
           "label": "Heading Font Size Mobile",
           "min": 18,
           "max": 60,
-          "step": 1,
+          "step": 2,
           "default": 26,
           "unit": "px"
         },
