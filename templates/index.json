@@ -5,6 +5,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Hero_Block_01.png",
         "title": "New\nBeginnings",
         "title_mobile": "",
         "subheading": "DNA DRIVEN",
@@ -12,7 +13,7 @@
         "narrow_width": false,
         "heading_font_size_desktop": 118,
         "heading_font_size_mobile": 26,
-        "subheading_font_size_desktop": 40,
+        "subheading_font_size_desktop": 46,
         "subheading_font_size_mobile": 16,
         "button_text": "",
         "button_link": "",
