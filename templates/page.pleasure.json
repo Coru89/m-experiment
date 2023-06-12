@@ -76,7 +76,7 @@
             "nudge_text_x-axis_desktop": 0,
             "nudge_text_y-axis_desktop": 0,
             "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
+            "nudge_text_y-axis_mobile": 5,
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -102,7 +102,6 @@
     },
     "16577787768f0494e4": {
       "type": "impact",
-      "disabled": true,
       "blocks": {
         "16577787753b2b146f-1": {
           "type": "image",
