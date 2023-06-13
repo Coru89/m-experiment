@@ -20,7 +20,7 @@
         "button_link": "",
         "link_style": "link",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "small",
         "overlay_content_position": "middle-left",
         "content_position_mobile": "top-left",
         "nudge_text_x-axis_desktop": -5,
