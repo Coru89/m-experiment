@@ -11,7 +11,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "",
-        "narrow_width": true,
+        "narrow_width": false,
         "heading_font_size_desktop": 100,
         "heading_font_size_mobile": 40,
         "subheading_font_size_desktop": 22,
