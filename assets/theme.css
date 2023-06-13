@@ -15430,38 +15430,42 @@ h3.heading.heading--small {
 }
 
 /* slideshow customizations */
-
 .slideshow__text-wrapper .heading {
    word-break: break-word;
 } 
 
 @media screen and (min-width: 740px) {
+  .image-overlay__content-wrapper .text-container,
   .slideshow .text-container {
     width: auto;
   }
 }
 
 @media screen and (min-width: 1000px) {
+  .image-overlay__content-wrapper .text-container,
   .slideshow .text-container {
     padding: 50px;
     max-width: unset;
   }
 }
 
+.image-overlay__content-wrapper .text-container,
 .slideshow .text-container {
   padding: 24px 0;
   z-index: 1;
 }
 
 @media screen and (min-width: 740px) {
+  .image-overlay__content-wrapper .text-container,
   .slideshow .text-container {
     padding: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .image-overlay__content-wrapper .text-container,
   .slideshow .text-container {
-    padding: 50px 0;
+    padding: 50px 100px;
   }
 }
 
