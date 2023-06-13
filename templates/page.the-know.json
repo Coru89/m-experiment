@@ -68,7 +68,7 @@
         "nudge_text_x-axis_desktop": -4,
         "nudge_text_y-axis_desktop": 0,
         "nudge_text_x-axis_mobile": 2,
-        "nudge_text_y-axis_mobile": -6,
+        "nudge_text_y-axis_mobile": -5,
         "heading_text_align_huh": "center",
         "heading_text_align_mobile": "center",
         "subheading_text_align_desktop": "center",
@@ -91,6 +91,7 @@
     },
     "eed23217-bfd8-43c9-900b-f97700c79a8a": {
       "type": "impact",
+      "disabled": true,
       "blocks": {
         "template--15613745332374__eed23217-bfd8-43c9-900b-f97700c79a8a-1674948253476c5fac-0": {
           "type": "image",
