@@ -6,7 +6,7 @@
         "reveal_on_scroll": true,
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/M_Website_2160x1080_01.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/M_Website_2160x1080_01.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Website_1000x1400_01.jpg",
         "title": "Gigawatt",
         "title_mobile": "",
         "subheading": "ENGINEERED FOR ACTION PACKED MOMENTS",
@@ -28,11 +28,11 @@
         "nudge_text_x-axis_mobile": 0,
         "nudge_text_y-axis_mobile": 0,
         "heading_text_align_huh": "center",
-        "heading_text_align_mobile": "center",
+        "heading_text_align_mobile": "left",
         "subheading_text_align_desktop": "center",
-        "subheading_text_align_mobile": "center",
+        "subheading_text_align_mobile": "left",
         "content_text_align_desktop": "center",
-        "content_text_align_mobile": "center",
+        "content_text_align_mobile": "left",
         "remove_top_spacing": false,
         "remove_bottom_spacing": false,
         "heading_drop_shadow": true,
@@ -49,7 +49,6 @@
     },
     "04380fe4-d6e7-4c6d-9e81-da7d301f4df9": {
       "type": "impact",
-      "disabled": true,
       "blocks": {
         "e7a1e8de-e08d-4b9e-9186-47bfb9c655d2": {
           "type": "image",
