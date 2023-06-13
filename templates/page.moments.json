@@ -12,7 +12,7 @@
         "subheading": "EMBRACE THE JOURNEY",
         "content": "",
         "narrow_width": false,
-        "heading_font_size_desktop": 110,
+        "heading_font_size_desktop": 104,
         "heading_font_size_mobile": 50,
         "subheading_font_size_desktop": 28,
         "subheading_font_size_mobile": 16,
@@ -48,6 +48,7 @@
     },
     "830c2257-c367-433c-a96e-50887de39db9": {
       "type": "impact",
+      "disabled": true,
       "blocks": {
         "template--15898702741654__830c2257-c367-433c-a96e-50887de39db9-1674948253476c5fac-0": {
           "type": "image",
