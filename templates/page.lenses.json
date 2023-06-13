@@ -208,7 +208,7 @@
           "type": "variant-collection",
           "settings": {
             "product": "gigawatt-lenses",
-            "subheading": "Gigawatt",
+            "subheading": "",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -238,13 +238,13 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "LENSES",
+        "title": "GIGAWATT",
         "content": "",
         "products_count": 10,
         "products_per_row": 4,
         "stack_products": true,
         "show_cta": false,
-        "background": "#f1f2f2",
+        "background": "#ffffff",
         "text_color": "#191919",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "#ffffff"
@@ -257,7 +257,7 @@
           "type": "variant-collection",
           "settings": {
             "product": "business-lenses",
-            "subheading": "Business",
+            "subheading": "",
             "title": "",
             "link_text": "",
             "link_url": "",
@@ -268,6 +268,7 @@
         },
         "a2fb1226-3f68-4423-9314-3a1ad26b8005": {
           "type": "variant-collection",
+          "disabled": true,
           "settings": {
             "product": "pleasure-lenses",
             "subheading": "Pleasure",
@@ -286,7 +287,56 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "",
+        "title": "BUSINESS",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#191919",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "39eb5998-dc32-473c-813c-f7e2150ac4f1": {
+      "type": "variant-collection-new",
+      "blocks": {
+        "24a56cde-a0aa-49c7-ae92-5ad6f88fe2ff": {
+          "type": "variant-collection",
+          "disabled": true,
+          "settings": {
+            "product": "business-lenses",
+            "subheading": "Business",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 100
+          }
+        },
+        "14349498-79a9-41e9-ae7a-0ac281ed36bf": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "pleasure-lenses",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "24a56cde-a0aa-49c7-ae92-5ad6f88fe2ff",
+        "14349498-79a9-41e9-ae7a-0ac281ed36bf"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "PLEASURE",
         "content": "",
         "products_count": 10,
         "products_per_row": 4,
@@ -412,6 +462,7 @@
     "625f3711-09b9-42d8-bc18-60b4f0e90669",
     "980bcdc7-402c-4669-acb5-d153cc5f2b9b",
     "f254f371-31e4-4398-a382-048fb707177a",
+    "39eb5998-dc32-473c-813c-f7e2150ac4f1",
     "8ad91a91-1831-4a8f-a60e-fc79655280a6",
     "main"
   ]
