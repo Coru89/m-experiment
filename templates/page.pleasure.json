@@ -25,7 +25,7 @@
             "heading_drop_shadow_opacity": 40,
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
-            "subheading_color": "#c7c7c7",
+            "subheading_color": "#ffffff",
             "subheading_text_align": "left",
             "subheading_text_align_mobile": "left",
             "subheading_opacity": 100,
@@ -39,7 +39,7 @@
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "#c7c7c7",
+            "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000"
