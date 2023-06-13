@@ -38,7 +38,7 @@
         "heading_drop_shadow_x-offset": 0,
         "heading_drop_shadow_y-offset": 3,
         "heading_drop_shadow_color": "#000",
-        "heading_drop_shadow_opacity": 70,
+        "heading_drop_shadow_opacity": 80,
         "text_color": "#C7C7C7",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
