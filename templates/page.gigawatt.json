@@ -48,6 +48,7 @@
     },
     "04380fe4-d6e7-4c6d-9e81-da7d301f4df9": {
       "type": "impact",
+      "disabled": true,
       "blocks": {
         "e7a1e8de-e08d-4b9e-9186-47bfb9c655d2": {
           "type": "image",
