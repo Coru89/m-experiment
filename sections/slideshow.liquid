@@ -137,6 +137,12 @@
       }
     }
 
+    @media screen and (min-width: 1000px) {
+      #block-{{ section.id }}-{{ block.id }} .heading {
+        font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 7vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
+      }
+    }
+
     @media screen and (min-width: 1400px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
         font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 10vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
