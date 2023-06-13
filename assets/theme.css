@@ -441,7 +441,7 @@ th {
  */
 
 html {
-  font-family: var(--text-font-family);
+  font-family: 'Helvetica Neue', var(--text-font-family);
   font-weight: var(--text-font-weight);
   font-style: var(--text-font-style);
   font-size: calc(var(--base-font-size) - 1px);
@@ -9709,7 +9709,7 @@ input:checked + .popover__choice-label::after,
 
 .header__linklist-link {
   display: block;
-  font-family: 'Inter', var(--heading-font-family), sans-serif;
+  font-family: 'Helvetica Neue', var(--heading-font-family), sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
@@ -9783,7 +9783,7 @@ input:checked + .popover__choice-label::after,
 .nav-dropdown__link {
   align-items: center;
   display: flex;
-  font-family: 'Inter', var(--heading-font-family), sans-serif;
+  font-family: 'Helvetica Neue', var(--heading-font-family), sans-serif;
   font-size: 20px;
   font-weight: 400;
   justify-content: space-between;
@@ -15466,7 +15466,7 @@ h3.heading.heading--small {
 
 .slideshow .subheading,
 image-with-text-overlay .subheading {
-  font-family: 'Inter', var(--heading-font-family), sans-serif;
+  font-family: 'Helvetica Neue', var(--heading-font-family), sans-serif;
   /* font-size: 15px; */
   font-weight: 400;
   line-height: 1.5;
