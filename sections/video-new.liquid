@@ -11,25 +11,8 @@
 <section class="section collection-video">
   <div class="collection-video__inner container">
 
-    {% comment %} <div class="collection-video__text page-width page-width--desktop">
-      <h2 class="collection-video__heading">{{ section.settings.title }}</h2>
-
-      {% if section.settings.description.size > 700 %}
-        <div class="collection-video__description collection-video__description-short">
-        {{ section.settings.description | newline_to_br | truncate: 500, "... " }}<a href="" class="collection-video__readmore">more</a>
-        </div>
-        <div class="collection-video__description collection-video__description-full" style="display:none;">
-        {{ section.settings.description | newline_to_br }}
-        <br><a class="collection-video__readless" href="">less</a>
-        </div>
-        {% else %}
-          <span> {{ section.settings.description | newline_to_br }} </span>
-  
-      {% endif %} 
-    </div> {% endcomment %}
-
     {% if section.settings.video_url %}
-      <video autoplay muted class="video-js collection-video__video" id="my-video" controls preload="auto" {% if section.settings.image %}poster="{{ section.settings.image | image_url }}"{% endif %} data-setup='{ "muted": true }'>
+      <video loop autoplay muted class="video-js collection-video__video" id="my-video" controls preload="auto" {% if section.settings.image %}poster="{{ section.settings.image | image_url }}"{% endif %} data-setup='{ "muted": true }'>
           <source src="{{ section.settings.video_url }}" type='video/mp4'>
       </video>
     {% endif %}
