@@ -1242,7 +1242,7 @@
             "heading_drop_shadow_x-offset": 10,
             "heading_drop_shadow_y-offset": 10,
             "heading_drop_shadow_color": "#ffffff",
-            "heading_drop_shadow_opacity": 16,
+            "heading_drop_shadow_opacity": 0,
             "subheading_uppercase": false,
             "subheading_narrow_width": false,
             "subheading_color": "#ffffff",
