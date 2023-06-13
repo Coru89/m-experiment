@@ -10612,7 +10612,7 @@ input:checked + .popover__choice-label::after,
   width: 100%;
   align-items: var(--section-items-alignment);
   justify-content: center;
-  padding: var(--vertical-breather) 0;
+  /* padding: var(--vertical-breather) 0; */
 }
 
 .image-overlay__content-wrapper {
