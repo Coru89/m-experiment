@@ -74,7 +74,7 @@
             {%- endif -%}
         
             {%- if section.settings.subheading != blank -%}
-              <h3 id="{{ section.settings.subheading | handleize }}" class="heading heading--small">{{ section.settings.subheading }}</h3>
+              <h3 id="{{ section.settings.subheading | handleize }}" class="subheading heading heading--small">{{ section.settings.subheading }}</h3>
             {%- endif -%}
 
             {%- if section.settings.content != blank -%}
@@ -93,7 +93,7 @@
           <product-list {% if settings.stagger_products_apparition %}stagger-apparition{% endif %} id="block-{{ section.id }}-{{ block.id }}" class="product-list product-list--center">
               <div class="block__header {% if section.settings.content != blank %}section__header--tight{% endif %}">
               {%- if block.settings.subheading != blank -%}
-                <h3 id="{{ block.settings.subheading | handleize }}" class="heading heading--small" style="scroll-margin-top:50px">{{ block.settings.subheading }}</h3>
+                <h3 id="{{ block.settings.subheading | handleize }}" class="subheading heading heading--small" style="scroll-margin-top:50px">{{ block.settings.subheading }}</h3>
               {%- endif -%}
               </div>
 

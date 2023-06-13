@@ -15329,7 +15329,8 @@ h3.heading.heading--small {
     margin-bottom: 4rem;
 }
 
-.featured-collections h3.heading.heading--small {
+.featured-collections h3.subheading {
+    font-family: 'Helvetica Neue', var(--heading-font-family), sans-serif;
     margin-bottom: 2rem !important;
 }
 

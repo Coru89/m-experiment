@@ -78,7 +78,7 @@
             {%- endif -%}
         
             {%- if section.settings.subheading != blank -%}
-              <h3 id="{{ section.settings.subheading | handleize }}" class="heading heading--small{% if section.settings.use_impact %} impact__subheading{% endif %}">{{ section.settings.subheading }}</h3>
+              <h3 id="{{ section.settings.subheading | handleize }}" class="subheading heading heading--small{% if section.settings.use_impact %} impact__subheading{% endif %}">{{ section.settings.subheading }}</h3>
             {%- endif -%}
 
             {%- if section.settings.content != blank -%}
