@@ -22,7 +22,7 @@
         "background_type": "full_width",
         "text_width": "medium",
         "overlay_content_position": "middle-left",
-        "content_position_mobile": "middle-center",
+        "content_position_mobile": "top-center",
         "nudge_text_x-axis_desktop": 3,
         "nudge_text_y-axis_desktop": 0,
         "nudge_text_x-axis_mobile": 0,
