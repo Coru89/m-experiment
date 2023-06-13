@@ -160,6 +160,9 @@
       {% if block.settings.subheading_narrow_width == true %}
         width: 40vw;
       {% endif %}
+      {% if block.settings.heading_drop_shadow == true %}
+        filter: drop-shadow({{ block.settings.heading_drop_shadow_x-offset }}px {{ block.settings.heading_drop_shadow_y-offset }}px 6px {{ dropShadowColor }});
+      {% endif %}
     }
 
     {% if block.settings.subheading_narrow_width == true %}
