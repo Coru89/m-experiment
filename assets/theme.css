@@ -15471,7 +15471,16 @@ image-with-text-overlay .subheading {
   /* font-size: 15px; */
   font-weight: 400;
   line-height: 1.5;
+  /* padding: 0 4px; */
 }
+
+/* @media screen and (min-width: 1000px) {
+
+  .slideshow .subheading,
+  image-with-text-overlay .subheading {
+    padding: 0 6px;
+  }
+} */
 
 @media screen and (min-width: 740px) {
   .slideshow h3.heading--small {
