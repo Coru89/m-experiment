@@ -8,7 +8,7 @@
         "image": "shopify:\/\/shop_images\/Leisure_Desktop_02.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Leisure_Mobile_02.jpg",
         "title": "Business",
-        "title_mobile": "huh",
+        "title_mobile": "",
         "subheading": "MORE THAN JUST YOUR EVERYDAY EYEWEAR",
         "content": "",
         "narrow_width": false,
@@ -25,7 +25,7 @@
         "nudge_text_x-axis_desktop": -2,
         "nudge_text_y-axis_desktop": 0,
         "nudge_text_x-axis_mobile": -1,
-        "nudge_text_y-axis_mobile": 2,
+        "nudge_text_y-axis_mobile": -1,
         "heading_text_align_huh": "left",
         "heading_text_align_mobile": "left",
         "subheading_text_align_desktop": "left",
@@ -48,7 +48,6 @@
     },
     "16577787768f0494e4": {
       "type": "impact",
-      "disabled": true,
       "blocks": {
         "16577787753b2b146f-1": {
           "type": "image",
