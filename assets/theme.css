@@ -10611,7 +10611,7 @@ input:checked + .popover__choice-label::after,
   height: 100%;
   width: 100%;
   align-items: var(--section-items-alignment);
-  justify-content: center;
+  /* justify-content: center; */
   /* padding: var(--vertical-breather) 0; */
 }
 
