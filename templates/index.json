@@ -945,7 +945,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "5725c4e1-4f56-4023-b5f7-1e93404be755": {
