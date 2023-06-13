@@ -285,7 +285,7 @@
         {%- assign text_alignment = section.settings.text_position | split: '_' | last -%}
 
         <div class="image-overlay__content-wrapper">
-          <div class="image-overlay__content content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} text-container">
+          <div class="image-overlay__content content-box--text-{{ text_alignment }} text-container">
             
             
             {% comment %} {%- if section.settings.title != blank -%}
@@ -525,30 +525,6 @@
         }
       ],
       "default": "full_width"
-    },
-    {
-      "type": "select",
-      "id": "text_width",
-      "label": "Text width",
-      "options": [
-        {
-          "value": "small",
-          "label": "Small"
-        },
-        {
-          "value": "medium",
-          "label": "Medium"
-        },
-        {
-          "value": "large",
-          "label": "Large"
-        },
-        {
-          "value": "fill",
-          "label": "Fill screen"
-        }
-      ],
-      "default": "medium"
     },
     {
       "type": "header",
