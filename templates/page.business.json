@@ -3,7 +3,7 @@
     "7430b6d2-b843-445a-9e19-a04c0d237adc": {
       "type": "image-with-text-overlay",
       "settings": {
-        "reveal_on_scroll": false,
+        "reveal_on_scroll": true,
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/Leisure_Desktop_02.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Leisure_Mobile_02.jpg",
