@@ -9065,6 +9065,7 @@ input:checked + .popover__choice-label::after,
 
 .footer__image {
   display: block;
+  max-width: unset;
 }
 
 .footer__item--social-media .footer__item-content {
