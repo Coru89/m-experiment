@@ -70,7 +70,7 @@
           "message-1"
         ],
         "settings": {
-          "announcement_bar_position": "non_sticky",
+          "announcement_bar_position": "sticky",
           "announcement_text_size": "normal",
           "autoplay": true,
           "cycle_speed": 5,
@@ -126,7 +126,7 @@
           "reduce_desktop_padding": true,
           "show_locale_selector": true,
           "show_country_selector": false,
-          "enable_transparent_header": true,
+          "enable_transparent_header": false,
           "transparent_header_text_color": "#fbfbfb",
           "search_menu": ""
         }
