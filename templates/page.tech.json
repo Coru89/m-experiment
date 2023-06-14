@@ -610,7 +610,7 @@
     "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
       "type": "rich-text",
       "custom_css": [
-
+        ".vertical-breather {padding-top: 0;}"
       ],
       "settings": {
         "subheading": "",
