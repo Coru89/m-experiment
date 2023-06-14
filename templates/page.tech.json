@@ -634,9 +634,9 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-bottom: 50px;}",
-        "h3 {font-size: clamp(60px, 5vw + 1rem, 100px);}",
-        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(60px, 7vw + 1rem, 100px); }}",
-        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(60px, 10vw + 1rem, 100px); }}"
+        "h3 {font-size: clamp(50px, 5vw + 1rem, 100px);}",
+        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 100px); }}",
+        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 100px); }}"
       ],
       "settings": {
         "subheading": "",
