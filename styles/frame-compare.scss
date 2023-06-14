@@ -1,16 +1,55 @@
 .frame-compare {
     &__heading {
         text-align: center;
+        font-size: 95px;
+
+        // @media screen and (min-width: 740px) {
+        //     font-size: 137px;
+        // }
+
+        @media screen and (min-width: 1200px) {
+            font-size: 137px;
+        }
+    }
+
+    &__title {
+        font-size: 47px;
+        text-transform: uppercase;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 59px;
+        }
     }
 
     &__list {
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
+
+    // &__image-wrapper {
+    //     @media screen and (min-width: 740px) {
+    //         padding: 0 6rem 0 5rem; 
+    //     }
+    // }
 
     &__item {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 6rem;
+
+        @media screen and (min-width: 1000px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &__specs {
+        font-size: 18px;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 22px;
+        }
     }
 }
