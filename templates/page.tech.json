@@ -815,6 +815,43 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f": {
+      "type": "frame-compare",
+      "blocks": {
+        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6": {
+          "type": "frame",
+          "settings": {
+            "title": "Gigawatt",
+            "image": "shopify:\/\/shop_images\/giga-frame.png",
+            "specs": "LENS GEOMETRY…………………9-BASE\nLENS HEIGHT………………………42 mm\nLENS WIDTH………………………63 mm\nFRAME\nWIDTH…………………….143.3 mm\nTEMPLE LENGTH…………………136 mm\nWEIGHT…………………………….33.26 g"
+          }
+        },
+        "f8c2289f-7ede-4f14-837c-4bd21039f1ee": {
+          "type": "frame",
+          "settings": {
+            "title": "Pleasure",
+            "image": "shopify:\/\/shop_images\/pleasure-frame.png",
+            "specs": "LENS GEOMETRY…………………6-BASE\nLENS HEIGHT………………………40 mm\nLENS WIDTH………………………53 mm\nFRAME WIDTH…………………….148 mm\nTEMPLE LENGTH…………………134 mm\nWEIGHT…………………………….38.8 g"
+          }
+        },
+        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416": {
+          "type": "frame",
+          "settings": {
+            "title": "Business",
+            "image": "shopify:\/\/shop_images\/business-frame.png",
+            "specs": "LENS GEOMETRY…………………4-BASE\nLENS HEIGHT………………………37 mm\nLENS WIDTH………………………52 mm\nFRAME WIDTH…………………….144 mm\nTEMPLE LENGTH…………………137 mm\nWEIGHT…………………………….31.3 g"
+          }
+        }
+      },
+      "block_order": [
+        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6",
+        "f8c2289f-7ede-4f14-837c-4bd21039f1ee",
+        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416"
+      ],
+      "settings": {
+        "heading": "Frame Comparison Chart"
+      }
+    },
     "39bbc60e-9d45-43e2-8e2d-19faa3687d75": {
       "type": "gallery",
       "blocks": {
@@ -860,43 +897,6 @@
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f": {
-      "type": "frame-compare",
-      "blocks": {
-        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6": {
-          "type": "frame",
-          "settings": {
-            "title": "Gigawatt",
-            "image": "shopify:\/\/shop_images\/giga-frame.png",
-            "specs": "LENS GEOMETRY…………………9-BASE\nLENS HEIGHT………………………42 mm\nLENS WIDTH………………………63 mm\nFRAME\nWIDTH…………………….143.3 mm\nTEMPLE LENGTH…………………136 mm\nWEIGHT…………………………….33.26 g"
-          }
-        },
-        "f8c2289f-7ede-4f14-837c-4bd21039f1ee": {
-          "type": "frame",
-          "settings": {
-            "title": "Pleasure",
-            "image": "shopify:\/\/shop_images\/pleasure-frame.png",
-            "specs": "LENS GEOMETRY…………………6-BASE\nLENS HEIGHT………………………40 mm\nLENS WIDTH………………………53 mm\nFRAME WIDTH…………………….148 mm\nTEMPLE LENGTH…………………134 mm\nWEIGHT…………………………….38.8 g"
-          }
-        },
-        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416": {
-          "type": "frame",
-          "settings": {
-            "title": "Business",
-            "image": "shopify:\/\/shop_images\/business-frame.png",
-            "specs": "LENS GEOMETRY…………………4-BASE\nLENS HEIGHT………………………37 mm\nLENS WIDTH………………………52 mm\nFRAME WIDTH…………………….144 mm\nTEMPLE LENGTH…………………137 mm\nWEIGHT…………………………….31.3 g"
-          }
-        }
-      },
-      "block_order": [
-        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6",
-        "f8c2289f-7ede-4f14-837c-4bd21039f1ee",
-        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416"
-      ],
-      "settings": {
-        "heading": "Frame Comparison Chart"
-      }
     }
   },
   "order": [
@@ -917,7 +917,7 @@
     "173465b1-f4cf-46fc-9f10-1e7428d7efae",
     "b4316874-c722-44c5-8a75-11e6af86aafd",
     "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723",
-    "39bbc60e-9d45-43e2-8e2d-19faa3687d75",
-    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f"
+    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f",
+    "39bbc60e-9d45-43e2-8e2d-19faa3687d75"
   ]
 }
