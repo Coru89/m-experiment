@@ -5,7 +5,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Hero_Block_01_6d5c773f-fc43-49b7-8fcd-b038bdcb003b.png",
+        "image": "shopify:\/\/shop_images\/home-banner.png",
         "mobile_image": "shopify:\/\/shop_images\/Hero_Block_01_mobile.png",
         "title": "New\nBeginnings",
         "title_mobile": "",
@@ -494,6 +494,8 @@
         "mobile_item_size": "medium",
         "desktop_item_size": "large",
         "spacing": "tight",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -721,6 +723,8 @@
         "mobile_item_size": "large",
         "desktop_item_size": "large",
         "spacing": "tight",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "#fbfbfb"
       }
@@ -794,6 +798,8 @@
         "mobile_item_size": "large",
         "desktop_item_size": "large",
         "spacing": "loose",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "background": "#000000",
         "text_color": "#fbfbfb"
       }
