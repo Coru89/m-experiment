@@ -3,11 +3,11 @@
     "7430b6d2-b843-445a-9e19-a04c0d237adc": {
       "type": "image-with-text-overlay",
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/Leisure_Desktop_02.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Leisure_Mobile_02.jpg",
-        "title": "Business",
+        "title": "Business...",
         "title_mobile": "",
         "subheading": "MORE THAN JUST YOUR EVERYDAY EYEWEAR",
         "content": "",
@@ -43,7 +43,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "16577787768f0494e4": {
@@ -461,7 +461,7 @@
         "title": "",
         "content": "",
         "products_count": 8,
-        "products_per_row": 4,
+        "products_per_row": 3,
         "stack_products": true,
         "show_cta": false,
         "background": "#ffffff",
