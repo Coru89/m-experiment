@@ -138,7 +138,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/M-Experiment-Block.jpg",
-              "image_width": 300
+              "image_width": 400
             }
           },
           "links": {
