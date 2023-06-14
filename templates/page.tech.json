@@ -664,9 +664,9 @@
         "heading_drop_shadow": true,
         "heading_drop_shadow_x-offset": 0,
         "heading_drop_shadow_y-offset": 3,
-        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_color": "#000000",
         "heading_drop_shadow_opacity": 40,
-        "text_color": "#C7C7C7",
+        "text_color": "#c7c7c7",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
@@ -708,9 +708,9 @@
         "heading_drop_shadow": false,
         "heading_drop_shadow_x-offset": 0,
         "heading_drop_shadow_y-offset": 3,
-        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_color": "#000000",
         "heading_drop_shadow_opacity": 40,
-        "text_color": "#C7C7C7",
+        "text_color": "#c7c7c7",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
@@ -779,9 +779,9 @@
         "heading_drop_shadow": false,
         "heading_drop_shadow_x-offset": 0,
         "heading_drop_shadow_y-offset": 3,
-        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_color": "#000000",
         "heading_drop_shadow_opacity": 40,
-        "text_color": "#C7C7C7",
+        "text_color": "#c7c7c7",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
@@ -860,6 +860,36 @@
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f": {
+      "type": "frame-compare",
+      "blocks": {
+        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6": {
+          "type": "frame",
+          "settings": {
+          }
+        },
+        "f8c2289f-7ede-4f14-837c-4bd21039f1ee": {
+          "type": "frame",
+          "settings": {
+          }
+        },
+        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416": {
+          "type": "frame",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4dcbe9e5-b3fb-440f-8367-d89c0053eca6",
+        "f8c2289f-7ede-4f14-837c-4bd21039f1ee",
+        "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416"
+      ],
+      "settings": {
+        "heading": "Frame Comparison Chart",
+        "title": "Gigawatt",
+        "specs": ""
+      }
     }
   },
   "order": [
@@ -880,6 +910,7 @@
     "173465b1-f4cf-46fc-9f10-1e7428d7efae",
     "b4316874-c722-44c5-8a75-11e6af86aafd",
     "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723",
-    "39bbc60e-9d45-43e2-8e2d-19faa3687d75"
+    "39bbc60e-9d45-43e2-8e2d-19faa3687d75",
+    "3b299353-4adc-45bc-8bd2-bdfae82a6b2f"
   ]
 }
