@@ -400,7 +400,11 @@
     "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
       "type": "rich-text",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}"
+        ".vertical-breather {padding-top: 0;}",
+        "h3 {font-size: 41px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
       ],
       "settings": {
         "subheading": "",
@@ -716,7 +720,11 @@
     "173465b1-f4cf-46fc-9f10-1e7428d7efae": {
       "type": "rich-text",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}"
+        ".vertical-breather {padding-top: 0;}",
+        "h3 {font-size: 41px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
       ],
       "settings": {
         "subheading": "",
