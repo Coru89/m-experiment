@@ -5,7 +5,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Hero_Block_01.png",
+        "image": "shopify:\/\/shop_images\/Hero_Block_01_6d5c773f-fc43-49b7-8fcd-b038bdcb003b.png",
         "title": "New\nBeginnings",
         "title_mobile": "",
         "subheading": "DNA DRIVEN",
@@ -42,7 +42,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "3de230bb-3360-46fd-ac2c-a8b5208eedca": {
