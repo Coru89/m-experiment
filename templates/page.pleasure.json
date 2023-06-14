@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Leisure_Desktop_01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Leisure_Mobile_01.jpg",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "title": "Pleasure",
             "title_mobile": "",
             "subheading": "DESIGNED FOR OPEN ROADS AND MELLOW DAYS",
