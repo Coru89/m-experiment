@@ -634,7 +634,7 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-bottom: 50px;}",
-        " h3 {font-size: clamp(60px, 5vw + 1rem, 100px); }",
+        "h3 {font-size: clamp(60px, 5vw + 1rem, 100px);}",
         "@media screen and (min-width: 1000px) {h3 {font-size: clamp(60px, 7vw + 1rem, 100px); }}",
         "@media screen and (min-width: 1400px) {h3 {font-size: clamp(60px, 10vw + 1rem, 100px); }}"
       ],
@@ -645,7 +645,7 @@
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "fill",
         "text_position": "center",
         "text_alignment": "center",
         "remove_top_spacing": false,
