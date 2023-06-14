@@ -70,7 +70,7 @@
         "nudge_text_x-axis_desktop": 0,
         "nudge_text_y-axis_desktop": 4,
         "nudge_text_x-axis_mobile": 0,
-        "nudge_text_y-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": -10,
         "heading_text_align_huh": "center",
         "heading_text_align_mobile": "center",
         "subheading_text_align_desktop": "center",
