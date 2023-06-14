@@ -115,7 +115,7 @@
           "d1cb0288-1d77-4652-b516-c00841815b8f"
         ],
         "settings": {
-          "enable_sticky_header": false,
+          "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/M_icon_f8976d07-4272-4565-914a-fecab0c4a7fe.png",
           "logo_max_width": 140,
           "mobile_logo_max_width": 75,
