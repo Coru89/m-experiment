@@ -784,8 +784,8 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
-        "h3 {font-size: 41px; margin-bottom: .5rem;}",
-        "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 19px; }}"
+        "h3 {font-size: 41px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}"
       ],
       "settings": {
         "subheading": "",
