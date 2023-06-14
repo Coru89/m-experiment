@@ -40,13 +40,17 @@
         {%- for block in section.blocks -%}
             <ul class="frame-compare__list">
                 <div class="frame-compare__item">
-                    <h3 class="h3 frame-compare__title">
-                        {{ block.settings.title }} 
-                    </h3>
-                    {%- assign image = block.settings.image -%}
-                    <div class="frame-compare__image-wrapper">
-                        {{ image | image_url: width: image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
-                    </div>      
+                    <div class="frame-compare__column">
+                        <h3 class="h3 frame-compare__title">
+                            {{ block.settings.title }} 
+                        </h3>
+                        {%- assign image = block.settings.image -%}
+                        <div class="frame-compare__image-wrapper">
+                            {{ image | image_url: width: image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
+                        </div> 
+                    </div>
+
+
                     <div class="frame-compare__specs">
                         {{ block.settings.specs | newline_to_br }} 
                     </div>
