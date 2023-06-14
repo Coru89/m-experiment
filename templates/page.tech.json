@@ -715,6 +715,9 @@
     },
     "173465b1-f4cf-46fc-9f10-1e7428d7efae": {
       "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
@@ -779,6 +782,9 @@
     },
     "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723": {
       "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
