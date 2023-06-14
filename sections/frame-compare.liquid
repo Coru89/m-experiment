@@ -1,31 +1,14 @@
-{%- ########################################################################## 
-    # Label: Heading
-    # Returns: a string or an empty object(if nothing has been entered)
-    # Filters: https://shopify.dev/api/liquid/objects#string 
-    ########################################################################## -%}
+
     {{ section.settings.heading }} 
     
-    {%- ########################################################################## 
-    # Label: Title
-    # Returns: a string or an empty object(if nothing has been entered)
-    # Filters: https://shopify.dev/api/liquid/objects#string 
-    ########################################################################## -%}
+
     {{ section.settings.title }} 
     
-    {%- ########################################################################## 
-    # Label: Image
-    # Returns: an image object or nil(if no selection has been made)
-    # Image Properties: https://shopify.dev/api/liquid/objects#image
-    # Image Filters: https://shopify.dev/api/liquid/filters#image_tag, https://shopify.dev/api/liquid/filters#image_url
-    ########################################################################## -%}
+
     {%- assign image = section.settings.image -%}
     {{ image | image_url: width: image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
     
-    {%- ########################################################################## 
-    # Label: Specs
-    # Returns: a string or an empty object(if nothing has been entered)
-    # Filters: https://shopify.dev/api/liquid/objects#string 
-    ########################################################################## -%}
+
     {{ section.settings.specs }} 
     
     {%- for block in section.blocks -%}
