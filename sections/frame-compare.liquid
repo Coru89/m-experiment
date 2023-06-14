@@ -28,29 +28,30 @@
           "id": "heading",
           "label": "Heading",
           "default": "Frame Comparison Chart"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Title"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "textarea",
-          "id": "specs",
-          "label": "Specs"
         }
       ],
       "blocks": [
         {
           "name": "Frame",
           "type": "frame",
-          "settings": []
+          "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Title"
+              },
+              {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+              },
+              {
+                "type": "textarea",
+                "id": "specs",
+                "label": "Specs"
+              }
+          ]
         }
       ],
       "presets": [
