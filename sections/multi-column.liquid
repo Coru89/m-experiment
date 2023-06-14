@@ -32,6 +32,16 @@
     --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
   }
 
+  #shopify-section-{{ section.id }} .section {
+    {%- if section.settings.remove_bottom_spacing -%}
+      padding-bottom: 0;
+    {%- endif -%}
+
+    {%- if section.settings.remove_top_spacing -%}
+      padding-top: 0;
+    {%- endif -%}
+  }
+
   {%- if section.settings.title == blank and section.settings.subheading == blank and section.settings.content == blank -%}
     #shopify-section-{{ section.id }} {
       --vertical-breather: 40px; /* Only on multi-column section, due to its specific usage we reduce spacing when no content */
@@ -456,6 +466,18 @@
         }
       ],
       "default": "normal"
+    },
+    {
+      "type": "checkbox",
+      "label": "Remove Top Spacing",
+      "id": "remove_top_spacing",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "label": "Remove Bottom Spacing",
+      "id": "remove_bottom_spacing",
+      "default": false
     },
     {
       "type": "header",
