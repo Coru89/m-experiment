@@ -239,7 +239,7 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "stack_items": true,
+        "stack_items": false,
         "subheading": "",
         "use_impact": false,
         "title": "M-Frame Technology",
@@ -332,7 +332,7 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "stack_items": true,
+        "stack_items": false,
         "subheading": "",
         "use_impact": false,
         "title": "M-Materials",
@@ -656,135 +656,6 @@
         "text_color": "#191919"
       }
     },
-    "a4eb0185-549e-4d2d-b9fd-fbed3c1ceec8": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "ff54663b-83d1-4460-8308-c91d58480fac": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Desktop_01.png",
-            "mobile_image": "shopify:\/\/shop_images\/M_Tech_Plasmachromatic_Mobile_01.jpg",
-            "overlay_opacity": 20,
-            "title": "Plasmachromatic",
-            "title_mobile": "",
-            "subheading": "Utilizing a Plasma Vapor Deposition (PVD) mirror coating process where positively charged metal ions are drawn to negatively charged lenses using ionic polar attraction.  These mirrored lenses reflect light, reducing glare and eye strain while giving you privacy.",
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
-            "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "heading_text_align_desktop": "left",
-            "heading_text_align_mobile": "left",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 10,
-            "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#ffffff",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_uppercase": false,
-            "subheading_narrow_width": true,
-            "subheading_color": "#f1f2f2",
-            "subheading_text_align": "left",
-            "subheading_text_align_mobile": "left",
-            "subheading_opacity": 100,
-            "overlay_content_position": "bottom-right",
-            "content_position_mobile": "bottom-left",
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "ff54663b-83d1-4460-8308-c91d58480fac"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "26ebcc7e-2237-4e13-a4a8-719be81dcae5": {
-      "type": "lens-slider",
-      "disabled": true,
-      "blocks": {
-        "d3d835c8-9d80-4835-be33-8a034c32f488": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Blaze",
-            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Blaze-Plasmachromatic_frnt.2.png",
-            "lens_description": "Only available for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
-          }
-        },
-        "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Glacier",
-            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Glacier-Plasmachromatic_frnt.6.png",
-            "lens_description": "Only available for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
-          }
-        },
-        "38e836aa-10c5-4c1e-b30a-21f8b0868a2b": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Obsidian Polarized",
-            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12.png",
-            "lens_description": "Available for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>, <a href=\"\/pages\/business\">Business<\/a> & \n<a href=\"\/pages\/pleasure\">Pleasure<\/a>"
-          }
-        },
-        "294fe1f5-295f-4a2c-8f64-3d330242c59e": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Obsidian",
-            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12_936aab8e-6425-4759-a984-67c83cc1b3e1.png",
-            "lens_description": "Available for for <a href=\"\/pages\/gigawatt\">Gigawatt<\/a>, <a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
-          }
-        },
-        "47f59aa2-0f0e-400a-a740-c18674bee419": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Copper",
-            "lens_image": "shopify:\/\/shop_images\/Business_Copper_Plasmachromatic_frnt.49.png",
-            "lens_description": "Available for <a href=\"\/pages\/business\">Business<\/a> & for <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
-          }
-        }
-      },
-      "block_order": [
-        "d3d835c8-9d80-4835-be33-8a034c32f488",
-        "ac98d4cf-9944-43c1-9688-ec61fd2aeb9d",
-        "38e836aa-10c5-4c1e-b30a-21f8b0868a2b",
-        "294fe1f5-295f-4a2c-8f64-3d330242c59e",
-        "47f59aa2-0f0e-400a-a740-c18674bee419"
-      ],
-      "custom_css": [
-        ".product-list__inner:first-of-type {margin-top: 0rem;}",
-        ".lens-slider__content {position: relative; bottom: 2rem;}",
-        ".lens-slider__header {margin-bottom: 0;}",
-        ".lens-slider__item {margin-bottom: -2rem;}"
-      ],
-      "settings": {
-        "title": "Plasmachromatic Lens Options",
-        "products_count": 8,
-        "products_per_row": 3,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c": {
       "type": "gallery",
       "disabled": true,
@@ -830,64 +701,6 @@
         "show_arrows": false,
         "background": "#ffffff",
         "text_color": "#191919"
-      }
-    },
-    "d9e4ca97-5f03-4713-8530-2883a11ab72d": {
-      "type": "lens-slider",
-      "disabled": true,
-      "blocks": {
-        "66ab47eb-e67b-407d-af6f-46ff5a0e4c73": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Sepia",
-            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Sepia_Polar_frnt.26.png",
-            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
-          }
-        },
-        "a99b0b00-3757-4422-9167-c5e82a92d068": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Obsidian Plasmachromatic",
-            "lens_image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_frnt.12_936aab8e-6425-4759-a984-67c83cc1b3e1.png",
-            "lens_description": "Only Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>"
-          }
-        },
-        "939f84c7-2408-45be-8007-c5c7279f9f01": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Gray",
-            "lens_image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_frnt.42.png",
-            "lens_description": "Available for \n<a href=\"\/pages\/gigawatt\">Gigawatt<\/a>,\n<a href=\"\/pages\/business\">Business<\/a> & <a href=\"\/pages\/pleasure\">Pleasure<\/a>"
-          }
-        },
-        "5ec8db55-96a9-44e7-b866-16551a5e1e27": {
-          "type": "lens_item",
-          "settings": {
-            "title": "",
-            "lens_description": ""
-          }
-        }
-      },
-      "block_order": [
-        "66ab47eb-e67b-407d-af6f-46ff5a0e4c73",
-        "a99b0b00-3757-4422-9167-c5e82a92d068",
-        "939f84c7-2408-45be-8007-c5c7279f9f01",
-        "5ec8db55-96a9-44e7-b866-16551a5e1e27"
-      ],
-      "custom_css": [
-        ".product-list__inner:first-of-type {margin-top: 0rem;}",
-        ".lens-slider__content {position: relative; bottom: 2rem;}",
-        ".lens-slider__header {margin-bottom: 0;}",
-        ".lens-slider__item {margin-bottom: -2rem;}"
-      ],
-      "settings": {
-        "title": "Polarized Lens Options",
-        "products_count": 8,
-        "products_per_row": 3,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76": {
@@ -1665,6 +1478,113 @@
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "f820e0e9-6797-4d93-94f9-29c0d3a0eafb": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subheading",
+        "title": "Image with text block",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3087495c-7dce-4721-aec6-3b503253aa2a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "title": "3_way",
+        "title_mobile": "",
+        "subheading": "Subheading",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "narrow_width": false,
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 40,
+        "text_color": "#C7C7C7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "d0e7fa1a-2bcd-4461-8f46-1cf260febdce": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/slics_1271975b-b54b-4c59-adc4-c76c5d5e3c73.png",
+        "title": "Slics",
+        "title_mobile": "",
+        "subheading": "",
+        "content": "<p>Ear pads engineered with Atomic 14 providing maximum comfort and non-slip grip.<\/p>",
+        "narrow_width": false,
+        "heading_font_size_desktop": 70,
+        "heading_font_size_mobile": 22,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "overlay_content_position": "top-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 40,
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -1677,10 +1597,7 @@
     "ceb0eeae-dc5f-4ebf-b839-83f7d9697809",
     "0edee54d-36a8-4ae5-a6a7-745219016cb6",
     "09a65779-9793-4bf6-b148-10df80b12801",
-    "a4eb0185-549e-4d2d-b9fd-fbed3c1ceec8",
-    "26ebcc7e-2237-4e13-a4a8-719be81dcae5",
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c",
-    "d9e4ca97-5f03-4713-8530-2883a11ab72d",
     "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
     "9d031a7c-8a01-4d78-acf6-b455a691a1d4",
     "e0f1843d-f939-423a-b1bf-e7144941f569",
@@ -1692,6 +1609,9 @@
     "36bbad3e-a34d-4690-a95e-6533fddaaceb",
     "33c54064-20f3-4fa9-a120-ec84b819b213",
     "6c0033db-94da-4fe5-9fb8-e3c0b26c9c56",
-    "39bbc60e-9d45-43e2-8e2d-19faa3687d75"
+    "39bbc60e-9d45-43e2-8e2d-19faa3687d75",
+    "f820e0e9-6797-4d93-94f9-29c0d3a0eafb",
+    "3087495c-7dce-4721-aec6-3b503253aa2a",
+    "d0e7fa1a-2bcd-4461-8f46-1cf260febdce"
   ]
 }
