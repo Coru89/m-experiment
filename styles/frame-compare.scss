@@ -1,0 +1,16 @@
+.frame-compare {
+    &__heading {
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
