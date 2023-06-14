@@ -610,7 +610,7 @@
     "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
       "type": "rich-text",
       "custom_css": [
-        "ul,h3 {text-align: left;}"
+
       ],
       "settings": {
         "subheading": "",
@@ -621,7 +621,7 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "background": "#ffffff",
         "text_color": "#6b6b6b",
         "button_background": "rgba(0,0,0,0)",
