@@ -783,9 +783,9 @@
     "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
       "type": "rich-text",
       "settings": {
-        "subheading": "Subheading",
-        "title": "Talk about your brand",
-        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -1297,9 +1297,9 @@
     "725b9823-f2dc-454d-82f9-4a2b0bf6f76b": {
       "type": "custom-html",
       "settings": {
-        "subheading": "Your subheading",
-        "title": "Your title",
-        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "subheading": "",
+        "title": "",
+        "html": "",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
