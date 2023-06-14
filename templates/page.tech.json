@@ -849,7 +849,9 @@
         "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416"
       ],
       "settings": {
-        "heading": "Frame Comparison Chart"
+        "heading": "Frame Comparison Chart",
+        "background": "#ffffff",
+        "text_color": "#6b6b6b"
       }
     },
     "39bbc60e-9d45-43e2-8e2d-19faa3687d75": {
