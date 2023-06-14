@@ -121,7 +121,7 @@
     }
 
     #block-{{ section.id }}-{{ block.id }} .heading {
-      font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 5vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
+      font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 4vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
       text-align: {{ block.settings.heading_text_align_mobile }};
       margin: 0;
       margin-left: -1.2%;
@@ -133,6 +133,7 @@
 
     @media screen and (min-width: 740px) {
       #block-{{ section.id }}-{{ block.id }} .heading {
+        font-size: clamp({{ block.settings.heading_font_size_mobile }}px, 5vw + 1rem, {{ block.settings.heading_font_size_desktop }}px);
         text-align: {{ block.settings.heading_text_align_desktop }};
       }
     }
