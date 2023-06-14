@@ -20,7 +20,7 @@
         "button_link": "",
         "link_style": "link",
         "background_type": "full_width",
-        "overlay_content_position": "top-left",
+        "overlay_content_position": "middle-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": -2,
         "nudge_text_y-axis_desktop": 0,
@@ -1017,6 +1017,7 @@
     },
     "fc88775c-87f4-40e6-83a9-96187e60cd01": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--15613761388694__fc88775c-87f4-40e6-83a9-96187e60cd01-1667954930acc4187b-0": {
           "type": "image",
