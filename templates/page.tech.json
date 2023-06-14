@@ -867,16 +867,22 @@
         "4dcbe9e5-b3fb-440f-8367-d89c0053eca6": {
           "type": "frame",
           "settings": {
+            "title": "Gigawatt",
+            "specs": "LENS GEOMETRY…………………9-BASE\nLENS HEIGHT………………………42 mm\nLENS WIDTH………………………63 mm\nFRAME\nWIDTH…………………….143.3 mm\nTEMPLE LENGTH…………………136 mm\nWEIGHT…………………………….33.26 g"
           }
         },
         "f8c2289f-7ede-4f14-837c-4bd21039f1ee": {
           "type": "frame",
           "settings": {
+            "title": "Title",
+            "specs": ""
           }
         },
         "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416": {
           "type": "frame",
           "settings": {
+            "title": "Title",
+            "specs": ""
           }
         }
       },
@@ -886,9 +892,7 @@
         "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416"
       ],
       "settings": {
-        "heading": "Frame Comparison Chart",
-        "title": "Gigawatt",
-        "specs": ""
+        "heading": "Frame Comparison Chart"
       }
     }
   },
