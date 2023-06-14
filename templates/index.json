@@ -67,7 +67,7 @@
         "overlay_content_position": "top-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
-        "nudge_text_y-axis_desktop": -3,
+        "nudge_text_y-axis_desktop": 4,
         "nudge_text_x-axis_mobile": 0,
         "nudge_text_y-axis_mobile": 0,
         "heading_text_align_huh": "center",
