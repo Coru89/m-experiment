@@ -50,7 +50,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Leisure-Main_01_e48ab377-45a1-4ab8-a027-3aa4a9948505.png",
             "mobile_image": "shopify:\/\/shop_images\/M_Leisure_Mobile_02.png",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "title": "Pleasure",
             "title_mobile": "",
             "subheading": "DESIGNED FOR OPEN ROADS AND MELLOW DAYS",
