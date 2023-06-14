@@ -567,8 +567,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/gigawat-parts.png",
-        "title": "",
+        "image": "shopify:\/\/shop_images\/gigawat-parts_abe6d950-2a50-4c7c-86b9-197d45628ae2.png",
+        "title": "Gigawatt",
         "title_mobile": "",
         "subheading": "",
         "content": "",
@@ -581,7 +581,144 @@
         "button_link": "",
         "link_style": "link",
         "background_type": "full_width",
-        "overlay_content_position": "middle-center",
+        "overlay_content_position": "top-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_opacity": 40,
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
+      "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "left",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3f84c371-f546-4f31-9b3f-6d062ab35bfb": {
+      "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 50px;}",
+        "h3 {font-size: clamp(50px, 5vw + 1rem, 100px);}",
+        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 100px); }}",
+        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 100px); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Frame technology",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "264045b5-0f4e-4876-9da5-a338b1924cc9": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "title": "Dual Chamber Infusion",
+        "title_mobile": "",
+        "subheading": "A multi-stage mold process using fiberglass reinforced TR90 substrate parts in Gigawatt, resulting in a stiff chassis in and around the hinge while maintaining flexibility and skin feel in the nose and ear areas for comfort.",
+        "content": "",
+        "narrow_width": false,
+        "heading_font_size_desktop": 56,
+        "heading_font_size_mobile": 32,
+        "subheading_font_size_desktop": 26,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "overlay_content_position": "top-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 40,
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "421aa130-3d63-4518-97bf-05848da6e8cc": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "title": "Lens Clutch",
+        "title_mobile": "",
+        "subheading": "Lens quick release system giving you the fastest, most secure\nmethod to switch lenses.",
+        "content": "",
+        "narrow_width": false,
+        "heading_font_size_desktop": 56,
+        "heading_font_size_mobile": 32,
+        "subheading_font_size_desktop": 26,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "overlay_content_position": "top-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
         "nudge_text_y-axis_desktop": 0,
@@ -598,46 +735,13 @@
         "heading_drop_shadow": false,
         "heading_drop_shadow_x-offset": 0,
         "heading_drop_shadow_y-offset": 3,
-        "heading_drop_shadow_color": "#000000",
+        "heading_drop_shadow_color": "#000",
         "heading_drop_shadow_opacity": 40,
-        "text_color": "#c7c7c7",
+        "text_color": "#6b6b6b",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
-      "type": "rich-text",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "left",
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "725b9823-f2dc-454d-82f9-4a2b0bf6f76b": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "overlay_opacity": 30
       }
     },
     "3087495c-7dce-4721-aec6-3b503253aa2a": {
@@ -652,14 +756,14 @@
         "content": "",
         "narrow_width": false,
         "heading_font_size_desktop": 56,
-        "heading_font_size_mobile": 46,
-        "subheading_font_size_desktop": 22,
+        "heading_font_size_mobile": 32,
+        "subheading_font_size_desktop": 26,
         "subheading_font_size_mobile": 16,
         "button_text": "",
         "button_link": "",
         "link_style": "link",
-        "background_type": "boxed",
-        "overlay_content_position": "middle-center",
+        "background_type": "full_width",
+        "overlay_content_position": "top-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
         "nudge_text_y-axis_desktop": 0,
@@ -678,7 +782,7 @@
         "heading_drop_shadow_y-offset": 3,
         "heading_drop_shadow_color": "#000000",
         "heading_drop_shadow_opacity": 40,
-        "text_color": "#c7c7c7",
+        "text_color": "#6b6b6b",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#ffffff",
@@ -697,8 +801,8 @@
         "content": "",
         "narrow_width": false,
         "heading_font_size_desktop": 56,
-        "heading_font_size_mobile": 46,
-        "subheading_font_size_desktop": 22,
+        "heading_font_size_mobile": 32,
+        "subheading_font_size_desktop": 26,
         "subheading_font_size_mobile": 16,
         "button_text": "",
         "button_link": "",
@@ -774,70 +878,6 @@
         "show_arrows": true,
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "0edee54d-36a8-4ae5-a6a7-745219016cb6": {
-      "type": "lens-slider",
-      "disabled": true,
-      "blocks": {
-        "d05775ee-7b3c-44b0-afe6-8c968e4a58c9": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Grey M9M",
-            "lens_description": "PLASMACHROMATIC POLARIZEDTM lens material offers top UV Protection filtering 100% of all UVA, UVB up to 400nm and some of harmful blue light."
-          }
-        },
-        "67e32a83-1113-4d59-8fb6-2aaaaba419f5": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Grey M9M",
-            "lens_description": ""
-          }
-        },
-        "69fdbabb-85d7-4666-9ad8-fe463728797a": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Grey M9M",
-            "lens_description": ""
-          }
-        },
-        "f4e3ecca-4dda-44bc-80a0-13446870624b": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Grey M9M",
-            "lens_description": ""
-          }
-        },
-        "712f49d8-aa2f-48d3-8b97-30619d5f24ac": {
-          "type": "lens_item",
-          "settings": {
-            "title": "Grey M9M",
-            "lens_description": ""
-          }
-        }
-      },
-      "block_order": [
-        "d05775ee-7b3c-44b0-afe6-8c968e4a58c9",
-        "67e32a83-1113-4d59-8fb6-2aaaaba419f5",
-        "69fdbabb-85d7-4666-9ad8-fe463728797a",
-        "f4e3ecca-4dda-44bc-80a0-13446870624b",
-        "712f49d8-aa2f-48d3-8b97-30619d5f24ac"
-      ],
-      "custom_css": [
-        ".product-list__inner:first-of-type {margin-top: 0rem;}",
-        ".lens-slider__content {position: relative; bottom: 1rem;}",
-        "@media screen and (min-width: 740px) {.lens-slider__content {position: relative; bottom: 2rem; }}",
-        ".lens-slider__header {margin-bottom: 0;}",
-        ".lens-slider__item {margin-bottom: -2rem;}"
-      ],
-      "settings": {
-        "title": "M9M Lens Options",
-        "products_count": 10,
-        "products_per_row": 3,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "09a65779-9793-4bf6-b148-10df80b12801": {
@@ -1059,6 +1099,8 @@
         "text_width": "small",
         "text_position": "center",
         "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "background": "#000000",
         "text_color": "#ffffff",
         "button_background": "rgba(0,0,0,0)",
@@ -1449,11 +1491,12 @@
     "ceb0eeae-dc5f-4ebf-b839-83f7d9697809",
     "ceb17ac0-fbaa-45b9-b438-a9694758bd82",
     "7dbe9f48-ac28-4c45-b40a-b87015168b00",
-    "725b9823-f2dc-454d-82f9-4a2b0bf6f76b",
+    "3f84c371-f546-4f31-9b3f-6d062ab35bfb",
+    "264045b5-0f4e-4876-9da5-a338b1924cc9",
+    "421aa130-3d63-4518-97bf-05848da6e8cc",
     "3087495c-7dce-4721-aec6-3b503253aa2a",
     "d0e7fa1a-2bcd-4461-8f46-1cf260febdce",
     "39bbc60e-9d45-43e2-8e2d-19faa3687d75",
-    "0edee54d-36a8-4ae5-a6a7-745219016cb6",
     "09a65779-9793-4bf6-b148-10df80b12801",
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c",
     "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
