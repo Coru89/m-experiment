@@ -1539,7 +1539,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "791cb213-05c2-44d5-9556-d4c749ef9957": {
