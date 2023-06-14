@@ -155,6 +155,8 @@
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
         "spacing": "tight",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
         "background": "#ffffff",
         "text_color": "#6b6b6b"
       }
@@ -249,6 +251,8 @@
         "mobile_item_size": "large",
         "desktop_item_size": "medium",
         "spacing": "normal",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "background": "#ffffff",
         "text_color": "#6b6b6b"
       }
@@ -342,6 +346,8 @@
         "mobile_item_size": "large",
         "desktop_item_size": "medium",
         "spacing": "normal",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
         "background": "#ffffff",
         "text_color": "#6b6b6b"
       }
@@ -444,6 +450,8 @@
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
         "spacing": "normal",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
