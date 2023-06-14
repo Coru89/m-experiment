@@ -4054,7 +4054,7 @@
     }
     async _setupVisibility() {
       await this.untilVisible();
-      const image = this.querySelector(".image-overlay__image"), headings = await resolveAsyncIterator(this.querySelectorAll("split-lines, .heading-animate")), prefersReducedMotion = MediaFeatures.prefersReducedMotion();
+      const image = this.querySelector(".image-overlay__image"), headings = await resolveAsyncIterator(this.querySelectorAll(".heading-animate")), prefersReducedMotion = MediaFeatures.prefersReducedMotion();
       await imageLoaded(image);
       const innerEffect = [
         new CustomKeyframeEffect(image, { opacity: [0, 1], transform: [`scale(${prefersReducedMotion ? 1 : 1.1})`, "scale(1)"] }, { duration: 500, easing: "cubic-bezier(0.65, 0, 0.35, 1)" }),
