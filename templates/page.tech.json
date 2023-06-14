@@ -787,7 +787,7 @@
         "h3 {font-size: 41px; margin-bottom: 0.5rem;}",
         "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0;}",
-        "@media screen and (min-width: 750px) {li {font-size: 26px; margin-bottom: 1rem; }}"
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
       ],
       "settings": {
         "subheading": "",
