@@ -780,101 +780,22 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "e0f1843d-f939-423a-b1bf-e7144941f569": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "ad130915-1828-43e5-abe1-248a3fa4a71a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4116.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Artboard_2_7ad5c9e3-d2cf-4528-86b4-791130600526.jpg",
-            "overlay_opacity": 0,
-            "title": "POLARIZED",
-            "title_mobile": "",
-            "subheading": "",
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
-            "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "heading_text_align_desktop": "left",
-            "heading_text_align_mobile": "left",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 10,
-            "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#ffffff",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_uppercase": false,
-            "subheading_narrow_width": false,
-            "subheading_color": "#ffffff",
-            "subheading_text_align": "left",
-            "subheading_text_align_mobile": "left",
-            "subheading_opacity": 100,
-            "overlay_content_position": "middle-center",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "ad130915-1828-43e5-abe1-248a3fa4a71a"
-      ],
+    "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
+      "type": "rich-text",
       "settings": {
-        "section_height": "small",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "43b5b045-a39c-460c-9feb-9b43b6f1191a": {
-      "type": "gallery",
-      "disabled": true,
-      "blocks": {
-        "ad7450a4-cc88-4df8-a94c-76d36043e075": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tech_lens_-1.png",
-            "caption": ""
-          }
-        },
-        "a4771f3e-c1bc-4e5b-b306-db209a12480e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tech_lens_-3.png",
-            "caption": ""
-          }
-        },
-        "c8ab54d4-3d69-44a0-9a9a-e228bbbdde42": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tech_lens_800x1000_VA.png",
-            "caption": ""
-          }
-        }
-      },
-      "block_order": [
-        "ad7450a4-cc88-4df8-a94c-76d36043e075",
-        "a4771f3e-c1bc-4e5b-b306-db209a12480e",
-        "c8ab54d4-3d69-44a0-9a9a-e228bbbdde42"
-      ],
-      "settings": {
-        "subheading": "POLARIZED LENS OPTIONS",
-        "title": "",
-        "show_arrows": false,
-        "background": "#ffffff",
-        "text_color": "#191919"
+        "subheading": "Subheading",
+        "title": "Talk about your brand",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa": {
@@ -1207,111 +1128,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "36bbad3e-a34d-4690-a95e-6533fddaaceb": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4121.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/shackle-mobile.png",
-            "overlay_opacity": 0,
-            "title": "RATCHET",
-            "title_mobile": "",
-            "subheading": "Designed to attached to the frame's bridge.  Adjustable for different nose sizes and provides a secure, non-slip fit.",
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
-            "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "heading_text_align_desktop": "left",
-            "heading_text_align_mobile": "left",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 10,
-            "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#ffffff",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_uppercase": false,
-            "subheading_narrow_width": false,
-            "subheading_color": "#ffffff",
-            "subheading_text_align": "left",
-            "subheading_text_align_mobile": "left",
-            "subheading_opacity": 100,
-            "overlay_content_position": "middle-left",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        },
-        "b74f0135-e3a0-4fc9-ba62-8a01ea7e6da8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ratcheting_Nose_Piece_Tech.png",
-            "mobile_image": "shopify:\/\/shop_images\/Ratcheting_1000x1400_6842f354-0858-434e-8825-a5dcf37da0ae.png",
-            "overlay_opacity": 30,
-            "title": "RATCHETING \nNOSE PIECE",
-            "title_mobile": "",
-            "subheading": "Adjustable nose piece system designed for different nose sizes \nand provides a secure, non-slip fit.",
-            "heading_font_size_desktop": 36,
-            "heading_font_size_mobile": 26,
-            "subheading_font_size_desktop": 16,
-            "subheading_font_size_mobile": 16,
-            "heading_text_align_desktop": "left",
-            "heading_text_align_mobile": "left",
-            "heading_drop_shadow": false,
-            "heading_drop_shadow_x-offset": 10,
-            "heading_drop_shadow_y-offset": 10,
-            "heading_drop_shadow_color": "#ffffff",
-            "heading_drop_shadow_opacity": 16,
-            "subheading_uppercase": false,
-            "subheading_narrow_width": true,
-            "subheading_color": "#ffffff",
-            "subheading_text_align": "left",
-            "subheading_text_align_mobile": "left",
-            "subheading_opacity": 100,
-            "overlay_content_position": "bottom-right",
-            "content_position_mobile": "none",
-            "nudge_text_x-axis_desktop": 0,
-            "nudge_text_y-axis_desktop": 0,
-            "nudge_text_x-axis_mobile": 0,
-            "nudge_text_y-axis_mobile": 0,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "4355e355-d2c2-4b10-b0f2-48cfdaf7bae2",
-        "b74f0135-e3a0-4fc9-ba62-8a01ea7e6da8"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "section_height": "auto",
-        "transition_type": "sweep",
-        "autoplay": false,
-        "cycle_speed": 4,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
     "33c54064-20f3-4fa9-a120-ec84b819b213": {
       "type": "slideshow",
       "disabled": true,
@@ -1433,49 +1249,60 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "39bbc60e-9d45-43e2-8e2d-19faa3687d75": {
-      "type": "gallery",
-      "blocks": {
-        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_03_copy.png",
-            "caption": ""
-          }
-        },
-        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_04_copy.png",
-            "caption": ""
-          }
-        },
-        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_05_copy.png",
-            "caption": ""
-          }
-        },
-        "2f0349b5-7181-48f7-ae41-6258a5c243b7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_02_copy.png",
-            "caption": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-0",
-        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-2",
-        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-1",
-        "2f0349b5-7181-48f7-ae41-6258a5c243b7"
-      ],
+    "ceb17ac0-fbaa-45b9-b438-a9694758bd82": {
+      "type": "image-with-text-overlay",
       "settings": {
-        "subheading": "",
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/gigawat-parts.png",
         "title": "",
-        "show_arrows": true,
-        "background": "#ffffff",
+        "title_mobile": "",
+        "subheading": "",
+        "content": "",
+        "narrow_width": false,
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 40,
+        "text_color": "#C7C7C7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "725b9823-f2dc-454d-82f9-4a2b0bf6f76b": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -1520,7 +1347,7 @@
         "text_color": "#c7c7c7",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
-        "overlay_color": "#000000",
+        "overlay_color": "#ffffff",
         "overlay_opacity": 0
       }
     },
@@ -1568,6 +1395,52 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "39bbc60e-9d45-43e2-8e2d-19faa3687d75": {
+      "type": "gallery",
+      "blocks": {
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_03_copy.png",
+            "caption": ""
+          }
+        },
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_04_copy.png",
+            "caption": ""
+          }
+        },
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_05_copy.png",
+            "caption": ""
+          }
+        },
+        "2f0349b5-7181-48f7-ae41-6258a5c243b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/M_Exp_Gallery_02_copy.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-0",
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-2",
+        "template--16013649903766__39bbc60e-9d45-43e2-8e2d-19faa3687d75-168637622631aac686-1",
+        "2f0349b5-7181-48f7-ae41-6258a5c243b7"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": true,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -1583,17 +1456,17 @@
     "20354f9d-74ed-4fb4-8ab3-4c2e02ddb07c",
     "c8f7ac46-d0f7-4808-b0a7-602bbd3e4c76",
     "9d031a7c-8a01-4d78-acf6-b455a691a1d4",
-    "e0f1843d-f939-423a-b1bf-e7144941f569",
-    "43b5b045-a39c-460c-9feb-9b43b6f1191a",
+    "7dbe9f48-ac28-4c45-b40a-b87015168b00",
     "f3a9f3e0-89af-4345-b5ca-10eaa7e7d0fa",
     "9b1f2b98-61e5-4930-8b79-d5d8177d7f6d",
     "7b8c6e37-074a-40a4-91be-445e6fad0e89",
     "d4fc4188-4f52-418e-82fb-31520e2c6db6",
-    "36bbad3e-a34d-4690-a95e-6533fddaaceb",
     "33c54064-20f3-4fa9-a120-ec84b819b213",
     "6c0033db-94da-4fe5-9fb8-e3c0b26c9c56",
-    "39bbc60e-9d45-43e2-8e2d-19faa3687d75",
+    "ceb17ac0-fbaa-45b9-b438-a9694758bd82",
+    "725b9823-f2dc-454d-82f9-4a2b0bf6f76b",
     "3087495c-7dce-4721-aec6-3b503253aa2a",
-    "d0e7fa1a-2bcd-4461-8f46-1cf260febdce"
+    "d0e7fa1a-2bcd-4461-8f46-1cf260febdce",
+    "39bbc60e-9d45-43e2-8e2d-19faa3687d75"
   ]
 }
