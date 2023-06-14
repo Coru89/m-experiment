@@ -630,22 +630,10 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "725b9823-f2dc-454d-82f9-4a2b0bf6f76b": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "Frame Tech",
-        "html": "<h2 class=\"heading\">FRAME TECHNOLOGY<\/h2>",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
-        "background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "3f84c371-f546-4f31-9b3f-6d062ab35bfb": {
       "type": "rich-text",
       "custom_css": [
-        ".vertical-breather {padding: 0}"
+        ".vertical-breather {padding-bottom: 0;}"
       ],
       "settings": {
         "subheading": "",
@@ -1500,7 +1488,6 @@
     "ceb0eeae-dc5f-4ebf-b839-83f7d9697809",
     "ceb17ac0-fbaa-45b9-b438-a9694758bd82",
     "7dbe9f48-ac28-4c45-b40a-b87015168b00",
-    "725b9823-f2dc-454d-82f9-4a2b0bf6f76b",
     "3f84c371-f546-4f31-9b3f-6d062ab35bfb",
     "264045b5-0f4e-4876-9da5-a338b1924cc9",
     "421aa130-3d63-4518-97bf-05848da6e8cc",
