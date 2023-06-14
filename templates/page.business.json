@@ -3,7 +3,7 @@
     "7430b6d2-b843-445a-9e19-a04c0d237adc": {
       "type": "image-with-text-overlay",
       "settings": {
-        "reveal_on_scroll": false,
+        "reveal_on_scroll": true,
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/Leisure_Desktop_02.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Leisure_Mobile_02.jpg",
@@ -1017,7 +1017,6 @@
     },
     "fc88775c-87f4-40e6-83a9-96187e60cd01": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--15613761388694__fc88775c-87f4-40e6-83a9-96187e60cd01-1667954930acc4187b-0": {
           "type": "image",
