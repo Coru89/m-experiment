@@ -744,6 +744,30 @@
         "overlay_opacity": 0
       }
     },
+    "d055788d-85a4-4fb3-9150-d49a2881728c": {
+      "type": "rich-text-image",
+      "settings": {
+        "subheading": "",
+        "title": "Pleasure",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "de6732d1-4374-4df5-8a8a-f01674138571": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -845,6 +869,7 @@
     },
     "b4316874-c722-44c5-8a75-11e6af86aafd": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -1021,6 +1046,7 @@
     "a933221b-0b97-48e2-bc7f-44b022510c0b",
     "d0e7fa1a-2bcd-4461-8f46-1cf260febdce",
     "94005b04-1d9a-40aa-8fc8-764c88a00b1d",
+    "d055788d-85a4-4fb3-9150-d49a2881728c",
     "de6732d1-4374-4df5-8a8a-f01674138571",
     "173465b1-f4cf-46fc-9f10-1e7428d7efae",
     "627d2560-695a-46ac-b6d9-5123f3b028c5",
