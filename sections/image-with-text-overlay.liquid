@@ -265,10 +265,10 @@
       {% if section.settings.section_height == 'auto' %}
         style="--image-aspect-ratio: {{ image_aspect_ratio }}; --mobile-image-aspect-ratio: {{ mobile_image.aspect_ratio | default: image_aspect_ratio | default: 1 }};"
       {% endif %}>
-      <div class="image-overlay__link" class="image-overlay__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.section_height == 'auto' %}style="padding-bottom: {{ 100.0 | divided_by: image_aspect_ratio }}%"{% endif %}>
+      <div class="image-overlay__image-wrapper" class="image-overlay__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.section_height == 'auto' %}style="padding-bottom: {{ 100.0 | divided_by: image_aspect_ratio }}%"{% endif %}>
       
         {%- if section.settings.panel_link != blank -%}
-          <a href="{{ section.settings.panel_link }}">
+          <a class="image-overlay__link" href="{{ section.settings.panel_link }}">
         {%- endif -%}
       
         {%- if image != blank -%}
