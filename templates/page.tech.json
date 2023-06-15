@@ -402,7 +402,7 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
-        "h3 {text-transform: uppercase; font-size: 41px; margin-bottom: 0.5rem;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
         "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
         "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
@@ -731,7 +731,7 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
-        "h3 {text-transform: uppercase; font-size: 41px; margin-bottom: 0.5rem;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
         "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
         "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
@@ -804,7 +804,7 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
-        "h3 {text-transform: uppercase; font-size: 41px; margin-bottom: 0.5rem;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
         "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
         "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
