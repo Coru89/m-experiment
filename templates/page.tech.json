@@ -456,6 +456,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_FramePage_01.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_FramePage_01.jpg",
         "title": "Dual Chamber Infusion",
         "title_mobile": "",
         "subheading": "A multi-stage mold process using fiberglass reinforced TR90 substrate parts in Gigawatt, resulting in a stiff chassis in and around the hinge while maintaining flexibility and skin feel in the nose and ear areas for comfort.",
@@ -500,6 +502,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_FramePage_02.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_FramePage_02.jpg",
         "title": "Lens Clutch",
         "title_mobile": "",
         "subheading": "Lens quick release system giving you the fastest, most secure\nmethod to switch lenses.",
@@ -545,6 +549,7 @@
         "reveal_on_scroll": true,
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/3way.png",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_FramePage_03.jpg",
         "title": "3-Way Adjustable Nose Piece",
         "title_mobile": "",
         "subheading": "Adjustable nose piece system designed for different nose sizes and provides a secure, non-slip fit.",
@@ -589,7 +594,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/slics_1271975b-b54b-4c59-adc4-c76c5d5e3c73.png",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_FramePage_04.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_FramePage_04_55b0e6a4-5f6f-43a7-b6bd-737cfa614a3a.jpg",
         "title": "Slics",
         "title_mobile": "",
         "subheading": "Ear pads engineered with Atomic 14 providing maximum comfort and non-slip grip.",
