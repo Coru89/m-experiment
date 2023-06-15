@@ -70,7 +70,7 @@
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "fill",
         "text_position": "center",
         "text_alignment": "center",
         "remove_top_spacing": true,
