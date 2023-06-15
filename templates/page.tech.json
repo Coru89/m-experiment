@@ -451,8 +451,93 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "f692ea7a-b838-480d-ac3b-fecda68d3a83": {
+      "type": "rich-text-image",
+      "settings": {
+        "subheading": "",
+        "title": "DUAL CHAMBER INFUSION",
+        "content": "<p>A multi-stage mold process using fiberglass reinforced TR90 substrate parts inGigawatt, resulting in a stiff chassis in and around the hinge while maintainingflexibility and skin feel in the nose and ear areas for comfort.<\/p>",
+        "image": "shopify:\/\/shop_images\/dual_chamber_40b09a41-596f-406d-b4d5-565b0ff172cc.png",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
+      "type": "rich-text-image",
+      "settings": {
+        "subheading": "",
+        "title": "LENS CLUTCH",
+        "content": "<p>Lens quick release system giving you the fastest, most securemethod to switch lenses.<\/p>",
+        "image": "shopify:\/\/shop_images\/clutch.png",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
+      "type": "rich-text-image",
+      "settings": {
+        "subheading": "",
+        "title": "3-Way Adjustable Nose Piece",
+        "content": "<p>Adjustable nose piece system designed for different nose sizes andprovides a secure, non-slip fit.<\/p>",
+        "image": "shopify:\/\/shop_images\/3waynose.png",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "87091a3e-5730-4415-8543-98a811cbac59": {
+      "type": "rich-text-image",
+      "settings": {
+        "subheading": "",
+        "title": "SLICS",
+        "content": "<p>Ear pads engineered with Atomic 14 providing maximumcomfort and non-slip grip.<\/p>",
+        "image": "shopify:\/\/shop_images\/slics_80dd85fd-b6f4-4e99-8032-6ef16d64c671.png",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "264045b5-0f4e-4876-9da5-a338b1924cc9": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -499,6 +584,7 @@
     },
     "a933221b-0b97-48e2-bc7f-44b022510c0b": {
       "type": "rich-text",
+      "disabled": true,
       "custom_css": [
         ".vertical-breather {padding-bottom: 0;}"
       ],
@@ -522,6 +608,7 @@
     },
     "421aa130-3d63-4518-97bf-05848da6e8cc": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -567,6 +654,7 @@
     },
     "3087495c-7dce-4721-aec6-3b503253aa2a": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -613,6 +701,7 @@
     },
     "d0e7fa1a-2bcd-4461-8f46-1cf260febdce": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -754,7 +843,7 @@
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
-        "@media screen and (min-width: 750px) {h3 {font-size: 50px; margin-bottom: 1rem; }}",
+        "@media screen and (min-width: 750px) {h3 {font-size: 40px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
         "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
       ],
@@ -841,90 +930,6 @@
         "text_width": "large",
         "text_position": "center",
         "text_alignment": "left",
-        "remove_top_spacing": true,
-        "remove_bottom_spacing": false,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "f692ea7a-b838-480d-ac3b-fecda68d3a83": {
-      "type": "rich-text-image",
-      "settings": {
-        "subheading": "",
-        "title": "DUAL CHAMBER INFUSION",
-        "content": "<p>A multi-stage mold process using fiberglass reinforced TR90 substrate parts inGigawatt, resulting in a stiff chassis in and around the hinge while maintainingflexibility and skin feel in the nose and ear areas for comfort.<\/p>",
-        "image": "shopify:\/\/shop_images\/dual_chamber_40b09a41-596f-406d-b4d5-565b0ff172cc.png",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "remove_top_spacing": false,
-        "remove_bottom_spacing": true,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
-      "type": "rich-text-image",
-      "settings": {
-        "subheading": "",
-        "title": "LENS CLUTCH",
-        "content": "<p>Lens quick release system giving you the fastest, most securemethod to switch lenses.<\/p>",
-        "image": "shopify:\/\/shop_images\/clutch.png",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "remove_top_spacing": true,
-        "remove_bottom_spacing": true,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
-      "type": "rich-text-image",
-      "settings": {
-        "subheading": "",
-        "title": "3-Way Adjustable Nose Piece",
-        "content": "<p>Adjustable nose piece system designed for different nose sizes andprovides a secure, non-slip fit.<\/p>",
-        "image": "shopify:\/\/shop_images\/3waynose.png",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "remove_top_spacing": true,
-        "remove_bottom_spacing": true,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "87091a3e-5730-4415-8543-98a811cbac59": {
-      "type": "rich-text-image",
-      "settings": {
-        "subheading": "",
-        "title": "SLICS",
-        "content": "<p>Ear pads engineered with Atomic 14 providing maximumcomfort and non-slip grip.<\/p>",
-        "image": "shopify:\/\/shop_images\/slics_80dd85fd-b6f4-4e99-8032-6ef16d64c671.png",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
         "remove_top_spacing": true,
         "remove_bottom_spacing": false,
         "background": "#ffffff",
@@ -1028,6 +1033,10 @@
     "ceb17ac0-fbaa-45b9-b438-a9694758bd82",
     "7dbe9f48-ac28-4c45-b40a-b87015168b00",
     "3f84c371-f546-4f31-9b3f-6d062ab35bfb",
+    "f692ea7a-b838-480d-ac3b-fecda68d3a83",
+    "085f62b4-2c5f-461b-ba58-bd2987c9ab10",
+    "2c357457-e660-4c02-a8d3-688ddfd1a6c6",
+    "87091a3e-5730-4415-8543-98a811cbac59",
     "264045b5-0f4e-4876-9da5-a338b1924cc9",
     "a933221b-0b97-48e2-bc7f-44b022510c0b",
     "421aa130-3d63-4518-97bf-05848da6e8cc",
@@ -1038,10 +1047,6 @@
     "173465b1-f4cf-46fc-9f10-1e7428d7efae",
     "b4316874-c722-44c5-8a75-11e6af86aafd",
     "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723",
-    "f692ea7a-b838-480d-ac3b-fecda68d3a83",
-    "085f62b4-2c5f-461b-ba58-bd2987c9ab10",
-    "2c357457-e660-4c02-a8d3-688ddfd1a6c6",
-    "87091a3e-5730-4415-8543-98a811cbac59",
     "3b299353-4adc-45bc-8bd2-bdfae82a6b2f",
     "39bbc60e-9d45-43e2-8e2d-19faa3687d75"
   ]
