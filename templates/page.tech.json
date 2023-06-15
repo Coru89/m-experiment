@@ -55,6 +55,32 @@
         "overlay_opacity": 30
       }
     },
+    "2c979ee6-673b-4b74-aa6c-9208ec62a8e1": {
+      "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 50px;}",
+        "h3 {font-size: clamp(50px, 5vw + 1rem, 90px);}",
+        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 90px); }}",
+        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 90px); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "M-Tech Overview",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "bfde50f9-1a96-47a9-a50a-eddd33fa45ff": {
       "type": "multi-column",
       "blocks": {
@@ -146,6 +172,9 @@
         "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-3",
         "86b0c99b-9763-442e-946a-9511b1b184ff"
       ],
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
@@ -157,7 +186,7 @@
         "mobile_item_size": "large",
         "desktop_item_size": "medium",
         "spacing": "tight",
-        "remove_top_spacing": false,
+        "remove_top_spacing": true,
         "remove_bottom_spacing": true,
         "background": "#ffffff",
         "text_color": "#6b6b6b"
@@ -335,7 +364,8 @@
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
-        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}",
+        ".vertical-breather {padding-top: 0;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -431,9 +461,9 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-bottom: 50px;}",
-        "h3 {font-size: clamp(50px, 5vw + 1rem, 100px);}",
-        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 100px); }}",
-        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 100px); }}"
+        "h3 {font-size: clamp(50px, 5vw + 1rem, 90px);}",
+        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 90px); }}",
+        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 90px); }}"
       ],
       "settings": {
         "subheading": "",
@@ -1055,6 +1085,7 @@
   "order": [
     "main",
     "822de1c8-a4ff-4770-ad92-1e77610d4456",
+    "2c979ee6-673b-4b74-aa6c-9208ec62a8e1",
     "bfde50f9-1a96-47a9-a50a-eddd33fa45ff",
     "fe014da0-6a33-405c-b4b7-9096fdd9915d",
     "b94428e8-336a-4948-b3fb-06ee7f4aae6a",
