@@ -434,16 +434,15 @@
     "867df809-77d4-4790-a98d-372e5b2ca373": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}",
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
-        "@media screen and (min-width: 750px) {h3 {font-size: 32px; margin-bottom: 1rem; }}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
         "@media screen and (min-width: 750px) {li {font-size: 26px; }}",
         "ul {text-align: left;}"
       ],
       "settings": {
-        "subheading": "",
         "title": "Gigawatt",
+        "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_669c9d16-c121-4f4e-a41c-76e5495af5bd.png",
         "button_text": "",
@@ -525,8 +524,8 @@
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
-        "subheading": "A multi-stage mold process using fiberglass reinforced TR90 substrate parts inGigawatt, resulting in a stiff chassis in and around the hinge while maintainingflexibility and skin feel in the nose and ear areas for comfort.",
         "title": "DUAL CHAMBER INFUSION",
+        "subheading": "A multi-stage mold process using fiberglass reinforced TR90 substrate parts inGigawatt, resulting in a stiff chassis in and around the hinge while maintainingflexibility and skin feel in the nose and ear areas for comfort.",
         "content": "",
         "image": "shopify:\/\/shop_images\/dual_chamber_40b09a41-596f-406d-b4d5-565b0ff172cc.png",
         "button_text": "",
@@ -554,8 +553,8 @@
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
-        "subheading": "Lens quick release system giving you the fastest, most securemethod to switch lenses.",
         "title": "LENS CLUTCH",
+        "subheading": "Lens quick release system giving you the fastest, most securemethod to switch lenses.",
         "content": "",
         "image": "shopify:\/\/shop_images\/clutch.png",
         "button_text": "",
@@ -583,8 +582,8 @@
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
-        "subheading": "Adjustable nose piece system designed for different nose sizes andprovides a secure, non-slip fit.",
         "title": "3-Way Adjustable Nose Piece",
+        "subheading": "Adjustable nose piece system designed for different nose sizes andprovides a secure, non-slip fit.",
         "content": "",
         "image": "shopify:\/\/shop_images\/3waynose.png",
         "button_text": "",
@@ -612,8 +611,8 @@
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
-        "subheading": "Ear pads engineered with Atomic 14 providing maximumcomfort and non-slip grip.",
         "title": "SLICS",
+        "subheading": "Ear pads engineered with Atomic 14 providing maximumcomfort and non-slip grip.",
         "content": "",
         "image": "shopify:\/\/shop_images\/slics_80dd85fd-b6f4-4e99-8032-6ef16d64c671.png",
         "button_text": "",
@@ -756,8 +755,8 @@
     "d055788d-85a4-4fb3-9150-d49a2881728c": {
       "type": "rich-text-image",
       "settings": {
-        "subheading": "",
         "title": "Pleasure",
+        "subheading": "",
         "content": "",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Pleasure_1.png",
         "button_text": "",
@@ -856,8 +855,8 @@
     "627d2560-695a-46ac-b6d9-5123f3b028c5": {
       "type": "rich-text-image",
       "settings": {
-        "subheading": "",
         "title": "Business",
+        "subheading": "",
         "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Business_1.png",
         "button_text": "",
