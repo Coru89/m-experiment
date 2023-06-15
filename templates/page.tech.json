@@ -494,7 +494,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "421aa130-3d63-4518-97bf-05848da6e8cc": {
@@ -540,7 +540,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "3087495c-7dce-4721-aec6-3b503253aa2a": {
