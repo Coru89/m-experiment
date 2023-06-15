@@ -109,10 +109,6 @@
             <h2 class="subheading">{{ section.settings.subheading | escape }}</h2>
           {%- endif -%}
 
-          {%- if section.settings.content != blank -%}
-            {{- section.settings.content -}}
-          {%- endif -%}
-
           {%- if section.settings.button_text != blank -%}
             <div class="button-wrapper">
               <a href="{{ section.settings.button_link }}" class="button button--primary">
@@ -125,6 +121,9 @@
             <div class="image__wrapper">
               {{ image | image_url: width: image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
             </div>
+          {%- endif -%}
+          {%- if section.settings.content != blank -%}
+            {{- section.settings.content -}}
           {%- endif -%}
         </div>
       </div>
