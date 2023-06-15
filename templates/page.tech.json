@@ -678,6 +678,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Pleasure.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_Pleasure.jpg",
         "title": "Pleasure",
         "title_mobile": "",
         "subheading": "",
@@ -714,7 +716,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "173465b1-f4cf-46fc-9f10-1e7428d7efae": {
