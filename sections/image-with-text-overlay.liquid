@@ -255,22 +255,21 @@
 </style>
 
 <section class="section {% unless is_boxed %}section--flush{% endunless %}">
+  {%- if section.settings.panel_link != blank -%}
+    <a class="image-overlay__link" href="{{ section.settings.panel_link }}">
+  {%- endif -%}
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign image = section.settings.image -%}
     {%- assign mobile_image = section.settings.mobile_image -%}
     {%- assign image_aspect_ratio = image.aspect_ratio | default: 2.63 -%}
 
-    
     <image-with-text-overlay {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-overlay image-overlay--{{ section.settings.section_height }}" 
-    {%- if section.settings.panel_link != blank -%}
-      <a class="image-overlay__link" href="{{ section.settings.panel_link }}">
-    {%- endif -%}
-
       {% if section.settings.section_height == 'auto' %}
         style="--image-aspect-ratio: {{ image_aspect_ratio }}; --mobile-image-aspect-ratio: {{ mobile_image.aspect_ratio | default: image_aspect_ratio | default: 1 }};"
       {% endif %}>
       <div class="image-overlay__image-wrapper" class="image-overlay__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.section_height == 'auto' %}style="padding-bottom: {{ 100.0 | divided_by: image_aspect_ratio }}%"{% endif %}>
       
+
         {%- if image != blank -%}
           <picture>
             <source media="(max-width: 740px)" {% render 'image-attributes', image: image, sizes: '400,500,600,700,800,900,1000', height_constraint: 800, crop: 'center', ignore_src: true %}>
@@ -285,6 +284,11 @@
             {{- 'lifestyle-1' | placeholder_svg_tag: image_classes -}}
           {%- endif -%}
         {%- endif -%}
+
+        {% comment %} {%- if section.settings.panel_link != 'blank' -%}
+          </a>
+        {%- endif -%} {% endcomment %}
+      </div>
 
       {%- if mobile_image != blank -%}
         <div class="image-overlay__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
@@ -375,11 +379,11 @@
       <div {% if is_boxed %}style="width: 100%"{% else %}class="container"{% endif %}>
         {{- section_content -}}
       </div>
-      {%- if section.settings.panel_link != 'blank' -%}
-        </a>
-      {%- endif -%}
     </image-with-text-overlay>
   </div>
+  {%- if section.settings.panel_link != blank -%}
+    </a>
+  {%- endif -%}
 </section>
 
 {% schema %}
