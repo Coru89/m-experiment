@@ -94,6 +94,7 @@
     },
     "3de230bb-3360-46fd-ac2c-a8b5208eedca": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -551,9 +552,9 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Eyewear_Title_Business_03.png",
-        "mobile_image": "shopify:\/\/shop_images\/business_mobile.png",
-        "title": "BUSINESS",
+        "image": "shopify:\/\/shop_images\/M_Homepage_BUSINESS.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Business.jpg",
+        "title": "",
         "title_mobile": "",
         "subheading": "",
         "content": "",
@@ -589,7 +590,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "3fb0957f-3573-4889-818d-10bd6f508d5c": {
@@ -635,7 +636,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "ba4a3efa-9dab-447a-b3b2-bafe4633e167": {
@@ -681,7 +682,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "c2ca878c-b82a-4427-bc4c-559a19c255ad": {
