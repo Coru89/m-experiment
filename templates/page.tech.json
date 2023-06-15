@@ -549,7 +549,7 @@
     "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding: 0;}",
+        ".vertical-breather {padding-top: 0;}",
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
@@ -578,7 +578,7 @@
     "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding: 0;}",
+        ".vertical-breather {padding-top: 0;}",
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
@@ -705,6 +705,30 @@
         "overlay_opacity": 0
       }
     },
+    "3bfe0b16-525e-4da9-b47b-6066778cd29b": {
+      "type": "rich-text-image",
+      "settings": {
+        "title": "Complex Design. Simple Result.",
+        "subheading": "THERE ARE 27 INDIVIDUAL PARTS METICULOUSLY ASSEMBLEDTOGETHER TO MAKE ONE GIGAWATT",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "heading_font_size_desktop": 86,
+        "heading_font_size_mobile": 22,
+        "subheading_font_size_desktop": 28,
+        "subheading_font_size_mobile": 14,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "94005b04-1d9a-40aa-8fc8-764c88a00b1d": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -783,54 +807,6 @@
         "text_color": "#6b6b6b",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "de6732d1-4374-4df5-8a8a-f01674138571": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Pleasure.png",
-        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_Pleasure.jpg",
-        "title": "Pleasure",
-        "title_mobile": "",
-        "subheading": "",
-        "content": "",
-        "panel_link": "",
-        "narrow_width": false,
-        "heading_font_size_desktop": 118,
-        "heading_font_size_mobile": 40,
-        "subheading_font_size_desktop": 22,
-        "subheading_font_size_mobile": 16,
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "overlay_content_position": "top-center",
-        "content_position_mobile": "none",
-        "nudge_text_x-axis_desktop": 0,
-        "nudge_text_y-axis_desktop": 0,
-        "nudge_text_x-axis_mobile": 0,
-        "nudge_text_y-axis_mobile": 0,
-        "heading_text_align_huh": "center",
-        "heading_text_align_mobile": "center",
-        "subheading_text_align_desktop": "center",
-        "subheading_text_align_mobile": "center",
-        "content_text_align_desktop": "center",
-        "content_text_align_mobile": "center",
-        "remove_top_spacing": false,
-        "remove_bottom_spacing": true,
-        "heading_drop_shadow": false,
-        "heading_drop_shadow_x-offset": 0,
-        "heading_drop_shadow_y-offset": 3,
-        "heading_drop_shadow_color": "#000000",
-        "heading_drop_shadow_opacity": 40,
-        "text_color": "#6b6b6b",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "173465b1-f4cf-46fc-9f10-1e7428d7efae": {
@@ -942,34 +918,6 @@
         "overlay_opacity": 0
       }
     },
-    "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723": {
-      "type": "rich-text",
-      "disabled": true,
-      "custom_css": [
-        ".vertical-breather {padding-top: 0;}",
-        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
-        "@media screen and (min-width: 750px) {h3 {font-size: 32px; margin-bottom: 1rem; }}",
-        "li {font-size: 18px; margin: 0; padding: 0;}",
-        "@media screen and (min-width: 750px) {li {font-size: 26px; }}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "left",
-        "remove_top_spacing": true,
-        "remove_bottom_spacing": false,
-        "background": "#ffffff",
-        "text_color": "#6b6b6b",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "3b299353-4adc-45bc-8bd2-bdfae82a6b2f": {
       "type": "frame-compare",
       "blocks": {
@@ -1073,13 +1021,12 @@
     "87091a3e-5730-4415-8543-98a811cbac59",
     "a933221b-0b97-48e2-bc7f-44b022510c0b",
     "d0e7fa1a-2bcd-4461-8f46-1cf260febdce",
+    "3bfe0b16-525e-4da9-b47b-6066778cd29b",
     "94005b04-1d9a-40aa-8fc8-764c88a00b1d",
     "d055788d-85a4-4fb3-9150-d49a2881728c",
-    "de6732d1-4374-4df5-8a8a-f01674138571",
     "173465b1-f4cf-46fc-9f10-1e7428d7efae",
     "627d2560-695a-46ac-b6d9-5123f3b028c5",
     "b4316874-c722-44c5-8a75-11e6af86aafd",
-    "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723",
     "3b299353-4adc-45bc-8bd2-bdfae82a6b2f",
     "39bbc60e-9d45-43e2-8e2d-19faa3687d75"
   ]
