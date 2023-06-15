@@ -128,8 +128,8 @@
           {%- endif -%}
 
           {%- if section.settings.mobile_image != blank -%}
-            <div class="image-overlay__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-              {{- section.settings.mobile_image | image_url: width: 3000 | image_tag: draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            <div class="mage__wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+              {{- section.settings.mobile_image | image_url: width: 3000 | image_tag: draggable: false, sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
             </div>
           {%- endif -%}
         </div>
