@@ -513,6 +513,9 @@
     },
     "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
       "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
       "settings": {
         "subheading": "Lens quick release system giving you the fastest, most securemethod to switch lenses.",
         "title": "LENS CLUTCH",
@@ -538,6 +541,9 @@
     },
     "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
       "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
       "settings": {
         "subheading": "Adjustable nose piece system designed for different nose sizes andprovides a secure, non-slip fit.",
         "title": "3-Way Adjustable Nose Piece",
@@ -563,6 +569,9 @@
     },
     "87091a3e-5730-4415-8543-98a811cbac59": {
       "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
       "settings": {
         "subheading": "Ear pads engineered with Atomic 14 providing maximumcomfort and non-slip grip.",
         "title": "SLICS",
