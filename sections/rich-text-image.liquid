@@ -116,14 +116,21 @@
               </a>
             </div>
           {%- endif -%}
+
           {%- if section.settings.image != blank -%}
             {%- assign image = section.settings.image -%}
-            <div class="image__wrapper">
+            <div class="image__wrapper {% if section.settings.mobile_image != blank %}hidden-pocket{% endif %}">
               {{ image | image_url: width: image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
             </div>
           {%- endif -%}
           {%- if section.settings.content != blank -%}
             {{- section.settings.content -}}
+          {%- endif -%}
+
+          {%- if section.settings.mobile_image != blank -%}
+            <div class="image-overlay__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+              {{- section.settings.mobile_image | image_url: width: 3000 | image_tag: draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            </div>
           {%- endif -%}
         </div>
       </div>
@@ -158,6 +165,12 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile image",
+      "info": "1000 x 1400px .jpg recommended. If none is set, desktop image will be used."
     },
     {
       "type": "text",
