@@ -102,7 +102,7 @@
 
         <div class="content-box content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} content-box--{{ text_position }} text-container">
           {%- if section.settings.title != blank -%}
-            <h2 class="heading h2">{{ section.settings.title | escape }}</h2>
+            <h2 class="heading h2">{{ section.settings.title | escape | newline_to_br }}</h2>
           {%- endif -%}
 
           {%- if section.settings.subheading != blank -%}
@@ -144,7 +144,7 @@
   "class": "shopify-section--rich-text",
   "settings": [
     {
-      "type": "text",
+      "type": "textarea",
       "id": "title",
       "label": "Heading",
       "default": "Talk about your brand"
