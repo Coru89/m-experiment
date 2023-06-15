@@ -335,7 +335,8 @@
       ],
       "custom_css": [
         ".multi-column__image-wrapper img {max-height: 300px;}",
-        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}"
+        "@media screen and (min-width: 740px) {.multi-column__image-wrapper img {max-height: unset; }}",
+        ".vertical-breather {padding-top: 0;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
