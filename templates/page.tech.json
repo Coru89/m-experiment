@@ -754,10 +754,17 @@
     },
     "d055788d-85a4-4fb3-9150-d49a2881728c": {
       "type": "rich-text-image",
+      "custom_css": [
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}",
+        "ul {text-align: left;}"
+      ],
       "settings": {
         "title": "Pleasure",
         "subheading": "",
-        "content": "",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li> Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Pleasure_1.png",
         "button_text": "",
         "button_link": "",
@@ -827,6 +834,7 @@
     },
     "173465b1-f4cf-46fc-9f10-1e7428d7efae": {
       "type": "rich-text",
+      "disabled": true,
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
@@ -854,10 +862,17 @@
     },
     "627d2560-695a-46ac-b6d9-5123f3b028c5": {
       "type": "rich-text-image",
+      "custom_css": [
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}",
+        "ul {text-align: left;}"
+      ],
       "settings": {
         "title": "Business",
         "subheading": "",
-        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Business_1.png",
         "button_text": "",
         "button_link": "",
@@ -927,6 +942,7 @@
     },
     "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723": {
       "type": "rich-text",
+      "disabled": true,
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
