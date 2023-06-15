@@ -172,6 +172,9 @@
         "template--16013649903766__bfde50f9-1a96-47a9-a50a-eddd33fa45ff-16863764570322dd55-3",
         "86b0c99b-9763-442e-946a-9511b1b184ff"
       ],
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
