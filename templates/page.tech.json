@@ -461,7 +461,7 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding-bottom: 50px;}",
-        "h3 {font-size: clamp(50px, 5vw + 1rem, 90px);}",
+        "h3 {font-family: \"Helvetica Neue\", var(--text-font-family); font-size: clamp(50px, 5vw + 1rem, 90px);}",
         "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 90px); }}",
         "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 90px); }}"
       ],
@@ -486,7 +486,8 @@
     "f692ea7a-b838-480d-ac3b-fecda68d3a83": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 1rem;}"
+        ".vertical-breather {padding-top: 1rem;}",
+        ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
         "subheading": "A multi-stage mold process using fiberglass reinforced TR90 substrate parts inGigawatt, resulting in a stiff chassis in and around the hinge while maintainingflexibility and skin feel in the nose and ear areas for comfort.",
@@ -514,7 +515,8 @@
     "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}"
+        ".vertical-breather {padding-top: 0;}",
+        ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
         "subheading": "Lens quick release system giving you the fastest, most securemethod to switch lenses.",
@@ -542,7 +544,8 @@
     "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}"
+        ".vertical-breather {padding-top: 0;}",
+        ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
         "subheading": "Adjustable nose piece system designed for different nose sizes andprovides a secure, non-slip fit.",
@@ -570,7 +573,8 @@
     "87091a3e-5730-4415-8543-98a811cbac59": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}"
+        ".vertical-breather {padding-top: 0;}",
+        ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
         "subheading": "Ear pads engineered with Atomic 14 providing maximumcomfort and non-slip grip.",
