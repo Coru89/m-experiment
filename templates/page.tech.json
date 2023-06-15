@@ -516,7 +516,7 @@
         "button_text": "",
         "button_link": "",
         "link_style": "link",
-        "background_type": "full_width",
+        "background_type": "boxed",
         "overlay_content_position": "top-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
