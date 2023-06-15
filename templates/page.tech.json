@@ -751,6 +751,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Business.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_Business.jpg",
         "title": "Business",
         "title_mobile": "",
         "subheading": "",
@@ -787,7 +789,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "f4c9d0a9-debc-48b2-b1cf-9f417fa5c723": {
