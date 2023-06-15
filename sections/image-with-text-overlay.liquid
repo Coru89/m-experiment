@@ -256,7 +256,7 @@
 
 <section class="section {% unless is_boxed %}section--flush{% endunless %}">
   {%- if section.settings.panel_link != blank -%}
-    <a class="image-overlay__link" href="{{ section.settings.panel_link }}">
+    <a href="{{ section.settings.panel_link }}">
   {%- endif -%}
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign image = section.settings.image -%}

@@ -10535,13 +10535,6 @@ input:checked + .popover__choice-label::after,
   background: rgb(var(--section-overlay-color));
 }
 
-.image-overlay__link {
-  display: block;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-
 .image-overlay--small {
   --image-height: 375px;
 }
