@@ -437,7 +437,7 @@
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
         "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
-        "@media screen and (min-width: 750px) {li {font-size: 26px; }}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
         "ul {text-align: left;}"
       ],
       "settings": {
@@ -520,7 +520,7 @@
     "f692ea7a-b838-480d-ac3b-fecda68d3a83": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 1rem;}",
+        ".vertical-breather {padding-top: 1rem; padding-bottom: 0;}",
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
@@ -549,7 +549,7 @@
     "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}",
+        ".vertical-breather {padding: 0;}",
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
@@ -578,7 +578,7 @@
     "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}",
+        ".vertical-breather {padding: 0;}",
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
@@ -719,8 +719,8 @@
         "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 86,
-        "heading_font_size_mobile": 26,
-        "subheading_font_size_desktop": 32,
+        "heading_font_size_mobile": 22,
+        "subheading_font_size_desktop": 28,
         "subheading_font_size_mobile": 14,
         "button_text": "",
         "button_link": "",
@@ -758,7 +758,7 @@
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
         "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
-        "@media screen and (min-width: 750px) {li {font-size: 26px; }}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
         "ul {text-align: left;}"
       ],
       "settings": {
@@ -867,7 +867,7 @@
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
         "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; margin-bottom: 1rem; }}",
         "li {font-size: 18px; margin: 0; padding: 0;}",
-        "@media screen and (min-width: 750px) {li {font-size: 26px; }}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
         "ul {text-align: left;}"
       ],
       "settings": {
