@@ -720,7 +720,7 @@
         "heading_font_size_desktop": 86,
         "heading_font_size_mobile": 22,
         "subheading_font_size_desktop": 28,
-        "subheading_font_size_mobile": 14,
+        "subheading_font_size_mobile": 16,
         "text_position": "center",
         "text_alignment": "center",
         "remove_top_spacing": false,
