@@ -750,10 +750,11 @@
         "subheading": "",
         "title": "Pleasure",
         "content": "",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Pleasure_1.png",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "fill",
         "heading_font_size_desktop": 118,
         "heading_font_size_mobile": 50,
         "subheading_font_size_desktop": 22,
@@ -770,6 +771,7 @@
     },
     "de6732d1-4374-4df5-8a8a-f01674138571": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
