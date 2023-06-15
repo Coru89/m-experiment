@@ -262,14 +262,14 @@
 
     
     <image-with-text-overlay {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-overlay image-overlay--{{ section.settings.section_height }}" 
+    {%- if section.settings.panel_link != blank -%}
+      <a class="image-overlay__link" href="{{ section.settings.panel_link }}">
+    {%- endif -%}
+
       {% if section.settings.section_height == 'auto' %}
         style="--image-aspect-ratio: {{ image_aspect_ratio }}; --mobile-image-aspect-ratio: {{ mobile_image.aspect_ratio | default: image_aspect_ratio | default: 1 }};"
       {% endif %}>
       <div class="image-overlay__image-wrapper" class="image-overlay__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.section_height == 'auto' %}style="padding-bottom: {{ 100.0 | divided_by: image_aspect_ratio }}%"{% endif %}>
-      
-        {%- if section.settings.panel_link != blank -%}
-          <a class="image-overlay__link" href="{{ section.settings.panel_link }}">
-        {%- endif -%}
       
         {%- if image != blank -%}
           <picture>
@@ -286,23 +286,18 @@
           {%- endif -%}
         {%- endif -%}
 
-        {%- if section.settings.panel_link != 'blank' -%}
-          </a>
-        {%- endif -%}
-      </div>
-
       {%- if mobile_image != blank -%}
         <div class="image-overlay__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
 
-          {%- if section.settings.panel_link != blank -%}
+          {% comment %} {%- if section.settings.panel_link != blank -%}
             <a class="image-overlay__link" href="{{ section.settings.panel_link }}">
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
 
           {{- mobile_image | image_url: width: 3000 | image_tag: draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
 
-          {%- if section.settings.panel_link != 'blank' -%}
+          {% comment %} {%- if section.settings.panel_link != 'blank' -%}
             </a>
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
 
         </div>
       {%- endif -%}
@@ -380,6 +375,9 @@
       <div {% if is_boxed %}style="width: 100%"{% else %}class="container"{% endif %}>
         {{- section_content -}}
       </div>
+      {%- if section.settings.panel_link != 'blank' -%}
+        </a>
+      {%- endif -%}
     </image-with-text-overlay>
   </div>
 </section>
