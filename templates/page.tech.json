@@ -433,10 +433,18 @@
     },
     "867df809-77d4-4790-a98d-372e5b2ca373": {
       "type": "rich-text-image",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
+        "@media screen and (min-width: 750px) {h3 {font-size: 32px; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 26px; }}",
+        "ul {text-align: left;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "Gigawatt",
-        "content": "",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: Ai assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High- performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-Definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_669c9d16-c121-4f4e-a41c-76e5495af5bd.png",
         "button_text": "",
         "button_link": "",
@@ -458,6 +466,7 @@
     },
     "7dbe9f48-ac28-4c45-b40a-b87015168b00": {
       "type": "rich-text",
+      "disabled": true,
       "custom_css": [
         ".vertical-breather {padding-top: 0;}",
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem;}",
