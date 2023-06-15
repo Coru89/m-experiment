@@ -1,12 +1,12 @@
 .frame-compare__heading {
   text-align: center;
-  font-size: 40px; }
-  @media screen and (min-width: 740px) {
-    .frame-compare__heading {
-      font-size: 95px; } }
-  @media screen and (min-width: 1200px) {
-    .frame-compare__heading {
-      font-size: 137px; } }
+  font-size: clamp(50px, calc(5vw + 1rem), 90px); }
+  @media screen and (min-width: 1000px) {
+    .frame-compare__heading h3 {
+      font-size: clamp(50px, calc(7vw + 1rem), 90px); } }
+  @media screen and (min-width: 1400px) {
+    .frame-compare__heading h3 {
+      font-size: clamp(50px, calc(10vw + 1rem), 90px); } }
 
 .frame-compare__title {
   font-size: 36px;
