@@ -708,9 +708,11 @@
     "3bfe0b16-525e-4da9-b47b-6066778cd29b": {
       "type": "rich-text-image",
       "settings": {
-        "title": "Complex Design. Simple Result.",
-        "subheading": "THERE ARE 27 INDIVIDUAL PARTS METICULOUSLY ASSEMBLEDTOGETHER TO MAKE ONE GIGAWATT",
+        "title": "Complex Design.\nSimple Result.",
+        "subheading": "THERE ARE 27 INDIVIDUAL PARTS METICULOUSLY ASSEMBLED TOGETHER TO MAKE ONE GIGAWATT",
         "content": "",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Exploded_View.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_Exploded_View.jpg",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -731,6 +733,7 @@
     },
     "94005b04-1d9a-40aa-8fc8-764c88a00b1d": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
