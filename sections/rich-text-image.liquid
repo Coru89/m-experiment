@@ -102,11 +102,11 @@
 
         <div class="content-box content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} content-box--{{ text_position }} text-container">
           {%- if section.settings.title != blank -%}
-            <h3 class="heading h2">{{ section.settings.title | escape }}</h3>
+            <h2 class="heading h2">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
 
           {%- if section.settings.subheading != blank -%}
-            <h2 class="subheading">{{ section.settings.subheading | escape }}</h2>
+            <h3 class="subheading">{{ section.settings.subheading | escape }}</h3>
           {%- endif -%}
 
           {%- if section.settings.button_text != blank -%}
@@ -138,15 +138,15 @@
   "settings": [
     {
       "type": "text",
-      "id": "subheading",
-      "label": "Subheading",
-      "default": "Subheading"
-    },
-    {
-      "type": "text",
       "id": "title",
       "label": "Heading",
       "default": "Talk about your brand"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Subheading"
     },
     {
       "type": "richtext",
