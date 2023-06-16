@@ -11,6 +11,7 @@
         "title_mobile": "",
         "subheading": "THE ALTERNATING CURRENT IN A WORLD GONE MAD WITH SAMENESS",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 100,
         "heading_font_size_mobile": 40,
@@ -422,6 +423,11 @@
         "template--15942754271382__5801e2f7-74f0-4053-896e-162085be37c2-1676636640e95fea90-0",
         "4d0c8864-cd24-4ef5-a011-439442eb0d1d"
       ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 235px; object-fit: none; position: relative;}",
+        ".product-list__inner {gap: 84px var(--product-list-column-gap);}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
@@ -552,6 +558,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
@@ -698,6 +705,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "<p>Performance Eyewear engineered for action packed moments, rough seas, and blazing days.<\/p>",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
@@ -1012,6 +1020,7 @@
         "title_mobile": "",
         "subheading": "Available in",
         "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
@@ -1191,6 +1200,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
