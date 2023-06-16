@@ -324,7 +324,7 @@
         "products_per_row": 4,
         "stack_products": false,
         "show_cta": false,
-        "background": "#f1f2f2",
+        "background": "#ffffff",
         "text_color": "#191919",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "#ffffff"
@@ -499,7 +499,7 @@
         "cefb298e-d4b1-419a-a014-4f0e0bc397c6"
       ],
       "custom_css": [
-        ".variant-collection {padding-top:40px; }",
+        ".variant-collection {padding-top: 40px;}",
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 250px; object-fit: none; position: relative;}",
         ".product-list__inner {gap: 84px var(--product-list-column-gap);}",
