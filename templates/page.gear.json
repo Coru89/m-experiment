@@ -11,6 +11,7 @@
         "title_mobile": "Stuff",
         "subheading": "WE'RE SHIFTING INTO GEAR",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 118,
         "heading_font_size_mobile": 50,
@@ -491,6 +492,11 @@
         "b185b4d3-c58e-4359-a45c-0fcc2d74ea2a",
         "cefb298e-d4b1-419a-a014-4f0e0bc397c6"
       ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 350px; object-fit: none; position: relative;}",
+        ".product-list__inner {gap: 84px var(--product-list-column-gap);}"
+      ],
       "settings": {
         "subheading": "",
         "title": "HEADWEAR",
@@ -515,6 +521,7 @@
         "title_mobile": "",
         "subheading": "keeping life on the simple side.",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 118,
         "heading_font_size_mobile": 50,
@@ -723,6 +730,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 118,
         "heading_font_size_mobile": 50,
