@@ -496,9 +496,9 @@
       "custom_css": [
         ".vertical-breather {padding-bottom: 30px;}",
         "@media screen and (min-width: 740px) {.vertical-breather {padding-bottom: 50px; }}",
-        "h3 {font-size: clamp(50px, 5vw + 1rem, 90px); }",
-        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(50px, 7vw + 1rem, 90px); }}",
-        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(50px, 10vw + 1rem, 90px); }}"
+        "h3 {font-size: clamp(42px, 5vw + 1rem, 90px);}",
+        "@media screen and (min-width: 1000px) {h3 {font-size: clamp(42px, 7vw + 1rem, 90px); }}",
+        "@media screen and (min-width: 1400px) {h3 {font-size: clamp(42px, 10vw + 1rem, 90px); }}"
       ],
       "settings": {
         "subheading": "",
