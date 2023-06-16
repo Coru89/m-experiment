@@ -15831,6 +15831,7 @@ h3.heading.heading--small {
 
 .featured-collections h3.subheading {
   font-family: "Helvetica Neue", var(--heading-font-family), sans-serif;
+  font-weight: 300;
   margin-bottom: 2rem !important;
 }
 
