@@ -157,11 +157,11 @@
                 class="product-tabs__trust-title icon-text link hidden-tablet-and-up"
                 aria-controls="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-popover"
                 aria-expanded="false">
-                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+                {{- trust_block.settings[title_setting] | escape -}} {{- trust_icon -}}
               </button>
             {%- else -%}
               <span class="product-tabs__trust-title icon-text ">
-                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+                {{- trust_block.settings[title_setting] | escape -}} {{- trust_icon -}}
               </span>
             {%- endif -%}
           {%- endif -%}
