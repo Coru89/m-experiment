@@ -14,10 +14,10 @@
   margin-bottom: 0; }
   @media screen and (min-width: 740px) {
     .frame-compare__title {
-      font-size: 47px; } }
+      font-size: 38px; } }
   @media screen and (min-width: 1200px) {
     .frame-compare__title {
-      font-size: 59px; } }
+      font-size: 42px; } }
 
 .frame-compare__list {
   display: -webkit-box;
