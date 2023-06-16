@@ -4938,7 +4938,7 @@
       addToCartButtonElement.classList.remove("button--primary", "button--secondary", "button--ternary");
       if (!variant) {
         addToCartButtonElement.setAttribute("disabled", "disabled");
-        addToCartButtonElement.classList.add("button--disabled");
+        addToCartButtonElement.classList.add("button--ternary");
         addToCartButtonText = window.themeVariables.strings.productFormUnavailable;
       } else {
         if (variant["available"]) {
@@ -4947,7 +4947,7 @@
           addToCartButtonText = addToCartButtonElement.getAttribute("data-button-content");
         } else {
           addToCartButtonElement.setAttribute("disabled", "disabled");
-          addToCartButtonElement.classList.add("button--disabled");
+          addToCartButtonElement.classList.add("button--ternary");
           addToCartButtonText = window.themeVariables.strings.productFormSoldOut;
         }
       }
