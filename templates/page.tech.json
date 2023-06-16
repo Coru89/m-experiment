@@ -622,7 +622,7 @@
         "background_type": "full_width",
         "text_width": "medium",
         "heading_font_size_desktop": 56,
-        "heading_font_size_mobile": 30,
+        "heading_font_size_mobile": 26,
         "subheading_font_size_desktop": 26,
         "subheading_font_size_mobile": 16,
         "text_position": "center",
