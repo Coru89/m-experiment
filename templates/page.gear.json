@@ -310,6 +310,12 @@
         "f46d1705-7afb-4702-80d1-cc3b355498c0",
         "template--15942754467990__980bcdc7-402c-4669-acb5-d153cc5f2b9b-16760292641b85aec1-0"
       ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 325px; object-fit: none; position: relative;}",
+        ".product-list__inner {gap: 84px var(--product-list-column-gap);}",
+        ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "Apparel",
@@ -496,7 +502,7 @@
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 250px; object-fit: none; position: relative;}",
         ".product-list__inner {gap: 84px var(--product-list-column-gap);}",
-        ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px}"
+        ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px;}"
       ],
       "settings": {
         "subheading": "",
