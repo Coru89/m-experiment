@@ -11,6 +11,7 @@
         "title_mobile": "",
         "subheading": "ANYTHING BUT ANOTHER DAY AT THE OFFICE",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 120,
         "heading_font_size_mobile": 50,
@@ -456,6 +457,11 @@
       "block_order": [
         "32fde58c-8bd3-44a2-9656-74bf8d961afc"
       ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 230px; object-fit: none; position: relative;}",
+        "@media screen and (min-width: 1100px) {.product-list__inner {gap: 64px var(--product-list-column-gap); }}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
@@ -586,6 +592,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
@@ -632,6 +639,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "<p>Everyday Eyewear designed for open roads and mellow days.<\/p>",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,
@@ -847,6 +855,7 @@
         "title_mobile": "",
         "subheading": "Available in",
         "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 26,

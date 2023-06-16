@@ -15,7 +15,7 @@
       {%- endfor -%}
 
       {%- if link.url == '#' or link.url == '/#' -%}
-        {%- assign linkUrl = 'javascript:void(0);' -%}
+        {%- assign linkUrl = 'javascript:;' -%}
       {%- else -%}
         {%- assign linkUrl = link.url -%}
       {%- endif -%}
