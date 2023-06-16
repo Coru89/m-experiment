@@ -550,7 +550,7 @@
     "085f62b4-2c5f-461b-ba58-bd2987c9ab10": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}",
+        ".vertical-breather {padding: 0;}",
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
@@ -580,7 +580,7 @@
     "2c357457-e660-4c02-a8d3-688ddfd1a6c6": {
       "type": "rich-text-image",
       "custom_css": [
-        ".vertical-breather {padding-top: 0;}",
+        ".vertical-breather {padding: 0;}",
         ".heading {font-family: \"Helvetica Neue\", var(--text-font-family);}"
       ],
       "settings": {
