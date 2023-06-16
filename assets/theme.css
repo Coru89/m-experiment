@@ -12332,6 +12332,8 @@ shopify-payment-terms {
   display: block;
 }
 
+
+
 @media screen and (max-width: 740px) {
   .product-content__tabs {
     margin: 0 calc(-1 * var(--container-gutter));
@@ -12389,6 +12391,10 @@ shopify-payment-terms {
 
   [dir="rtl"] .product-tabs__trust-title:not(:last-child) {
     margin-left: 35px;
+  }
+
+  .product-tabs__trust-list .icon-text svg {
+    margin-left: 12px;
   }
 }
 
