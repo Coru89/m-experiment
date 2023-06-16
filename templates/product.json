@@ -67,6 +67,9 @@
       "block_order": [
         "da1221cc-287d-48f5-8021-7cc9c97b81d5"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": true
@@ -86,7 +89,9 @@
             "content_2": "<p>Add text about your product warranty<\/p>",
             "icon_3": "picto-secure-payment",
             "title_3": "Secure Payment",
-            "content_3": "<p>Add text about your payment<\/p>"
+            "content_3": "<p>Add text about your payment<\/p>",
+            "title_4": "CA Prop 65 Warning",
+            "content_4": "<p>Add CA Prop 65 Warning Content Here<\/p>"
           }
         },
         "cc2942b1-cea6-4a49-8332-469adec51ff8": {
