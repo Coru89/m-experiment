@@ -13252,7 +13252,7 @@ shopify-payment-terms {
 .product-item__image-wrapper {
   position: relative;
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   overflow: hidden;
 }
 
@@ -13399,7 +13399,7 @@ shopify-payment-terms {
 
 @media screen and (min-width: 1000px) {
   .product-item__image-wrapper {
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
 }
 /**
