@@ -11,6 +11,7 @@
         "title_mobile": "",
         "subheading": "",
         "content": "",
+        "panel_link": "",
         "narrow_width": false,
         "heading_font_size_desktop": 82,
         "heading_font_size_mobile": 50,
@@ -234,6 +235,11 @@
       "block_order": [
         "58ce5e61-96d2-4fff-8f61-deeeda0b983b",
         "b476622e-a452-46b7-b205-21091aa65fd4"
+      ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 300px; object-fit: none; position: relative;}",
+        ".product-list__inner {gap: 84px var(--product-list-column-gap);}"
       ],
       "settings": {
         "subheading": "",
