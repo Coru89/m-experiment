@@ -1226,6 +1226,55 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "6cfdb623-ac7f-4b71-ae05-a08edbc5a6ce": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "section {background: #000; padding-top: 112px !important; padding-bottom: 112px !important;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "large",
+        "image": "shopify:\/\/shop_images\/M_Homepage_Desktop_Whats_Next_Text.jpg",
+        "title": "",
+        "title_mobile": "",
+        "subheading": "",
+        "content": "",
+        "panel_link": "",
+        "narrow_width": false,
+        "heading_font_size_desktop": 100,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 40,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "overlay_content_position": "middle-center",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "center",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "center",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": true,
+        "remove_bottom_spacing": true,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 40,
+        "text_color": "#C7C7C7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -1385,130 +1434,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "61e4ee14-b329-451b-a5f2-5bdccddeb70e": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/2160x1000_0012_100MBSR3_0427.jpg",
-        "title": "",
-        "title_mobile": "",
-        "subheading": "",
-        "content": "",
-        "panel_link": "",
-        "narrow_width": false,
-        "heading_font_size_desktop": 82,
-        "heading_font_size_mobile": 26,
-        "subheading_font_size_desktop": 30,
-        "subheading_font_size_mobile": 16,
-        "button_text": "",
-        "button_link": "shopify:\/\/pages\/leisure",
-        "link_style": "link",
-        "background_type": "full_width",
-        "overlay_content_position": "middle-center",
-        "content_position_mobile": "none",
-        "nudge_text_x-axis_desktop": 0,
-        "nudge_text_y-axis_desktop": 0,
-        "nudge_text_x-axis_mobile": 0,
-        "nudge_text_y-axis_mobile": 0,
-        "heading_text_align_huh": "center",
-        "heading_text_align_mobile": "center",
-        "subheading_text_align_desktop": "center",
-        "subheading_text_align_mobile": "center",
-        "content_text_align_desktop": "center",
-        "content_text_align_mobile": "center",
-        "remove_top_spacing": false,
-        "remove_bottom_spacing": false,
-        "heading_drop_shadow": false,
-        "heading_drop_shadow_x-offset": 0,
-        "heading_drop_shadow_y-offset": 3,
-        "heading_drop_shadow_color": "#000000",
-        "heading_drop_shadow_opacity": 16,
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "bb5437cb-33ff-4766-a47c-7d16088bfe7c": {
-      "type": "shop-the-look",
-      "disabled": true,
-      "blocks": {
-        "template--15613256990870__bb5437cb-33ff-4766-a47c-7d16088bfe7c-166611000468b62723-0": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/giga_trail.jpg",
-            "dot_type": "normal",
-            "product_1": "gigawatt",
-            "product_1_horizontal_position": 63,
-            "product_1_vertical_position": 37,
-            "product_1_horizontal_position_mobile": 30,
-            "product_1_vertical_position_mobile": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 46,
-            "product_2_vertical_position": 64,
-            "product_2_horizontal_position_mobile": 50,
-            "product_2_vertical_position_mobile": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 50,
-            "product_3_horizontal_position_mobile": 70,
-            "product_3_vertical_position_mobile": 70
-          }
-        }
-      },
-      "block_order": [
-        "template--15613256990870__bb5437cb-33ff-4766-a47c-7d16088bfe7c-166611000468b62723-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "label": "Shop the looks"
-      }
-    },
-    "image-with-text-block": {
-      "type": "image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/Experiments.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Experiments_mob.jpg",
-        "subheading": "Development",
-        "title": "EXPERIMENT",
-        "content": "<p>From a rich history of innovation & pushing the boundaries.<\/p>",
-        "button_text": "VIEW",
-        "button_link": "shopify:\/\/pages\/experiments",
-        "background_type": "full_width",
-        "text_position": "left",
-        "text_alignment": "center",
-        "text_background": "#191919",
-        "text_color": "#fbfbfb",
-        "button_background": "#e2a829",
-        "button_text_color": "#191919"
-      }
-    },
-    "165704420041f25f84": {
-      "type": "image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/2160x1000_new_beginnings_nocopy.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1000x1400_mob_new_beginnings_nocopy_mob.jpg",
-        "subheading": "",
-        "title": "NEW BEGINNINGS",
-        "content": "<p>Like many great stories, this one started out as a fun experiment.<\/p>",
-        "button_text": "MINDSET",
-        "button_link": "shopify:\/\/pages\/the-know",
-        "background_type": "full_width",
-        "text_position": "center",
-        "text_alignment": "center",
-        "text_background": "#191919",
-        "text_color": "#fbfbfb",
-        "button_background": "#e2a829",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "16592452799ea4ed39": {
       "type": "apps",
       "disabled": true,
@@ -1564,12 +1489,9 @@
     "91b315e1-80a0-4e0d-8be4-2c29f60bdb93",
     "5725c4e1-4f56-4023-b5f7-1e93404be755",
     "07443d72-c1b9-4248-9951-fc3e505affc5",
+    "6cfdb623-ac7f-4b71-ae05-a08edbc5a6ce",
     "collection-list",
     "e68a84ea-1ba9-4b45-912b-1d53785353aa",
-    "61e4ee14-b329-451b-a5f2-5bdccddeb70e",
-    "bb5437cb-33ff-4766-a47c-7d16088bfe7c",
-    "image-with-text-block",
-    "165704420041f25f84",
     "16592452799ea4ed39",
     "newsletter"
   ]
