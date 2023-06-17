@@ -6,12 +6,12 @@
         "template--16029444243606__8a680de0-6050-4bb2-8c68-5ce5c1c76d47-16865660184a33e1e2-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Leisure-Main_01_e48ab377-45a1-4ab8-a027-3aa4a9948505.png",
-            "mobile_image": "shopify:\/\/shop_images\/M_Leisure_Mobile_02.png",
+            "image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Pleasure_Desktop-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Pleasure_Mobile-1.jpg",
             "overlay_opacity": 0,
-            "title": "Pleasure",
+            "title": "",
             "title_mobile": "",
-            "subheading": "KNOWING IT TAKES A LITTLE PAIN TO GET THERE",
+            "subheading": "",
             "heading_font_size_desktop": 100,
             "heading_font_size_mobile": 40,
             "subheading_font_size_desktop": 22,
@@ -48,12 +48,12 @@
         "template--16029444243606__8a680de0-6050-4bb2-8c68-5ce5c1c76d47-16865660184a33e1e2-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Leisure_Desktop_01.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Leisure_Mobile_01.jpg",
+            "image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Pleasure_Desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Pleasure_Mobile.jpg",
             "overlay_opacity": 0,
-            "title": "Pleasure",
+            "title": "",
             "title_mobile": "",
-            "subheading": "KNOWING IT TAKES A LITTLE PAIN TO GET THERE",
+            "subheading": "",
             "heading_font_size_desktop": 100,
             "heading_font_size_mobile": 40,
             "subheading_font_size_desktop": 22,
