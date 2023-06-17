@@ -221,7 +221,7 @@
 {% schema %}
   {
     "name": "Static lens collection",
-    "class": "shopify-section--static-lens-collection",
+    "class": "shopify-section--multi-column shopify-section--multi-column--lenses",
     "blocks": [
       {
         "name": "Column",
@@ -423,6 +423,10 @@
     "presets": [
       {
         "name": "Lens collection",
+        "tag": "section",
+        "settings": {
+          "title": "Lens collection"
+        },
         "blocks": [
           {
             "type": "item",
