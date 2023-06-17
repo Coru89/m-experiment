@@ -1229,7 +1229,8 @@
     "6cfdb623-ac7f-4b71-ae05-a08edbc5a6ce": {
       "type": "image-with-text-overlay",
       "custom_css": [
-        "section {background: #000; padding-top: 112px !important; padding-bottom: 112px !important;}"
+        "section {background: #000;}",
+        ".image-overlay--large {--image-height: 930px;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
