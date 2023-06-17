@@ -240,7 +240,7 @@
         "b2df179a-7f70-4a4a-89ac-5c654070b92e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pleasure_lens_obsidian_mirrored_pol_3qtr.png",
+            "image": "shopify:\/\/shop_images\/Pleasure_lens_Obsidian_Mirrored_Pol_3qtr.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Obsidian",
@@ -296,6 +296,9 @@
       "block_order": [
         "b2f293a2-bff2-409e-8f17-ebb0c92b28de",
         "cc2942b1-cea6-4a49-8332-469adec51ff8"
+      ],
+      "custom_css": [
+        ".product-content {border-top: 1px solid #707070;}"
       ],
       "settings": {
       }
