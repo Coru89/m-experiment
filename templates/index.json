@@ -1230,7 +1230,8 @@
       "type": "image-with-text-overlay",
       "custom_css": [
         "section {background: #000;}",
-        ".image-overlay--large {--image-height: 930px;}"
+        ".image-overlay--large {--image-height: 930px;}",
+        ".image-overlay.image-overlay--auto {--mobile-image-aspect-ratio: 1.25;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
