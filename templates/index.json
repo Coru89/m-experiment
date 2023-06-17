@@ -1234,7 +1234,7 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "large",
+        "section_height": "auto",
         "image": "shopify:\/\/shop_images\/M_Homepage_Desktop_Whats_Next_Text_e8f9f8d0-f226-42cb-a193-e5f372cee8e2.jpg",
         "title": "",
         "title_mobile": "",
