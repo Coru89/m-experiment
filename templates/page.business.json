@@ -459,7 +459,7 @@
       ],
       "custom_css": [
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
-        "img.product-item__primary-image {max-height: 230px; object-fit: none; position: relative;}",
+        "img.product-item__primary-image {max-height: 230px; object-fit: cover; position: relative;}",
         "@media screen and (min-width: 1100px) {.product-list__inner {gap: 64px var(--product-list-column-gap); }}"
       ],
       "settings": {
