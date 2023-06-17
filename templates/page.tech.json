@@ -177,7 +177,7 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "stack_items": true,
+        "stack_items": false,
         "subheading": "",
         "use_impact": false,
         "title": "M-Lens Tech",
