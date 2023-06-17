@@ -501,7 +501,7 @@
       "custom_css": [
         ".variant-collection {padding-top: 40px;}",
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
-        "img.product-item__primary-image {max-height: 250px; object-fit: none; position: relative;}",
+        "img.product-item__primary-image {max-height: 250px; object-fit: cover; position: relative;}",
         ".product-list__inner {gap: 84px var(--product-list-column-gap);}",
         ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px;}"
       ],
