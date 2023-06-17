@@ -1228,13 +1228,16 @@
     },
     "6cfdb623-ac7f-4b71-ae05-a08edbc5a6ce": {
       "type": "image-with-text-overlay",
+      "custom_css": [
+        "section {background: #000; padding-top: 112px !important; padding-bottom: 112px !important;}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "large",
-        "image": "shopify:\/\/shop_images\/whats-next.jpg",
-        "title": "What's next?",
+        "image": "shopify:\/\/shop_images\/M_Homepage_Desktop_Whats_Next_Text.jpg",
+        "title": "",
         "title_mobile": "",
-        "subheading": "THIS  IS  THE  BEGINNING  OF  THE  EXPERIMENT.  THERE  ARE  MANY  DESIGNS  IN  THE  WORKS  THAT  RANGE  FROM  MILD  TO  MARS. NO  TIMETABLES...RELEASED  WHEN  READY.",
+        "subheading": "",
         "content": "",
         "panel_link": "",
         "narrow_width": false,
@@ -1245,7 +1248,7 @@
         "button_text": "",
         "button_link": "",
         "link_style": "link",
-        "background_type": "full_width",
+        "background_type": "boxed",
         "overlay_content_position": "middle-center",
         "content_position_mobile": "none",
         "nudge_text_x-axis_desktop": 0,
