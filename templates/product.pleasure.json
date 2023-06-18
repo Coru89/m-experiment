@@ -105,26 +105,11 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
-        },
-        "fd489872-9b2d-42c3-8ba8-abc5d283e1df": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Business_lens_clear_3qtr.68.png",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Clear",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
         }
       },
       "block_order": [
         "836c6622-f633-446b-a5be-caf807d19308",
-        "3ea35824-0039-47be-a8e7-6204e3152311",
-        "fd489872-9b2d-42c3-8ba8-abc5d283e1df"
+        "3ea35824-0039-47be-a8e7-6204e3152311"
       ],
       "settings": {
         "reveal_on_scroll": true,
