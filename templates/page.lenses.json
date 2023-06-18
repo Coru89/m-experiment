@@ -238,7 +238,7 @@
       ],
       "custom_css": [
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
-        "img.product-item__primary-image {max-height: 265px; object-fit: cover; position: relative;}",
+        "img.product-item__primary-image {max-height: 270px; object-fit: cover; position: relative;}",
         ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
         ".product-item__image-wrapper {margin-bottom: 4px;}"
       ],
@@ -291,6 +291,12 @@
         "template--15993969606806__f254f371-31e4-4398-a382-048fb707177a-168112161051f7472c-0",
         "a2fb1226-3f68-4423-9314-3a1ad26b8005"
       ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 270px; object-fit: cover; position: relative;}",
+        ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
+        ".product-item__image-wrapper {margin-bottom: 4px;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "BUSINESS",
@@ -339,6 +345,12 @@
       "block_order": [
         "24a56cde-a0aa-49c7-ae92-5ad6f88fe2ff",
         "14349498-79a9-41e9-ae7a-0ac281ed36bf"
+      ],
+      "custom_css": [
+        "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
+        "img.product-item__primary-image {max-height: 270px; object-fit: cover; position: relative;}",
+        ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
+        ".product-item__image-wrapper {margin-bottom: 4px;}"
       ],
       "settings": {
         "subheading": "",
