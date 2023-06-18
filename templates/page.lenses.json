@@ -238,9 +238,9 @@
       ],
       "custom_css": [
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
-        "img.product-item__primary-image {max-height: 270px; object-fit: cover; position: relative;}",
+        "img.product-item__primary-image {max-height: 265px; object-fit: cover; position: relative;}",
         ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
-        ".product-item__image-wrapper {margin-bottom: 8px}"
+        ".product-item__image-wrapper {margin-bottom: 4px;}"
       ],
       "settings": {
         "subheading": "",
