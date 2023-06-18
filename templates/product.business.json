@@ -226,7 +226,8 @@
         "db30cd4c-072b-4762-aa9d-a657d64ef942"
       ],
       "custom_css": [
-        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}"
+        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
       ],
       "settings": {
         "reveal_on_scroll": true,
