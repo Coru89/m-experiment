@@ -172,7 +172,8 @@
         "5c6b4bd8-33da-4b88-89f6-21390a6d66eb"
       ],
       "custom_css": [
-        ".h2,.rte h2 {font-family: 'Inter'; font-size: 38px; letter-spacing: -0.02em;}"
+        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -255,7 +256,8 @@
         "2cb0ec50-9dd7-45af-bd4e-091e6c509df2"
       ],
       "custom_css": [
-        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}"
+        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
       ],
       "settings": {
         "reveal_on_scroll": true,
