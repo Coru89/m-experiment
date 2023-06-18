@@ -1242,6 +1242,7 @@
         "template--16029444276374__afa1bbd5-d220-4dfb-8c17-095f0221e26e-16870589452ad38cbd-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/NewFile_Giga.59x.jpg",
             "overlay_opacity": 0,
             "title": "",
             "title_mobile": "",
