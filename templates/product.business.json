@@ -156,6 +156,9 @@
         "5de81204-dfcf-40fd-91d0-ff033efafb9f",
         "ef06b9cc-2d2b-4aa7-a700-0e3e1a520660"
       ],
+      "custom_css": [
+        ".h2,.rte h2 {font-size: 38px; letter-spacing: -0.02em;}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "title": "Standard Lenses",
@@ -220,6 +223,9 @@
         "b15d25df-b4ac-4561-9631-c0165146229e",
         "d8f401df-a7bf-4f7f-897b-6978a785d1de",
         "db30cd4c-072b-4762-aa9d-a657d64ef942"
+      ],
+      "custom_css": [
+        ".h2,.rte h2 {font-size: 38px; letter-spacing: -0.02em;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
