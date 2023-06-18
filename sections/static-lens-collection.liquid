@@ -60,8 +60,10 @@
     margin-top: 4px;
   }
 
-  #shopify-section-{{ section.id }} .container.vertical-breather {
+  #shopify-section-{{ section.id }} .container .lens-options__row {
     border-top: 1px solid #707070;
+    margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-right: calc(var(--grid-column-width) + var(--grid-gap));
     padding-bottom: 45px;
     padding-top: 45px;
   }
@@ -109,7 +111,7 @@
             </header>
           {%- endif -%}
 
-          {% assign blocks1 = section.blocks | where: "type", "item-1" %}
+          {% assign blocks1 = section.blocks | where: 'type', 'item-1' %}
           {%- if blocks1.size > 0 -%}
             <multi-column
               stack
@@ -251,7 +253,7 @@
             </header>
           {%- endif -%}
 
-          {%- assign blocks2 = section.blocks | where: "type", "item-2" -%}
+          {%- assign blocks2 = section.blocks | where: 'type', 'item-2' -%}
           {%- if blocks2.size > 0 -%}
             <multi-column
               stack
