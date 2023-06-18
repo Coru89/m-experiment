@@ -64,7 +64,7 @@
     padding-top: 55px;
   }
 
-  {%- if section.settings.title == blank and section.settings.subheading == blank and section.settings.content == blank -%}
+  {%- if section.settings.title == blank and section.settings.subheading == blank -%}
     #shopify-section-{{ section.id }}{
       --vertical-breather: 40px; /* Only on multi-column section, due to its specific usage we reduce spacing when no content */
     }
@@ -73,7 +73,7 @@
       /* Reduce the margin on small devices to create a slightly better layout */
       @media screen and (max-width: 999px) {
         #shopify-section-{{ section.id }}{
-          --vertical-breather: var(--container-gutter); 
+          --vertical-breather: var(--container-gutter);
         }
       }
     {%- endif -%}
@@ -91,79 +91,87 @@
 <section class="section {% unless blends_with_background %}section--flush{% endunless %}">
   <div class="section__color-wrapper">
     <div class="container {% unless blends_with_background %}vertical-breather{% endunless %}">
-      {%- if section.settings.title != blank or section.settings.subheading != blank or section.settings.content != blank -%}
-        <header class="section__header {% if section.settings.content != blank %}section__header--tight{% endif %} section__header--{{ section.settings.column_alignment }}">
-          <div class="text-container">
-            {%- if section.settings.title != blank -%}
-              <h2 class="heading h2">{{ section.settings.title }}</h2>
-            {%- endif -%}
+      <div class="lens-options__row">
+        <div class="lens-options_column">
+          {%- if section.settings.title != blank
+            or section.settings.subheading != blank
+          -%}
+            <header class="section__header section__header--{{ section.settings.column_alignment }}">
+              <div class="text-container">
+                {%- if section.settings.title != blank -%}
+                  <h2 class="heading h2">{{ section.settings.title }}</h2>
+                {%- endif -%}
 
-            {%- if section.settings.subheading != blank -%}
-              <h3 class="heading heading--small">{{ section.settings.subheading }}</h3>
-            {%- endif -%}
+                {%- if section.settings.subheading != blank -%}
+                  <h3 class="heading heading--small">{{ section.settings.subheading }}</h3>
+                {%- endif -%}
+              </div>
+            </header>
+          {%- endif -%}
 
-            {%- if section.settings.content != blank -%}
-              {{- section.settings.content | escape -}}
-            {%- endif -%}
-          </div>
-        </header>
-      {%- endif -%}
+          {%- assign blocks1 = section.blocks
+            | where_exp:"b", "b.type = 'item-1'"
+          %}
+          {%- if blocks1.size > 0 -%}
+            <multi-column
+              stack
+              {% if section.settings.reveal_on_scroll %}
+                stagger-apparition
+              {% endif %}
+              class="multi-column multi-column--pocket-{{ section.settings.mobile_item_size }} multi-column--{{ section.settings.desktop_item_size }} multi-column--spacing-{{ section.settings.spacing }}"
+            >
+              {%- assign align_arrows_on_image = true -%}
+              {%- assign smallest_image_aspect_ratio = 0 -%}
 
-      {%- if section.blocks.size > 0 -%}
-        <multi-column
-          stack
-          {% if section.settings.reveal_on_scroll %}stagger-apparition{% endif %}
-          class="multi-column multi-column--pocket-{{ section.settings.mobile_item_size }} multi-column--{{ section.settings.desktop_item_size }} multi-column--spacing-{{ section.settings.spacing }}">
-          {%- assign align_arrows_on_image = true -%}
-          {%- assign smallest_image_aspect_ratio = 0 -%}
+              <div>
+                <scrollable-content class="multi-column__inner multi-column__inner--{{ section.settings.column_alignment }}">
+                  {%- case section.settings.desktop_item_size -%}
+                    {%- when 'pico' -%}
+                      {%- assign desktop_items_per_row = 8 -%}
 
-          <div>
-            <scrollable-content class="multi-column__inner multi-column__inner--{{ section.settings.column_alignment }}">
-              {%- case section.settings.desktop_item_size -%}
-                {%- when 'pico' -%}
-                {%- assign desktop_items_per_row = 8 -%}
+                    {%- when 'small' -%}
+                      {%- assign desktop_items_per_row = 7 -%}
 
-                {%- when 'small' -%}
-                {%- assign desktop_items_per_row = 7 -%}
+                    {%- when 'medium' -%}
+                      {%- assign desktop_items_per_row = 5 -%}
 
-                {%- when 'medium' -%}
-                {%- assign desktop_items_per_row = 5 -%}
+                    {%- when 'large' -%}
+                      {%- assign desktop_items_per_row = 3 -%}
+                  {%- endcase -%}
 
-                {%- when 'large' -%}
-                {%- assign desktop_items_per_row = 3 -%}
-              {%- endcase -%}
+                  {%- case section.settings.mobile_item_size -%}
+                    {%- when 'small' -%}
+                      {%- assign mobile_calculated_size = 'calc(50vw - 48px)' -%}
+                      {%- assign tablet_calculated_size = 'calc(20vw - 80px)' -%}
 
-              {%- case section.settings.mobile_item_size -%}
-                {%- when 'small' -%}
-                {%- assign mobile_calculated_size = 'calc(50vw - 48px)' -%}
-                {%- assign tablet_calculated_size = 'calc(20vw - 80px)' -%}
+                    {%- when 'medium' -%}
+                      {%- assign mobile_calculated_size = 'calc(100vw - 48px)' -%}
+                      {%- assign tablet_calculated_size = 'calc(25vw - 80px)' -%}
 
-                {%- when 'medium' -%}
-                {%- assign mobile_calculated_size = 'calc(100vw - 48px)' -%}
-                {%- assign tablet_calculated_size = 'calc(25vw - 80px)' -%}
+                    {%- when 'large' -%}
+                      {%- assign mobile_calculated_size = 'calc(100vw - 48px)' -%}
+                      {%- assign tablet_calculated_size = 'calc(33vw - 80px)' -%}
+                  {%- endcase -%}
 
-                {%- when 'large' -%}
-                {%- assign mobile_calculated_size = 'calc(100vw - 48px)' -%}
-                {%- assign tablet_calculated_size = 'calc(33vw - 80px)' -%}
-              {%- endcase -%}
+                  {%- case section.settings.spacing -%}
+                    {%- when 'tight' -%}
+                      {%- assign desktop_item_gap = 24 -%}
 
-              {%- case section.settings.spacing -%}
-                {%- when 'tight' -%}
-                {%- assign desktop_item_gap = 24 -%}
+                    {%- when 'normal' -%}
+                      {%- assign desktop_item_gap = 40 -%}
 
-                {%- when 'normal' -%}
-                {%- assign desktop_item_gap = 40 -%}
+                    {%- when 'loose' -%}
+                      {%- assign desktop_item_gap = 60 -%}
+                  {%- endcase -%}
 
-                {%- when 'loose' -%}
-                {%- assign desktop_item_gap = 60 -%}
-              {%- endcase -%}
+                  {%- assign desktop_items_per_row_minus_one = desktop_items_per_row | minus: 1 -%}
+                  {%- assign gap_width = desktop_item_gap
+                    | divided_by: desktop_items_per_row
+                    | times: desktop_items_per_row_minus_one
+                  -%}
 
-              {%- assign desktop_items_per_row_minus_one = desktop_items_per_row | minus: 1 -%}
-              {%- assign gap_width = desktop_item_gap | divided_by: desktop_items_per_row | times: desktop_items_per_row_minus_one -%}
-
-
-              {%- for block in section.blocks -%}
-                {%- capture block_content -%}
+                  {%- for block in blocks1 -%}
+                    {%- capture block_content -%}
                   {%- if block.settings.image != blank -%}
                     {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: block.settings.image.aspect_ratio -%}
 
@@ -212,256 +220,550 @@
                   {%- endif -%}
                 {%- endcapture -%}
 
-                {%- if block_content != blank -%}
-                  <div
-                    id="block-{{ section.id }}-{{ block.id }}"
-                    class="multi-column__item multi-column__item--align-{{ block.settings.vertical_alignment }} {% if block.settings.link_url != blank %}image-zoom{% endif %}"
-                    {% if section.settings.reveal_on_scroll %}reveal{% endif %}
-                    {{ block.shopify_attributes }}>
-                    {{- block_content -}}
-                  </div>
+                    {%- if block_content != blank -%}
+                      <div
+                        id="block-{{ section.id }}-{{ block.id }}"
+                        class="multi-column__item multi-column__item--align-{{ block.settings.vertical_alignment }} {% if block.settings.link_url != blank %}image-zoom{% endif %}"
+                        {% if section.settings.reveal_on_scroll %}
+                          reveal
+                        {% endif %}
+                        {{ block.shopify_attributes }}
+                      >
+                        {{- block_content -}}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </scrollable-content>
+              </div>
+            </multi-column>
+          {%- endif -%}
+        </div>
+        <div class="lens-options_column">
+          {%- if section.settings.title2 != blank
+            or section.settings.subheading2 != blank
+          -%}
+            <header class="section__header section__header--{{ section.settings.column_alignment }}">
+              <div class="text-container">
+                {%- if section.settings.title2 != blank -%}
+                  <h2 class="heading h2">{{ section.settings.title2 }}</h2>
                 {%- endif -%}
-              {%- endfor -%}
-            </scrollable-content>
-          </div>
-        </multi-column>
-      {%- endif -%}
+
+                {%- if section.settings.subheading2 != blank -%}
+                  <h3 class="heading heading--small">{{ section.settings.subheading2 }}</h3>
+                {%- endif -%}
+              </div>
+            </header>
+          {%- endif -%}
+
+          {%- assign blocks2 = section.blocks
+            | where_exp:"b", "b.type = 'item-2'"
+          %}
+          {%- if blocks2.size > 0 -%}
+            <multi-column
+              stack
+              {% if section.settings.reveal_on_scroll %}
+                stagger-apparition
+              {% endif %}
+              class="multi-column multi-column--pocket-{{ section.settings.mobile_item_size }} multi-column--{{ section.settings.desktop_item_size }} multi-column--spacing-{{ section.settings.spacing }}"
+            >
+              {%- assign align_arrows_on_image = true -%}
+              {%- assign smallest_image_aspect_ratio = 0 -%}
+
+              <div>
+                <scrollable-content class="multi-column__inner multi-column__inner--{{ section.settings.column_alignment }}">
+                  {%- case section.settings.desktop_item_size -%}
+                    {%- when 'pico' -%}
+                      {%- assign desktop_items_per_row = 8 -%}
+
+                    {%- when 'small' -%}
+                      {%- assign desktop_items_per_row = 7 -%}
+
+                    {%- when 'medium' -%}
+                      {%- assign desktop_items_per_row = 5 -%}
+
+                    {%- when 'large' -%}
+                      {%- assign desktop_items_per_row = 3 -%}
+                  {%- endcase -%}
+
+                  {%- case section.settings.mobile_item_size -%}
+                    {%- when 'small' -%}
+                      {%- assign mobile_calculated_size = 'calc(50vw - 48px)' -%}
+                      {%- assign tablet_calculated_size = 'calc(20vw - 80px)' -%}
+
+                    {%- when 'medium' -%}
+                      {%- assign mobile_calculated_size = 'calc(100vw - 48px)' -%}
+                      {%- assign tablet_calculated_size = 'calc(25vw - 80px)' -%}
+
+                    {%- when 'large' -%}
+                      {%- assign mobile_calculated_size = 'calc(100vw - 48px)' -%}
+                      {%- assign tablet_calculated_size = 'calc(33vw - 80px)' -%}
+                  {%- endcase -%}
+
+                  {%- case section.settings.spacing -%}
+                    {%- when 'tight' -%}
+                      {%- assign desktop_item_gap = 24 -%}
+
+                    {%- when 'normal' -%}
+                      {%- assign desktop_item_gap = 40 -%}
+
+                    {%- when 'loose' -%}
+                      {%- assign desktop_item_gap = 60 -%}
+                  {%- endcase -%}
+
+                  {%- assign desktop_items_per_row_minus_one = desktop_items_per_row | minus: 1 -%}
+                  {%- assign gap_width = desktop_item_gap
+                    | divided_by: desktop_items_per_row
+                    | times: desktop_items_per_row_minus_one
+                  -%}
+
+                  {%- for block in blocks2 -%}
+                    {%- capture block_content -%}
+                  {%- if block.settings.image != blank -%}
+                    {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: block.settings.image.aspect_ratio -%}
+
+                    {%- if block.settings.link_url != blank -%}
+                      <a
+                        href="{{ block.settings.link_url }}"
+                        class="multi-column__image-wrapper"
+                        style="max-width: {{ block.settings.image_width }}%; width: {{ block.settings.image.width }}px">
+                        <img
+                          loading="lazy"
+                          sizes="(max-width: 740px) {{ mobile_calculated_size }}, (max-width: 999px) {{ tablet_calculated_size }}, {{ 1520.0 | divided_by: desktop_items_per_row | minus: gap_width | ceil }}px"
+                          class="multi-column__image"
+                          {% render 'image-attributes', image: block.settings.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
+                      </a>
+                    {%- else -%}
+                      <div class="multi-column__image-wrapper" style="max-width: {{ block.settings.image_width }}%; width: {{ block.settings.image.width }}px">
+                        <img
+                          loading="lazy"
+                          sizes="(max-width: 740px) {{ mobile_calculated_size }}, (max-width: 999px) {{ tablet_calculated_size }}, {{ 1520.0 | divided_by: desktop_items_per_row | minus: gap_width | ceil }}px"
+                          class="multi-column__image"
+                          {% render 'image-attributes', image: block.settings.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
+                      </div>
+                    {%- endif -%}
+                  {%- else -%}
+                    {%- assign align_arrows_on_image = false -%}
+                  {%- endif -%}
+
+                  {%- if block.settings.title != blank or block.settings.link_text != blank -%}
+                    <div class="multi-column__text-container text--{{ block.settings.text_alignment }} text-container">
+                      {%- if block.settings.title != blank -%}
+                        <div class="multi-column__text-container text--{{ block.settings.text_alignment }} text-container">
+                          <h3 class="heading heading--small">{{ block.settings.title }}</h3>
+                        </div>
+                      {%- endif -%}
+
+                      {%- if block.settings.link_text != blank -%}
+                        {%- if block.settings.link_style == 'link' -%}
+                          <a href="{{ block.settings.link_url }}" class="multi-column__link heading heading--small link">{{ block.settings.link_text | escape }}</a>
+                        {%- else -%}
+                          <div class="button-wrapper">
+                            <a href="{{ block.settings.link_url }}" class="multi-column__button button button--small button--primary">{{ block.settings.link_text | escape }}</a>
+                          </div>
+                        {%- endif -%}
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                {%- endcapture -%}
+
+                    {%- if block_content != blank -%}
+                      <div
+                        id="block-{{ section.id }}-{{ block.id }}"
+                        class="multi-column__item multi-column__item--align-{{ block.settings.vertical_alignment }} {% if block.settings.link_url != blank %}image-zoom{% endif %}"
+                        {% if section.settings.reveal_on_scroll %}
+                          reveal
+                        {% endif %}
+                        {{ block.shopify_attributes }}
+                      >
+                        {{- block_content -}}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </scrollable-content>
+              </div>
+            </multi-column>
+          {%- endif -%}
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 {% schema %}
-  {
-    "name": "Static lens collection",
-    "class": "shopify-section--multi-column shopify-section--multi-column--lenses",
-    "blocks": [
-      {
-        "name": "Column",
-        "type": "item",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image",
-            "info": "1200 x 1200px .jpg recommended"
-          },
-          {
-            "type": "range",
-            "id": "image_width",
-            "min": 10,
-            "max": 100,
-            "unit": "%",
-            "step": 1,
-            "label": "Image width",
-            "default": 100
-          },
-          {
-            "type": "color",
-            "id": "image_border",
-            "label": "Image border",
-            "default": "rgba(0,0,0,0)"
-          },
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Heading",
-            "default": "Your content"
-          }, {
-            "type": "text",
-            "id": "link_text",
-            "label": "Link text"
-          }, {
-            "type": "url",
-            "id": "link_url",
-            "label": "Link"
-          }, {
-            "type": "select",
-            "id": "link_style",
-            "label": "Link style",
-            "options": [
-              {
-                "value": "link",
-                "label": "Link"
-              }, {
-                "value": "button",
-                "label": "Button"
-              }
-            ],
-            "default": "link"
-          }, {
-            "type": "select",
-            "id": "text_alignment",
-            "label": "Text alignment",
-            "options": [
-              {
-                "value": "left",
-                "label": "Left"
-              }, {
-                "value": "center",
-                "label": "Center"
-              }, {
-                "value": "right",
-                "label": "Right"
-              }
-            ],
-            "default": "center"
-          }, {
-            "type": "select",
-            "id": "vertical_alignment",
-            "label": "Vertical alignment",
-            "options": [
-              {
-                "value": "start",
-                "label": "Top"
-              }, {
-                "value": "center",
-                "label": "Center"
-              }, {
-                "value": "end",
-                "label": "Bottom"
-              }
-            ],
-            "default": "start"
-          }
-        ]
-      }
-    ],
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "reveal_on_scroll",
-        "label": "Reveal on scroll",
-        "info": "Show animation when section becomes visible.",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading",
-        "default": "Lens collection"
-      },
-      {
-        "type": "text",
-        "id": "subheading",
-        "label": "Subheading",
-        "default": "Subheading"
-      },
-      {
-        "type": "select",
-        "id": "column_alignment",
-        "label": "Column/header alignment",
-        "options": [
-          {
-            "value": "left",
-            "label": "Left"
-          }, {
-            "value": "center",
-            "label": "Center"
-          }, {
-            "value": "right",
-            "label": "Right"
-          }
-        ],
-        "default": "center"
-      }, {
-        "type": "select",
-        "id": "mobile_item_size",
-        "label": "Mobile/tablet column size",
-        "options": [
-          {
-            "value": "small",
-            "label": "Small"
-          }, {
-            "value": "medium",
-            "label": "Medium"
-          }, {
-            "value": "large",
-            "label": "Large"
-          }
-        ],
-        "default": "medium"
-      }, {
-        "type": "select",
-        "id": "desktop_item_size",
-        "label": "Desktop column size",
-        "options": [
-          {
-            "value": "pico",
-            "label": "X-Small"
-          }, {
-            "value": "small",
-            "label": "Small"
-          }, {
-            "value": "medium",
-            "label": "Medium"
-          }, {
-            "value": "large",
-            "label": "Large"
-          }
-        ],
-        "default": "medium"
-      }, {
-        "type": "select",
-        "id": "spacing",
-        "label": "Spacing",
-        "options": [
-          {
-            "value": "tight",
-            "label": "Small"
-          }, {
-            "value": "normal",
-            "label": "Medium"
-          }, {
-            "value": "loose",
-            "label": "Large"
-          }
-        ],
-        "default": "normal"
-      }, {
-        "type": "header",
-        "content": "Colors"
-      }, {
-        "type": "color",
-        "id": "background",
-        "label": "Background",
-        "default": "rgba(0,0,0,0)"
-      }, {
-        "type": "color",
-        "id": "text_color",
-        "label": "Text color",
-        "default": "rgba(0,0,0,0)"
-      }
-    ],
-    "presets": [
-      {
-        "name": "Lens collection",
-        "settings": {
-          "title": "Lens collection"
+{
+  "name": "Static lens collection",
+  "class": "shopify-section--multi-column shopify-section--multi-column--lenses",
+  "blocks": [
+    {
+      "name": "Lens option 1",
+      "type": "item-1",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1200 x 1200px .jpg recommended"
         },
-        "blocks": [
-          {
-            "type": "item",
-            "settings": {
-              "title": "Lens 1"
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 10,
+          "max": 100,
+          "unit": "%",
+          "step": 1,
+          "label": "Image width",
+          "default": 100
+        },
+        {
+          "type": "color",
+          "id": "image_border",
+          "label": "Image border",
+          "default": "rgba(0,0,0,0)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Your content"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "link_style",
+          "label": "Link style",
+          "options": [
+            {
+              "value": "link",
+              "label": "Link"
+            },
+            {
+              "value": "button",
+              "label": "Button"
             }
-          }, {
-            "type": "item",
-            "settings": {
-              "title": "Lens 2"
+          ],
+          "default": "link"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
             }
-          }, {
-            "type": "item",
-            "settings": {
-              "title": "Lens 3"
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "vertical_alignment",
+          "label": "Vertical alignment",
+          "options": [
+            {
+              "value": "start",
+              "label": "Top"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "end",
+              "label": "Bottom"
             }
-          }, {
-            "type": "item",
-            "settings": {
-              "title": "Lens 4"
+          ],
+          "default": "start"
+        }
+      ]
+    },
+    {
+      "name": "Lens option 2",
+      "type": "item-2",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1200 x 1200px .jpg recommended"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 10,
+          "max": 100,
+          "unit": "%",
+          "step": 1,
+          "label": "Image width",
+          "default": 100
+        },
+        {
+          "type": "color",
+          "id": "image_border",
+          "label": "Image border",
+          "default": "rgba(0,0,0,0)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Your content"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "link_style",
+          "label": "Link style",
+          "options": [
+            {
+              "value": "link",
+              "label": "Link"
+            },
+            {
+              "value": "button",
+              "label": "Button"
             }
+          ],
+          "default": "link"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "vertical_alignment",
+          "label": "Vertical alignment",
+          "options": [
+            {
+              "value": "start",
+              "label": "Top"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "end",
+              "label": "Bottom"
+            }
+          ],
+          "default": "start"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "reveal_on_scroll",
+      "label": "Reveal on scroll",
+      "info": "Show animation when section becomes visible.",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Collection 1 Heading",
+      "default": "Lens collection heading"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Collection 1 Subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Collection 2 Heading",
+      "default": "Lens collection"
+    },
+    {
+      "type": "text",
+      "id": "subheading2",
+      "label": "Collection 2 Subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "select",
+      "id": "column_alignment",
+      "label": "Column/header alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "mobile_item_size",
+      "label": "Mobile/tablet column size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "desktop_item_size",
+      "label": "Desktop column size",
+      "options": [
+        {
+          "value": "pico",
+          "label": "X-Small"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "spacing",
+      "label": "Spacing",
+      "options": [
+        {
+          "value": "tight",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Medium"
+        },
+        {
+          "value": "loose",
+          "label": "Large"
+        }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Lens collection",
+      "settings": {
+        "title": "Lens collection heading 1",
+        "title2": "Lens collection heading 2",
+        "subheading": "Subheading 1",
+        "subheading2": "Subheading 2"
+      },
+      "blocks": [
+        {
+          "type": "item-1",
+          "settings": {
+            "title": "Lens 1"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "type": "item-1",
+          "settings": {
+            "title": "Lens 2"
+          }
+        },
+        {
+          "type": "item-2",
+          "settings": {
+            "title": "Lens 1"
+          }
+        },
+        {
+          "type": "item-2",
+          "settings": {
+            "title": "Lens 2"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}

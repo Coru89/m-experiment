@@ -79,7 +79,7 @@
       "type": "static-lens-collection",
       "blocks": {
         "836c6622-f633-446b-a5be-caf807d19308": {
-          "type": "item",
+          "type": "item-1",
           "settings": {
             "image": "shopify:\/\/shop_images\/Business_lens_Gray_3qtr.56.png",
             "image_width": 100,
@@ -93,7 +93,7 @@
           }
         },
         "3ea35824-0039-47be-a8e7-6204e3152311": {
-          "type": "item",
+          "type": "item-1",
           "settings": {
             "image": "shopify:\/\/shop_images\/Business_lens_Sepia_3qtr.64.png",
             "image_width": 100,
@@ -127,7 +127,7 @@
       "type": "static-lens-collection",
       "blocks": {
         "cd7fc8d2-f63f-4fbe-9119-86f9885e3dff": {
-          "type": "item",
+          "type": "item-1",
           "settings": {
             "image": "shopify:\/\/shop_images\/Business_lens_Gray_Polar_3qtr.52.png",
             "image_width": 100,
@@ -141,7 +141,7 @@
           }
         },
         "46aa2dc1-96e5-4015-b66a-49bbd51eedc3": {
-          "type": "item",
+          "type": "item-1",
           "settings": {
             "image": "shopify:\/\/shop_images\/Business_lens_Sepia_Polar_3qtr.60.png",
             "image_width": 100,
@@ -175,7 +175,7 @@
       "type": "static-lens-collection",
       "blocks": {
         "b15d25df-b4ac-4561-9631-c0165146229e": {
-          "type": "item",
+          "type": "item-1",
           "settings": {
             "image": "shopify:\/\/shop_images\/business_copper_mirrored_3qtr.1014_51b99f56-21ac-4c89-b2b9-7bf57b25dd98.png",
             "image_width": 100,
@@ -189,7 +189,7 @@
           }
         },
         "d8f401df-a7bf-4f7f-897b-6978a785d1de": {
-          "type": "item",
+          "type": "item-1",
           "settings": {
             "image": "shopify:\/\/shop_images\/Business_lens_Obsidian_Plasmachromatic_3qtr.44.png",
             "image_width": 100,
@@ -223,7 +223,7 @@
       "type": "static-lens-collection",
       "blocks": {
         "b2df179a-7f70-4a4a-89ac-5c654070b92e": {
-          "type": "item",
+          "type": "item-1",
           "settings": {
             "image": "shopify:\/\/shop_images\/Pleasure_lens_Obsidian_Mirrored_Pol_3qtr.png",
             "image_width": 100,
