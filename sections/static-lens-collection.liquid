@@ -67,10 +67,13 @@
 
   #shopify-section-{{ section.id }} .container .lens-options__row {
     border-top: 1px solid #707070;
-    margin-left: calc(var(--grid-column-width) + var(--grid-gap));
-    margin-right: calc(var(--grid-column-width) + var(--grid-gap));
     padding-bottom: 45px;
     padding-top: 45px;
+  }
+
+  @media screen and (max-width: 740px) {
+    margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-right: calc(var(--grid-column-width) + var(--grid-gap));
   }
 
   {%- if section.settings.title == blank and section.settings.subheading == blank -%}
