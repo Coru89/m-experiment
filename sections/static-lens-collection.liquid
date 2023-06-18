@@ -95,9 +95,7 @@
     <div class="container {% unless blends_with_background %}vertical-breather{% endunless %}">
       <div class="lens-options__row">
         <div class="lens-options_column">
-          {%- if section.settings.title != blank
-            or section.settings.subheading != blank
-          -%}
+          {%- if section.settings.title != blank or section.settings.subheading != blank -%}
             <header class="section__header section__header--{{ section.settings.column_alignment }}">
               <div class="text-container">
                 {%- if section.settings.title != blank -%}
@@ -111,9 +109,7 @@
             </header>
           {%- endif -%}
 
-          {%- assign blocks1 = section.blocks
-            | where_exp:"b", "b.type = 'item-1'"
-          %}
+          {% assign blocks1 = section.blocks | where: "type", "item-1" %}
           {%- if blocks1.size > 0 -%}
             <multi-column
               stack
@@ -241,9 +237,7 @@
           {%- endif -%}
         </div>
         <div class="lens-options_column">
-          {%- if section.settings.title2 != blank
-            or section.settings.subheading2 != blank
-          -%}
+          {%- if section.settings.title2 != blank or section.settings.subheading2 != blank -%}
             <header class="section__header section__header--{{ section.settings.column_alignment }}">
               <div class="text-container">
                 {%- if section.settings.title2 != blank -%}
@@ -257,9 +251,7 @@
             </header>
           {%- endif -%}
 
-          {%- assign blocks2 = section.blocks
-            | where_exp:"b", "b.type = 'item-2'"
-          %}
+          {%- assign blocks2 = section.blocks | where: "type", "item-2" -%}
           {%- if blocks2.size > 0 -%}
             <multi-column
               stack
