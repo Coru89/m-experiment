@@ -1242,7 +1242,8 @@
         "template--16029444276374__afa1bbd5-d220-4dfb-8c17-095f0221e26e-16870589452ad38cbd-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NewFile_Giga.59x.jpg",
+            "image": "shopify:\/\/shop_images\/M_Gigawatt_Exploded__Desktop_89.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/NewFile_Giga.59x_e589e2be-c36c-4fa2-92f2-f8dcc1a357a5.jpg",
             "overlay_opacity": 0,
             "title": "",
             "title_mobile": "",
