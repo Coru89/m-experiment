@@ -1289,7 +1289,7 @@
             "subheading": "",
             "title": "",
             "link_text": "",
-            "link_url": "\/pages\/gear\/#apparel",
+            "link_url": "shopify:\/\/pages\/stuff",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -1303,7 +1303,7 @@
             "subheading": "",
             "title": "APPAREL",
             "link_text": "Explore",
-            "link_url": "\/pages\/gear\/#apparel",
+            "link_url": "\/pages\/stuff\/#apparel",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -1317,7 +1317,7 @@
             "subheading": "",
             "title": "HEADWEAR",
             "link_text": "Explore",
-            "link_url": "\/pages\/gear\/#headwear",
+            "link_url": "\/pages\/stuff\/#headwear",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -1332,7 +1332,7 @@
       "settings": {
         "reveal_on_scroll": false,
         "layout": "collage",
-        "subheading": "We’re Shifting Into Gear",
+        "subheading": "IN WITH THE NEW",
         "title": "STUFF",
         "background": "#fbfbfb",
         "text_color": "#191919"
