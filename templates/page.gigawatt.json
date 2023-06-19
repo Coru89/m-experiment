@@ -1298,6 +1298,7 @@
       "blocks": {
         "template--15666477727894__2334fcde-19cc-437b-99cf-0299b37ee69a-1667965810689b1a15-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Fishing_f0bc5926-a080-4818-aa93-8a66f0f7ba16.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Drums2_2_fbe97daa-b502-4bff-8497-05d219454ce8.jpg",
