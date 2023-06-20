@@ -5047,11 +5047,11 @@ select:focus,
 }
 
 .button--ternary:disabled {
-  background-position: 100% 25%,100% 100%;
+  background-position: 100% 25%, 100% 100%;
 }
 
 .button--disabled {
-  background-position: 100% 25%,100% 100%;
+  background-position: 100% 25%, 100% 100%;
 }
 
 .button--outline {
@@ -11553,6 +11553,7 @@ input:checked + .popover__choice-label::after,
 }
 
 .multi-column .heading {
+  font-family: "Helvetica Neue";
   margin-bottom: 1rem !important;
 }
 
@@ -16108,7 +16109,7 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
   color: #fff;
   display: block;
   font-size: 18px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   line-height: 1.2222222222;
   margin-bottom: 0;
   padding: 20px 24px;
