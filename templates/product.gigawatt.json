@@ -77,6 +77,7 @@
     },
     "static-lens-collection": {
       "type": "static-lens-collection",
+      "disabled": true,
       "blocks": {
         "836c6622-f633-446b-a5be-caf807d19308": {
           "type": "item-1",
@@ -191,6 +192,7 @@
     },
     "076effdb-df1c-4179-8dd8-06d8681edc1c": {
       "type": "static-lens-collection",
+      "disabled": true,
       "blocks": {
         "b15d25df-b4ac-4561-9631-c0165146229e": {
           "type": "item-1",
