@@ -926,7 +926,7 @@
         "ef06b9cc-2d2b-4aa7-a700-0e3e1a520660"
       ],
       "custom_css": [
-        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".h2,.rte h2 {font-size: 38px; letter-spacing: -0.02em;}",
         ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
       ],
       "settings": {
@@ -995,7 +995,7 @@
         "db30cd4c-072b-4762-aa9d-a657d64ef942"
       ],
       "custom_css": [
-        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".h2,.rte h2 {font-size: 38px; letter-spacing: -0.02em;}",
         ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
       ],
       "settings": {
