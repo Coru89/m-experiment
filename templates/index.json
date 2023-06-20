@@ -1329,6 +1329,9 @@
         "collection-3",
         "collection-2"
       ],
+      "custom_css": [
+        "h3.heading.heading--small {font-family: 'Helvetica Neue Thin'}"
+      ],
       "settings": {
         "reveal_on_scroll": false,
         "layout": "collage",
