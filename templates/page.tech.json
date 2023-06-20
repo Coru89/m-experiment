@@ -523,7 +523,7 @@
       "type": "rich-text-image",
       "custom_css": [
         ".vertical-breather {padding-top: 0; padding-bottom: 0;}",
-        ".heading {font-weight: 300; font-family: \"Helvetica Neue\", var(--text-font-family);}"
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
       ],
       "settings": {
         "title": "DUAL CHAMBER INFUSION",
@@ -552,7 +552,7 @@
       "type": "rich-text-image",
       "custom_css": [
         ".vertical-breather {padding: 0;}",
-        ".heading {font-weight: 300; font-family: \"Helvetica Neue\", var(--text-font-family);}"
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
       ],
       "settings": {
         "title": "LENS CLUTCH",
@@ -582,7 +582,7 @@
       "type": "rich-text-image",
       "custom_css": [
         ".vertical-breather {padding: 0;}",
-        ".heading {font-weight: 300; font-family: \"Helvetica Neue\", var(--text-font-family);}"
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
       ],
       "settings": {
         "title": "3-Way Adjustable Nose Piece",
@@ -612,7 +612,7 @@
       "type": "rich-text-image",
       "custom_css": [
         ".vertical-breather {padding: 0;}",
-        ".heading {font-weight: 300; font-family: \"Helvetica Neue\", var(--text-font-family);}"
+        ".heading {font-weight: 300; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}"
       ],
       "settings": {
         "title": "SLICS",
