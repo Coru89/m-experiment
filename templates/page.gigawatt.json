@@ -442,6 +442,204 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "static-lens-collection": {
+      "type": "static-lens-collection",
+      "blocks": {
+        "836c6622-f633-446b-a5be-caf807d19308": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_3qtr.41.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Gray",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "3ea35824-0039-47be-a8e7-6204e3152311": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_Sepia_3qtr.29.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Sepia",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "fd489872-9b2d-42c3-8ba8-abc5d283e1df": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_clear_3qtr.21.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Clear",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "329d5c60-0ca6-42f4-9f4f-624f5b79be73": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_Flash2_3qtr.17.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Flash",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "93c00516-52ac-4457-8d07-06112d0f7695": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_gray_Polar_3qtr.41.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Gray",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "5c6b4bd8-33da-4b88-89f6-21390a6d66eb": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_Sepia_Polar_3qtr.25.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Sepia",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "836c6622-f633-446b-a5be-caf807d19308",
+        "3ea35824-0039-47be-a8e7-6204e3152311",
+        "fd489872-9b2d-42c3-8ba8-abc5d283e1df",
+        "329d5c60-0ca6-42f4-9f4f-624f5b79be73",
+        "93c00516-52ac-4457-8d07-06112d0f7695",
+        "5c6b4bd8-33da-4b88-89f6-21390a6d66eb"
+      ],
+      "custom_css": [
+        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "title": "Standard Lenses",
+        "subheading": "Everyday use",
+        "title2": "Polarized Lenses",
+        "subheading2": "Water Sports | Outdoors",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "076effdb-df1c-4179-8dd8-06d8681edc1c": {
+      "type": "static-lens-collection",
+      "blocks": {
+        "b15d25df-b4ac-4561-9631-c0165146229e": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_3qtr.8.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Obsidian",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "d8f401df-a7bf-4f7f-897b-6978a785d1de": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_Blaze-Plasmachromatic_3qtr.1.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Blaze",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "2f9280bc-ed23-479f-b150-2a4a258068b0": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_Glacier-Plasmachromatic_3qtr.5.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Glacier",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "2cb0ec50-9dd7-45af-bd4e-091e6c509df2": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_3qtr.11.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Obsidian",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#gigawatt",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "b15d25df-b4ac-4561-9631-c0165146229e",
+        "d8f401df-a7bf-4f7f-897b-6978a785d1de",
+        "2f9280bc-ed23-479f-b150-2a4a258068b0",
+        "2cb0ec50-9dd7-45af-bd4e-091e6c509df2"
+      ],
+      "custom_css": [
+        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "title": "Plasmachromatic Lenses",
+        "subheading": "Advanced Light Filtration System",
+        "title2": "Plasmachromatic Polarized",
+        "subheading2": "Plasma + Polar",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "1661776852d184846f": {
       "type": "variant-collection",
       "disabled": true,
@@ -1398,6 +1596,8 @@
     "09e0b86c-7c4c-4067-8dd8-b2a322739ae0",
     "04380fe4-d6e7-4c6d-9e81-da7d301f4df9",
     "5801e2f7-74f0-4053-896e-162085be37c2",
+    "static-lens-collection",
+    "076effdb-df1c-4179-8dd8-06d8681edc1c",
     "1661776852d184846f",
     "f96d95ff-6ca2-44ca-b60e-9a41d5956d90",
     "16619429262ff146fa",
