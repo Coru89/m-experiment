@@ -46,7 +46,7 @@
     "dde19b66-93b3-48af-8a9a-a4b7b9370e70": {
       "type": "image-with-text-overlay",
       "custom_css": [
-        "section {padding-top: 80px;}"
+        "@media screen and (min-width: 741px) {section {padding-top: 80px; }}"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -96,7 +96,7 @@
     "2a63ccc2-9a0b-46b3-a4e6-b9b4568b8bec": {
       "type": "image-with-text-overlay",
       "custom_css": [
-        "section {padding-bottom: 80px;}"
+        "@media screen and (min-width: 741px) {section {padding-bottom: 80px;}}"
       ],
       "settings": {
         "reveal_on_scroll": true,
