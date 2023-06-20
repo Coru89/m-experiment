@@ -613,6 +613,159 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "static-lens-collection": {
+      "type": "static-lens-collection",
+      "blocks": {
+        "836c6622-f633-446b-a5be-caf807d19308": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_lens_Gray_3qtr.56.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Gray",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "3ea35824-0039-47be-a8e7-6204e3152311": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_lens_Sepia_3qtr.64.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Sepia",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "36cbc251-5f79-4f9e-94c0-f3e1845f1d53": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pleasure_Lens_Gray_Polar_3qtr.95.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Gray",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "44f9f46e-c98a-431f-baa7-6dd00be3c465": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pleasure_Lens_Sepia_Polar_3qtr.84.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Sepia",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "836c6622-f633-446b-a5be-caf807d19308",
+        "3ea35824-0039-47be-a8e7-6204e3152311",
+        "36cbc251-5f79-4f9e-94c0-f3e1845f1d53",
+        "44f9f46e-c98a-431f-baa7-6dd00be3c465"
+      ],
+      "custom_css": [
+        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "title": "Standard Lenses",
+        "subheading": "Everyday use",
+        "title2": "Polarized Lenses",
+        "subheading2": "Water Sports | Outdoors",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "076effdb-df1c-4179-8dd8-06d8681edc1c": {
+      "type": "static-lens-collection",
+      "blocks": {
+        "b15d25df-b4ac-4561-9631-c0165146229e": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/business_copper_mirrored_3qtr.1014_51b99f56-21ac-4c89-b2b9-7bf57b25dd98.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Copper",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "d8f401df-a7bf-4f7f-897b-6978a785d1de": {
+          "type": "item-1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_lens_Obsidian_Plasmachromatic_3qtr.44.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Obsidian",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "78a207bc-8154-4da1-bc5e-e1fb5227c96b": {
+          "type": "item-2",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pleasure_Lens_Obsidian_Plasmachromatic_3qtr.72.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Obsidian",
+            "link_text": "",
+            "link_url": "\/pages\/lenses#pleasure",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "b15d25df-b4ac-4561-9631-c0165146229e",
+        "d8f401df-a7bf-4f7f-897b-6978a785d1de",
+        "78a207bc-8154-4da1-bc5e-e1fb5227c96b"
+      ],
+      "custom_css": [
+        ".h2,.rte h2 {font-family: \"Inter\"; font-size: 38px; letter-spacing: -0.02em;}",
+        ".lens-options_column header {margin-bottom: min(24px, var(--vertical-breather));}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "title": "Plasmachromatic Lenses",
+        "subheading": "Advanced Light Filtration System",
+        "title2": "Plasmachromatic Polarized",
+        "subheading2": "Plasma + Polar",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "166200293690459eff": {
       "type": "variant-collection",
       "disabled": true,
@@ -1255,6 +1408,8 @@
     "aa18ff9f-ede0-47f5-8a53-63d62c29047d",
     "1661987067f4300c36",
     "ec680da2-0d44-4265-bb68-d940f8df76fe",
+    "static-lens-collection",
+    "076effdb-df1c-4179-8dd8-06d8681edc1c",
     "166200293690459eff",
     "d5915d14-aaa1-461e-95aa-154e78361794",
     "1657045016427725fc",
