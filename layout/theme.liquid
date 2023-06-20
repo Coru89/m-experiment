@@ -160,7 +160,9 @@
     {% render 'shogun-head' %}
 
     {% render 'productwiz-rio', product: product, shop: shop %}
-  </head>
+  
+  {% include "globale-js.liquid" %}
+</head>
 
   {%- assign feature_classes = '' -%}
 
