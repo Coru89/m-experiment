@@ -527,7 +527,8 @@
       "custom_css": [
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 275px; object-fit: cover; position: relative;}",
-        ".product-list__inner {gap: 64px var(--product-list-column-gap);}"
+        ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
+        ".variant-collection {padding-bottom: 40px !important;}"
       ],
       "settings": {
         "subheading": "",
