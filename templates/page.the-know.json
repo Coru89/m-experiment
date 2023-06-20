@@ -45,6 +45,9 @@
     },
     "dde19b66-93b3-48af-8a9a-a4b7b9370e70": {
       "type": "image-with-text-overlay",
+      "custom_css": [
+        "h2.subheading {text-transform: uppercase;}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "large",
@@ -88,6 +91,52 @@
         "button_text_color": "#000000",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "2a63ccc2-9a0b-46b3-a4e6-b9b4568b8bec": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/a-fun-experiment-bg_dd22acdc-0f38-4377-8120-eb25a61d1156.jpg",
+        "title": "A fun\nexperiment",
+        "title_mobile": "",
+        "subheading": "Oakley and RED founder Jim Jannard and his son Jamie\nare back to scratch their design itch… and just have some fun.",
+        "content": "",
+        "panel_link": "",
+        "narrow_width": false,
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 50,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "overlay_content_position": "middle-right",
+        "content_position_mobile": "none",
+        "nudge_text_x-axis_desktop": 0,
+        "nudge_text_y-axis_desktop": 0,
+        "nudge_text_x-axis_mobile": 0,
+        "nudge_text_y-axis_mobile": 0,
+        "heading_text_align_huh": "right",
+        "heading_text_align_mobile": "center",
+        "subheading_text_align_desktop": "right",
+        "subheading_text_align_mobile": "center",
+        "content_text_align_desktop": "center",
+        "content_text_align_mobile": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": false,
+        "heading_drop_shadow": false,
+        "heading_drop_shadow_x-offset": 0,
+        "heading_drop_shadow_y-offset": 3,
+        "heading_drop_shadow_color": "#000",
+        "heading_drop_shadow_opacity": 40,
+        "text_color": "#C7C7C7",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "eed23217-bfd8-43c9-900b-f97700c79a8a": {
@@ -200,6 +249,7 @@
     },
     "1657320775aa5521b7": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1657320775dec6893f-0": {
           "type": "item",
@@ -289,6 +339,7 @@
     "main",
     "16573205695089b7ff",
     "dde19b66-93b3-48af-8a9a-a4b7b9370e70",
+    "2a63ccc2-9a0b-46b3-a4e6-b9b4568b8bec",
     "eed23217-bfd8-43c9-900b-f97700c79a8a",
     "1657320775aa5521b7",
     "16573219974891e6d6",
