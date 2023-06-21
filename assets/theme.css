@@ -5280,6 +5280,7 @@ select:focus,
   justify-content: space-between;
   width: 100%;
   padding: 18px 0;
+  text-transform: uppercase;
 }
 
 [dir="ltr"] .collapsible-toggle__selected-value {
