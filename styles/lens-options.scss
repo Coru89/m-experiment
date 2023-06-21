@@ -43,10 +43,14 @@
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-gap: 0rem 2rem;
 
-    // @media screen and (min-width: 794px) {
-    //   border-top: 1px solid #707070;
-    //   grid-gap: 1rem 4rem;
-    //   padding: 45px 0;
-    // }
+    @media screen and (min-width: 794px) {
+      border-top: 1px solid #707070;
+      // grid-gap: 1rem 4rem;
+      padding: 45px 0;
+    }
+
+    @media screen and (min-width: 940px) {
+      grid-gap: 1rem 4rem;
+    }
   }
 }
