@@ -13849,7 +13849,7 @@ shopify-payment-terms {
 
 @media screen and (min-width: 741px) {
   .main-search__form {
-    --form-input-field-height: 80px;
+    --form-input-field-height: 64px;
   }
 
   [dir="ltr"] .main-search__submit {
