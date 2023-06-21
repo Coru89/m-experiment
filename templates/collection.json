@@ -19,6 +19,9 @@
     },
     "main": {
       "type": "main-collection",
+      "custom_css": [
+        ".product-facet {margin-top:0;}"
+      ],
       "settings": {
         "show_sort_by": true,
         "products_per_page": 24,
