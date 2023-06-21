@@ -35,10 +35,11 @@
     display: grid;
     align-items: baseline;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-    grid-gap: 1rem 4rem;
+    grid-gap: 0rem 1rem;
 
     @media screen and (min-width: 794px) {
       border-top: 1px solid #707070;
+      grid-gap: 1rem 4rem;
       padding: 45px 0;
     }
   }
