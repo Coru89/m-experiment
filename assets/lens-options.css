@@ -8,6 +8,9 @@
     padding: 0;
   }
 }
+.lens-options__column header {
+  margin-bottom: min(24px, var(--vertical-breather));
+}
 .lens-options__column header .h2,
 .lens-options__column header .rte h2 {
   font-size: 36px;

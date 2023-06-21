@@ -9,6 +9,8 @@
     }
 
     header {
+      margin-bottom: min(24px, var(--vertical-breather));
+
       .h2,
       .rte h2 {
         font-size: 36px;
