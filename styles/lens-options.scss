@@ -20,6 +20,14 @@
           font-size: 38px;
         }
       }
+
+      h3.heading.heading--small {
+        font-size: 16px;
+
+        @media screen and (min-width: 794px) {
+          font-size: 18px;
+        }
+      }
     }
   }
 
