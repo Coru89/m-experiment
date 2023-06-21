@@ -8,6 +8,17 @@
     padding: 0;
   }
 }
+.lens-options__column header .h2,
+.lens-options__column header .rte h2 {
+  font-size: 36px;
+  letter-spacing: 0;
+}
+@media screen and (min-width: 794px) {
+  .lens-options__column header .h2,
+  .lens-options__column header .rte h2 {
+    font-size: 38px;
+  }
+}
 .lens-options__row {
   display: grid;
   align-items: baseline;

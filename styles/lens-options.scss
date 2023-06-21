@@ -7,6 +7,18 @@
       border-top: 0 none;
       padding: 0;
     }
+
+    header {
+      .h2,
+      .rte h2 {
+        font-size: 36px;
+        letter-spacing: 0;
+
+        @media screen and (min-width: 794px) {
+          font-size: 38px;
+        }
+      }
+    }
   }
 
   &__row {
