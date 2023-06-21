@@ -6866,8 +6866,11 @@ input:checked + .popover__choice-label::after,
 }
 
 .product-facet__filters-header {
-  padding-bottom: 24px;
   border-bottom: 1px solid rgb(var(--border-color));
+  font-family: "Helvetica Neue Thin",var(--text-font-family) ;
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 24px;
 }
 
 .product-facet__filters:not(.drawer) {
