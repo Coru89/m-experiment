@@ -12,6 +12,21 @@
 <style>
   #shopify-section-{{ section.id }} {
     --section-products-per-row: {{ section.settings.mobile_products_per_row | times: 1 }};
+
+    background: #fff;
+    color: rgb(25,25,25);
+  }
+
+  #shopify-section-{{ section.id }} .container {
+    padding-bottom: 45px;
+  }
+
+  #shopify-section-{{ section.id }} .text--subdued {
+    color: rgb(107,107,107);
+  }
+
+  #shopify-section-{{ section.id }} .input__field {
+    border: 1px solid rgba(var(--text-color),0.75);
   }
 
   @media screen and (min-width: 741px) {
