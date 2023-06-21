@@ -356,7 +356,7 @@
         <a href="{{ routes.cart_url }}" class="button button--primary button--full" data-no-instant>{{ 'cart.general.go_to_cart' | t }}</a>
       {%- endif -%}
 
-      {%- if section.settings.show_payment_methods and shop.enabled_payment_types.size > 0 -%}
+      {%- if shop.enabled_payment_types.size > 0 -%}
         <div class="cart__payment-methods">
           <span class="cart__payment-methods-label text--xsmall text--subdued">{{ 'cart.general.we_accept' | t }}</span>
 
