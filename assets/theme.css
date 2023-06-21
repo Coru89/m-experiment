@@ -13871,7 +13871,8 @@ shopify-payment-terms {
   }
 
   .main-search__form + .tabs-nav {
-    margin-top: 68px;
+    margin-top: 48px;
+    margin-bottom: 24px;
   }
 }
 .shop-the-look,
