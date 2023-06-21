@@ -625,7 +625,7 @@
         "text_width": "medium",
         "heading_font_size_desktop": 56,
         "heading_font_size_mobile": 26,
-        "subheading_font_size_desktop": 26,
+        "subheading_font_size_desktop": 22,
         "subheading_font_size_mobile": 16,
         "text_position": "center",
         "text_alignment": "center",
