@@ -461,6 +461,8 @@
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 230px; object-fit: cover; position: relative;}",
         ".variant-collection {padding-bottom: 40px;}",
+        ".vertical-breather {padding-top: 24px; padding-bottom: 24px;}",
+        "@media screen and (min-width: 940px) {.vertical-breather {padding-top: var(--vertical-breather);padding-bottom: var(--vertical-breather); }}",
         "@media screen and (min-width: 1100px) {.product-list__inner {gap: 64px var(--product-list-column-gap); }}"
       ],
       "settings": {
