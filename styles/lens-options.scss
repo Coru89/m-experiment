@@ -25,13 +25,13 @@
 
       h3.heading.heading--small {
         font-family: "Helvetica Neue", var(--text-font-family);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         letter-spacing: 0;
         margin-top: 4px;
 
         @media screen and (min-width: 940px) {
-          font-size: 18px;
+          font-size: 20px;
         }
       }
     }
