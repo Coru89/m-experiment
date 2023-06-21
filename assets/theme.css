@@ -6868,9 +6868,10 @@ input:checked + .popover__choice-label::after,
 .product-facet__filters-header {
   border-bottom: 1px solid rgb(var(--border-color));
   font-family: "Helvetica Neue Thin",var(--text-font-family) ;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 300;
   padding-bottom: 24px;
+  text-transform: uppercase;
 }
 
 .product-facet__filters:not(.drawer) {
