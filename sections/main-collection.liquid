@@ -98,7 +98,7 @@
           <div class="product-facet__aside">
             <safe-sticky offset="30" class="product-facet__aside-inner">
               <div class="product-facet__filters-header hidden-pocket">
-                <p class="heading {% if settings.heading_text_transform == 'uppercase' %}h6{% else %}h5{% endif %}">{{ 'collection.general.filters' | t }}</p>
+                {{ 'collection.general.filters' | t }}
               </div>
 
               {%- render 'facet-filters', filters: collection.filters, filters_position: section.settings.filter_position -%}
