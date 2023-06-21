@@ -207,7 +207,7 @@
           "show_order_note": true,
           "show_checkout_button": true,
           "empty_button_link": "shopify:\/\/collections\/all",
-          "show_recommendations": true,
+          "show_recommendations": false,
           "recommendations_title": "You may also like"
         }
       },
