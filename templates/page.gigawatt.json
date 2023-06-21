@@ -427,7 +427,9 @@
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 235px; object-fit: cover; position: relative;}",
         ".product-list__inner {gap: 64px var(--product-list-column-gap);}",
-        ".variant-collection {padding-bottom: 40px;}"
+        ".variant-collection {padding-bottom: 40px;}",
+        ".vertical-breather {padding-top: 24px; padding-bottom: 24px;}",
+        "@media screen and (min-width: 940px) {.vertical-breather {padding-top: var(--vertical-breather); padding-bottom: var(--vertical-breather); }}"
       ],
       "settings": {
         "subheading": "",
