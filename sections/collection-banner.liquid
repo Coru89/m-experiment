@@ -6,6 +6,10 @@
     --section-overlay-color: {{ section.settings.image_overlay_color.red }}, {{ section.settings.image_overlay_color.green }}, {{ section.settings.image_overlay_color.blue }};
     --section-overlay-opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+
+  #shopify-section-{{ section.id }} .page-header__text-wrapper {
+    margin-bottom: 0;
+  }
 </style>
 
 <section>
