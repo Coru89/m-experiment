@@ -1,6 +1,22 @@
+.lens-options__column {
+  border-top: 1px solid #707070;
+  padding: 35px 0;
+}
+@media screen and (min-width: 794px) {
+  .lens-options__column {
+    border-top: 0 none;
+    padding: 0;
+  }
+}
 .lens-options__row {
   display: grid;
   align-items: baseline;
   grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
   grid-gap: 1rem 4rem;
+}
+@media screen and (min-width: 794px) {
+  .lens-options__row {
+    border-top: 1px solid #707070;
+    padding: 45px 0;
+  }
 }
