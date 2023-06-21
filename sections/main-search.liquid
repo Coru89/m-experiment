@@ -11,11 +11,13 @@
 
 <style>
   #shopify-section-{{ section.id }} {
-    --section-background: 'rgb(255,255,255)';
     --section-products-per-row: {{ section.settings.mobile_products_per_row | times: 1 }};
 
-    background: #fff;
     color: rgb(25,25,25);
+  }
+
+  #shopify-section-{{ section.id }} .section__color-wrapper {
+    background: #fff;
   }
 
   #shopify-section-{{ section.id }} .container {
