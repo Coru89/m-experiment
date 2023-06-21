@@ -12,6 +12,10 @@
 <style>
   #shopify-section-{{ section.id }} {
     --section-products-per-row: {{ section.settings.mobile_products_per_row | times: 1 }};
+
+    background: #fff;
+    border-bottom: 40px solid rgb(25,25,25);
+    color: rgb(25,25,25);
   }
 
   @media screen and (min-width: 741px) {
