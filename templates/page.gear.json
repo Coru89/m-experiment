@@ -21,11 +21,11 @@
             "heading_drop_shadow": false,
             "heading_drop_shadow_x-offset": 0,
             "heading_drop_shadow_y-offset": 3,
-            "heading_drop_shadow_color": "#000",
+            "heading_drop_shadow_color": "#000000",
             "heading_drop_shadow_opacity": 40,
             "subheading_uppercase": false,
             "subheading_narrow_width": true,
-            "subheading_color": "#F1F2F2",
+            "subheading_color": "#f1f2f2",
             "subheading_text_align": "left",
             "subheading_text_align_mobile": "left",
             "subheading_opacity": 100,
@@ -372,7 +372,8 @@
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 325px; object-fit: cover; position: relative;}",
         ".product-list__inner {gap: 84px var(--product-list-column-gap);}",
-        ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px;}"
+        ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px;}",
+        "section {scroll-padding: 30px 0;}"
       ],
       "settings": {
         "subheading": "",
@@ -561,7 +562,8 @@
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 250px; object-fit: cover; position: relative;}",
         ".product-list__inner {gap: 84px var(--product-list-column-gap);}",
-        ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px;}"
+        ".product-item__aspect-ratio.aspect-ratio {padding-top: 48px;}",
+        "section {scroll-padding: 30px 0;}"
       ],
       "settings": {
         "subheading": "",
@@ -734,6 +736,9 @@
       },
       "block_order": [
         "1658522055f11a093c-0"
+      ],
+      "custom_css": [
+        "section {scroll-padding: 30px 0;}"
       ],
       "settings": {
         "subheading": "STICKERS",
