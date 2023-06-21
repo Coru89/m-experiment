@@ -47,6 +47,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/M_icon_logo.png",
     "checkout_logo_size": "large",
     "checkout_sidebar_background_color": "#f5f5f5",
+    "checkout_body_font": "Helvetica Neue",
     "checkout_accent_color": "#e2a829",
     "checkout_button_color": "#e2a829",
     "checkout_error_color": "#de2a2a",
