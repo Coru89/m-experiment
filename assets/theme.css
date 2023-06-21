@@ -83,6 +83,7 @@ html {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  scroll-padding: 35px;
 }
 
 body {
