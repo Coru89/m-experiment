@@ -65,27 +65,7 @@
 
   {%- capture video_content -%}
     <div class="video-section video-section--{% if section.settings.background_type == 'boxed' %}boxed{% else %}full{% endif %} video-section--{{ section.settings.video_size }}">
-      <external-video {% if section.settings.autoplay %}autoplay{% endif %} provider="{{ section.settings.video_url.type | escape }}" class="video-wrapper {% if section.settings.autoplay %}video-wrapper--inert{% endif %} {% if section.settings.background_type == 'full_width' and section.settings.video_size != 'auto' %}video-wrapper--cover{% endif %}">
-        <div class="video-wrapper__poster">
-          {%- if section.settings.image != blank -%}
-            <img class="video-wrapper__poster-image" loading="lazy" sizes="(max-width: 740px) calc(100vw - 24px * 2), var(--container-max-width)" {% render 'image-attributes', image: section.settings.image, sizes: '400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800' %}>
-          {%- else -%}
-            {{- 'lifestyle-1' | placeholder_svg_tag: 'video-wrapper__poster-image placeholder-background' -}}
-          {%- endif -%}
-
-          <div class="video-wrapper__poster-content {% if section.settings.background_type != 'boxed' %}content-box content-box--large content-box--text-center{% endif %}">
-            {%- unless section.settings.autoplay -%}
-              <button type="button" class="video-wrapper__play-button video-wrapper__play-button--large video-wrapper__play-button--ripple" title="{{ 'general.accessibility.play_video' | t | escape }}">
-                {%- render 'icon' with 'play', width: 72, height: 72 -%}
-              </button>
-            {%- endunless -%}
-
-            {%- if section.settings.background_type != 'boxed' -%}
-              {{- section_header -}}
-            {%- endif -%}
-          </div>
-        </div>
-
+      <external-video {% if section.settings.autoplay %}autoplay{% endif %} {% if section.settings.image != blank %}poster="{{ section.settings.image }}"{% endif %} provider="{{ section.settings.video_url.type | escape }}" class="video-wrapper {% if section.settings.autoplay %}video-wrapper--inert{% endif %} {% if section.settings.background_type == 'full_width' and section.settings.video_size != 'auto' %}video-wrapper--cover{% endif %}">
         <template>
           {%- if section.settings.video_url.type == 'youtube' -%}
             <iframe title="{{ section.settings.title | escape }}" src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?playsinline=1&autoplay=1{% if section.settings.autoplay %}&controls=0&mute=1&loop=1{% endif %}&playlist={{ section.settings.video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
