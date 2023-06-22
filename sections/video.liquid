@@ -5,9 +5,9 @@
 {%- endif -%}
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-  CSS
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+    CSS
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <style>
@@ -44,9 +44,9 @@
 </style>
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-  JavaScript: This section composes the "external-video" element, but does not have dedicated custom element
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+    JavaScript: This section composes the "external-video" element, but does not have dedicated custom element
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <section class="section {% if section.settings.background_type == 'full_width' or section.settings.background_type == 'boxed' and blends_with_background == false %}section--flush{% endif %}">
@@ -100,7 +100,11 @@
   {%- if section.settings.background_type == 'boxed' -%}
     <div class="section__color-wrapper">
       <div class="container">
-        <div {% unless blends_with_background %}class="vertical-breather"{% endunless %}>
+        <div
+          {% unless blends_with_background %}
+            class="vertical-breather"
+          {% endunless %}
+        >
           {{- section_header -}}
           {{- video_content -}}
         </div>
