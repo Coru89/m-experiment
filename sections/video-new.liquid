@@ -2,7 +2,7 @@
 {{ 'vjs.css' | asset_url | stylesheet_tag }}
 {{ 'collection-video.css' | asset_url | stylesheet_tag }}
 
-<script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
+<script src="https://vjs.zencdn.net/8.2.1/video.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
@@ -15,40 +15,49 @@
   }
 </style>
 
-
 <section class="section video">
   <div class="video__inner container">
-
     {% if section.settings.video_url %}
-      <video loop autoplay muted class="video-js" id="my-video" controls preload="auto" {% if section.settings.image %}poster="{{ section.settings.image | image_url }}"{% endif %} data-setup='{ "muted": true }'>
-          <source src="{{ section.settings.video_url }}" type='video/mp4'>
+      <video
+        loop
+        autoplay
+        muted
+        class="video-js"
+        id="my-video"
+        controls
+        preload="auto"
+        {% if section.settings.image %}
+          poster="{{ section.settings.image | image_url }}"
+        {% endif %}
+        data-setup='{ "muted": true }'
+      >
+        <source src="{{ section.settings.video_url }}" type="video/mp4">
       </video>
     {% endif %}
   </div>
 </section>
-        
-  
-  {% schema %}
-  {
-    "name": "Collection Video",
-    "class": "shopify-section--video",
-    "settings": [
-      {
-        "type": "text",
-        "id": "video_url",
-        "label": "Video"
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Cover image",
-        "info": "2000 x 1125px .jpg recommended."
-      }
-    ],
-    "presets": [
-      {
-        "name": "Video Collection"
-      }
-    ]
-  }
-  {% endschema %}
+
+{% schema %}
+{
+  "name": "Collection Video",
+  "class": "shopify-section--video",
+  "settings": [
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Cover image",
+      "info": "2000 x 1125px .jpg recommended."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Collection"
+    }
+  ]
+}
+{% endschema %}
