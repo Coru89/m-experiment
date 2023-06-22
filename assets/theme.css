@@ -11979,6 +11979,22 @@ input:checked + .popover__choice-label::after,
     width: 140px;
   }
 }
+
+.predictive-search.drawer,
+.predictive-search.drawer .drawer__header
+.predictive-search.drawer .drawer__footer {
+  background: #fff;
+}
+
+.predictive-search.drawer .product-item-meta,
+.predictive-search.drawer .predictive-search__form {
+  color: rgb(25,25,25);
+}
+
+.predictive-search.drawer .drawer__header {
+  border-bottom: 1px solid rgba(var(--text-color),0.75);
+}
+
 .press-list {
   display: block;
   text-align: center;
