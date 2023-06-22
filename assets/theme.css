@@ -12794,7 +12794,6 @@ shopify-payment-terms {
 
   .product-tabs__trust-title {
     display: inline-flex;
-    margin-top: 25px;
   }
 
   [dir="ltr"] .product-tabs__trust-title:not(:last-child) {
