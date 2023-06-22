@@ -11981,13 +11981,13 @@ input:checked + .popover__choice-label::after,
 }
 
 .predictive-search.drawer,
-.predictive-search.drawer .drawer__header
+.predictive-search.drawer .drawer__header,
 .predictive-search.drawer .drawer__footer {
   background: #fff;
 }
 
 .predictive-search.drawer .product-item-meta,
-.predictive-search.drawer .predictive-search__form
+.predictive-search.drawer .predictive-search__form,
 .predictive-search.drawer .predictive-search__content-wrapper {
   color: rgb(25,25,25);
 }
