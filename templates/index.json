@@ -1330,7 +1330,7 @@
         "collection-2"
       ],
       "custom_css": [
-        "h3.heading.heading--small {font-family: 'Helvetica Neue Thin'}"
+        "h3.heading.heading--small {font-family: \"Helvetica Neue Thin\";}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -1463,6 +1463,9 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "custom_css": [
+        "h2.heading {font-family: 'Helvetica Neue';font-size: 24px;}"
+      ],
       "settings": {
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/skate_wide_8e0bb17b-f624-4039-aad8-f40a17ec76b3.jpg",
