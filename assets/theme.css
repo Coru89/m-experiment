@@ -11986,6 +11986,10 @@ input:checked + .popover__choice-label::after,
   background: #fff;
 }
 
+.predictive-search.drawer .drawer__footer::before {
+  display: none;
+}
+
 .predictive-search.drawer .product-item-meta,
 .predictive-search.drawer .predictive-search__form,
 .predictive-search.drawer .predictive-search__content-wrapper {
