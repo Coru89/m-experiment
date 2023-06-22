@@ -9305,9 +9305,14 @@ input:checked + .popover__choice-label::after,
 }
 
 .footer__item-title {
-  font-size: 14px;
-  font-weight: 700;
   margin-bottom: 12px;
+}
+
+.footer__item-title.heading {
+  color: var(--text-color);
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .footer__image {
@@ -16043,7 +16048,7 @@ image-with-text-overlay .subheading,
 
 .footer .linklist__item a {
   -webkit-font-smoothing: auto;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 22.5px;
   padding-bottom: 6px;
   padding-top: 6px;
