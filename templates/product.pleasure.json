@@ -261,7 +261,6 @@
         "cc2942b1-cea6-4a49-8332-469adec51ff8"
       ],
       "custom_css": [
-        ".product-content {border-top: 1px solid #707070;}",
         "@media screen and (min-width: 1000px) {.product-content__tabs:only-child {width: 100%; }}"
       ],
       "settings": {
