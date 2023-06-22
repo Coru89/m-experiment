@@ -36,18 +36,12 @@
                 {%- endunless -%}
               {%- endfor -%}
 
-              <free-shipping-bar
-                threshold="{{ threshold_in_cents }}"
-                class="shipping-bar shipping-bar--large"
-                style="--progress: {{ cart.total_price | times: 1.0 | divided_by: threshold_in_cents | at_most: 1 }}"
-              >
+              <free-shipping-bar threshold="{{ threshold_in_cents }}" class="shipping-bar shipping-bar--large" style="--progress: {{ cart.total_price | times: 1.0 | divided_by: threshold_in_cents | at_most: 1 }}">
                 {%- if calculated_total_price >= threshold_in_cents -%}
                   <span class="shipping-bar__text">{{ 'cart.general.free_shipping' | t }}</span>
                 {%- else -%}
                   {%- capture remaining_amount -%}{{ calculated_total_price | minus: threshold_in_cents | abs | money }}{%- endcapture -%}
-                  <span class="shipping-bar__text">
-                    {{- 'cart.general.free_shipping_remaining_html' | t: remaining_amount: remaining_amount -}}
-                  </span>
+                  <span class="shipping-bar__text">{{ 'cart.general.free_shipping_remaining_html' | t: remaining_amount: remaining_amount }}</span>
                 {%- endif -%}
 
                 <span class="shipping-bar__progress"></span>
@@ -76,19 +70,9 @@
             <table class="line-item-table table table--loose">
               <thead class="line-item-table__header-group hidden-phone">
                 <tr>
-                  <th>
-                    <span class="heading heading--xsmall text--subdued">{{ 'cart.general.product' | t }}</span>
-                  </th>
-                  <th>
-                    <span class="heading heading--xsmall text--subdued text--center">
-                      {{- 'cart.general.quantity' | t -}}
-                    </span>
-                  </th>
-                  <th>
-                    <span class="heading heading--xsmall text--subdued text--right">
-                      {{- 'cart.general.total' | t -}}
-                    </span>
-                  </th>
+                  <th><span class="heading heading--xsmall text--subdued">{{ 'cart.general.product' | t }}</span></th>
+                  <th><span class="heading heading--xsmall text--subdued text--center">{{ 'cart.general.quantity' | t }}</span></th>
+                  <th><span class="heading heading--xsmall text--subdued text--right">{{ 'cart.general.total' | t }}</span></th>
                 </tr>
               </thead>
 
@@ -98,12 +82,7 @@
                     <td class="line-item__product">
                       <div class="line-item__content-wrapper">
                         <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
-                          <img
-                            class="line-item__image"
-                            loading="sizes"
-                            sizes="(max-width: 740px) 80px, 92px"
-                            {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}
-                          >
+                          <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
                         </a>
 
                         {%- capture unit_price -%}
@@ -166,31 +145,14 @@
                               {%- assign collection_for_vendor = collections[vendor_handle] -%}
 
                               {%- unless collection_for_vendor.empty? -%}
-                                <a
-                                  class="product-item-meta__vendor heading heading--xxsmall"
-                                  href="{{ collection_for_vendor.url }}"
-                                >
-                                  {{- line_item.vendor -}}
-                                </a>
+                                <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ collection_for_vendor.url }}">{{ line_item.vendor }}</a>
                               {%- else -%}
-                                <a
-                                  class="product-item-meta__vendor heading heading--xxsmall"
-                                  href="{{ line_item.vendor | url_for_vendor }}"
-                                >
-                                  {{- line_item.vendor -}}
-                                </a>
+                                <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ line_item.vendor | url_for_vendor }}">{{ line_item.vendor }}</a>
                               {%- endunless -%}
                             {%- endif -%}
 
-                            <a
-                              href="{{ line_item.url }}"
-                              class="product-item-meta__title text--small hidden-tablet-and-up"
-                            >
-                              {{- line_item.product.title -}}
-                            </a>
-                            <a href="{{ line_item.url }}" class="product-item-meta__title hidden-phone">
-                              {{- line_item.product.title -}}
-                            </a>
+                            <a href="{{ line_item.url }}" class="product-item-meta__title text--small hidden-tablet-and-up">{{ line_item.product.title }}</a>
+                            <a href="{{ line_item.url }}" class="product-item-meta__title hidden-phone">{{ line_item.product.title }}</a>
 
                             {%- capture line_item_properties -%}
                               {%- unless line_item.product.has_only_default_variant -%}
@@ -239,10 +201,7 @@
                             <ul class="line-item__discount-list list--unstyled" role="list">
                               {%- for discount_allocation in line_item.line_level_discount_allocations -%}
                                 <li class="line-item__discount-badge discount-badge">
-                                  {%- render 'icon' with 'discount-badge' -%}
-                                  {{ discount_allocation.discount_application.title }} (-
-                                  {{- discount_allocation.amount | money -}}
-                                  )
+                                  {%- render 'icon' with 'discount-badge' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
                                 </li>
                               {%- endfor -%}
                             </ul>
@@ -251,10 +210,7 @@
                           {%- assign max_allowed_quantity = '' -%}
                           {%- assign allow_more = true -%}
 
-                          {%- if line_item.variant.inventory_management == 'shopify'
-                            and line_item.variant.inventory_policy == 'deny'
-                            and line_item.variant.inventory_quantity <= line_item.quantity
-                          -%}
+                          {%- if line_item.variant.inventory_management == 'shopify' and line_item.variant.inventory_policy == 'deny' and line_item.variant.inventory_quantity <= line_item.quantity -%}
                             {%- assign max_allowed_quantity = line_item.variant.inventory_quantity -%}
                             {%- assign allow_more = false -%}
                           {%- endif -%}
@@ -295,9 +251,7 @@
                           IMPLEMENTATION NOTE: in the design, the price is aligned in regards of the product title (not the brand). It was a
                           bit hard to do as we cannot set a fixed margin, so I am actually adding an empty vendor to simulate the same height
                         {%- endcomment -%}
-                        <span class="product-item-meta__vendor heading heading--xxsmall" style="visibility: hidden"
-                          >x</span
-                        >
+                        <span class="product-item-meta__vendor heading heading--xxsmall" style="visibility: hidden">x</span>
                       {%- endif -%}
 
                       <line-item-quantity style="display: block; margin-top: -4px">
@@ -311,9 +265,7 @@
                           IMPLEMENTATION NOTE: in the design, the price is aligned in regards of the product title (not the brand). It was a
                           bit hard to do as we cannot set a fixed margin, so I am actually adding an empty vendor to simulate the same height
                         {%- endcomment -%}
-                        <span class="product-item-meta__vendor heading heading--xxsmall" style="visibility: hidden"
-                          >x</span
-                        >
+                        <span class="product-item-meta__vendor heading heading--xxsmall" style="visibility: hidden">x</span>
                       {%- endif -%}
 
                       <div class="price-list price-list--stack">
@@ -329,13 +281,7 @@
 
             {%- if section.settings.show_shipping_estimator and items_requiring_shipping.size > 0 -%}
               <div class="shipping-estimator">
-                <button
-                  type="button"
-                  is="toggle-button"
-                  class="shipping-estimator__toggle-button collapsible-toggle heading heading--small"
-                  aria-controls="shipping-estimator"
-                  aria-expanded="false"
-                >
+                <button type="button" is="toggle-button" class="shipping-estimator__toggle-button collapsible-toggle heading heading--small" aria-controls="shipping-estimator" aria-expanded="false">
                   {{- 'cart.shipping_estimator.estimate_shipping' | t -}}
                   {%- render 'icon' with 'chevron' -%}
                 </button>
@@ -344,65 +290,28 @@
                   <shipping-estimator class="shipping-estimator__form" role="form">
                     <div class="input-row">
                       <div class="input">
-                        <label class="input__block-label" for="shipping-estimator[country]">
-                          {{- 'cart.shipping_estimator.country' | t -}}
-                        </label>
+                        <label class="input__block-label" for="shipping-estimator[country]">{{ 'cart.shipping_estimator.country' | t }}</label>
                         <div class="select-wrapper">
-                          <select
-                            class="select"
-                            is="country-selector"
-                            name="shipping-estimator[country]"
-                            id="shipping-estimator[country]"
-                            aria-owns="shipping-estimator-province-wrapper"
-                            {% if customer and customer.default_address %}
-                              data-default="{{ customer.default_address.country }}"
-                            {% else %}
-                              data-default="{{ section.settings.shipping_estimator_default_country }}"
-                            {% endif %}
-                          >
-                            {{ country_option_tags }}
-                          </select>
+                          <select class="select" is="country-selector" name="shipping-estimator[country]" id="shipping-estimator[country]" aria-owns="shipping-estimator-province-wrapper" {% if customer and customer.default_address %}data-default="{{ customer.default_address.country }}"{% else %}data-default="{{ section.settings.shipping_estimator_default_country }}"{% endif %}>{{ country_option_tags }}</select>
                           {%- render 'icon' with 'chevron' -%}
                         </div>
                       </div>
 
                       <div id="shipping-estimator-province-wrapper" class="input" hidden>
-                        <label class="input__block-label" for="shipping-estimator[province]">
-                          {{- 'cart.shipping_estimator.province' | t -}}
-                        </label>
+                        <label class="input__block-label" for="shipping-estimator[province]">{{ 'cart.shipping_estimator.province' | t }}</label>
                         <div class="select-wrapper">
-                          <select
-                            class="select"
-                            name="shipping-estimator[province]"
-                            id="shipping-estimator[province]"
-                            {% if customer and customer.default_address %}
-                              data-default="{{ customer.default_address.province }}"
-                            {% endif %}
-                          ></select>
+                          <select class="select" name="shipping-estimator[province]" id="shipping-estimator[province]" {% if customer and customer.default_address %}data-default="{{ customer.default_address.province }}"{% endif %}></select>
                           {%- render 'icon' with 'chevron' -%}
                         </div>
                       </div>
 
                       <div class="input">
-                        <label class="input__block-label" for="shipping-estimator[zip]">
-                          {{- 'cart.shipping_estimator.zip_code' | t -}}
-                        </label>
-                        <input
-                          type="text"
-                          class="input__field"
-                          name="shipping-estimator[zip]"
-                          id="shipping-estimator[zip]"
-                        >
+                        <label class="input__block-label" for="shipping-estimator[zip]">{{ 'cart.shipping_estimator.zip_code' | t }}</label>
+                        <input type="text" class="input__field" name="shipping-estimator[zip]" id="shipping-estimator[zip]">
                       </div>
                     </div>
 
-                    <button
-                      type="button"
-                      is="loader-button"
-                      class="form__submit form__submit--closer button button--primary"
-                    >
-                      {{ 'cart.shipping_estimator.submit' | t }}
-                    </button>
+                    <button type="button" is="loader-button" class="form__submit form__submit--closer button button--primary">{{ 'cart.shipping_estimator.submit' | t }}</button>
                   </shipping-estimator>
                 </collapsible-content>
               </div>
@@ -425,13 +334,8 @@
                           <ul class="cart__discount-list list--unstyled" role="list">
                             {%- for discount_application in cart.cart_level_discount_applications -%}
                               <li class="cart__discount">
-                                <span class="cart__discount-badge discount-badge">
-                                  {%- render 'icon' with 'discount-badge' -%}
-                                  {{ discount_application.title -}}
-                                </span>
-                                <span class="cart__discount-price"
-                                  >-{{ discount_application.total_allocated_amount | money -}}
-                                </span>
+                                <span class="cart__discount-badge discount-badge">{%- render 'icon' with 'discount-badge' -%}{{ discount_application.title }}</span>
+                                <span class="cart__discount-price">-{{ discount_application.total_allocated_amount | money }}</span>
                               </li>
                             {%- endfor -%}
                           </ul>
@@ -446,14 +350,7 @@
 
                     {%- when 'order_note' -%}
                       <div class="cart__recap-note" {{ block.shopify_attributes }}>
-                        <button
-                          type="button"
-                          is="toggle-button"
-                          id="order-note-toggle"
-                          class="link text--subdued"
-                          aria-controls="cart-note"
-                          aria-expanded="{% if block.settings.open_by_default %}true{% else %}false{% endif %}"
-                        >
+                        <button type="button" is="toggle-button" id="order-note-toggle" class="link text--subdued" aria-controls="cart-note" aria-expanded="{% if block.settings.open_by_default %}true{% else %}false{% endif %}">
                           {%- if cart.note == '' -%}
                             {{- 'cart.general.add_order_note' | t -}}
                           {%- else -%}
@@ -461,23 +358,9 @@
                           {%- endif -%}
                         </button>
 
-                        <collapsible-content
-                          id="cart-note"
-                          class="collapsible"
-                          {% if block.settings.open_by_default %}
-                            open
-                          {% endif %}
-                        >
+                        <collapsible-content id="cart-note" class="collapsible" {% if block.settings.open_by_default %}open{% endif %}>
                           <div class="cart__order-note">
-                            <textarea
-                              is="cart-note"
-                              aria-owns="order-note-toggle"
-                              name="note"
-                              class="input__field input__field--textarea"
-                              rows="3"
-                              placeholder="{{ 'cart.general.order_note_placeholder' | t }}"
-                              aria-label="{{ 'cart.general.order_note' | t | escape }}"
-                            >{{ cart.note }}</textarea>
+                            <textarea is="cart-note" aria-owns="order-note-toggle" name="note" class="input__field input__field--textarea" rows="3" placeholder="{{ 'cart.general.order_note_placeholder' | t }}" aria-label="{{ 'cart.general.order_note' | t | escape }}">{{ cart.note }}</textarea>
                           </div>
                         </collapsible-content>
                       </div>
@@ -498,11 +381,7 @@
                   {%- endcase -%}
                 {%- endfor -%}
 
-                <button
-                  type="submit"
-                  class="cart__checkout-button checkout-button button button--primary button--full"
-                  name="checkout"
-                >
+                <button type="submit" class="cart__checkout-button checkout-button button button--primary button--full" name="checkout">
                   <span class="checkout-button__lock">{%- render 'icon' with 'lock' -%}</span>
                   {{- 'cart.general.checkout' | t -}}
                 </button>
@@ -510,21 +389,22 @@
 
               {%- if section.settings.show_payment_methods and shop.enabled_payment_types.size > 0 -%}
                 <div class="cart__payment-methods">
-                  <span class="cart__payment-methods-label text--xsmall text--subdued">
-                    {{- 'cart.general.we_accept' | t -}}
-                  </span>
+                  <span class="cart__payment-methods-label text--xsmall text--subdued">{{ 'cart.general.we_accept' | t }}</span>
 
                   <div class="payment-methods-list payment-methods-list--center">
                     {% for type in shop.enabled_payment_types %}
                       {{ type | payment_type_svg_tag }}
                     {% endfor %}
                   </div>
+<<<<<<< HEAD
 
                   {%- if section.settings.accepted_payments_footnote -%}
                     <span class="cart__payment-methods-note text--xsmall text--subdued">
                       {{- 'section.settings.accepted_payments_footnote' -}}
                     </span>
                   {%- endif -%}
+=======
+>>>>>>> 3be2b2164553d478a13a93e26b0a0eb0457d3d55
                 </div>
               {%- endif -%}
             </safe-sticky>
@@ -592,11 +472,11 @@
       "info": "If the customer is logged in, the country of their shipping address will be used.",
       "default": "United States"
     },
-    {
+        {
       "type": "text",
       "id": "accepted_payments_footnote",
       "label": "Other national payments note",
-      "default": ""
+      "default": "Other national payments note"
     },
     {
       "type": "url",
