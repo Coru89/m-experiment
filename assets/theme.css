@@ -8938,6 +8938,11 @@ input:checked + .popover__choice-label::after,
   margin-bottom: 16px;
 }
 
+.cart__payment-methods-note {
+  display: block;
+  margin-top: 16px;
+}
+
 @media screen and (max-width: 999px) {
   .cart__aside {
     margin-top: 24px;
