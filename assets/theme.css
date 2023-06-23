@@ -11990,26 +11990,35 @@ input:checked + .popover__choice-label::after,
   }
 }
 
+.mini-cart.drawer,
+.mini-cart.drawer .drawer__header,
+.mini-cart.drawer .drawer__footer,
 .predictive-search.drawer,
 .predictive-search.drawer .drawer__header,
 .predictive-search.drawer .drawer__footer {
   background: #fff;
 }
 
+.mini-cart.drawer .drawer__footer::before,
 .predictive-search.drawer .drawer__footer::before {
   display: none;
 }
 
+.mini-cart.drawer .product-item-meta,
+.mini-cart.drawer .predictive-search__form,
+.mini-cart.drawer .predictive-search__content-wrapper,
 .predictive-search.drawer .product-item-meta,
 .predictive-search.drawer .predictive-search__form,
 .predictive-search.drawer .predictive-search__content-wrapper {
   color: rgb(25, 25, 25);
 }
 
+.mini-cart.drawer .drawer__header,
 .predictive-search.drawer .drawer__header {
   border-bottom: 1px solid rgba(var(--text-color), 0.75);
 }
 
+.mini-cart.drawer .predictive-search__input::placeholder,
 .predictive-search.drawer .predictive-search__input::placeholder {
   color: rgba(25, 25, 25, 0.8);
 }
