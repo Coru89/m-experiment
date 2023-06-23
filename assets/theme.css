@@ -12004,6 +12004,7 @@ input:checked + .popover__choice-label::after,
   display: none;
 }
 
+.mini-cart .price,
 .mini-cart .text--subdued,
 .mini-cart .drawer__title,
 .mini-cart.drawer .product-item-meta,
