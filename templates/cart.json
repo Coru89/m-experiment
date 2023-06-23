@@ -23,7 +23,7 @@
         "show_payment_methods": true,
         "show_shipping_estimator": false,
         "shipping_estimator_default_country": "United States",
-        "accepted_payments_footnote": "",
+        "accepted_payments_footnote": "We accept most local methods of payment",
         "empty_button_link": "https:\/\/m-experiment.com"
       }
     },
