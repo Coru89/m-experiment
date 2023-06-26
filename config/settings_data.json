@@ -40,7 +40,7 @@
     "product_color_display": "count",
     "product_image_size": "natural",
     "search_enable_blog_posts": false,
-    "search_enable_collections": false,
+    "search_enable_collections": true,
     "cart_type": "drawer",
     "cart_icon": "shopping_cart",
     "cart_show_free_shipping_threshold": false,
