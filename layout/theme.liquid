@@ -257,7 +257,16 @@
         </div>
       {%- endif -%}
 
-      {{ content_for_layout }}
+      {% comment %} {{ content_for_layout }} {% endcomment %}
+
+      {% if request.path contains '/account/subscribe' %}
+        {%- assign unsubscribe_url = content_for_layout | split: 'href="' | last | split: '">' | first -%}
+        {% render '_account-subscribe', unsubscribe_url: unsubscribe_url %}
+        {% elsif request.path contains '/account/unsubscribe' %}
+        {% render '_account-unsubscribe' %}
+        {% else %}
+        {{ content_for_layout }}
+      {% endif %}
 
       {%- unless request.page_type == 'index' or request.page_type == 'password' or request.page_type == 'gift_card' -%}
         {%- section 'static-text-with-icons' -%}

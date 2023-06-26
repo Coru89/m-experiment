@@ -16211,3 +16211,10 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
 .shopify-section--main-customers-account h1 {
   color: #fff;
 }
+
+
+/* subscribe/unsubscribe confirmations */
+.shopify-email-marketing-confirmation__container {
+  padding: 112px var(--container-gutter) 112px var(--container-gutter) !important;
+  max-width: var(--container-max-width) !important;
+}
