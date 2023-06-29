@@ -445,7 +445,7 @@
         "title": "Gigawatt",
         "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
-        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_669c9d16-c121-4f4e-a41c-76e5495af5bd.png",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_New.jpg",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -558,7 +558,7 @@
         "title": "LENS CLUTCH",
         "subheading": "Lens quick release system giving you the fastest, most secure method to switch lenses.",
         "content": "",
-        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_FramePage_02_1_6bc1e3a4-9865-4257-8ec2-19e80bca0a1b.png",
+        "image": "shopify:\/\/shop_images\/M_Lens_Clutch_Desktop.jpg",
         "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_FramePage_02_1.png",
         "button_text": "",
         "button_link": "",
@@ -931,7 +931,7 @@
           "type": "frame",
           "settings": {
             "title": "Gigawatt",
-            "image": "shopify:\/\/shop_images\/Gigawatt-TechPage.jpg",
+            "image": "shopify:\/\/shop_images\/Gigawatt_2c3f2356-41fc-4f6a-8671-7f3d7589e1b2.png",
             "specs": "LENS GEOMETRY….………………9-BASE\nLENS HEIGHT………………………42 mm\nLENS WIDTH…………..……………63 mm\nFRAME WIDTH……….…………….143.3 mm\nTEMPLE LENGTH…….……………136 mm\nWEIGHT…………………….……….33.26 g"
           }
         },
@@ -939,7 +939,7 @@
           "type": "frame",
           "settings": {
             "title": "Pleasure",
-            "image": "shopify:\/\/shop_images\/Pleasure-TechPage.jpg",
+            "image": "shopify:\/\/shop_images\/Pleasure.png",
             "specs": "LENS GEOMETRY…………………6-BASE\nLENS HEIGHT………………………40 mm\nLENS WIDTH……….………………53 mm\nFRAME WIDTH…………………….148 mm\nTEMPLE LENGTH…………………134 mm\nWEIGHT…………………………….38.8 g"
           }
         },
@@ -947,7 +947,7 @@
           "type": "frame",
           "settings": {
             "title": "Business",
-            "image": "shopify:\/\/shop_images\/Business-TechPage.jpg",
+            "image": "shopify:\/\/shop_images\/Business.png",
             "specs": "LENS GEOMETRY…….……………4-BASE\nLENS HEIGHT………………………37 mm\nLENS WIDTH……………..…………52 mm\nFRAME WIDTH…………….……….144 mm\nTEMPLE LENGTH………….………137 mm\nWEIGHT………………………….….31.3 g"
           }
         }
