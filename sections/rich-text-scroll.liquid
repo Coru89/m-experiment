@@ -11,6 +11,53 @@
 {%- endif -%}
 
 <style>
+  .swipe-icon {
+    width: 70px;
+    position: absolute;
+    bottom: 35px;
+    left: -24px;
+  }
+
+  .hand-x {
+    animation: swipe-x 1.25s ease-in-out backwards;
+    animation-iteration-count:infinite;
+    transform-origin: 50% 50%;
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .swipe-horizontal {
+    opacity: .75;
+  }
+
+  .arrow-left,
+  .arrow-right,
+  .line-horizontal {
+    fill: transparent;
+    stroke: #000;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  @keyframes swipe-x {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(50px) rotateZ(10deg);
+    }
+    50% {
+      transform: translateX(0px);
+    }
+    75% {
+      transform: translateX(-50px) rotateZ(-10deg);
+    }
+  }
+
   #shopify-section-{{ section.id }} {
     {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
       {%- assign section_background = settings.background -%}
@@ -85,16 +132,36 @@
     font-size: {{ section.settings.subheading_font_size_mobile }}px;
   }
 
-
   @media screen and (min-width: 1000px) {
     #shopify-section-{{ section.id }} .subheading {
       font-size: {{ section.settings.subheading_font_size_desktop }}px;
     }
   }
+
+  #shopify-section-{{ section.id }} scrollable-content {
+    margin-left: -24px;
+    margin-right: -24px;
+    position: relative;
+  }
+
+  #shopify-section-{{ section.id }} scrollable-content .image__wrapper {
+    overflow: scroll;
+    margin: 0 -24px;
+  }
+
+  #shopify-section-{{ section.id }} scrollable-content img {
+    width: 200%;
+    overflow: scroll;
+    max-width: none;
+  }
 </style>
 
 <section class="section {% unless blends_with_background or is_boxed %}section--flush{% endunless %}">
-  <div {% if is_boxed %} class="container" {% endif %}>
+  <div
+    {% if is_boxed %}
+      class="container"
+    {% endif %}
+  >
     <div class="section__color-wrapper {% if is_boxed %}section__color-wrapper--boxed{% endif %}">
       <div class="{% unless is_boxed %}container{% endunless %} {% unless blends_with_background %}vertical-breather{% endunless %}">
         {%- assign text_position = section.settings.text_position -%}
@@ -119,14 +186,55 @@
 
           {%- if section.settings.image != blank -%}
             {%- assign image = section.settings.image -%}
-            <div class="image__wrapper {% if section.settings.mobile_image != blank %}hidden-pocket{% endif %}">
+            <div class="image__wrapper {% if section.settings.mobile_image != blank %}hidden-phone{% endif %}">
               {{ image | image_url: width: image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
             </div>
           {%- endif -%}
           {%- if section.settings.mobile_image != blank -%}
-            <div class="image__wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-              {{- section.settings.mobile_image | image_url: width: 3000 | image_tag: draggable: false, sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-            </div>
+            <scrollable-content
+              {% unless section.settings.show_arrows %}
+                draggable
+              {% endunless %}
+              class="{% if section.blocks.size >= 3 %}is-scrollable{% endif %} hidden-tablet-and-up hide-scrollbar"
+            >
+              <div
+                class="image__wrapper"
+                {% if section.settings.transition_type == 'reveal' %}
+                  reveal-visibility
+                {% endif %}
+              >
+                {{-
+                  section.settings.mobile_image
+                  | image_url: width: 3000
+                  | image_tag:
+                    draggable: false,
+                    sizes: '100vw',
+                    widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000'
+                -}}
+              </div>
+              <svg
+                class="swipe-icon"
+                id="Swipe-horizontal_1"
+                data-name="Swipe horizontal 1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 200 200"
+              >
+                <path class="hand-x" d="M139.93,113.56l-41.12-6.93V76.08a9.25,9.25,0,0,0-9.25-9.25h0a9.25,9.25,0,0,0-9.25,9.25v57.36L71,122.65c-3.61-3.61-8.44-3.89-13.08,0,0,0-7.24,5.84-3.83,9.25l34,34h42.63a9.25,9.25,0,0,0,9.07-7.43l6.82-34.09A9.28,9.28,0,0,0,139.93,113.56Z"/>
+                <g class="swipe-horizontal">
+                  <path class="line-horizontal" d="M70.85,42c19.69-12.46,37,0,37,0"/>
+                  <polyline class="arrow-left" points="76.6 46.01 68.37 43.43 68.38 43.41 70.96 35.18"/>
+                  <polyline class="arrow-right" points="100.21 44.66 108.43 42.08 108.43 42.06 105.85 33.84"/>
+                </g>
+              </svg>
+            </scrollable-content>
+
+
+
+            {% comment %}
+              <div class="image__wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+                {{- section.settings.mobile_image | image_url: width: 3000 | image_tag: draggable: false, sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              </div>
+            {% endcomment %}
           {%- endif -%}
 
           {%- if section.settings.content != blank -%}
@@ -140,7 +248,7 @@
 
 {% schema %}
 {
-  "name": "Rich text with image",
+  "name": "Rich text with scroller",
   "class": "shopify-section--rich-text",
   "settings": [
     {
@@ -349,7 +457,7 @@
   ],
   "presets": [
     {
-      "name": "Rich text with image",
+      "name": "Rich text with scroller",
       "settings": {}
     }
   ]
