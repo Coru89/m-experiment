@@ -434,25 +434,22 @@
     "7b4de6a6-15a3-4cf6-ab2d-d9894c2aa7cd": {
       "type": "rich-text-scroll",
       "settings": {
-        "title": "Talk about your brand",
-        "subheading": "Subheading",
-        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "title": "Gigawatt",
+        "subheading": "",
+        "content": "",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_8123024f-15b5-4e34-86ec-e601d061af11.png",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "medium",
         "heading_font_size_desktop": 118,
-        "heading_font_size_mobile": 50,
+        "heading_font_size_mobile": 40,
         "subheading_font_size_desktop": 22,
         "subheading_font_size_mobile": 16,
-        "text_position": "center",
-        "text_alignment": "center",
         "remove_top_spacing": false,
-        "remove_bottom_spacing": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "remove_bottom_spacing": true,
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000"
       }
     },
     "867df809-77d4-4790-a98d-372e5b2ca373": {
