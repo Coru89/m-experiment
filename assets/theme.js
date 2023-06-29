@@ -4262,7 +4262,7 @@
       }
     }
     async _doPredictiveSearch(term) {
-      const response = await fetch(`${window.themeVariables.routes.predictiveSearchUrl}?q=${encodeURIComponent(term)}&resources[limit]=10&resources[type]=${window.themeVariables.settings.searchMode}&resources[options[unavailable_products]]=${window.themeVariables.settings.searchUnavailableProducts}&resources[options[fields]]=title,body,product_type,variants.title,variants.sku,vendor&section_id=predictive-search`, {
+      const response = await fetch(`${window.themeVariables.routes.predictiveSearchUrl}?q=${encodeURIComponent(term)}&resources[limit]=10&resources[type]=${window.themeVariables.settings.searchMode}&resources[options[unavailable_products]]=${window.themeVariables.settings.searchUnavailableProducts}&resources[options[fields]]=title,tag,body,product_type,variants.title,variants.sku,vendor&section_id=predictive-search`, {
         signal: this.abortController.signal
       });
       const div = document.createElement("div");
