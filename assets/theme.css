@@ -13306,7 +13306,8 @@ shopify-payment-terms {
 .product-item__image-wrapper {
   position: relative;
   display: block;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
+  margin-bottom: 0;
   overflow: hidden;
 }
 
