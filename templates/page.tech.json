@@ -431,8 +431,43 @@
         "overlay_opacity": 0
       }
     },
+    "7b4de6a6-15a3-4cf6-ab2d-d9894c2aa7cd": {
+      "type": "rich-text-scroll",
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 0;}",
+        "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}",
+        "@media screen and (min-width: 750px) {h3 {text-align: left; font-size: 32px; font-weight: 300; margin-bottom: 1rem; }}",
+        "li {font-size: 18px; margin: 0; padding: 0;}",
+        "@media screen and (min-width: 750px) {li {font-size: 20px; }}",
+        "ul {text-align: left;}"
+      ],
+      "settings": {
+        "title": "Gigawatt",
+        "subheading": "",
+        "content": "",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_8123024f-15b5-4e34-86ec-e601d061af11.png",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_New.jpg",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "heading_font_size_desktop": 118,
+        "heading_font_size_mobile": 40,
+        "subheading_font_size_desktop": 22,
+        "subheading_font_size_mobile": 16,
+        "text_position": "center",
+        "text_alignment": "center",
+        "remove_top_spacing": false,
+        "remove_bottom_spacing": true,
+        "background": "#ffffff",
+        "text_color": "#6b6b6b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000"
+      }
+    },
     "867df809-77d4-4790-a98d-372e5b2ca373": {
       "type": "rich-text-image",
+      "disabled": true,
       "custom_css": [
         ".vertical-breather {padding-bottom: 0;}",
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}",
@@ -1034,6 +1069,7 @@
     "fe014da0-6a33-405c-b4b7-9096fdd9915d",
     "b94428e8-336a-4948-b3fb-06ee7f4aae6a",
     "ceb17ac0-fbaa-45b9-b438-a9694758bd82",
+    "7b4de6a6-15a3-4cf6-ab2d-d9894c2aa7cd",
     "867df809-77d4-4790-a98d-372e5b2ca373",
     "7dbe9f48-ac28-4c45-b40a-b87015168b00",
     "3f84c371-f546-4f31-9b3f-6d062ab35bfb",
