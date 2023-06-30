@@ -139,6 +139,91 @@
       >
     {%- endif -%}
 
+    <!-- Meta Pixel Code -->
+    {% comment %} <script>
+      !function (f, b, e, v, n, t, s) {
+          if (f.fbq) return; n = f.fbq = function () {
+              n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          };
+          if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+          n.queue = []; t = b.createElement(e); t.async = !0;
+          t.src = v; s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '966562834669955');
+      fbq('track', 'PageView');
+    </script> {% endcomment %}
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=966562834669955&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Facebook Pixel integration- script from Consentmo GDPR Compliance App -->
+    <script id="gdpr-fbpx-blocking-script">
+      let isFBPXBlocked = false;
+      let isFBPXExecuted = false;
+      function blockFBPX() {
+        if(!isFBPXBlocked) {
+          !function(){var e=null,n=[];
+                      Object.defineProperty(window,"fbq",{get:function(){return e},set:function(o){Object.defineProperty(o,"queue",{get:function(){return []},set:function(){}}),e=o}})}();
+          isFBPXBlocked = true;
+        }
+      }
+      function executeFBPX() {
+        if(!isFBPXExecuted) {
+          !function (f, b, e, v, n, t, s) {
+              if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)};
+              if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+              n.queue = []; t = b.createElement(e); t.async = !0;
+              t.src = v; s = b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t, s)
+          }(window, document, 'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '966562834669955');
+          fbq('track', 'PageView');
+          isFBPXExecuted = true;
+        }
+      }
+      function checkConsentForFBPX(adittionalChecks = 0) {  
+        let cpdCookie=(document.cookie.match(/^(?:.*;)?\s*cookieconsent_preferences_disabled(\s*=\s*([^;]+)?)(?:.*)?$/)||[,null])[1];
+        if(cpdCookie != null) {
+          if(parseInt(cpdCookie.indexOf('marketing')) > -1) {
+            blockFBPX();
+          } else if(parseInt(cpdCookie.indexOf('marketing')) === -1) {
+            executeFBPX();
+          }
+        } else {
+          let gdprCache = localStorage.getItem('gdprCache') ? JSON.parse(localStorage.getItem('gdprCache')) : null;
+          let gdprCacheConsentSettings = gdprCache && gdprCache.getCookieConsentSettings ? JSON.parse(gdprCache.getCookieConsentSettings) : null;
+          let gdprCacheCountryDetection = gdprCache && gdprCache.countryDetection ? JSON.parse(gdprCache.countryDetection) : null;
+          let ccsCookie = (document.cookie.match(/^(?:.*;)?\s*cookieconsent_status\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1];
+          if((gdprCacheConsentSettings || (gdprCacheCountryDetection && gdprCacheCountryDetection.disable === '1')) && !ccsCookie) {
+            if((gdprCacheConsentSettings && gdprCacheConsentSettings.status === 'disabled') || gdprCacheCountryDetection.disable === '1'){
+              executeFBPX();
+            } else {
+              let initPreferences = parseInt(gdprCacheConsentSettings.checkboxes_behavior);
+              if(initPreferences === 2 || initPreferences === 5 || initPreferences === 7) {
+                blockFBPX();
+              } else if(initPreferences === 1 || initPreferences === 3 || initPreferences === 4 || initPreferences === 6) {
+                executeFBPX();
+              }
+            }
+          } else {
+            if (adittionalChecks > 0) {
+              setTimeout(function() {
+                checkConsentForFBPX(adittionalChecks - 1);
+              }, 1000);
+            } else {
+              executeFBPX();
+            }
+          }
+        }
+      }
+    
+      checkConsentForFBPX(3);
+    </script>
+
     {% render 'social-meta-tags' %}
     {% render 'microdata-schema' %}
     {% render 'css-variables', direction: direction %}
