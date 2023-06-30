@@ -11,7 +11,7 @@
     "822de1c8-a4ff-4770-ad92-1e77610d4456": {
       "type": "image-with-text-overlay",
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/tech-header-1.png",
         "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Header_Mobile.jpg",
