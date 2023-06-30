@@ -9286,7 +9286,9 @@ input:checked + .popover__choice-label::after,
     max-width: calc(var(--grid-column-width) * 3 + var(--grid-gap) * 2);
   }
 }
+
 .footer {
+  overflow: hidden;
   padding: 48px 0;
   background: rgb(var(--background));
   color: rgb(var(--text-color));
