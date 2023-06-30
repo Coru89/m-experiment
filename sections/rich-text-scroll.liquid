@@ -13,7 +13,7 @@
 <style>
   .swipe-icon {
     bottom: 40px;
-    {% comment %} left: -12px; {% endcomment %}
+    left: 12px;
     position: relative;
     {% comment %} width: 100%; {% endcomment %}
   }
@@ -152,8 +152,7 @@
           {%- endif -%}
           {%- if section.settings.mobile_image != blank -%}
             {% comment %} <gallery-list class="gallery"> {% endcomment %}
-              <scrollable-content class="gallery__list-wrapper {% if section.blocks.size >= 3 %}is-scrollable{% endif %} hidden-tablet-and-up hide-scrollbar"
-              >
+              <scrollable-content class="{% comment %}gallery__list-wrapper{% endcomment %}{% if section.blocks.size >= 3 %}is-scrollable{% endif %} hidden-tablet-and-up hide-scrollbar">
                 {% comment %} <gallery-item> {% endcomment %}
                   <div
                     class="image__wrapper hide-scrollbar"
