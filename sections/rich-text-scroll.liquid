@@ -13,9 +13,9 @@
 <style>
   .swipe-icon {
     bottom: 40px;
-    left: -12px;
+    {% comment %} left: -12px; {% endcomment %}
     position: relative;
-    width: 100%;
+    {% comment %} width: 100%; {% endcomment %}
   }
 
   #shopify-section-{{ section.id }} {
@@ -151,38 +151,35 @@
             </div>
           {%- endif -%}
           {%- if section.settings.mobile_image != blank -%}
-            <scrollable-content class="{% if section.blocks.size >= 3 %}is-scrollable{% endif %} hidden-tablet-and-up hide-scrollbar"
-            >
-              <div
-                class="image__wrapper hide-scrollbar"
-                {% if section.settings.transition_type == 'reveal' %}
-                  reveal-visibility
-                {% endif %}
+            {% comment %} <gallery-list class="gallery"> {% endcomment %}
+              <scrollable-content class="gallery__list-wrapper {% if section.blocks.size >= 3 %}is-scrollable{% endif %} hidden-tablet-and-up hide-scrollbar"
               >
-                {{-
-                  section.settings.mobile_image
-                  | image_url: width: 3000
-                  | image_tag:
-                    draggable: true,
-                    sizes: '100vw',
-                    widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000'
-                -}}
-              </div>
-
-              <svg class="swipe-icon" width="322" height="9" viewBox="0 0 322 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {% comment %} <gallery-item> {% endcomment %}
+                  <div
+                    class="image__wrapper hide-scrollbar"
+                    {% if section.settings.transition_type == 'reveal' %}
+                      reveal-visibility
+                    {% endif %}
+                  >
+                    {{-
+                      section.settings.mobile_image
+                      | image_url: width: 3000
+                      | image_tag:
+                        draggable: true,
+                        sizes: '240vw',
+                        widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000'
+                    -}}
+                  </div>
+                {% comment %} </gallery-item> {% endcomment %}
+                
+              </scrollable-content>
+              <svg class="swipe-icon hidden-tablet-and-up" width="322" height="9" viewBox="0 0 322 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.901329 4.29293C0.706067 4.48819 0.706067 4.80478 0.901329 5.00004L4.08331 8.18202C4.27857 8.37728 4.59515 8.37728 4.79042 8.18202C4.98568 7.98676 4.98568 7.67017 4.79042 7.47491L1.96199 4.64648L4.79042 1.81806C4.98568 1.6228 4.98568 1.30621 4.79042 1.11095C4.59515 0.915688 4.27857 0.915688 4.08331 1.11095L0.901329 4.29293ZM321.608 5.00004C321.804 4.80478 321.804 4.48819 321.608 4.29293L318.426 1.11095C318.231 0.915688 317.915 0.915688 317.719 1.11095C317.524 1.30621 317.524 1.6228 317.719 1.81806L320.548 4.64648L317.719 7.47491C317.524 7.67017 317.524 7.98676 317.719 8.18202C317.915 8.37728 318.231 8.37728 318.426 8.18202L321.608 5.00004ZM1.25488 5.14648H321.255V4.14648H1.25488V5.14648Z" fill="#6b6b6b"/>
               </svg>
-                
-                
-            </scrollable-content>
-
-
-
-            {% comment %}
-              <div class="image__wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-                {{- section.settings.mobile_image | image_url: width: 3000 | image_tag: draggable: false, sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              {% comment %} <div class="gallery__progress-bar-wrapper container swipe-icon">
+                <span class="gallery__progress-bar progress-bar" style="--divider: 2.0"></span>
               </div>
-            {% endcomment %}
+            </gallery-list> {% endcomment %}
           {%- endif -%}
 
           {%- if section.settings.content != blank -%}
