@@ -433,6 +433,24 @@
     },
     "7b4de6a6-15a3-4cf6-ab2d-d9894c2aa7cd": {
       "type": "rich-text-scroll",
+      "blocks": {
+        "2e5574b8-7449-44ff-9ad2-5f8ce8f0a3d4": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/M_Gigawatt_Mobile_A.jpg"
+          }
+        },
+        "619f65f2-2271-4bcd-91d0-a3f3d9b5239f": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/M_Gigawatt_Mobile_B.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "2e5574b8-7449-44ff-9ad2-5f8ce8f0a3d4",
+        "619f65f2-2271-4bcd-91d0-a3f3d9b5239f"
+      ],
       "custom_css": [
         ".vertical-breather {padding-bottom: 0;}",
         "h3 {text-transform: uppercase; font-size: 26px; margin-bottom: 0.5rem; font-family: \"Helvetica Neue Thin\", var(--text-font-family);}",
@@ -446,7 +464,6 @@
         "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_8123024f-15b5-4e34-86ec-e601d061af11.png",
-        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_New.jpg",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
