@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Pleasure_Desktop-1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Pleasure_Mobile-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_Frame_Pages_Header_Pleasure_Mobile_a2ecb688-3c86-472d-9711-77c80f97a801.jpg",
             "overlay_opacity": 0,
             "title": "",
             "title_mobile": "",
@@ -696,7 +696,7 @@
         "desktop_item_size": "small",
         "spacing": "normal",
         "background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "#191919"
       }
     },
     "076effdb-df1c-4179-8dd8-06d8681edc1c": {
@@ -764,7 +764,7 @@
         "desktop_item_size": "small",
         "spacing": "normal",
         "background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "#191919"
       }
     },
     "166200293690459eff": {

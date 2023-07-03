@@ -90,7 +90,7 @@
             "image": "shopify:\/\/shop_images\/Lens_Geometry.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "<br>Lens Geometry",
+            "title": "Lens Geometry",
             "title_impact": "",
             "content": "The optical design of the base curve lens is AI enhanced 3-axis optical correction for prismatic power.  This is coupled with custom blended optical grade materials for ultimate clarity and reduced internal haze, along with Thermo Carbon impact resistance for eye protection.",
             "link_text": "",
@@ -106,7 +106,7 @@
             "image": "shopify:\/\/shop_images\/plasmachromatic.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "PLASMA<br>(PLASMACHROMATIC)",
+            "title": "PLASMACHROMATIC",
             "title_impact": "",
             "content": "Multi-layer coatings using an assortment of exotic materials.  These precision coatings reflect light, reducing glare and eye strain.",
             "link_text": "",
@@ -122,7 +122,7 @@
             "image": "shopify:\/\/shop_images\/eye_fence.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "<br>EYE FENCE",
+            "title": "EYE FENCE",
             "title_impact": "",
             "content": "Thermo Carbon backed impact resistant lenses protect your eyes from flying debris, UV rays, and other hazards.",
             "link_text": "",
@@ -138,7 +138,7 @@
             "image": "shopify:\/\/shop_images\/res.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "<br>RES+",
+            "title": "RES+",
             "title_impact": "",
             "content": "Ultra-definition optical clarity reduces distortion and offers a wide field of view, creating a superior optical experience.",
             "link_text": "",
@@ -154,7 +154,7 @@
             "image": "shopify:\/\/shop_images\/polarized.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "<br>POLARIZED",
+            "title": "POLARIZED",
             "title_impact": "",
             "content": "High-performance polarized lenses block 99.9% of reflective glare for the most vivid and detailed visual experiences.",
             "link_text": "",
@@ -347,7 +347,7 @@
             "image_border": "rgba(0,0,0,0)",
             "title": "ATOMIC 14",
             "title_impact": "",
-            "content": "Silicone polymer material used in our Slics and 3-Way Adjustable Nose Piece, delivering a high comfort, non-slip grip capable of anchoring your eyewear to your face with maximum comfort.",
+            "content": "Silicone polymer material used in our Slics, delivering a high comfort, non-slip grip capable of anchoring your eyewear to your face with maximum comfort.",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -444,7 +444,7 @@
       "settings": {
         "title": "Gigawatt",
         "subheading": "",
-        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_8123024f-15b5-4e34-86ec-e601d061af11.png",
         "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_New.jpg",
         "button_text": "",
@@ -829,7 +829,7 @@
       "settings": {
         "title": "Pleasure",
         "subheading": "",
-        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li> Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li> Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/Pleasure_Desktop.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Pleasure_Mobile.jpg",
         "button_text": "",
@@ -890,7 +890,7 @@
       "settings": {
         "title": "Business",
         "subheading": "",
-        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasma (Plasmachromatic): Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
         "image": "shopify:\/\/shop_images\/Business_Desktop.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Business_Mobile.jpg",
         "button_text": "",
@@ -975,7 +975,7 @@
           "settings": {
             "title": "Pleasure",
             "image": "shopify:\/\/shop_images\/Pleasure.png",
-            "specs": "LENS GEOMETRY…………………6-BASE\nLENS HEIGHT………………………40 mm\nLENS WIDTH……….………………53 mm\nFRAME WIDTH…………………….148 mm\nTEMPLE LENGTH…………………134 mm\nWEIGHT…………………………….38.8 g"
+            "specs": "LENS GEOMETRY…………………6-BASE\nLENS HEIGHT………………………40 mm\nLENS WIDTH……….………………53 mm\nFRAME WIDTH…………………….148 mm\nTEMPLE LENGTH…………………134 mm\nWEIGHT…………………………….38.3 g"
           }
         },
         "90cff8e1-d4c4-4f2f-8d89-b5b9c8a34416": {
