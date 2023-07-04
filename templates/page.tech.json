@@ -13,8 +13,8 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/tech-header-1.png",
-        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Header_Mobile.jpg",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Header_Desktop_Nocopy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Header_Mobile_Nocopy.jpg",
         "title": "M-Technology",
         "title_mobile": "",
         "subheading": "THE MOST ADVANCED MATERIALS WITH A DASH OF MAD SCIENCE",
@@ -443,7 +443,7 @@
         "619f65f2-2271-4bcd-91d0-a3f3d9b5239f": {
           "type": "image",
           "settings": {
-            "mobile_image": "shopify:\/\/shop_images\/M_Gigawatt_Mobile_B.jpg"
+            "mobile_image": "shopify:\/\/shop_images\/M_Gigawatt_Mobile_B_669dbfcc-a56b-4255-9fca-5b78d25cd747.jpg"
           }
         }
       },
@@ -462,8 +462,8 @@
       "settings": {
         "title": "Gigawatt",
         "subheading": "",
-        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
-        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt_3_8123024f-15b5-4e34-86ec-e601d061af11.png",
+        "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li> Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><li>Atomic 14: Smooth silicone delivering high comfort and non-slip grip.<\/li><\/ul>",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Gigawatt.jpg",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -579,7 +579,7 @@
       ],
       "settings": {
         "title": "DUAL CHAMBER INFUSION",
-        "subheading": "A multi-stage mold process using fiberglass reinforced parts in Gigawatt, resulting in a stiff chassis in and around the hinge while maintaining flexibility and skin feel in the nose and ear areas for comfort",
+        "subheading": "A multi-stage mold process using fiberglass reinforced parts in Gigawatt, resulting in a stiff chassis in and around the hinge while maintaining flexibility and skin feel in the nose and ear areas for comfort.",
         "content": "",
         "image": "shopify:\/\/shop_images\/dual_chamber_40b09a41-596f-406d-b4d5-565b0ff172cc.png",
         "button_text": "",
@@ -847,8 +847,8 @@
         "title": "Pleasure",
         "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li> Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
-        "image": "shopify:\/\/shop_images\/Pleasure_Desktop.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Pleasure_Mobile.jpg",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Pleasure_457f8cc1-041d-4e22-8f04-48c3c08567a1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_Pleasure_4bf51358-9408-42bd-ab57-04d4af463780.jpg",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -908,8 +908,8 @@
         "title": "Business",
         "subheading": "",
         "content": "<h3>Lens Technology<\/h3><ul><li>Lens Geometry: AI assisted 3 axis correction for prismatic distortion and refractive power.<\/li><li>Plasmachromatic: Precision coatings reflect light, reducing glare and eye strain.<\/li><li>Polarized: High-performance coating blocking 99.9% of reflective glare.<\/li><li>Eye Fence: Impact resistance for maximum eye protection.<\/li><li>Res+: Ultra-definition optical clarity reducing distortion while offering a wider field of view.<\/li><\/ul><h3>Materials<\/h3><ul><li>M Carbon: Proprietary frame material providing superior heat resistance and durability.<\/li><li>Atomic 13: Blended Aluminum used for toughness, lightness, and strength.<\/li><li>Thermo Carbon: Delivers proven impact resistance, maximum optical clarity and durability.<\/li><\/ul>",
-        "image": "shopify:\/\/shop_images\/Business_Desktop.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Business_Mobile.jpg",
+        "image": "shopify:\/\/shop_images\/M_Tech_Page_Desktop_Business_2a17ff18-8334-4d42-a2e7-43fee7f3f1f2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Tech_Page_Mobile_Business_f2e77d1f-15b4-460b-8daa-4a76b0448f4b.jpg",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",

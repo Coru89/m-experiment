@@ -1238,6 +1238,7 @@
         "reveal_on_scroll": true,
         "section_height": "auto",
         "image": "shopify:\/\/shop_images\/M_Whats_Next_Desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/M_Whats_Next_Mobile.jpg",
         "title": "",
         "title_mobile": "",
         "subheading": "",
