@@ -472,7 +472,30 @@
         "shipping_line_phone_blank": "Aby skorzystać z tej metody dostawy, wprowadź nr telefonu",
         "shipping_line_phone_invalid": "Aby skorzystać z tej metody dostawy, wprowadź prawidłowy nr telefonu",
         "sms_marketing_phone_invalid": "Wprowadź prawidłowy nr telefonu",
-        "tips_invalid_tip_amount": "Wprowadź napiwek nieprzekraczający kwoty %{amount}"
+        "tips_invalid_tip_amount": "Wprowadź napiwek nieprzekraczający kwoty %{amount}",
+        "address_address1_blank": "Wprowadź adres",
+        "address_address1_contains_html_tags": "Pole Adres1 nie może zawierać znaczników HTML.",
+        "address_address1_too_long": "Pierwsza linia adresu zawiera zbyt wiele znaków (można wpisać maks. 255 znaków)",
+        "address_address2_blank": "Wpisz mieszkanie, apartament itp.",
+        "address_address2_contains_html_tags": "Pole Adres2 nie może zawierać znaczników HTML.",
+        "address_address2_too_long": "Druga linia adresu zawiera zbyt wiele znaków (można wpisać maks. 255 znaków)",
+        "address_city_blank": "Wprowadź miejscowość",
+        "address_city_contains_html_tags": "Pole Miejscowość nie może zawierać znaczników HTML.",
+        "address_city_too_long": "Pole Miejscowość zawiera zbyt wiele znaków (można wpisać maks. 255 znaków)",
+        "address_company_blank": "Wprowadź nazwę firmy",
+        "address_company_contains_html_tags": "Pole Firma nie może zawierać znaczników HTML.",
+        "address_company_too_long": "Nazwa firmy zawiera zbyt wiele znaków (można wpisać maks. 255 znaków)",
+        "address_country_blank": "Wybierz kraj\/region",
+        "address_country_not_supported": "Aktualnie nie wysyłamy produktów do tego kraju\/regionu. Wprowadź nowy adres dostawy i spróbuj ponownie.",
+        "address_first_name_blank": "Wprowadź imię",
+        "address_first_name_contains_html_tags": "Pole Imię nie może zawierać znaczników HTML.",
+        "address_first_name_too_long": "Pole Imię zawiera zbyt wiele znaków (można wpisać maks. 255 znaków)",
+        "address_last_name_blank": "Wprowadź nazwisko",
+        "address_last_name_contains_html_tags": "Pole Nazwisko nie może zawierać znaczników HTML.",
+        "address_last_name_too_long": "Pole Nazwisko zawiera zbyt wiele znaków (można wpisać maks. 255 znaków)",
+        "address_phone_blank": "Wprowadź prawidłowy nr telefonu",
+        "address_province_blank": "Wybierz stan\/województwo",
+        "address_zip_blank": "Wprowadź kod pocztowy"
       },
       "general": {
         "all_rights_reserved": "Wszelkie prawa zastrzeżone: %{shop_name}",
@@ -972,6 +995,101 @@
         "presets_description": "Wybierz procent dla napiwku",
         "title": "Dodaj napiwek",
         "update_tip": "Zaktualizuj napiwek"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ekspresowa realizacja zakupu",
+        "or": "LUB"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Koszyk został zaktualizowany w oparciu o kraj wysyłki"
+      },
+      "change_currency": {
+        "change_currency_link": "Zmień na %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "Wybrana waluta nie jest już dostępna. Aktualnie wszystkie ceny podane są w %{currency_code}.",
+        "payment_total_label": "Łącznie do zapłaty"
+      },
+      "contact": {
+        "address_title": "Adres",
+        "address1_label": "Adres",
+        "address2_label": "Mieszkanie, apartament itp.",
+        "city_label": "Miejscowość",
+        "civic_number_warning": "Dodaj nr domu, o ile dotyczy",
+        "company_label": "Firma",
+        "contact_method_title": "Dane kontaktowe",
+        "country_code": "Kod kraju\/regionu",
+        "country_label": "Kraj\/Region",
+        "county_label": "Hrabstwo",
+        "county_placeholder": "Hrabstwo",
+        "delivery_option_title": "Metoda dostawy",
+        "email_label": "Adres e-mail",
+        "email_or_phone_label": "Adres e-mail lub nr telefonu komórkowego",
+        "email_or_phone_placeholder": "Adres e-mail lub nr telefonu komórkowego",
+        "email_placeholder": "Adres e-mail",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "first_name_label": "Imię",
+        "governorate_label": "Gubernia",
+        "governorate_placeholder": "Gubernia",
+        "last_name_label": "Nazwisko",
+        "new_address_label": "Użyj nowego adresu",
+        "optional_address2_label": "Mieszkanie, apartament itp. (opcjonalnie)",
+        "optional_company_label": "Firma (opcjonalnie)",
+        "optional_first_name_label": "Imię (opcjonalnie)",
+        "optional_phone_label": "Nr telefonu (opcjonalnie)",
+        "phone_label": "Nr telefonu",
+        "phone_placeholder": "Nr telefonu",
+        "phone_tooltip": "Jest nam potrzebny na wypadek, gdybyśmy musieli się z Tobą skontaktować w sprawie zamówienia",
+        "pincode_label": "Kod PIN",
+        "pincode_placeholder": "Kod PIN",
+        "postal_code_label": "Kod pocztowy",
+        "postal_code_placeholder": "Kod pocztowy",
+        "postcode_label": "Kod pocztowy",
+        "postcode_placeholder": "Kod pocztowy",
+        "prefecture_label": "\nPrefektura",
+        "prefecture_placeholder": "Prefektura",
+        "province_label": "Województwo",
+        "province_placeholder": "Województwo",
+        "region_label": "Region",
+        "region_none": "Nie dokonano wyboru",
+        "region_placeholder": "Region",
+        "state_and_territory_label": "Stan\/Terytorium",
+        "state_and_territory_placeholder": "Stan\/Terytorium",
+        "state_label": "Stan",
+        "state_placeholder": "Stan",
+        "stored_addresses_label": "Zapisane adresy",
+        "title": "Informacje",
+        "zip_code_label": "Kod pocztowy",
+        "zip_code_placeholder": "Kod pocztowy"
+      },
+      "customer_account": {
+        "have_an_account_label": "Masz już konto?",
+        "not_user_label": "%{first_name} to nie Ty?",
+        "save_my_information_label": "Zapisz te informacje dla kolejnej sesji",
+        "sign_in_link_label": "Zaloguj się",
+        "sign_out_link_label": "Wyloguj się"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Podczas przetwarzania Twojego żądania wystąpił błąd.",
+          "success_message": "Pomyślnie usunięto metodę płatności"
+        },
+        "page_title": "Metody płatności",
+        "title": "Metody płatności",
+        "update_card_button_label": "Zaktualizuj kartę"
+      },
+      "delivery_options": {
+        "free_total_label": "Bezpłatnie",
+        "ship": "Wyślij",
+        "shipping_address": "Adres dostawy"
+      },
+      "failed_payment": {
+        "page_title": "Nie można przetworzyć zamówienia",
+        "payment_not_processed_text": "Nie zostałeś(-aś) obciążony(-a). Aby sfinalizować zakupy, wróć do koszyka.",
+        "payment_not_processed_title": "Nie można przetworzyć płatności",
+        "return_to_cart_button_label": "Powróć do koszyka",
+        "title": "Nie można przetworzyć płatności"
       }
     }
   }
