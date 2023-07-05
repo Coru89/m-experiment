@@ -433,5 +433,129 @@
       "description": "Désolé, cette page n'existe plus.",
       "back_to_home": "Retourner à la page d'accueil"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "Paiement express",
+        "or": "OU"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Votre panier a été mis à jour en fonction du pays de livraison."
+      },
+      "change_currency": {
+        "change_currency_link": "basculer en %{monnaie_name}",
+        "conversion_rate": "1 %{from_monnaie_code} = %{rate} %{to_monnaie_code}",
+        "currency_button_label": "%{monnaie} (%{monnaie_symbol})",
+        "currency_not_supported_by_shop": "La monnaie que vous avez choisie n'est plus disponible. À présent, tous les prix sont en %{monnaie_code}.",
+        "payment_total_label": "Paiement total"
+      },
+      "contact": {
+        "address_title": "Adresse",
+        "address1_label": "Adresse",
+        "address2_label": "Appartement, suite, etc.",
+        "city_label": "Ville",
+        "civic_number_warning": "Ajouter un numéro de maison s'il y en a un",
+        "company_label": "Entreprise",
+        "contact_method_title": "Coordonnées",
+        "country_code": "Code pays\/région",
+        "country_label": "Pays\/Région",
+        "county_label": "Pays",
+        "county_placeholder": "Pays",
+        "delivery_option_title": "Méthode de livraison",
+        "email_label": "E-mail",
+        "email_or_phone_label": "E-mail ou numéro de téléphone mobile",
+        "email_or_phone_placeholder": "E-mail ou numéro de téléphone mobile",
+        "email_placeholder": "E-mail",
+        "emirate_label": "Émirat",
+        "emirate_placeholder": "Émirat",
+        "first_name_label": "Prénom",
+        "governorate_label": "Gouvernorat",
+        "governorate_placeholder": "Gouvernorat",
+        "last_name_label": "Nom",
+        "new_address_label": "Utiliser une nouvelle adresse",
+        "optional_address2_label": "Appartement, suite, etc. (facultatif)",
+        "optional_company_label": "Entreprise (facultatif)",
+        "optional_first_name_label": "Prénom (facultatif)",
+        "optional_phone_label": "téléphone (facultatif)",
+        "phone_label": "téléphone",
+        "phone_placeholder": "téléphone",
+        "phone_tooltip": "Si vous devez nous contacter au sujet de votre commande",
+        "pincode_label": "Code PIN",
+        "pincode_placeholder": "Code PIN",
+        "postal_code_label": "Code postal",
+        "postal_code_placeholder": "Code postal",
+        "postcode_label": "Code postal",
+        "postcode_placeholder": "Code postal",
+        "prefecture_label": "Préfecture",
+        "prefecture_placeholder": "Préfecture",
+        "province_label": "Province",
+        "province_placeholder": "Province",
+        "region_label": "Région",
+        "region_none": "Aucune sélection",
+        "region_placeholder": "Région",
+        "state_and_territory_label": "État\/Territoire",
+        "state_and_territory_placeholder": "État\/Territoire",
+        "state_label": "État",
+        "state_placeholder": "État",
+        "stored_addresses_label": "Adresses sauvegardées",
+        "title": "Informations",
+        "zip_code_label": "Code ZIP",
+        "zip_code_placeholder": "Code ZIP"
+      },
+      "customer_account": {
+        "have_an_account_label": "Vous avez déjà un compte ?",
+        "not_user_label": "Vous n'êtes pas %{first_name} ?",
+        "save_my_information_label": "Sauvegarder ces informations pour la prochaine fois",
+        "sign_in_link_label": "Connexion",
+        "sign_out_link_label": "Déconnexion"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Une erreur est survenue lors du traitement de votre demande.",
+          "success_message": "Votre méthode de paiement a bien été supprimée"
+        },
+        "page_title": "Méthodes de paiement",
+        "title": "Méthodes de paiement",
+        "update_card_button_label": "Mettre la carte à jour"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratuit",
+        "ship": "Livraison",
+        "shipping_address": "Adresse de livraison"
+      },
+      "failed_payment": {
+        "page_title": "Le paiement n'a pas pu être traité",
+        "payment_not_processed_text": "Vous n'avez pas été débité. Retourner au panier pour terminer votre achat.",
+        "payment_not_processed_title": "Votre paiement n'a pas pu être traité",
+        "return_to_cart_button_label": "Retourner au panier",
+        "title": "Le paiement n'a pas pu être traité"
+      },
+      "field_errors": {
+        "address_address1_blank": "Saisissez une adresse",
+        "address_address1_contains_html_tags": "Le champ Adresse1 ne peut pas contenir de balise HTLM.",
+        "address_address1_too_long": "La première ligne de l'adresse est trop longue (limite de 255 caractères max.)",
+        "address_address2_blank": "Saisissez un appartement, une suite, etc.",
+        "address_address2_contains_html_tags": "Le champ Adresse2 ne peut pas contenir de balise HTLM.",
+        "address_address2_too_long": "La seconde ligne de l'adresse est trop longue (limite de 255 caractères max.)",
+        "address_city_blank": "Saisissez une ville",
+        "address_city_contains_html_tags": "Le champ de la ville ne peut pas contenir de balise HTML.",
+        "address_city_too_long": "Le nom de la ville est trop long (limite de 255 caractères max.)",
+        "address_company_blank": "Saisissez le nom de l'entreprise",
+        "address_company_contains_html_tags": "Le nom de l'entreprise ne peut pas contenir de balise HTML.",
+        "address_company_too_long": "Le nom de l'entreprise est trop long (limite de 255 caractères max.)",
+        "address_country_blank": "Sélectionnez un(e) pays\/région",
+        "address_country_not_supported": "Actuellement, nous n'effectuons pas de livraison dans ce pays ou cette région. Saisissez une nouvelle adresse de livraison et réessayez.",
+        "address_first_name_blank": "Saisissez un prénom",
+        "address_first_name_contains_html_tags": "Le prénom ne peut pas contenir de balise HTML.",
+        "address_first_name_too_long": "Le prénom est trop long (limite de 255 caractères max.)",
+        "address_last_name_blank": "Saisissez un nom",
+        "address_last_name_contains_html_tags": "Le nom ne peut pas contenir de balise HTML.",
+        "address_last_name_too_long": "Le nom est trop long (limite de 255 caractères max.)",
+        "address_phone_blank": "Saisissez un numéro de téléphone valide",
+        "address_province_blank": "Sélectionnez un État ou une province",
+        "address_zip_blank": "Saisissez le code ZIP\/postal"
+      }
+    }
   }
 }
