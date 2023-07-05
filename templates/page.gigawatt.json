@@ -417,11 +417,25 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "ccd2829a-ead2-4c6e-bfd8-09a779cd9fdf": {
+          "type": "variant-collection",
+          "settings": {
+            "product": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "template--15942754271382__5801e2f7-74f0-4053-896e-162085be37c2-1676636640e95fea90-0",
-        "4d0c8864-cd24-4ef5-a011-439442eb0d1d"
+        "4d0c8864-cd24-4ef5-a011-439442eb0d1d",
+        "ccd2829a-ead2-4c6e-bfd8-09a779cd9fdf"
       ],
       "custom_css": [
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
@@ -582,7 +596,7 @@
             "image": "shopify:\/\/shop_images\/Gig_lens_Blaze-Plasmachromatic_3qtr.1.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Blaze<br>Coming Soon",
+            "title": "BlazeComing Soon",
             "link_text": "",
             "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
@@ -610,7 +624,7 @@
             "image": "shopify:\/\/shop_images\/Gig_lens_Obsidian-Plasmachromatic_Polar_3qtr.11.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Obsidian <br>Coming Soon",
+            "title": "Obsidian Coming Soon",
             "link_text": "",
             "link_url": "\/pages\/lenses#gigawatt",
             "link_style": "link",
