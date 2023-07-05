@@ -1,0 +1,126 @@
+{
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "Экспресс-расчет",
+        "or": "ИЛИ"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Ваша корзина была обновлена с учетом вашей страны доставки."
+      },
+      "change_currency": {
+        "change_currency_link": "Измените на %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "Выбранная валюта больше не доступна. Все цены теперь указаны в %{currency_code}.",
+        "payment_total_label": "Итого к оплате"
+      },
+      "contact": {
+        "address_title": "Адрес",
+        "address1_label": "Адрес",
+        "address2_label": "Квартира, апартаменты и т. д.",
+        "city_label": "Город",
+        "civic_number_warning": "Добавьте номер дома, если он у вас есть",
+        "company_label": "Компания",
+        "contact_method_title": "Контактная информация",
+        "country_code": "Код страны\/региона",
+        "country_label": "Страна\/регион",
+        "county_label": "Округ",
+        "county_placeholder": "Округ",
+        "delivery_option_title": "Способ доставки",
+        "email_label": "Эл. почта",
+        "email_or_phone_label": "Эл. почта или номер мобильного телефона",
+        "email_or_phone_placeholder": "Эл. почта или номер мобильного телефона",
+        "email_placeholder": "Эл. почта",
+        "emirate_label": "Эмират",
+        "emirate_placeholder": "Эмират",
+        "first_name_label": "Имя",
+        "governorate_label": "Мухафаза",
+        "governorate_placeholder": "Мухафаза",
+        "last_name_label": "Фамилия",
+        "new_address_label": "Использовать новый адрес",
+        "optional_address2_label": "Квартира, апартаменты и т. д. (необязательно)",
+        "optional_company_label": "Компания (необязательно)",
+        "optional_first_name_label": "Имя (необязательно)",
+        "optional_phone_label": "Телефон (необязательно)",
+        "phone_label": "Телефон",
+        "phone_placeholder": "Телефон",
+        "phone_tooltip": "В случае необходимости связаться с вами по поводу вашего заказа",
+        "pincode_label": "ПИН-код",
+        "pincode_placeholder": "ПИН-код",
+        "postal_code_label": "Почтовый индекс",
+        "postal_code_placeholder": "Почтовый индекс",
+        "postcode_label": "Почтовый индекс",
+        "postcode_placeholder": "Почтовый индекс",
+        "prefecture_label": "Префектура",
+        "prefecture_placeholder": "Префектура",
+        "province_label": "Провинция",
+        "province_placeholder": "Провинция",
+        "region_label": "Регион",
+        "region_none": "Не выбрано",
+        "region_placeholder": "Регион",
+        "state_and_territory_label": "Государство\/территория",
+        "state_and_territory_placeholder": "Государство\/территория",
+        "state_label": "Штат",
+        "state_placeholder": "Штат",
+        "stored_addresses_label": "Сохраненные адреса",
+        "title": "Информация",
+        "zip_code_label": "Почтовый индекс",
+        "zip_code_placeholder": "Почтовый индекс"
+      },
+      "customer_account": {
+        "have_an_account_label": "Уже есть аккаунт?",
+        "not_user_label": "Не %{first_name}?",
+        "save_my_information_label": "Сохранить эту информацию для следующего раза",
+        "sign_in_link_label": "Вход",
+        "sign_out_link_label": "Выход"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "При обработке вашего запроса возникла проблема.",
+          "success_message": "Ваш способ оплаты был успешно удален"
+        },
+        "page_title": "Способы оплаты",
+        "title": "Способы оплаты",
+        "update_card_button_label": "Обновить карту"
+      },
+      "delivery_options": {
+        "free_total_label": "Бесплатно",
+        "ship": "Доставить",
+        "shipping_address": "Адрес доставки"
+      },
+      "failed_payment": {
+        "page_title": "Не удалось обработать платеж",
+        "payment_not_processed_text": "С вас не списаны средства. Вернитесь в корзину, чтобы завершить покупку.",
+        "payment_not_processed_title": "Не удалось обработать ваш платеж",
+        "return_to_cart_button_label": "Назад в корзину",
+        "title": "Не удалось обработать платеж"
+      },
+      "field_errors": {
+        "address_address1_blank": "Введите адрес",
+        "address_address1_contains_html_tags": "Адрес 1 не может содержать HTML-теги.",
+        "address_address1_too_long": "Слишком длинная первая строка адреса (максимум 255 символов)",
+        "address_address2_blank": "Введите квартиру, апартаменты и т. д.",
+        "address_address2_contains_html_tags": "Адрес 2 не может содержать HTML-теги.",
+        "address_address2_too_long": "Слишком длинная вторая строка адреса (максимум 255 символов)",
+        "address_city_blank": "Введите город",
+        "address_city_contains_html_tags": " Город не может содержать HTML-теги. ",
+        "address_city_too_long": "Название города слишком длинное (максимум 255 символов)",
+        "address_company_blank": "Введите название компании",
+        "address_company_contains_html_tags": "Название компании не может содержать HTML-теги.",
+        "address_company_too_long": "Слишком длинное название компании (максимум 255 символов)",
+        "address_country_blank": "Выберите страну\/регион",
+        "address_country_not_supported": "В настоящее время мы не осуществляем доставку в эту страну\/регион. Введите новый адрес доставки и повторите попытку.",
+        "address_first_name_blank": "Введите имя",
+        "address_first_name_contains_html_tags": "Имя не может содержать HTML-теги.",
+        "address_first_name_too_long": "Слишком длинное имя (максимум 255 символов)",
+        "address_last_name_blank": "Введите фамилию",
+        "address_last_name_contains_html_tags": "Фамилия не может содержать HTML-теги.",
+        "address_last_name_too_long": "Слишком длинная фамилия (максимум 255 символов)",
+        "address_phone_blank": "Введите действительный номер телефона",
+        "address_province_blank": "Выберите штат\/провинцию",
+        "address_zip_blank": "Введите почтовый индекс"
+      }
+    }
+  }
+}
