@@ -1,0 +1,126 @@
+{
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "จุดชำระเงินด่วน",
+        "or": "หรือ"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "รถเข็นของคุณได้รับการอัปเดตตามประเทศจัดส่ง"
+      },
+      "change_currency": {
+        "change_currency_link": "เปลี่ยนเป็น %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "สกุลเงินที่คุณเลือกไม่สามารถใช้งานได้อีกต่อไป ในตอนนี้ ราคาทั้งหมดอยู่ใน %{currency_code}",
+        "payment_total_label": "ยอดรวมการชำระเงิน"
+      },
+      "contact": {
+        "address_title": "ที่อยู่",
+        "address1_label": "ที่อยู่",
+        "address2_label": "อพาร์ตเมนต์ ห้องชุด ฯลฯ",
+        "city_label": "เมือง",
+        "civic_number_warning": "เพิ่มเลขที่บ้าน หากคุณมี",
+        "company_label": "บริษัท",
+        "contact_method_title": "ข้อมูลติดต่อ",
+        "country_code": "รหัสประเทศ\/ภูมิภาค",
+        "country_label": "ประเทศ\/ภูมิภาค",
+        "county_label": "เขต",
+        "county_placeholder": "เขต",
+        "delivery_option_title": "วิธีการจัดส่ง",
+        "email_label": "อีเมล",
+        "email_or_phone_label": "อีเมลหรือหมายเลขโทรศัพท์มือถือ",
+        "email_or_phone_placeholder": "อีเมลหรือหมายเลขโทรศัพท์มือถือ",
+        "email_placeholder": "อีเมล",
+        "emirate_label": "เอมิเรตส์",
+        "emirate_placeholder": "เอมิเรตส์",
+        "first_name_label": "ชื่อจริง",
+        "governorate_label": "เขตผู้ว่าราชการ",
+        "governorate_placeholder": "เขตผู้ว่าราชการ",
+        "last_name_label": "นามสกุล",
+        "new_address_label": "ใช้ที่อยู่ใหม่",
+        "optional_address2_label": "อพาร์ตเมนต์ ห้องชุด ฯลฯ (หากมี)",
+        "optional_company_label": "บริษัท (หากมี)",
+        "optional_first_name_label": "ชื่อจริง (หากมี)",
+        "optional_phone_label": "โทรศัพท์ (หากมี)",
+        "phone_label": "โทรศัพท์",
+        "phone_placeholder": "โทรศัพท์",
+        "phone_tooltip": "ในกรณีที่เราต้องติดต่อคุณเกี่ยวกับคำสั่งซื้อของคุณ",
+        "pincode_label": "รหัส PIN",
+        "pincode_placeholder": "รหัส PIN",
+        "postal_code_label": "รหัสไปรษณีย์",
+        "postal_code_placeholder": "รหัสไปรษณีย์",
+        "postcode_label": "รหัสไปรษณีย์",
+        "postcode_placeholder": "รหัสไปรษณีย์",
+        "prefecture_label": "จังหวัด",
+        "prefecture_placeholder": "จังหวัด",
+        "province_label": "จังหวัด",
+        "province_placeholder": "จังหวัด",
+        "region_label": "ภูมิภาค",
+        "region_none": "ไม่ได้เลือก",
+        "region_placeholder": "ภูมิภาค",
+        "state_and_territory_label": "รัฐ\/อาณาเขต",
+        "state_and_territory_placeholder": "รัฐ\/อาณาเขต",
+        "state_label": "รัฐ",
+        "state_placeholder": "รัฐ",
+        "stored_addresses_label": "ที่อยู่ที่บันทึก",
+        "title": "ข้อมูล",
+        "zip_code_label": "รหัสไปรษณีย์",
+        "zip_code_placeholder": "รหัสไปรษณีย์"
+      },
+      "customer_account": {
+        "have_an_account_label": "มีบัญชีอยู่แล้ว?",
+        "not_user_label": "ไม่ใช่ %{first_name}?",
+        "save_my_information_label": "บันทึกข้อมูลนี้สำหรับครั้งถัดไป",
+        "sign_in_link_label": "เข้าสู่ระบบ",
+        "sign_out_link_label": "ออกจากระบบ"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "มีปัญหาขณะประมวลผลคำขอของคุณ",
+          "success_message": "ลบวิธีการชำระเงินของคุณสำเร็จแล้ว"
+        },
+        "page_title": "วิธีการชำระเงิน",
+        "title": "วิธีการชำระเงิน",
+        "update_card_button_label": "อัปเดตบัตร"
+      },
+      "delivery_options": {
+        "free_total_label": "ฟรี",
+        "ship": "จัดส่ง",
+        "shipping_address": "ที่อยู่เพื่อการจัดส่ง"
+      },
+      "failed_payment": {
+        "page_title": "ไม่สามารถประมวลผลการชำระเงินได้",
+        "payment_not_processed_text": "คุณไม่ได้ถูกเรียกเก็บเงิน ย้อนกลับไปยังรถเข็นของคุณเพื่อทำการซื้อของคุณให้เสร็จสิ้น",
+        "payment_not_processed_title": "ไม่สามารถประมวลผลการชำระเงินของคุณได้",
+        "return_to_cart_button_label": "ย้อนกลับไปยังรถเข็น",
+        "title": "ไม่สามารถประมวลผลการชำระเงินได้"
+      },
+      "field_errors": {
+        "address_address1_blank": "กรอกที่อยู่",
+        "address_address1_contains_html_tags": "ที่อยู่ 1 ไม่สามารถมีแท็ก HTML",
+        "address_address1_too_long": "ที่อยู่แถวแรกยาวเกินไป (สูงสุด 255 ตัวอักษร)",
+        "address_address2_blank": "กรอกอพาร์ตเมนต์ ห้องชุด ฯลฯ",
+        "address_address2_contains_html_tags": "ที่อยู่ 2 ไม่สามารถมีแท็ก HTML",
+        "address_address2_too_long": "ที่อยู่แถวที่สองยาวเกินไป (สูงสุด 255 ตัวอักษร)",
+        "address_city_blank": "กรอกเมือง",
+        "address_city_contains_html_tags": "เมืองไม่สามารถมีแท็ก HTML",
+        "address_city_too_long": "เมืองยาวเกินไป (สูงสุด 255 ตัวอักษร)",
+        "address_company_blank": "กรอกชื่อบริษัท",
+        "address_company_contains_html_tags": "บริษัทไม่สามารถมีแท็ก HTML",
+        "address_company_too_long": "ชื่อบริษัทยาวเกินไป (สูงสุด 255 ตัวอักษร)",
+        "address_country_blank": "เลือกประเทศ\/ภูมิภาค",
+        "address_country_not_supported": "เราไม่จัดส่งไปยังประเทศ\/ภูมิภาคนี้ในขณะนี้ กรอกที่อยู่เพื่อการจัดส่งใหม่และลองอีกครั้ง",
+        "address_first_name_blank": "กรอกชื่อจริง",
+        "address_first_name_contains_html_tags": "ชื่อจริงไม่สามารถมีแท็ก HTML",
+        "address_first_name_too_long": "ชื่อจริงยาวเกินไป (สูงสุด 255 ตัวอักษร)",
+        "address_last_name_blank": "กรอกนามสกุล",
+        "address_last_name_contains_html_tags": "นามสกุลไม่สามารถมีแท็ก HTML",
+        "address_last_name_too_long": "นามสกุลยาวเกินไป (สูงสุด 255 ตัวอักษร)",
+        "address_phone_blank": "กรอกหมายเลขโทรศัพท์ที่ถูกต้อง",
+        "address_province_blank": "เลือกรัฐ \/ จังหวัด",
+        "address_zip_blank": "กรอกรหัสไปรษณีย์"
+      }
+    }
+  }
+}
