@@ -471,7 +471,51 @@
         "ready_for_delivery_title": "Vaše objednávka je připravena k doručení.",
         "ready_for_pickup_description": "Vaše objednávka je připravena k vyzvednutí. Při vyzvednutí objednávky předložte potvrzení objednávky.",
         "ready_for_pickup_title": "Vaše objednávka je připravena k vyzvednutí",
-        "re-order": "Znovu objednat stejné položky"
+        "re-order": "Znovu objednat stejné položky",
+        "resend_gift_cards": "Znovu poslat dárkové karty",
+        "return_to_store_link_label": "Pokračovat v nákupu",
+        "shipping_address_map_title": "Mapa Google zobrazující přesný bod dodací adresy: %{address}",
+        "shipping_address_title": "Dodací adresa",
+        "shipping_information_title": "Informace o dopravě",
+        "shipping_method_title": "Způsob dopravy",
+        "shop_phone_description": "Obdržíte textovou zprávu s odkazem na aplikaci Shop, ve které můžete sledovat svou objednávku.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Naskenovat telefonem"
+          },
+          "sms": {
+            "title": "Nebo poslat odkaz do telefonu"
+          }
+        },
+        "thank_you_confirmed_order_with_email": "Záhy obdržíte potvrzovací e-mail s číslem vaší objednávky.",
+        "thank_you_confirmed_order_with_email_and_phone": "Záhy obdržíte e-mail a textovou zprávu s číslem vaší objednávky.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Provedli jste platbu za objednávku %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Jakmile bude vaše objednávka připravena k vyzvednutí, obdržíte e-mail.",
+        "thank_you_confirmed_order_with_email_payment": "Provedli jste platbu za objednávku %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Jakmile bude vaše objednávka připravena k vyzvednutí, obdržíte e-mail.",
+        "thank_you_confirmed_order_with_missing": "Pro získání potvrzení objednávky nás kontaktujte e-mailem nebo telefonicky.",
+        "thank_you_confirmed_order_with_phone": "Záhy obdržíte potvrzovací textovou zprávu s číslem vaší objednávky.",
+        "thank_you_confirmed_order_with_phone_payment": "Provedli jste platbu za objednávku %{date}.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Jakmile bude vaše objednávka připravena k vyzvednutí, obdržíte textovou zprávu.",
+        "thank_you_title": "Vaše objednávka je potvrzena",
+        "thank_you_title_payment": "Vaše platba je potvrzena",
+        "title": "Děkujeme za váš nákup!",
+        "track_shipment": "Sledovat zásilku",
+        "tracking_number": "Sledovací číslo:",
+        "unfulfilled_items_description": "V současné době připravujeme tyto položky k odeslání.",
+        "unfulfilled_items_title": "Příprava k odeslání",
+        "updated_time": "Aktualizováno před %{time_ago}"
+      },
+      "tips": {
+        "add_tip": "Přidat spropitné",
+        "custom_label": "Vlastní spropitné",
+        "description": "Ukažte svou podporu týmu na adrese %{shop_name}",
+        "message": "Děkujeme, vážíme si toho",
+        "no_tip_label": "Žádné",
+        "preset_label": "%{tip_percent}%",
+        "presets_description": "Vyberte procento spropitného",
+        "title": "Přidat spropitné",
+        "update_tip": "Aktualizovat spropitné"
       }
     }
   }

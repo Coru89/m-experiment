@@ -119,7 +119,139 @@
         "address_last_name_too_long": "Efternavn er for langt (maks. 255 tegn)",
         "address_phone_blank": "Indtast et gyldigt telefonnummer",
         "address_province_blank": "Vælg en stat\/provins",
-        "address_zip_blank": "Indtast et postnummer"
+        "address_zip_blank": "Indtast et postnummer",
+        "address_zip_invalid_for_country": "Indtast et gyldigt postnummer for %{country}",
+        "address_zip_invalid_for_country_and_province": "Indtast et gyldigt postnummer for %{province}, %{country}",
+        "email_invalid": "Indtast en gyldig e-mail",
+        "email_or_phone_blank": "Indtast en e-mail eller mobiltelefonnummer",
+        "email_or_phone_invalid": "Indtast en gyldig e-mail eller et gyldigt mobiltelefonnummer",
+        "gift_card_already_applied": "Dette gavekort er allerede blevet anvendt til din ordre",
+        "gift_card_currency_mismatch": "Kun gavekort i %{checkout_currency} kan bruges til denne ordre",
+        "gift_card_depleted": "Dette gavekort har ingen penge tilbage",
+        "gift_card_disabled": "Dette gavekort er ikke længere tilgængeligt",
+        "gift_card_expired": "Dette gavekort er udløbet",
+        "handle_email_invalid": "Indtast en gyldig e-mail",
+        "handle_phone_invalid": "Indtast et gyldigt telefonnummer",
+        "payment_gateway_incompatible_with_multi_currency": "For at gennemføre denne betaling i din lokale valuta skal du betale med kreditkort.",
+        "payment_gateway_needs_paid_plan_error": "Denne betalingsmetode er ikke tilgængelig i butikken lige nu",
+        "payment_gateway_not_in_test_mode": "er ikke sat op til at teste ordrer. Denne butik kan ikke acceptere rigtige ordrer eller rigtige betalinger.",
+        "payment_gateway_unsupported_for_subscriptions": "Denne betalingsmetode er ikke tilgængelig for abonnementsordrer.",
+        "physical_gift_card_duplicate_code": "Fysisk gavekortslinjevare indeholder dubletkode.",
+        "physical_gift_card_invalid_code": "Den fysiske gavekortkode er ugyldig.",
+        "physical_gift_card_invalid_quantity": "Fysiske gavekortlinjevarer skal have et antal, der matcher antallet af gavekortkoder.",
+        "reduction_code_code_not_found": "Indtast en gyldig rabatkode eller gavekort",
+        "reduction_code_discount_not_found": "Indtast en gyldig rabatkode",
+        "reduction_code_gift_card_code_invalid": "Indtast et gyldigt gavekort",
+        "reduction_code_gift_card_unusable": "Du kan ikke bruge et gavekort til at købe et andet gavekort",
+        "shipping_line_phone_blank": "Indtast et telefonnummer for at bruge denne leveringsmetode",
+        "shipping_line_phone_invalid": "Indtast et gyldigt telefonnummer for at bruge denne leveringsmetode",
+        "sms_marketing_phone_invalid": "Indtast et gyldigt telefonnummer",
+        "tips_invalid_tip_amount": "Indtast drikkepenge, der ikke er på mere end %{amount}"
+      },
+      "general": {
+        "all_rights_reserved": "Alle rettigheder forbeholdes %{shop_name}",
+        "authenticate_purchase_button_label": "Godkend betaling",
+        "autocomplete_close": "Luk forslag",
+        "autocomplete_multi_item": "{{number}} tilgængelige varer",
+        "autocomplete_selection": "{{number}} af {{total}}",
+        "autocomplete_single_item": "1 vare tilgængelig",
+        "autocomplete_title": "Forslag",
+        "back_to_cart": "Tilbage til indkøbskurven",
+        "back_to_contact_information": "Vend tilbage til information",
+        "back_to_payment_method": "Vend tilbage til betaling",
+        "back_to_shipping_method": "Retur til forsendelse",
+        "breadcrumb": "Brødkrumme",
+        "cart": "Indkøbskurv",
+        "checkout_context": {
+          "step_one": "%{shop_name} - kassen"
+        },
+        "choose_billing_address": "Vælg en faktureringsadresse",
+        "choose_payment_method": "Vælg en betalingsmetode",
+        "choose_shipping_method": "Vælg en forsendelsesmetode",
+        "close_modal_label": "Luk",
+        "close_notice_label": "Luk",
+        "complete_purchase_button_label": "Fuldfør ordre",
+        "contact_us_html": "Kontakt os for yderligere information",
+        "continue_button_label": "Fortsæt",
+        "continue_to_payment_method": "Fortsæt med betaling",
+        "continue_to_review": "Gennemgå ordre",
+        "continue_to_shipping_method": "Fortsæt med at sende",
+        "edit_link_label": "Redigér",
+        "error_page_title": "Fejl",
+        "expand_notice_label": "Se mere",
+        "forwarding_indicator": {
+          "external": "Åbner ekstern hjemmeside.",
+          "external_and_new_window": "Åbner ekstern hjemmeside i et nyt vindue.",
+          "new_window": "Åbner i et nyt vindue."
+        },
+        "page_title": "Betaling",
+        "pay_now_button_label": "Betal nu",
+        "print_policies_link_label": "Print",
+        "skip_to_content": "Spring til indhold",
+        "tooltip_accessibility_label": "Mere information"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Yderligere Information"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Send mig e-mail med nyheder og tilbud",
+        "accept_sms_checkbox_label": "Send mig sms med nyheder og tilbud",
+        "pending_accept_marketing_checkbox_label": "Tjek din e-mail for at bekræfte dit abonnement på nyheder og tilbud",
+        "post_accept_marketing_checkbox_label": "Du abonnerer på at modtage nyheder og tilbud via e-mail",
+        "sms": {
+          "disclaimer": {
+            "description_html": "Ved at tilmelde dig via sms accepterer du at modtage tilbagevendende automatiserede marketingmeddelelser, herunder påmindelser om indkøbskurv, på det angivne telefonnummer. Samtykke er ikke en betingelse for køb. Svar med STOP for at afmelde. Svar med HJÆLP for at få hjælp. Beskedhyppigheden varierer. Besked- og datatakster kan være gældende. Se vores %{privacy_policy_link} og %{terms_of_service_link}.",
+            "description_transactional_html": "Vi sender dig en ordrekvittering og tilbagevendende forsendelsesopdateringer via sms. Svar med STOP for at afmelde. Svar med HJÆLP for at få hjælp. Beskedhyppigheden varierer. Besked- og datatakster kan være gældende. Se vores %{privacy_policy_modal_link} og %{terms_of_service_modal_link}.",
+            "privacy_policy": "Privatlivspolitik",
+            "terms_of_service": "Servicevilkår"
+          }
+        },
+        "unsubscribe": {
+          "description": "Du modtager ikke flere påmindelser om indkøbskurv fra os.",
+          "title": "Du har afmeldt dig"
+        }
+      },
+      "notifications": {
+        "title": "Notifikationer"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Køb %{product_name} og %{count} anden vare",
+          "other": "Køb %{product_name} og %{count} andre varer",
+          "zero": "Køb %{product_name}"
+        }
+      },
+      "order_payment_collection": {
+        "additional_payment_requested": "Betaling af %{total_outstanding} er nødvendig",
+        "changes_summary": {
+          "added": {
+            "one": "Tilføjet",
+            "other": "%{count} tilføjet"
+          },
+          "removed": "Fjernet",
+          "subtracted": "%{count} fjernet"
+        },
+        "pay_now": "Betal nu"
+      },
+      "order_summary": {
+        "applied_discount_message": "%{amount} rabat på den samlede ordrepris",
+        "applied_free_shipping_discount_label": "Anvendt",
+        "apply_discount_button_label": "Anvend",
+        "calculating_shipping": "Beregner ...",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>-rabatkoden er ikke gyldig for varerne i din indkøbskurv",
+        "collapse_order_summary": "Skjul ordreoversigt",
+        "confirmation_number_label": "Bekræftelse #%{confirmation_number}",
+        "cost_table_title": "Udgiftsoversigt",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>-rabatkoden er allerede blevet brugt",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>-rabatkode er ikke tilgængelig for dig lige nu",
+        "description_label": "Beskrivelse",
+        "discount_already_applied": "Der er givet en rabat på denne ordre. Du kan ikke tilføje endnu en rabat.",
+        "discount_and_gift_card_savings_notice": "Efter %{discount_amount} i rabat og %{gift_card_amount} i gavekort",
+        "discount_has_been_applied": "Rabat er anvendt",
+        "discount_has_been_removed": "Rabat er fjernet",
+        "discount_label": "Rabatkode"
       }
     }
   }
