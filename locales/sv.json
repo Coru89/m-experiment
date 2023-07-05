@@ -427,5 +427,261 @@
       "description": "Tyvärr, den här sidan finns inte.",
       "back_to_home": "Tillbaka till startsidan"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "Snabbkassa",
+        "or": "ELLER"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Din varukorg har uppdaterats baserat på ditt leveransland."
+      },
+      "change_currency": {
+        "change_currency_link": "Ändra till %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "Valutan du valde är inte längre tillgänglig. Alla priser anges nu i %{currency_code}.",
+        "payment_total_label": "Total betalning"
+      },
+      "contact": {
+        "address_title": "Adress",
+        "address1_label": "Adress",
+        "address2_label": "Lägenhet, bostad, etc.",
+        "city_label": "Ort",
+        "civic_number_warning": "Ange ett husnummer om du har ett",
+        "company_label": "Företag",
+        "contact_method_title": "Kontaktuppgifter",
+        "country_code": "Lands-\/regionskod",
+        "country_label": "Land\/region",
+        "county_label": "Land",
+        "county_placeholder": "Land",
+        "delivery_option_title": "Leveransmetod",
+        "email_label": "E-postadress",
+        "email_or_phone_label": "E-postadress och mobiltelefonnummer",
+        "email_or_phone_placeholder": "E-postadress och mobiltelefonnummer",
+        "email_placeholder": "E-postadress",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "first_name_label": "Förnamn",
+        "governorate_label": "Guvernement",
+        "governorate_placeholder": "Guvernement",
+        "last_name_label": "Efternamn",
+        "new_address_label": "Använd en ny adress",
+        "optional_address2_label": "Lägenhet, bostad, etc. (valfritt)",
+        "optional_company_label": "Företag (valfritt)",
+        "optional_first_name_label": "Förnamn (valfritt)",
+        "optional_phone_label": "Telefon (valfritt)",
+        "phone_label": "Telefon",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "Om vi behöver kontakta dig angående din order",
+        "pincode_label": "PIN-kod",
+        "pincode_placeholder": "PIN-kod",
+        "postal_code_label": "Postnummer",
+        "postal_code_placeholder": "Postnummer",
+        "postcode_label": "Postnummer",
+        "postcode_placeholder": "Postnummer",
+        "prefecture_label": "Prefektur",
+        "prefecture_placeholder": "Prefektur",
+        "province_label": "Provins",
+        "province_placeholder": "Provins",
+        "region_label": "Region",
+        "region_none": "Ingen vald",
+        "region_placeholder": "Region",
+        "state_and_territory_label": "Stat\/territorium",
+        "state_and_territory_placeholder": "Stat\/territorium",
+        "state_label": "Stat",
+        "state_placeholder": "Stat",
+        "stored_addresses_label": "Sparade adresser",
+        "title": "Information",
+        "zip_code_label": "Postnummer",
+        "zip_code_placeholder": "Postnummer"
+      },
+      "customer_account": {
+        "have_an_account_label": "Har du redan ett konto?",
+        "not_user_label": "Inte %{first_name}?",
+        "save_my_information_label": "Spara denna information till nästa gång",
+        "sign_in_link_label": "Logga in",
+        "sign_out_link_label": "Logga ut"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Det uppstod ett problem med att behandla din begäran.",
+          "success_message": "Din betalningsmetod har tagits bort"
+        },
+        "page_title": "Betalningsmetoder",
+        "title": "Betalningsmetoder",
+        "update_card_button_label": "Uppdatera kort"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratis",
+        "ship": "Leverera",
+        "shipping_address": "Leveransadress"
+      },
+      "failed_payment": {
+        "page_title": "Betalningen kunde inte behandlas",
+        "payment_not_processed_text": "Du har inte debiterats. Återgå till din varukorg för att slutföra ditt köp.",
+        "payment_not_processed_title": "Din betalning kunde inte behandlas",
+        "return_to_cart_button_label": "Återgå till varukorgen",
+        "title": "Betalningen kunde inte behandlas"
+      },
+      "field_errors": {
+        "address_address1_blank": "Ange en adress",
+        "address_address1_contains_html_tags": "Adress1 får inte innehålla HTML-taggar.",
+        "address_address1_too_long": "Den första adressraden är för lång (högst 255 tecken)",
+        "address_address2_blank": "Ange en lägenhet, bostad, etc.",
+        "address_address2_contains_html_tags": "Adress2 får inte innehålla HTML-taggar.",
+        "address_address2_too_long": "Den andra adressraden är för lång (högst 255 tecken)",
+        "address_city_blank": "Ange en ort",
+        "address_city_contains_html_tags": "Orten får inte innehålla HTML-taggar.",
+        "address_city_too_long": "Orten är för lång (högst 255 tecken)",
+        "address_company_blank": "Ange ett företagsnamn",
+        "address_company_contains_html_tags": "Företaget får inte innehålla HTML-taggar.",
+        "address_company_too_long": "Företagsnamnet är för långt (högst 255 tecken)",
+        "address_country_blank": "Välj ett land\/en region",
+        "address_country_not_supported": "Vi levererar för närvarande inte till detta land\/denna region. Ange en ny leveransadress och försök igen.",
+        "address_first_name_blank": "Ange ett förnamn",
+        "address_first_name_contains_html_tags": "Förnamnet får inte innehålla HTML-taggar.",
+        "address_first_name_too_long": "Förnamnet är för långt (högst 255 tecken)",
+        "address_last_name_blank": "Ange ett efternamn",
+        "address_last_name_contains_html_tags": "Efternamnet får inte innehålla HTML-taggar.",
+        "address_last_name_too_long": "Efternamnet är för långt (högst 255 tecken)",
+        "address_phone_blank": "Ange ett giltigt telefonnummer",
+        "address_province_blank": "Välj en stat\/provins",
+        "address_zip_blank": "Ange ett postnummer",
+        "address_zip_invalid_for_country": "Ange ett giltigt postnummer för %{country}",
+        "address_zip_invalid_for_country_and_province": "Ange ett giltigt postnummer för %{province}, %{country}",
+        "email_invalid": "Ange en giltig e-postadress",
+        "email_or_phone_blank": "Ange en e-postadress eller ett mobiltelefonnummer",
+        "email_or_phone_invalid": "Ange en giltig e-postadress eller ett mobiltelefonnummer",
+        "gift_card_already_applied": "Detta presentkort har redan använts på din order",
+        "gift_card_currency_mismatch": "Endast presentkort i %{checkout_currency} kan användas med denna order",
+        "gift_card_depleted": "Det finns inga pengar på detta presentkort",
+        "gift_card_disabled": "Detta presentkort är inte längre tillgängligt",
+        "gift_card_expired": "Detta presentkort har löpt ut",
+        "handle_email_invalid": "Ange en giltig e-postadress",
+        "handle_phone_invalid": "Ange ett giltigt telefonnummer",
+        "payment_gateway_incompatible_with_multi_currency": "För att slutföra detta köp i din lokala valuta måste du betala med kreditkort.",
+        "payment_gateway_needs_paid_plan_error": "Denna betalningsmetod är inte tillgänglig i butiken just nu",
+        "payment_gateway_not_in_test_mode": "är inte konfigurerad för att testa ordrar. Denna butik kan inte ta emot riktiga ordrar eller riktiga betalningar.",
+        "payment_gateway_unsupported_for_subscriptions": "Denna betalningsmetod är inte tillgänglig för prenumerationsordrar.",
+        "physical_gift_card_duplicate_code": "Radartikel för fysiskt presentkort innehåller dubbel kod.",
+        "physical_gift_card_invalid_code": "Det fysiska presentkortets kod är ogiltig.",
+        "physical_gift_card_invalid_quantity": "Radartikel för fysiskt presentkort måste innehålla en mängd som matchar antalet presentkortskoder.",
+        "reduction_code_code_not_found": "Ange en giltig rabattkod eller ett presentkort",
+        "reduction_code_discount_not_found": "Ange en giltig rabattkod",
+        "reduction_code_gift_card_code_invalid": "Ange ett giltigt presentkort",
+        "reduction_code_gift_card_unusable": "Du kan inte använda ett presentkort för att köpa ett annat presentkort",
+        "shipping_line_phone_blank": "Ange ett telefonnummer för att använda denna leveransmetod",
+        "shipping_line_phone_invalid": "Ange ett giltigt telefonnummer för att använda denna leveransmetod",
+        "sms_marketing_phone_invalid": "Ange ett giltigt telefonnummer",
+        "tips_invalid_tip_amount": "Lämna dricks på högst %{amount}"
+      },
+      "general": {
+        "all_rights_reserved": "Alla rättigheter förbehålls %{shop_name}",
+        "authenticate_purchase_button_label": "Autentisera betalning",
+        "autocomplete_close": "Stäng förslag",
+        "autocomplete_multi_item": "{{number}} artiklar tillgängliga",
+        "autocomplete_selection": "{{number}} av {{total}}",
+        "autocomplete_single_item": "1 artikel tillgänglig",
+        "autocomplete_title": "Förslag",
+        "back_to_cart": "Återgå till varukorgen",
+        "back_to_contact_information": "Återgå till information",
+        "back_to_payment_method": "Återgå till betalning",
+        "back_to_shipping_method": "Återgå till leverans",
+        "breadcrumb": "Navigeringssökväg",
+        "cart": "Varukorg",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Kassa"
+        },
+        "choose_billing_address": "Välj en fakturaadress",
+        "choose_payment_method": "Välj en betalningsmetod",
+        "choose_shipping_method": "Välj en leveransmetod",
+        "close_modal_label": "Stäng",
+        "close_notice_label": "Stäng",
+        "complete_purchase_button_label": "Slutför order",
+        "contact_us_html": "Kontakta oss för mer information",
+        "continue_button_label": "Fortsätt",
+        "continue_to_payment_method": "Fortsätt till betalning",
+        "continue_to_review": "Granska order",
+        "continue_to_shipping_method": "Fortsätt till leverans",
+        "edit_link_label": "Redigera",
+        "error_page_title": "Fel",
+        "expand_notice_label": "Visa mer",
+        "forwarding_indicator": {
+          "external": "Öppnar extern webbplats.",
+          "external_and_new_window": "Öppnar extern webbplats i ett nytt fönster.",
+          "new_window": "Öppnar ett nytt fönster."
+        },
+        "page_title": "Kassa",
+        "pay_now_button_label": "Betala nu",
+        "print_policies_link_label": "Skriv ut",
+        "skip_to_content": "Hoppa till innehåll",
+        "tooltip_accessibility_label": "Mer information"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Ytterligare information"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Skicka e-post till mig med nyheter och erbjudanden",
+        "accept_sms_checkbox_label": "Skicka sms till mig med nyheter och erbjudanden",
+        "pending_accept_marketing_checkbox_label": "Kontrollera din e-post för att bekräfta din prenumeration på nyheter och erbjudanden",
+        "post_accept_marketing_checkbox_label": "Du prenumererar på att få nyheter och erbjudanden via e-post",
+        "sms": {
+          "disclaimer": {
+            "description_html": "Genom att registrera dig via sms samtycker du till att ta emot återkommande marknadsföringsmeddelanden automatiskt, inklusive varukorgspåminnelser, på det angivna telefonnumret. Samtycke är inte ett villkor för köp. Svara STOPP för att avsluta prenumerationen. Svara HJÄLP för att få hjälp. Meddelandefrekvensen varierar. Meddelande- och dataavgifter kan tillkomma. Se vår %{privacy_policy_link} och våra %{terms_of_service_link}.",
+            "description_transactional_html": "Vi kommer att skicka ett orderkvitto och återkommande leveransuppdateringar till dig via sms. Svara STOPP för att avsluta prenumerationen. Svara HJÄLP för att få hjälp. Meddelandefrekvensen varierar. Meddelande- och dataavgifter kan tillkomma. Se vår %{privacy_policy_modal_link} och våra %{terms_of_service_modal_link}.",
+            "privacy_policy": "Integritetspolicy",
+            "terms_of_service": "Användarvillkor"
+          }
+        },
+        "unsubscribe": {
+          "description": "Du kommer inte att få fler varukorgspåminnelser från oss.",
+          "title": "Du har avslutat prenumerationen"
+        }
+      },
+      "notifications": {
+        "title": "Aviseringar"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Köp %{product_name} och %{count} annan artikel",
+          "other": "Köp %{product_name} och %{count} andra artiklar",
+          "zero": "Köp %{product_name}"
+        }
+      },
+      "order_payment_collection": {
+        "additional_payment_requested": "Betalning på %{total_outstanding} krävs",
+        "changes_summary": {
+          "added": {
+            "one": "Tillagd",
+            "other": "%{count} tillagd"
+          },
+          "removed": "Borttagen",
+          "subtracted": "%{count} borttagen"
+        },
+        "pay_now": "Betala nu"
+      },
+      "order_summary": {
+        "applied_discount_message": "%{amount} rabatt på det totala orderpriset",
+        "applied_free_shipping_discount_label": "Tillämpad",
+        "apply_discount_button_label": "Tillämpa",
+        "calculating_shipping": "Beräknar …",
+        "cart_does_not_meet_discount_requirements_notice": "Rabattkoden <strong style=\"text-transform:uppercase\">%{code}<\/strong> är inte giltig för artiklarna i din varukorg",
+        "collapse_order_summary": "Dölj ordersammanfattning",
+        "confirmation_number_label": "Bekräftelse #%{confirmation_number}",
+        "cost_table_title": "Kostnadssammanställning",
+        "customer_already_used_once_per_customer_discount_notice": "Rabattkoden <strong style=\"text-transform:uppercase\">%{code}<\/strong> har redan använts",
+        "customer_does_not_meet_discount_requirements_notice": "Rabattkoden <strong style=\"text-transform:uppercase\">%{code}<\/strong> är inte tillgänglig för dig just nu",
+        "description_label": "Beskrivning",
+        "discount_already_applied": "En rabatt har tillämpats på denna order. Du kan inte lägga till en rabatt till.",
+        "discount_and_gift_card_savings_notice": "Efter %{discount_amount} i rabatter och %{gift_card_amount} i presentkort",
+        "discount_has_been_applied": "Rabatt har tillämpats",
+        "discount_has_been_removed": "Rabatt har tagits bort",
+        "discount_label": "Rabattkod"
+      }
+    }
   }
 }
