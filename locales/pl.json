@@ -442,5 +442,143 @@
       "description": "Przepraszamy, żądana strona nie istnieje.",
       "back_to_home": "Powrót do strony głównej"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "field_errors": {
+        "address_zip_invalid_for_country": "Wprowadź prawidłowy kod pocztowy dla kraju: %{country}",
+        "address_zip_invalid_for_country_and_province": "Wprowadź prawidłowy kod pocztowy dla: %{province}, %{country}",
+        "email_invalid": "Wprowadź prawidłowy adres e-mail",
+        "email_or_phone_blank": "Wprowadź adres e-mail lub nr telefonu komórkowego",
+        "email_or_phone_invalid": "Wprowadź prawidłowy adres e-mail lub nr telefonu komórkowego",
+        "gift_card_already_applied": "Ta karta podarunkowa została już zastosowana do Twojego zamówienia",
+        "gift_card_currency_mismatch": "W przypadku tego zamówienia można zastosować karty podarunkowe wyłącznie w %{checkout_currency}",
+        "gift_card_depleted": "Na tej karcie podarunkowej nie ma już środków",
+        "gift_card_disabled": "Ta karta podarunkowa nie jest już dostępna",
+        "gift_card_expired": "Upłynął termin ważności tej karty",
+        "handle_email_invalid": "Wprowadź prawidłowy adres e-mail",
+        "handle_phone_invalid": "Wprowadź prawidłowy nr telefonu",
+        "payment_gateway_incompatible_with_multi_currency": "Aby sfinalizować to zamówienie w lokalnej walucie, musisz zapłacić kartą kredytową.",
+        "payment_gateway_needs_paid_plan_error": "Aktualnie ta metoda płatności nie jest dostępna w sklepie",
+        "payment_gateway_not_in_test_mode": ": nie skonfigurowano pod kątem zamówień testowych. Ten sklep nie obsługuje ani prawdziwych zamówień, ani prawdziwych płatności.",
+        "payment_gateway_unsupported_for_subscriptions": "Ta metoda płatności nie jest dostępna dla zamówień subskrypcji.",
+        "physical_gift_card_duplicate_code": "Fizyczna karta podarunkowa zawiera powielony kod.",
+        "physical_gift_card_invalid_code": "Kod fizycznej karty podarunkowej jest nieprawidłowy.",
+        "physical_gift_card_invalid_quantity": "Do fizycznych kart podarunkowych musi być przypisana ilość odpowiadająca liczbie kodów z kart podarunkowych.",
+        "reduction_code_code_not_found": "Wprowadź prawidłowy kod rabatowy lub dane karty podarunkowej",
+        "reduction_code_discount_not_found": "Wprowadź prawidłowy kod rabatowy",
+        "reduction_code_gift_card_code_invalid": "Wprowadź prawidłowe dane karty podarunkowej",
+        "reduction_code_gift_card_unusable": "Nie można użyć karty podarunkowej do zakupu innej karty podarunkowej",
+        "shipping_line_phone_blank": "Aby skorzystać z tej metody dostawy, wprowadź nr telefonu",
+        "shipping_line_phone_invalid": "Aby skorzystać z tej metody dostawy, wprowadź prawidłowy nr telefonu",
+        "sms_marketing_phone_invalid": "Wprowadź prawidłowy nr telefonu",
+        "tips_invalid_tip_amount": "Wprowadź napiwek nieprzekraczający kwoty %{amount}"
+      },
+      "general": {
+        "all_rights_reserved": "Wszelkie prawa zastrzeżone: %{shop_name}",
+        "authenticate_purchase_button_label": "Uwierzytelnij płatność",
+        "autocomplete_close": "Zamknij propozycje",
+        "autocomplete_multi_item": "Dostępne przedmioty: {{number}}",
+        "autocomplete_selection": "{{number}} z {{total}}",
+        "autocomplete_single_item": "1 przedmiot dostępny",
+        "autocomplete_title": "Propozycje",
+        "back_to_cart": "Wróć do koszyka",
+        "back_to_contact_information": "Wróć do informacji",
+        "back_to_payment_method": "Wróć do płatności",
+        "back_to_shipping_method": "Wróć do wysyłki",
+        "breadcrumb": "Ścieżka nawigacyjna",
+        "cart": "Koszyk",
+        "checkout_context": {
+          "step_one": "%{shop_name} – finalizacja zakupu"
+        },
+        "choose_billing_address": "Wybierz adres rozliczeniowy",
+        "choose_payment_method": "Wybierz metodę płatności",
+        "choose_shipping_method": "Wybierz metodę dostawy",
+        "close_modal_label": "Zamknij",
+        "close_notice_label": "Zamknij",
+        "complete_purchase_button_label": "Realizacja zamówienia",
+        "contact_us_html": "Skontaktuj się z nami w celu uzyskania dodatkowych informacji",
+        "continue_button_label": "Kontynuuj",
+        "continue_to_payment_method": "Przejdź do płatności",
+        "continue_to_review": "Sprawdź zamówienie",
+        "continue_to_shipping_method": "Przejdź do wysyłki",
+        "edit_link_label": "Edytuj",
+        "error_page_title": "Błąd",
+        "expand_notice_label": "Wyświetl więcej",
+        "forwarding_indicator": {
+          "external": "Otwiera zewnętrzną stronę internetową.",
+          "external_and_new_window": "Otwiera zewnętrzną stronę internetową w nowym oknie.",
+          "new_window": "Otwiera się w nowym oknie."
+        },
+        "page_title": "Finalizacja zakupu",
+        "pay_now_button_label": "Zapłać teraz",
+        "print_policies_link_label": "Wydrukuj",
+        "skip_to_content": "Pomiń i przejdź do zawartości",
+        "tooltip_accessibility_label": "Więcej informacji"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Dodatkowe informacje"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Chcę otrzymywać wiadomości e-mail z nowościami i ofertami",
+        "accept_sms_checkbox_label": "Chcę otrzymywać wiadomości z nowościami i ofertami",
+        "pending_accept_marketing_checkbox_label": "Sprawdź swoją pocztę e-mail, aby potwierdzić subskrypcję wiadomości z nowościami i ofertami",
+        "post_accept_marketing_checkbox_label": "Korzystasz z subskrypcji wiadomości e-mail z nowościami i ofertami",
+        "sms": {
+          "disclaimer": {
+            "description_html": "Wybierając subskrypcję wiadomości tekstowych, wyrażasz zgodę na cykliczne otrzymywanie automatycznie wysyłanych wiadomości o treści marketingowej, w tym wiadomości z przypomnieniem o koszyku, na podany numer telefonu. Zgoda nie stanowi warunku zakupu. Aby zrezygnować z subskrypcji, wyślij wiadomość SMS z tekstem „STOP”. W celu uzyskania pomocy wpisz i wyślij „HELP”. Wiadomości są wysyłane z różną częstotliwością. Mogą obowiązywać dodatkowe opłaty z tytułu wysyłania wiadomości oraz danych. Zapoznaj się z %{privacy_policy_link} oraz %{terms_of_service_link}.",
+            "description_transactional_html": "W wiadomościach tekstowych będziemy wysyłać Ci potwierdzenia zamówień oraz na bieżąco informować Cię o statusie wysyłki. Aby zrezygnować z subskrypcji, wyślij wiadomość SMS z tekstem „STOP”. W celu uzyskania pomocy wpisz i wyślij „HELP”. Wiadomości są wysyłane z różną częstotliwością. Mogą obowiązywać dodatkowe opłaty z tytułu wysyłania wiadomości oraz danych. Zapoznaj się z %{privacy_policy_modal_link} oraz %{terms_of_service_modal_link}.",
+            "privacy_policy": "Polityka prywatności",
+            "terms_of_service": "Warunki świadczenia usług"
+          }
+        },
+        "unsubscribe": {
+          "description": "Już nie otrzymasz od nas żadnych przypomnień o koszyku.",
+          "title": "Zrezygnowano z subskrypcji"
+        }
+      },
+      "notifications": {
+        "title": "Powiadomienia"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Kup %{product_name} oraz %{count} szt. innego przedmiotu",
+          "other": "Kup %{product_name} oraz %{count} szt. innych przedmiotów",
+          "zero": "Kup %{product_name}"
+        }
+      },
+      "order_payment_collection": {
+        "additional_payment_requested": "Należy zapłacić %{total_outstanding}",
+        "changes_summary": {
+          "added": {
+            "one": "Dodano",
+            "other": "Dodano %{count} szt."
+          },
+          "removed": "Usunięto",
+          "subtracted": "Usunięto %{count} szt."
+        },
+        "pay_now": "Zapłać teraz"
+      },
+      "order_summary": {
+        "applied_discount_message": "%{amount} z łącznej kwoty zamówienia",
+        "applied_free_shipping_discount_label": "Zastosowano",
+        "apply_discount_button_label": "Zastosuj",
+        "calculating_shipping": "Przeliczanie…",
+        "cart_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}<\/strong> nie jest prawidłowym kodem dla przedmiotów w Twoim koszyku",
+        "collapse_order_summary": "Ukryj podsumowanie zamówienia",
+        "confirmation_number_label": "Potwierdzenie nr %{confirmation_number}",
+        "cost_table_title": "Opłaty łącznie",
+        "customer_already_used_once_per_customer_discount_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}<\/strong> został już wykorzystany",
+        "customer_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}<\/strong> nie jest teraz dla Ciebie dostępny",
+        "description_label": "Opis",
+        "discount_already_applied": "Do tego zamówienia zastosowano rabat. Nie możesz zastosować dodatkowego rabatu.",
+        "discount_and_gift_card_savings_notice": "Po zastosowaniu rabatu (%{discount_amount}) oraz kart podarunkowych (%{gift_card_amount})",
+        "discount_has_been_applied": "Zastosowano rabat",
+        "discount_has_been_removed": "Usunięto rabat",
+        "discount_label": "Kod rabatowy"
+      }
+    }
   }
 }
