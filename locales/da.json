@@ -1,0 +1,126 @@
+{
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "Hurtig betaling",
+        "or": "ELLER"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Din indkøbskurv er blevet opdateret baseret på dit forsendelsesland."
+      },
+      "change_currency": {
+        "change_currency_link": "Skift til %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "Den valuta, du valgte, er ikke længere tilgængelig. Alle priser er nu i %{currency_code}.",
+        "payment_total_label": "Betaling i alt"
+      },
+      "contact": {
+        "address_title": "Adresse",
+        "address1_label": "Adresse",
+        "address2_label": "Lejlighed, suite mv.",
+        "city_label": "By",
+        "civic_number_warning": "Tilføj et husnummer, hvis du har et",
+        "company_label": "Firma",
+        "contact_method_title": "Kontaktoplysninger",
+        "country_code": "Lande-\/regionskode",
+        "country_label": "Land\/region",
+        "county_label": "Amt",
+        "county_placeholder": "Amt",
+        "delivery_option_title": "Leveringsmetode",
+        "email_label": "E-mail",
+        "email_or_phone_label": "E-mail eller mobiltelefonnummer",
+        "email_or_phone_placeholder": "E-mail eller mobiltelefonnummer",
+        "email_placeholder": "E-mail",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "first_name_label": "Fornavn",
+        "governorate_label": "Guvernement",
+        "governorate_placeholder": "Guvernement",
+        "last_name_label": "Efternavn",
+        "new_address_label": "Brug en ny adresse",
+        "optional_address2_label": "Lejlighed, suite mv. (valgfrit)",
+        "optional_company_label": "Firma (valgfrit)",
+        "optional_first_name_label": "Fornavn (valgfrit)",
+        "optional_phone_label": "Telefon (valgfrit)",
+        "phone_label": "Telefon",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "I tilfælde af, at vi skal kontakte dig om din ordre",
+        "pincode_label": "Pinkode",
+        "pincode_placeholder": "Pinkode",
+        "postal_code_label": "Postnummer",
+        "postal_code_placeholder": "Postnummer",
+        "postcode_label": "Postnummer",
+        "postcode_placeholder": "Postnummer",
+        "prefecture_label": "Præfektur",
+        "prefecture_placeholder": "Præfektur",
+        "province_label": "Provins",
+        "province_placeholder": "Provins",
+        "region_label": "Region",
+        "region_none": "Ingen valgt",
+        "region_placeholder": "Region",
+        "state_and_territory_label": "Stat\/territorium",
+        "state_and_territory_placeholder": "Stat\/territorium",
+        "state_label": "Stat",
+        "state_placeholder": "Stat",
+        "stored_addresses_label": "Gemte adresser",
+        "title": "Information",
+        "zip_code_label": "Postnummer",
+        "zip_code_placeholder": "Postnummer"
+      },
+      "customer_account": {
+        "have_an_account_label": "Har du allerede en konto?",
+        "not_user_label": "Ikke %{first_name}?",
+        "save_my_information_label": "Gem disse oplysninger til næste gang",
+        "sign_in_link_label": "Log ind",
+        "sign_out_link_label": "Log ud"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Der opstod et problem under behandlingen af ​​din anmodning.",
+          "success_message": "Din betalingsmetode er blevet slettet"
+        },
+        "page_title": "Betalingsmetoder",
+        "title": "Betalingsmetoder",
+        "update_card_button_label": "Opdatér kort"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratis",
+        "ship": "Send",
+        "shipping_address": "Leveringsadresse"
+      },
+      "failed_payment": {
+        "page_title": "Betalingen kunne ikke behandles",
+        "payment_not_processed_text": "Du er ikke blevet debiteret. Vend tilbage til din indkøbskurv for at gennemføre dit køb.",
+        "payment_not_processed_title": "Din betaling kunne ikke behandles",
+        "return_to_cart_button_label": "Tilbage til indkøbskurven",
+        "title": "Betalingen kunne ikke behandles"
+      },
+      "field_errors": {
+        "address_address1_blank": "Indtast en adresse",
+        "address_address1_contains_html_tags": "Adresse 1 må ikke indeholde HTML-tags.",
+        "address_address1_too_long": "Den første adresselinje er for lang (maks. 255 tegn)",
+        "address_address2_blank": "Indtast en lejlighed, suite mv.",
+        "address_address2_contains_html_tags": "Adresse 2 må ikke indeholde HTML-tags.",
+        "address_address2_too_long": "Den anden adresselinje er for lang (maks. 255 tegn)",
+        "address_city_blank": "Indtast en by",
+        "address_city_contains_html_tags": "By kan ikke indeholde HTML-tags.",
+        "address_city_too_long": "By er for lang (maks. 255 tegn)",
+        "address_company_blank": "Indtast et firmanavn",
+        "address_company_contains_html_tags": "Firma må ikke indeholde HTML-tags.",
+        "address_company_too_long": "Firma er for langt (maks. 255 tegn)",
+        "address_country_blank": "Vælg et land\/en region",
+        "address_country_not_supported": "Vi sender i øjeblikket ikke til dette land\/denne region. Indtast en ny leveringsadresse, og prøv igen.",
+        "address_first_name_blank": "Indtast et fornavn",
+        "address_first_name_contains_html_tags": "Fornavn må ikke indeholde HTML-tags.",
+        "address_first_name_too_long": "Fornavn er for langt (maks. 255 tegn)",
+        "address_last_name_blank": "Indtast et efternavn",
+        "address_last_name_contains_html_tags": "Efternavn må ikke indeholde HTML-tags.",
+        "address_last_name_too_long": "Efternavn er for langt (maks. 255 tegn)",
+        "address_phone_blank": "Indtast et gyldigt telefonnummer",
+        "address_province_blank": "Vælg en stat\/provins",
+        "address_zip_blank": "Indtast et postnummer"
+      }
+    }
+  }
+}
