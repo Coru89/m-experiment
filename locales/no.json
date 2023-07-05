@@ -1,0 +1,126 @@
+{
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "Hurtigkjøp",
+        "or": "ELLER"
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Handlekurven din har blitt oppdatert basert på leveringslandet ditt."
+      },
+      "change_currency": {
+        "change_currency_link": "Endre til %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "Valutaen du valgte er ikke lenger tilgjengelig. Alle priser er nå i %{currency_code}.",
+        "payment_total_label": "Betaling total"
+      },
+      "contact": {
+        "address_title": "Adresse",
+        "address1_label": "Adresse",
+        "address2_label": "Leilighet, suite etc.",
+        "city_label": "By",
+        "civic_number_warning": "Legg til et husnummer, hvis aktuelt",
+        "company_label": "Firma",
+        "contact_method_title": "Kontaktinformasjon",
+        "country_code": "Land-\/regionkode",
+        "country_label": "Land\/region",
+        "county_label": "Fylke",
+        "county_placeholder": "Fylke",
+        "delivery_option_title": "Leveringsmetode",
+        "email_label": "E-post",
+        "email_or_phone_label": "E-post eller mobilnummer",
+        "email_or_phone_placeholder": "E-post eller mobilnummer",
+        "email_placeholder": "E-post",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "first_name_label": "Fornavn",
+        "governorate_label": "Guvernement",
+        "governorate_placeholder": "Guvernement",
+        "last_name_label": "Etternavn",
+        "new_address_label": "Bruk en ny adresse",
+        "optional_address2_label": "Leilighet, suite etc. (valgfritt)",
+        "optional_company_label": "Firma (valgfritt)",
+        "optional_first_name_label": "Fornavn (valgfritt)",
+        "optional_phone_label": "Telefon valgfritt)",
+        "phone_label": "Telefon",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "I tilfelle vi trenger å kontakte deg vedrørende ordren",
+        "pincode_label": "PIN-kode",
+        "pincode_placeholder": "PIN-kode",
+        "postal_code_label": "Postnummer",
+        "postal_code_placeholder": "Postnummer",
+        "postcode_label": "Postnummer",
+        "postcode_placeholder": "Postnummer",
+        "prefecture_label": "Prefektur",
+        "prefecture_placeholder": "Prefektur",
+        "province_label": "Provins",
+        "province_placeholder": "Provins",
+        "region_label": "Region",
+        "region_none": "Ingen valgt",
+        "region_placeholder": "Region",
+        "state_and_territory_label": "Stat\/territorium",
+        "state_and_territory_placeholder": "Stat\/territorium",
+        "state_label": "Stat",
+        "state_placeholder": "Stat",
+        "stored_addresses_label": "Lagrede adresser",
+        "title": "Informasjon",
+        "zip_code_label": "Postnummer",
+        "zip_code_placeholder": "Postnummer"
+      },
+      "customer_account": {
+        "have_an_account_label": "Har du allerede en konto?",
+        "not_user_label": "Ikke %{first_name}?",
+        "save_my_information_label": "Lagre denne informasjonen til neste gang",
+        "sign_in_link_label": "Logg Inn",
+        "sign_out_link_label": "Logg ut"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Det oppsto en feil under behandlingen av forespørselen.",
+          "success_message": "Betalingsmetoden din er slettet"
+        },
+        "page_title": "Betalingsmetoder",
+        "title": "Betalingsmetoder",
+        "update_card_button_label": "Oppdater kort"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratis",
+        "ship": "Forsendelse",
+        "shipping_address": "Leveringsadresse"
+      },
+      "failed_payment": {
+        "page_title": "Betalingen kunne ikke gjennomføres",
+        "payment_not_processed_text": "Du har ikke blitt belastet. Gå tilbake til handlekurven for å fullføre kjøpet.",
+        "payment_not_processed_title": "Betalingen din kunne ikke gjennomføres",
+        "return_to_cart_button_label": "Gå tilbake til handlekurven",
+        "title": "Betalingen kunne ikke gjennomføres"
+      },
+      "field_errors": {
+        "address_address1_blank": "Skriv inn en adresse",
+        "address_address1_contains_html_tags": "Adresse1 kan ikke inneholde HTML-koder.",
+        "address_address1_too_long": "Den første adresselinjen er for lang (maks er 255 tegn)",
+        "address_address2_blank": "Skriv inn en leilighet, suite etc.",
+        "address_address2_contains_html_tags": "Adresse2 kan ikke inneholde HTML-koder.",
+        "address_address2_too_long": "Den andre adresselinjen er for lang (maks er 255 tegn)",
+        "address_city_blank": "Skriv inn en by",
+        "address_city_contains_html_tags": "By kan ikke inneholde HTML-koder.",
+        "address_city_too_long": "By er for lang (maks er 255 tegn)",
+        "address_company_blank": "Skriv inn et firmanavn",
+        "address_company_contains_html_tags": "Firmanavn kan ikke inneholde HTML-koder.",
+        "address_company_too_long": "Firmanavnet er for langt (maks er 255 tegn)",
+        "address_country_blank": "Velg et land\/region",
+        "address_country_not_supported": "Vi sender for øyeblikket ikke til dette landet\/denne regionen. Skriv inn en ny leveringsadresse og prøv på nytt.",
+        "address_first_name_blank": "Skriv inn et fornavn",
+        "address_first_name_contains_html_tags": "Fornavn kan ikke inneholde HTML-koder.",
+        "address_first_name_too_long": "Fornavnet er for langt (maks er 255 tegn)",
+        "address_last_name_blank": "Skriv inn et etternavn",
+        "address_last_name_contains_html_tags": "Etternavn kan ikke inneholde HTML-koder.",
+        "address_last_name_too_long": "Etternavnet er for langt (maks er 255 tegn)",
+        "address_phone_blank": "Skriv inn et gyldig telefonnummer",
+        "address_province_blank": "Velg en stat\/provins",
+        "address_zip_blank": "Skriv inn et postnummer"
+      }
+    }
+  }
+}
