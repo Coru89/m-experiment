@@ -251,39 +251,6 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "1657320775aa5521b7": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1657320775dec6893f-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1400x1400.jpg",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "A FUN EXPERIMENT",
-            "content": "<p>Oakley and RED founder Jim Jannard and his son Jamin are back to scratch their design itch… and just have some fun.<\/p><p><\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1657320775dec6893f-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "text",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "#f5f5f5",
-        "text_color": "#000000",
-        "button_background": "#ffffff",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "16573219974891e6d6": {
       "type": "image-with-text-block",
       "disabled": true,
@@ -303,39 +270,6 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
-    },
-    "ce4b2395-900e-4153-989c-3215820375bc": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--15613745332374__ce4b2395-900e-4153-989c-3215820375bc-16657630381e865c31-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sun_Dodson.webp",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "Back Together",
-            "content": "<p>Where they are now involves a core team of close friends focused on dreaming up products and making them a reality—all for the fun of it.<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15613745332374__ce4b2395-900e-4153-989c-3215820375bc-16657630381e865c31-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "#f1f2f2",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -345,8 +279,6 @@
     "dde19b66-93b3-48af-8a9a-a4b7b9370e70",
     "2a63ccc2-9a0b-46b3-a4e6-b9b4568b8bec",
     "eed23217-bfd8-43c9-900b-f97700c79a8a",
-    "1657320775aa5521b7",
-    "16573219974891e6d6",
-    "ce4b2395-900e-4153-989c-3215820375bc"
+    "16573219974891e6d6"
   ]
 }
