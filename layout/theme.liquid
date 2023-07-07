@@ -139,89 +139,111 @@
       >
     {%- endif -%}
 
-  <!-- Google tag (gtag.js) -->
-  {% comment %} <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11141753575"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "AW-11141753575");
-  </script> {% endcomment %}
-  <!-- Google Analytics 4 integration- script from Consentmo GDPR Compliance App -->
-  <script async id="gaf-loading-script"></script>
-  <script id="gdpr-gaf-blocking-script">
-    let isGAFExecuted = false;
-    let gafScript = document.getElementById('gaf-loading-script');
-    let gafLink = 'https://www.googletagmanager.com/gtag/js?id=AW-11141753575';
-
-    function executeGAF() {
-      if(!isGAFExecuted) {
-        gafScript.setAttribute('src', gafLink);
-        // The content of Google Analytics 4 script goes here
+    <!-- Google tag (gtag.js) -->
+    {% comment %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11141753575"></script>
+      <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() {
           dataLayer.push(arguments);
         }
         gtag("js", new Date());
         gtag("config", "AW-11141753575");
+      </script>
+    {% endcomment %}
+    <!-- Google Analytics 4 integration- script from Consentmo GDPR Compliance App -->
+    <script async id="gaf-loading-script"></script>
+    <script id="gdpr-gaf-blocking-script">
+      let isGAFExecuted = false;
+      let gafScript = document.getElementById('gaf-loading-script');
+      let gafLink = 'https://www.googletagmanager.com/gtag/js?id=AW-11141753575';
 
-        isGAFExecuted = true;
-      }
-    }
-    function checkConsentForGAF(adittionalChecks = 0) {  
-      let cpdCookie=(document.cookie.match(/^(?:.*;)?\s*cookieconsent_preferences_disabled(\s*=\s*([^;]+)?)(?:.*)?$/)||[,null])[1];
-      if(cpdCookie != null) {
-        if(parseInt(cpdCookie.indexOf('analytics')) === -1) {
-          executeGAF();
+      function executeGAF() {
+        if (!isGAFExecuted) {
+          gafScript.setAttribute('src', gafLink);
+          // The content of Google Analytics 4 script goes here
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'AW-11141753575');
+
+          isGAFExecuted = true;
         }
-      } else {
-        let gdprCache = localStorage.getItem('gdprCache') ? JSON.parse(localStorage.getItem('gdprCache')) : null;
-        let gdprCacheConsentSettings = gdprCache && gdprCache.getCookieConsentSettings ? JSON.parse(gdprCache.getCookieConsentSettings) : null;
-        let gdprCacheCountryDetection = gdprCache && gdprCache.countryDetection ? JSON.parse(gdprCache.countryDetection) : null;
-        let ccsCookie = (document.cookie.match(/^(?:.*;)?\s*cookieconsent_status\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1];
-        if((gdprCacheConsentSettings || (gdprCacheCountryDetection && gdprCacheCountryDetection.disable === '1')) && !ccsCookie) {
-          if((gdprCacheConsentSettings && gdprCacheConsentSettings.status === 'disabled') || gdprCacheCountryDetection.disable === '1'){
+      }
+      function checkConsentForGAF(adittionalChecks = 0) {
+        let cpdCookie = (document.cookie.match(
+          /^(?:.*;)?\s*cookieconsent_preferences_disabled(\s*=\s*([^;]+)?)(?:.*)?$/
+        ) || [, null])[1];
+        if (cpdCookie != null) {
+          if (parseInt(cpdCookie.indexOf('analytics')) === -1) {
             executeGAF();
+          }
+        } else {
+          let gdprCache = localStorage.getItem('gdprCache') ? JSON.parse(localStorage.getItem('gdprCache')) : null;
+          let gdprCacheConsentSettings =
+            gdprCache && gdprCache.getCookieConsentSettings ? JSON.parse(gdprCache.getCookieConsentSettings) : null;
+          let gdprCacheCountryDetection =
+            gdprCache && gdprCache.countryDetection ? JSON.parse(gdprCache.countryDetection) : null;
+          let ccsCookie = (document.cookie.match(/^(?:.*;)?\s*cookieconsent_status\s*=\s*([^;]+)(?:.*)?$/) || [
+            ,
+            null,
+          ])[1];
+          if (
+            (gdprCacheConsentSettings || (gdprCacheCountryDetection && gdprCacheCountryDetection.disable === '1')) &&
+            !ccsCookie
+          ) {
+            if (
+              (gdprCacheConsentSettings && gdprCacheConsentSettings.status === 'disabled') ||
+              gdprCacheCountryDetection.disable === '1'
+            ) {
+              executeGAF();
+            } else {
+              let initPreferences = parseInt(gdprCacheConsentSettings.checkboxes_behavior);
+              if (initPreferences === 1 || initPreferences === 2 || initPreferences === 4 || initPreferences === 5) {
+                executeGAF();
+              }
+            }
           } else {
-            let initPreferences = parseInt(gdprCacheConsentSettings.checkboxes_behavior);
-            if(initPreferences === 1 || initPreferences === 2 || initPreferences === 4 || initPreferences === 5) {
+            if (adittionalChecks > 0) {
+              setTimeout(function () {
+                checkConsentForGAF(adittionalChecks - 1);
+              }, 1000);
+            } else {
               executeGAF();
             }
           }
-        } else {
-          if (adittionalChecks > 0) {
-            setTimeout(function() {
-              checkConsentForGAF(adittionalChecks - 1);
-            }, 1000);
-          } else {
-            executeGAF();
-          }
         }
       }
-    }
-  
-    checkConsentForGAF(3);
-  </script>
+
+      checkConsentForGAF(3);
+    </script>
 
     <!-- Meta Pixel Code -->
-    {% comment %} <script>
-      !function (f, b, e, v, n, t, s) {
-          if (f.fbq) return; n = f.fbq = function () {
-              n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-          };
-          if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-          n.queue = []; t = b.createElement(e); t.async = !0;
-          t.src = v; s = b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t, s)
-      }(window, document, 'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '966562834669955');
-      fbq('track', 'PageView');
-    </script> {% endcomment %}
+    {% comment %}
+      <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '966562834669955');
+        fbq('track', 'PageView');
+      </script>
+    {% endcomment %}
     <noscript>
-      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=966562834669955&ev=PageView&noscript=1" />
+      <img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=966562834669955&ev=PageView&noscript=1"
+      >
     </noscript>
     <!-- End Meta Pixel Code -->
     <!-- Facebook Pixel integration- script from Consentmo GDPR Compliance App -->
@@ -229,55 +251,96 @@
       let isFBPXBlocked = false;
       let isFBPXExecuted = false;
       function blockFBPX() {
-        if(!isFBPXBlocked) {
-          !function(){var e=null,n=[];
-                      Object.defineProperty(window,"fbq",{get:function(){return e},set:function(o){Object.defineProperty(o,"queue",{get:function(){return []},set:function(){}}),e=o}})}();
+        if (!isFBPXBlocked) {
+          !(function () {
+            var e = null,
+              n = [];
+            Object.defineProperty(window, 'fbq', {
+              get: function () {
+                return e;
+              },
+              set: function (o) {
+                Object.defineProperty(o, 'queue', {
+                  get: function () {
+                    return [];
+                  },
+                  set: function () {},
+                }),
+                  (e = o);
+              },
+            });
+          })();
           isFBPXBlocked = true;
         }
       }
       function executeFBPX() {
-        if(!isFBPXExecuted) {
-          !function (f, b, e, v, n, t, s) {
-              if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)};
-              if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-              n.queue = []; t = b.createElement(e); t.async = !0;
-              t.src = v; s = b.getElementsByTagName(e)[0];
-              s.parentNode.insertBefore(t, s)
-          }(window, document, 'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
+        if (!isFBPXExecuted) {
+          !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+              n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+          })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
           fbq('init', '966562834669955');
           fbq('track', 'PageView');
           isFBPXExecuted = true;
         }
       }
-      function checkConsentForFBPX(adittionalChecks = 0) {  
-        let cpdCookie=(document.cookie.match(/^(?:.*;)?\s*cookieconsent_preferences_disabled(\s*=\s*([^;]+)?)(?:.*)?$/)||[,null])[1];
-        if(cpdCookie != null) {
-          if(parseInt(cpdCookie.indexOf('marketing')) > -1) {
+      function checkConsentForFBPX(adittionalChecks = 0) {
+        let cpdCookie = (document.cookie.match(
+          /^(?:.*;)?\s*cookieconsent_preferences_disabled(\s*=\s*([^;]+)?)(?:.*)?$/
+        ) || [, null])[1];
+        if (cpdCookie != null) {
+          if (parseInt(cpdCookie.indexOf('marketing')) > -1) {
             blockFBPX();
-          } else if(parseInt(cpdCookie.indexOf('marketing')) === -1) {
+          } else if (parseInt(cpdCookie.indexOf('marketing')) === -1) {
             executeFBPX();
           }
         } else {
           let gdprCache = localStorage.getItem('gdprCache') ? JSON.parse(localStorage.getItem('gdprCache')) : null;
-          let gdprCacheConsentSettings = gdprCache && gdprCache.getCookieConsentSettings ? JSON.parse(gdprCache.getCookieConsentSettings) : null;
-          let gdprCacheCountryDetection = gdprCache && gdprCache.countryDetection ? JSON.parse(gdprCache.countryDetection) : null;
-          let ccsCookie = (document.cookie.match(/^(?:.*;)?\s*cookieconsent_status\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1];
-          if((gdprCacheConsentSettings || (gdprCacheCountryDetection && gdprCacheCountryDetection.disable === '1')) && !ccsCookie) {
-            if((gdprCacheConsentSettings && gdprCacheConsentSettings.status === 'disabled') || gdprCacheCountryDetection.disable === '1'){
+          let gdprCacheConsentSettings =
+            gdprCache && gdprCache.getCookieConsentSettings ? JSON.parse(gdprCache.getCookieConsentSettings) : null;
+          let gdprCacheCountryDetection =
+            gdprCache && gdprCache.countryDetection ? JSON.parse(gdprCache.countryDetection) : null;
+          let ccsCookie = (document.cookie.match(/^(?:.*;)?\s*cookieconsent_status\s*=\s*([^;]+)(?:.*)?$/) || [
+            ,
+            null,
+          ])[1];
+          if (
+            (gdprCacheConsentSettings || (gdprCacheCountryDetection && gdprCacheCountryDetection.disable === '1')) &&
+            !ccsCookie
+          ) {
+            if (
+              (gdprCacheConsentSettings && gdprCacheConsentSettings.status === 'disabled') ||
+              gdprCacheCountryDetection.disable === '1'
+            ) {
               executeFBPX();
             } else {
               let initPreferences = parseInt(gdprCacheConsentSettings.checkboxes_behavior);
-              if(initPreferences === 2 || initPreferences === 5 || initPreferences === 7) {
+              if (initPreferences === 2 || initPreferences === 5 || initPreferences === 7) {
                 blockFBPX();
-              } else if(initPreferences === 1 || initPreferences === 3 || initPreferences === 4 || initPreferences === 6) {
+              } else if (
+                initPreferences === 1 ||
+                initPreferences === 3 ||
+                initPreferences === 4 ||
+                initPreferences === 6
+              ) {
                 executeFBPX();
               }
             }
           } else {
             if (adittionalChecks > 0) {
-              setTimeout(function() {
+              setTimeout(function () {
                 checkConsentForFBPX(adittionalChecks - 1);
               }, 1000);
             } else {
@@ -286,7 +349,7 @@
           }
         }
       }
-    
+
       checkConsentForFBPX(3);
     </script>
 
@@ -313,9 +376,9 @@
     {% render 'shogun-head' %}
 
     {% render 'productwiz-rio', product: product, shop: shop %}
-  
-  {% include "globale-js.liquid" %}
-</head>
+
+    {% include 'globale-js.liquid' %}
+  </head>
 
   {%- assign feature_classes = '' -%}
 
@@ -337,6 +400,38 @@
 
     <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
     <loading-bar class="loading-bar"></loading-bar>
+
+    {%- if request.page_type == 'index' -%}
+      <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          document.querySelector('.bs-modal').classList.toggle('open');
+          document.getElementById('bs-close-modal').onclick = function () {
+            document.querySelector('.bs-modal').classList.toggle('open');
+          };
+        });
+      </script>
+      <div class="bs-modal" tabindex="-1">
+        <div class="bs-modal-dialog">
+          <div class="bs-modal-content">
+            <div class="bs-modal-header">
+              <h2 class="heading heading--small">That went fast</h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="bs-modal"
+                aria-label="Close"
+                id="bs-close-modal"
+              >
+                X
+              </button>
+            </div>
+            <div class="bs-modal-body">
+              <p>Orders exceeded our expectations. New inventory is on the way!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
 
     {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
       {%- section 'announcement-bar' -%}
@@ -413,9 +508,9 @@
       {% if request.path contains '/account/subscribe' %}
         {%- assign unsubscribe_url = content_for_layout | split: 'href="' | last | split: '">' | first -%}
         {% render '_account-subscribe', unsubscribe_url: unsubscribe_url %}
-        {% elsif request.path contains '/account/unsubscribe' %}
+      {% elsif request.path contains '/account/unsubscribe' %}
         {% render '_account-unsubscribe' %}
-        {% else %}
+      {% else %}
         {{ content_for_layout }}
       {% endif %}
 

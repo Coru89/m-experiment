@@ -2,38 +2,6 @@
 
 {%- capture product_form_id -%}product-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
-{%- unless product.available -%}
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      document.querySelector('.bs-modal').classList.toggle('open');
-      document.getElementById('bs-close-modal').onclick = function () {
-        document.querySelector('.bs-modal').classList.toggle('open');
-      };
-    });
-  </script>
-  <div class="bs-modal" tabindex="-1">
-    <div class="bs-modal-dialog">
-      <div class="bs-modal-content">
-        <div class="bs-modal-header">
-          <h2 class="heading heading--small">That went fast</h2>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="bs-modal"
-            aria-label="Close"
-            id="bs-close-modal"
-          >
-            X
-          </button>
-        </div>
-        <div class="bs-modal-body">
-          <p>Orders exceeded our expectations. New inventory is on the way!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-{%- endunless -%}
-
 <div class="product__info">
   <!-- PRODUCT META -->
   <product-meta form-id="{{ product_form_id }}" price-class="price--large" class="product-meta">
