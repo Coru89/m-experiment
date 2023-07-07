@@ -16231,3 +16231,9 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
   padding: 112px var(--container-gutter) 112px var(--container-gutter) !important;
   max-width: var(--container-max-width) !important;
 }
+
+.bis-button {
+  color: rgb(25,25,25) !important;
+  font-family: Inter, sans-serif !important;
+  text-shadow: none !important;
+}
