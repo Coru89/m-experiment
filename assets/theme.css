@@ -16234,3 +16234,7 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
 .bis-edge-left .bis-button {
   display: none !important;
 }
+
+.product-form__payment-container #BIS_trigger {
+  background: rgb(226, 168, 41);
+}
