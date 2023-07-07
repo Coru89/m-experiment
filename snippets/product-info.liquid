@@ -5,9 +5,9 @@
 {%- unless product.available -%}
   <script>
     window.addEventListener('DOMContentLoaded', () => {
-      document.querySelector('.modal').classList.toggle('open');
+      document.querySelector('.bs-modal').classList.toggle('open');
       document.getElementById('bs-close-modal').onclick = function () {
-        document.querySelector('.modal').classList.toggle('open');
+        document.querySelector('.bs-modal').classList.toggle('open');
       };
     });
   </script>
@@ -22,7 +22,9 @@
             data-bs-dismiss="bs-modal"
             aria-label="Close"
             id="bs-close-modal"
-          >X</button>
+          >
+            X
+          </button>
         </div>
         <div class="bs-modal-body">
           <p>Orders exceeded our expectations. New inventory is on the way.</p>
