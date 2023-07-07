@@ -16199,11 +16199,11 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
 .template-page-legal .rte ul {
   padding: 24px 24px 0 60px;
   margin: 0;
-} 
+}
 
 .template-page-legal .rte a {
   font-weight: 700;
-} 
+}
 
 .shopify-section--main-customers-addresses h1,
 .shopify-section--main-customers-addresses h1 *,
@@ -16225,20 +16225,12 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
   color: #fff;
 }
 
-
 /* subscribe/unsubscribe confirmations */
 .shopify-email-marketing-confirmation__container {
   padding: 112px var(--container-gutter) 112px var(--container-gutter) !important;
   max-width: var(--container-max-width) !important;
 }
 
-.bis-button {
-  color: rgb(25,25,25) !important;
-  font-family: Inter, sans-serif !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  letter-spacing: 2px !important;
-  text-shadow: none !important;
-  padding-bottom: 15px !important;
-  padding-top: 15px !important;
+.bis-edge-left .bis-button {
+  display: none !important;
 }
