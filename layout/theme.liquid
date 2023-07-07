@@ -403,7 +403,7 @@
     <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
     <loading-bar class="loading-bar"></loading-bar>
 
-    {%- if request.page_type == 'index' -%}
+    {%- if settings.enable_modal == true and request.page_type == 'index' -%}
       {{ 'modal.css' | asset_url | stylesheet_tag }}
       <script>
         window.addEventListener('DOMContentLoaded', () => {
@@ -417,7 +417,7 @@
         <div class="bs-modal-dialog">
           <div class="bs-modal-content">
             <div class="bs-modal-header">
-              <h2 class="heading heading--small">That went fast</h2>
+              <h2 class="heading heading--small">{{ settings.modal_heading }}</h2>
               <button
                 type="button"
                 class="btn-close"
@@ -429,7 +429,7 @@
               </button>
             </div>
             <div class="bs-modal-body">
-              <p>Orders exceeded our expectations. More inventory is on the way!</p>
+              <p>{{ settings.modal_content }}</p>
             </div>
           </div>
         </div>

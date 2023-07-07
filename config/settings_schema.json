@@ -698,5 +698,28 @@
         "info": "96 x 96px .png recommended"
       }
     ]
+  },
+  {
+    "name": "Modal",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_modal",
+        "label": "Enable Modal",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "modal_heading",
+        "label": "Modal Heading",
+        "default": "That went fast"
+      },
+      {
+        "type": "text",
+        "id": "modal_content",
+        "label": "Modal Content",
+        "default": "Orders exceeded our expectations. More inventory is on the way!"
+      }
+    ]
   }
 ]
