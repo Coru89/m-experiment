@@ -3,17 +3,28 @@
 {%- capture product_form_id -%}product-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
 {%- unless product.available -%}
-  <div class="modal" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      //document.querySelector('.modal').classList.toggle('open');
+      document.getElementById('bs-close-modal').onclick = function () {
+        document.querySelector('.modal').classList.toggle('open');
+      };
+    });
+  </script>
+  <div class="bs-modal" tabindex="-1">
+    <div class="bs-modal-dialog">
+      <div class="bs-modal-content">
+        <div class="bs-modal-header">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="bs-modal"
+            aria-label="Close"
+            id="bs-close-modal"
+          ></button>
         </div>
-        <div class="modal-body">
+        <div class="bs-modal-body">
           <p>That went fast. Orders exceeded our expectations. New inventory is on the way.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
