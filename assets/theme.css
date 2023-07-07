@@ -16238,3 +16238,7 @@ div.shopify-cleanslate .DnvZqPMEvBFbBre5UuP9:hover:not(.LVeInvZ5HcNOW1Zsn7NH) {
 .product-form__payment-container #BIS_trigger {
   background: rgb(226, 168, 41);
 }
+
+.product-form__add-button.button.button--disabled.button--full {
+  background: #707070;
+}
