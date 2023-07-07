@@ -5,7 +5,7 @@
 {%- unless product.available -%}
   <script>
     window.addEventListener('DOMContentLoaded', () => {
-      //document.querySelector('.modal').classList.toggle('open');
+      document.querySelector('.modal').classList.toggle('open');
       document.getElementById('bs-close-modal').onclick = function () {
         document.querySelector('.modal').classList.toggle('open');
       };
