@@ -1,3 +1,5 @@
+{{ 'modal.css' | asset_url | stylesheet_tag }}
+
 {%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
 {%- assign color_white_label = 'general.label.white' | t | downcase -%}
 {%- assign quick_buy_icon_name = 'quick-buy-' | append: settings.cart_icon | replace: '_', '-' -%}
@@ -7,6 +9,24 @@
 {%- else -%}
   {%- assign product_url_contains_query = false -%}
 {%- endif -%}
+
+{%- unless product.available -%}
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>That went fast. Orders exceeded our expectations. New inventory is on the way.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endunless -%}
 
 <product-item class="product-item {% unless product.available %}product-item--sold-out{% endunless %}" {% if reveal %}reveal{% endif %}>
   {%- capture product_labels -%}
