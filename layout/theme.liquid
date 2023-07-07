@@ -378,7 +378,9 @@
     {% render 'productwiz-rio', product: product, shop: shop %}
 
     {% include 'globale-js.liquid' %}
-  </head>
+  
+  {% include "globale-js.liquid" %}
+</head>
 
   {%- assign feature_classes = '' -%}
 
