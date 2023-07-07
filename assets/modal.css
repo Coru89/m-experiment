@@ -73,8 +73,8 @@
   flex-grow: 1;
 }
 .bs-modal-header .btn-close {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .bs-modal-header .close {
