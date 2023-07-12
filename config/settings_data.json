@@ -48,6 +48,7 @@
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "",
     "favicon": "shopify:\/\/shop_images\/96x96_blck.png",
+    "enable_modal": false,
     "checkout_header_image": "shopify:\/\/shop_images\/M_Banner_01.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/M_icon_logo.png",
     "checkout_logo_size": "large",
